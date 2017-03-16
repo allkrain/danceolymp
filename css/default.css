@@ -344,7 +344,7 @@ select, input, textarea {
 
 /* line 120, D:/openserver/OpenServer/domains/daol/css/default.scss */
 .page-footer {
-  padding: 28px 0;
+  padding: 30px 0;
   background-color: #232322;
   color: #fff;
   align-self: flex-end; }
@@ -356,47 +356,54 @@ select, input, textarea {
     align-items: stretch; }
   /* line 133, D:/openserver/OpenServer/domains/daol/css/default.scss */
   .page-footer__copyright {
+    margin-top: -6px;
     margin-right: auto;
-    padding-left: 40px;
+    padding-left: 34px;
     box-sizing: border-box;
-    width: 53.47985%;
-    font-family: "GothamPro", "Arial", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: left; }
-  /* line 145, D:/openserver/OpenServer/domains/daol/css/default.scss */
+    width: 53.47985%; }
+    /* line 141, D:/openserver/OpenServer/domains/daol/css/default.scss */
+    .page-footer__copyright p {
+      font-family: "GothamPro", "Arial", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
+      margin-bottom: 24px; }
+      /* line 149, D:/openserver/OpenServer/domains/daol/css/default.scss */
+      .page-footer__copyright p:last-child {
+        margin-bottom: 0; }
+  /* line 155, D:/openserver/OpenServer/domains/daol/css/default.scss */
   .page-footer__contacts {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0 40px; }
-  /* line 153, D:/openserver/OpenServer/domains/daol/css/default.scss */
+    padding: 0 32px; }
+  /* line 163, D:/openserver/OpenServer/domains/daol/css/default.scss */
   .page-footer__developer {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 20px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff; }
-    /* line 162, D:/openserver/OpenServer/domains/daol/css/default.scss */
+    /* line 172, D:/openserver/OpenServer/domains/daol/css/default.scss */
     .page-footer__developer:hover {
       color: #9c8561; }
 
-/* line 168, D:/openserver/OpenServer/domains/daol/css/default.scss */
+/* line 178, D:/openserver/OpenServer/domains/daol/css/default.scss */
 .socials {
   font-size: 0; }
-  /* line 171, D:/openserver/OpenServer/domains/daol/css/default.scss */
+  /* line 181, D:/openserver/OpenServer/domains/daol/css/default.scss */
   .socials li {
     display: inline-block;
     vertical-align: top;
-    margin-right: 16px; }
-    /* line 176, D:/openserver/OpenServer/domains/daol/css/default.scss */
+    margin-right: 18px; }
+    /* line 186, D:/openserver/OpenServer/domains/daol/css/default.scss */
     .socials li:last-child {
       margin-right: 0; }
-    /* line 180, D:/openserver/OpenServer/domains/daol/css/default.scss */
+    /* line 190, D:/openserver/OpenServer/domains/daol/css/default.scss */
     .socials li a {
       position: relative;
       display: block;
@@ -404,17 +411,17 @@ select, input, textarea {
       height: 30px;
       border-radius: 50%;
       background-color: #b0966c; }
-      /* line 188, D:/openserver/OpenServer/domains/daol/css/default.scss */
+      /* line 198, D:/openserver/OpenServer/domains/daol/css/default.scss */
       .socials li a:hover {
         background-color: #ffdda5; }
-      /* line 192, D:/openserver/OpenServer/domains/daol/css/default.scss */
+      /* line 202, D:/openserver/OpenServer/domains/daol/css/default.scss */
       .socials li a img {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); }
 
-/* line 210, D:/openserver/OpenServer/domains/daol/css/default.scss */
+/* line 220, D:/openserver/OpenServer/domains/daol/css/default.scss */
 .popup {
   display: none;
   width: 350px;

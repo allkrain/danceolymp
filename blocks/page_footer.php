@@ -14,7 +14,7 @@
         <li><a href="https://vk.com/dance_olymp"><img src="img/vk.svg" alt="ВКонтакте" width="15" height="8"></a></li>
       </ul>
       <a href="#" class="page-footer__developer">
-        CHARISMA
+        CHARISMA 
         <img src="img/charisma.png" alt="" width="23" height="15"> 
       </a>
     </div>
