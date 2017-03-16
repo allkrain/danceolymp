@@ -51,12 +51,12 @@
         <h2>Услуги</h2>
         <section class="services__section service">
           <figure class="service__img">
-            <picture class="service__bottom-img">
+            <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
-            </picture>
-            <picture class="service__top-img">
+            </div>
+            <div class="service__top-img">
               <img src="img/services/individual_lesson.png" alt="">
-            </picture>
+            </div>
             <figcaption><span>Индивидуальный</span> урок</figcaption>
           </figure>
           <div class="service__content">
@@ -70,12 +70,12 @@
         </section>
         <section class="services__section service">
           <figure class="service__img">
-            <picture class="service__bottom-img">
+            <div class="service__bottom-img">
               <img src="img/services/bg_img_2.png" alt="">
-            </picture>
-            <picture class="service__top-img">
+            </div>
+            <div class="service__top-img">
               <img src="img/services/group.png" alt="">
-            </picture>
+            </div>
             <figcaption>Группа</figcaption>
           </figure>
           <div class="service__content">
@@ -90,12 +90,12 @@
         </section>
         <section class="services__section service">
           <figure class="service__img">
-            <picture class="service__bottom-img">
+            <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
-            </picture>
-            <picture class="service__top-img">
+            </div>
+            <div class="service__top-img">
               <img src="img/services/tango.png" alt="">
-            </picture>
+            </div>
             <figcaption>Танго</figcaption>
           </figure>
           <div class="service__content">
