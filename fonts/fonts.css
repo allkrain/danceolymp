@@ -6,7 +6,7 @@
     url('../fonts/GothamProRegular/GothamProRegular.woff') format('woff'),
     url('../fonts/GothamProRegular/GothamProRegular.ttf') format('truetype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 @font-face {
@@ -16,7 +16,7 @@
     url('../fonts/GothamProBold/GothamProBold.woff') format('woff'),
     url('../fonts/GothamProBold/GothamProBold.ttf') format('truetype');
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 @font-face {
@@ -36,7 +36,7 @@
     url('../fonts/GothamProItalic/GothamProItalic.woff') format('woff'),
     url('../fonts/GothamProItalic/GothamProItalic.ttf') format('truetype');
     font-style: italic;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 @font-face {
@@ -86,7 +86,7 @@
     url('../fonts/GothamProBoldItalic/GothamProBoldItalic.woff') format('woff'),
     url('../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf') format('truetype');
     font-style: italic;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 @font-face {
@@ -107,7 +107,7 @@
     url('../fonts/PhilosopherRegular/PhilosopherRegular.woff') format('woff'),
     url('../fonts/PhilosopherRegular/PhilosopherRegular.ttf') format('truetype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 @font-face {
@@ -117,7 +117,7 @@
     url('../fonts/PhilosopherBold/PhilosopherBold.woff') format('woff'),
     url('../fonts/PhilosopherBold/PhilosopherBold.ttf') format('truetype');
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 @font-face {
@@ -127,7 +127,7 @@
     url('../fonts/PhilosopherItalic/PhilosopherItalic.woff') format('woff'),
     url('../fonts/PhilosopherItalic/PhilosopherItalic.ttf') format('truetype');
     font-style: italic;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 @font-face {
@@ -137,6 +137,6 @@
     url('../fonts/PhilosopherBoldItalic/PhilosopherBoldItalic.woff') format('woff'),
     url('../fonts/PhilosopherBoldItalic/PhilosopherBoldItalic.ttf') format('truetype');
     font-style: italic;
-    font-weight: bold;
+    font-weight: 700;
 }
 

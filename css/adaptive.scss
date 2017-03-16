@@ -1,6 +1,17 @@
 // Адаптивная верстка //
-@media (max-width:1000px) {
+@media (max-width: 1360px) {
   .container {/*width:600px*/}
+  
+  .page-header {
+    &__container {
+      max-width: 1359px;
+      flex-wrap: wrap;
+    }
+    
+    &__navigation {
+      margin-right: 0;
+    }
+  }
 }
 
 
