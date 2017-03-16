@@ -132,8 +132,8 @@
           </div>
         </div>
         <div class="dance-styles__controls controls">
-          <span class="controls_prev">Назад</span>
-          <span class="controls_next">Вперед</span>
+          <span class="controls__prev">Назад</span>
+          <span class="controls__next">Вперед</span>
         </div>
       </div>
     </section>

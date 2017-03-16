@@ -662,7 +662,56 @@ select, input, textarea {
 .controls__prev:hover::after, .controls__next:hover::after {
   border-color: #ffdda5; }
 
-/* line 481, D:/openserver/OpenServer/domains/daol/css/default.scss */
+/* line 477, D:/openserver/OpenServer/domains/daol/css/default.scss */
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  /* line 484, D:/openserver/OpenServer/domains/daol/css/default.scss */
+  .service:nth-child(odd) .service__img {
+    order: 2; }
+  /* line 488, D:/openserver/OpenServer/domains/daol/css/default.scss */
+  .service:nth-child(odd) .service__content {
+    order: 1; }
+  /* line 493, D:/openserver/OpenServer/domains/daol/css/default.scss */
+  .service__img {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box; }
+    /* line 499, D:/openserver/OpenServer/domains/daol/css/default.scss */
+    .service__img figcaption {
+      font-family: "GothamPro", "Arial", sans-serif;
+      font-size: 124px;
+      font-weight: 700;
+      line-height: 0.45968em;
+      letter-spacing: 37.2px;
+      text-transform: uppercase; }
+      /* line 507, D:/openserver/OpenServer/domains/daol/css/default.scss */
+      .service__img figcaption span {
+        font-size: 33px;
+        line-height: 1.72727em;
+        letter-spacing: 9.9px; }
+  /* line 515, D:/openserver/OpenServer/domains/daol/css/default.scss */
+  .service__bottom-img, .service__top-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  /* line 523, D:/openserver/OpenServer/domains/daol/css/default.scss */
+  .service__content {
+    width: 50%; }
+    /* line 526, D:/openserver/OpenServer/domains/daol/css/default.scss */
+    .service__content p {
+      margin-bottom: 40px;
+      font-family: "Philosopher", "Arial", sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 2em;
+      font-style: italic; }
+
+/* line 542, D:/openserver/OpenServer/domains/daol/css/default.scss */
 .popup {
   display: none;
   width: 350px;
