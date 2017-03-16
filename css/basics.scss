@@ -1,11 +1,18 @@
-$font_1: 'GhotamPro', 'Arial', sans-serif;
+$font_1: 'GothamPro', 'Arial', sans-serif;
 $font_2: 'Philosopher', 'Arial', sans-serif;
 $base_color_1: #fff;
 $base_color_2: #b0966c;
 $base_color_3: #9c8561;
+$base_color_4: #ffdda5; //ссылки при наведении
+$base_color_5: #ac936a; //граница таблиц на страницах с занятиями
+$error_color: #7c3535;
 $bg_color_1: #272727;
 $bg_color_2: #1c1c1b;
 $bg_color_3: #232322;
+$bg_color_4: #212121;
+$bg_color_5: #2d2d2d; //ячейки в таблице
+$bg_color_6: #393939; //ячейки в таблице при наведении
+$bg_color_7: #532e2e; //ячейки в таблице при отмене занятий
 
 @mixin border-radius($topleft, $topright: $topleft, $bottomright: $topleft, $bottomleft: $topleft) {
     -moz-border-radius-topleft:     $topleft;
@@ -130,7 +137,10 @@ body {
   font-size:16px; 
   font-family: $font_2;
   color: $base_color_1;
-  background: linear-gradient(to right, 0 $bg_color_1, 225.8px $bg_color_1, 225.8px $bg_color_2, 227.8px $bg_color_2) 0 0 repeat;
+  background-image: linear-gradient(to right, $bg_color_1 0px, $bg_color_1 225.8px, $bg_color_2 225.8px, $bg_color_2 227.8px);
+  background-size: 227.8px;
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 
 header, section, footer {width:100%; float:left;}
@@ -176,7 +186,7 @@ p.huge {font-size:18px;}
 
 // Формы, кнопки, поля ввода //
 a,input,button,select,textarea {@include transition(all, 0.25s, ease-in-out); @include box-sizing;}
-a {text-decoration: inherit; font-weight: inherit; line-height:inherit; color:inherit;}
+/*a {text-decoration: inherit; font-weight: inherit; line-height:inherit; color:inherit;}*/
 
 select, input, textarea {padding: 10px; text-align: left; margin: 0; padding:0; border: 0; font-size: 14px; display:inline-block;}
 

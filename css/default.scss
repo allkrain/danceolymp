@@ -1,9 +1,115 @@
 @import "basics.scss";
 
 // Секции, header, footer и т.д. //
-section.first {
+// Главное меню
+
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  min-height: 72px;
+  /*padding-top: 22px;*/
   
+  &__container {
+    min-width: 1360px;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  &__logo {
+    box-sizing: border-box;
+    padding-top: 22px;
+    padding-left: 26px;
+    
+    img {
+      width: 76px;
+      height: 76px;
+    }
+  }
+  
+  &__blockquote {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 26px;
+    padding-left: 32px;
+    padding-right: 24px;
+    width: 200px;
+    font-family: $font_2;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 22px;
+  }
+  
+  &__navigation {
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  
+  &__contacts {
+    box-sizing: border-box;
+    padding-top: 34px;
+    padding-right: 40px;
+    width: 203px;
+    
+    a {
+      font-family: $font_1;
+      font-size: 12px;
+      line-height: 24px;
+      letter-spacing: 2.4px;
+      font-weight: 500;
+      font-style: normal;
+      text-align: right;
+      text-decoration: none;
+      color: $base_color_1;
+    }
+  }
 }
+
+.main-menu {
+  font-size: 0;
+  
+  li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 22px;
+    
+    
+    &:last-child {
+      margin-right: 0;
+    }
+    
+    a {
+      font-family: $font_1;
+      font-size: 10px;
+      line-height: 72px;
+      letter-spacing: 1.5px;
+      font-weight: 500;
+      font-style: normal;
+      color: $base_color_2;
+      text-transform: uppercase;
+      text-decoration: none;
+      
+      &:hover {
+        color: $base_color_4;
+      }
+    }
+    
+    &.active a,
+    &.active a:hover {
+      color: $base_color_1;
+    }
+  }  
+}
+
+
 // Секции, header, footer и т.д. //
 
 

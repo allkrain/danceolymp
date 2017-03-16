@@ -1,5 +1,5 @@
 <header class="page-header">
-  <div class="container">
+  <div class="page-header__container container">
     <a href="index.php" class="page-header__logo"><img src="img/logo.png" alt="Dance Olymp" widht="76" height="76"></a>
     <blockquote class="page-header__blockquote">
       <p>&laquo;Если девушка плохо танцует, она ругает оркестр&raquo;</p>
