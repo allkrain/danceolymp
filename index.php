@@ -112,7 +112,7 @@
     <section class="page-section dance-styles">
       <div class="container">
         <h2>Танцевальные стили</h2>
-        <div class="slider">
+        <div class="dance-styles__slider slider">
           <div class="dance-styles__content slider__item">
             <div class="slider__count">
               <span class="slider__number">01</span>
@@ -130,10 +130,10 @@
             </article>
             <div class="dance-styles__img"><img src="img/dance_style_1.jpg" alt=""></div>
           </div>
-        </div>
-        <div class="dance-styles__controls controls">
-          <span class="controls__prev">Назад</span>
-          <span class="controls__next">Вперед</span>
+          <div class="dance-styles__controls controls">
+            <span class="controls__prev">Назад</span>
+            <span class="controls__next">Вперед</span>
+          </div>
         </div>
       </div>
     </section>
