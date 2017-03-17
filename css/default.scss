@@ -354,6 +354,7 @@
 }
 
 .btn {
+  display: inline-block;
   position: relative;
   font-family: $font_1;
   font-size: 11px;
@@ -476,10 +477,11 @@
 
 .services {
   position: relative;
+  margin-top: 88px;
   
   h2 {
     position: absolute;
-    top: 86px;
+    top: 0;
     left: 50%;
     display: block;
     width: 45px;
@@ -497,9 +499,10 @@
 
 .service {
   display: flex;
+  margin-bottom: 84px;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   
   &:nth-child(odd) {
     .service__img {
@@ -512,18 +515,26 @@
   }
   
   &__img {
+    margin: 0;
     position: relative;
     width: 50%;
-    height: 500px;
+    min-height: 400px;
     box-sizing: border-box;
+    z-index: -1;
     
     figcaption {
+      position: absolute;
+      padding: 0 50px;
+      top: 0;
+      left: 0;
       font-family: $font_1;
       font-size: 124px;
       font-weight: 700;
       line-height: (57/124)*1em;
       letter-spacing: 37.2px;
       text-transform: uppercase;
+      text-align: center;
+      z-index: 1;
       
       span {
         font-size: 33px;
@@ -533,24 +544,91 @@
     }
   }
   
-  &__bottom-img, 
+  &__bottom-img {
+    z-index: -3;
+  }
+  
   &__top-img {
+    z-index: -2;
+  }
+  
+  &__bottom-img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
   }
   
   &__content {
     width: 50%;
+    padding: 0 70px;
+    box-sizing: border-box;
     
     p {
-      margin-bottom: 40px;
+      padding: 18px 6px;
       font-family: $font_2;
       font-size: 17px;
       font-weight: 400;
       line-height: (34/17)*1em;
       font-style: italic;
+      
+    }
+  }
+  
+  &__btn {
+    padding-left: 6px;
+  }
+  
+  &_personal {
+    
+    .service__content {
+      padding-top: 58px;
+      padding-left: 116px;
+    }
+    
+    .service__top-img {
+      transform: translateX(110px);
+    }
+  }
+  
+  &_group {
+    margin-bottom: 120px;
+    
+    .service__img {
+      figcaption {
+        font-size: 116px;
+        line-height: (43/116)*1em;
+        letter-spacing: (116px*100)/1000;
+      }
+    }
+    
+    .service__content {
+      padding-top: 24px;
+    }
+    
+    .service__top-img {
+      transform: translateX(124px);
+    }
+  }
+  
+  &_tango {
+    margin-bottom: 70px;
+    
+    service__img {
+      figcaption {
+        font-size: 117px;
+        line-height: (44/117)*1em;
+        letter-spacing: (117px*300)/1000;
+      }
+    }
+    
+    .service__top-img {
+      transform: translateX(124px);
+    }
+    
+    .service__content {
+      padding-top: 46px;
+      padding-left: 116px;
     }
   }
 }

@@ -49,7 +49,7 @@
     <section class="page-section services">
       <div class="container">
         <h2>У с л у г и</h2>
-        <section class="services__section service">
+        <section class="services__section service service_personal">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
@@ -68,7 +68,7 @@
             <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
           </div>
         </section>
-        <section class="services__section service">
+        <section class="services__section service service_group">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img_2.png" alt="">
@@ -88,7 +88,7 @@
             <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
           </div>
         </section>
-        <section class="services__section service">
+        <section class="services__section service service_tango">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
