@@ -144,7 +144,7 @@ body {
 }
 
 header, section, footer {width:100%; float:left;}
-.container {width:960px; margin:0 auto;}
+.container { width: 1285px; margin: 0 auto;}
 // Основы //
 
 
@@ -164,16 +164,28 @@ h1,h2,h3,h4,h5 {} // Общие стили для заголовков (если
 
 // Стили заголовков (удалить лишнее)
 h1 {font-size:36px; line-height:1.2em;}
-h2 {font-size:30px; line-height:1.2em;}
-h3 {font-size:24px; line-height:1.2em;}
-h4 {font-size:20px; line-height:1.2em;}
-h5 {font-size:18px; line-height:1.2em;}
+h2 {font-size:36px; line-height:(44/36)*1em;}
+h3 {font-size:24px; line-height:(40/24)*1em;}
+h4 {font-size:22px; line-height:(32/22)*1em;}
+h5 {font-size:18px; line-height:(32/18)*1em;}
 
 // Стили абзацев (удалить лишнее)
 p {font-size:14px; line-height:1.7em;}
 p.small {font-size:12px;}
 p.big {font-size:16px;}
 p.huge {font-size:18px;}
+
+p.gotham {
+  font-family: $font_1;
+  font-size: 14px;
+  line-height: (30/14)*1em;
+}
+
+p.phil {
+  font-family: $font_2;
+  font-size: 17px;
+  line-height: (34/17)*1em;
+}
 // Типографика //
 
 

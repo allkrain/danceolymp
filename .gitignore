@@ -50,3 +50,7 @@ node_modules/
 package.json
 Gruntfile.js
 tmp.php
+/css/adaptive.css
+/css/adaptive.css.map
+/css/basics.css
+/css/basics.css.map
