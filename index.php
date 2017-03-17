@@ -139,16 +139,17 @@
     </section>
     
     <section class="page-section review">
-      <div class="container">
+      <div class="review__container container">
         <header class="review__header">
           <h2>Отзывы</h2>
-          <a href="#" class="btn">Все отзывы</a>
         </header>
-        <div class="review__img">
-          <img src="img/review_img.jpg" alt="">
-        </div>
-        <div class="review__video">
-          <a href="#" class="review__video-btn btn btn_youtube">Смотреть</a>
+        <div class="review__media">
+          <div class="review__img">
+            <img src="img/review_img.jpg" alt="">
+          </div>
+          <div class="review__video">
+            <a href="#" class="review__video-btn btn btn_youtube">Смотреть</a>
+          </div>
         </div>
         <div class="review__content">
           <p class="gotham">          
@@ -158,6 +159,9 @@
             отбивать ритм и танцоры едва могут устоять на месте!
           </p>
         </div>
+        <footer class="review__footer">
+          <a href="#" class="btn">Все отзывы</a>
+        </footer>
       </div>
     </section>
   </main>
