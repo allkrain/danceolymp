@@ -48,7 +48,7 @@
     
     <section class="page-section services">
       <div class="container">
-        <h2>Услуги</h2>
+        <h2>У с л у г и</h2>
         <section class="services__section service">
           <figure class="service__img">
             <div class="service__bottom-img">
@@ -113,14 +113,14 @@
       <div class="container">
         <h2>Танцевальные стили</h2>
         <div class="slider">
-          <div class="slider__item">
-            <div class="slider__number">
-              <span>01</span>
-              <sapn>03</sapn>
+          <div class="dance-styles__content slider__item">
+            <div class="slider__count">
+              <span class="slider__number">01</span>
+              <sapn class="slider__total">03</sapn>
             </div>
-            <article class="dance-style__describe">
+            <article class="dance-styles__describe">
               <h3><a href="#">Бальные танцы, латиноамериканская программа</a></h3>
-              <p>
+              <p class="gotham">
                 Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
                 с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем.
                 Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы
@@ -151,7 +151,7 @@
           <a href="#" class="review__video-btn btn btn_youtube">Смотреть</a>
         </div>
         <div class="review__content">
-          <p>          
+          <p class="gotham">          
             Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
             с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
             действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают

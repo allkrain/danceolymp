@@ -4,7 +4,7 @@ $base_color_1: #fff;
 $base_color_2: #b0966c;
 $base_color_3: #9c8561;
 $base_color_4: #ffdda5; //ссылки при наведении
-$base_color_5: #ac936a; //граница таблиц на страницах с занятиями
+$base_color_5: #ac936a;//граница таблиц на страницах с занятиями
 $error_color: #7c3535;
 $bg_color_1: #272727;
 $bg_color_2: #1c1c1b;
@@ -164,10 +164,10 @@ h1,h2,h3,h4,h5 {} // Общие стили для заголовков (если
 
 // Стили заголовков (удалить лишнее)
 h1 {font-size:36px; line-height:1.2em;}
-h2 {font-size:36px; line-height:(44/36)*1em;}
-h3 {font-size:24px; line-height:(40/24)*1em;}
-h4 {font-size:22px; line-height:(32/22)*1em;}
-h5 {font-size:18px; line-height:(32/18)*1em;}
+h2 {font-size:36px; line-height:(44/36)*1em; text-transform: uppercase; color: $base_color_3; letter-spacing: (200*36px)/1000; text-align: center; font-weight: 700;}
+h3 {font-size:24px; line-height:(40/24)*1em; text-transform: uppercase; color: $base_color_1; letter-spacing: (200*24px)/1000; font-weight: 700;}
+h4 {font-size:22px; line-height:(32/22)*1em; color: $base_color_5; font-weight: 700;}
+h5 {font-size:18px; line-height:(32/18)*1em; color: $base_color_1; font-weight: 700; font-style: italic;}
 
 // Стили абзацев (удалить лишнее)
 p {font-size:14px; line-height:1.7em;}
