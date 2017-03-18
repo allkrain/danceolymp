@@ -401,7 +401,7 @@
   &_plus {
     &::after {
       display: block;
-      content: '+';
+      content: '\002B';
       position: absolute;
       right: 0;
       top: 50%;
@@ -963,12 +963,13 @@
   &__video {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 100%;
     z-index: 3;
+    transform: translate(0, -50%);
   }
   
   &__video-btn {
-    transform: translate(calc(100% - 23px), -50%);
+    margin-left: -23px;
   }
   
   &__content {

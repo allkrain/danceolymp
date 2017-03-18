@@ -615,7 +615,7 @@ select, input, textarea {
   /* line 402, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .btn_plus::after {
     display: block;
-    content: '+';
+    content: '\002B';
     position: absolute;
     right: 0;
     top: 50%;
@@ -1090,12 +1090,13 @@ select, input, textarea {
   .review__video {
     position: absolute;
     top: 0;
-    right: 0;
-    z-index: 3; }
-  /* line 970, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    left: 100%;
+    z-index: 3;
+    transform: translate(0, -50%); }
+  /* line 971, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__video-btn {
-    transform: translate(calc(100% - 23px), -50%); }
-  /* line 974, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    margin-left: -23px; }
+  /* line 975, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__content {
     display: flex;
     flex-direction: column;
@@ -1107,13 +1108,13 @@ select, input, textarea {
     height: 557px;
     z-index: 10;
     box-sizing: border-box; }
-    /* line 986, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 987, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .review__content p {
       box-sizing: border-box;
       padding: 0 10px;
       width: 33%; }
 
-/* line 1000, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 1001, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .popup {
   display: none;
   width: 350px;
