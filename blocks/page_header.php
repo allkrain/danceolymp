@@ -8,9 +8,9 @@
       <ul class="main-menu">
         <li><a href="about.php">О студии</a></li>
         <li><a href="services.php">Услуги</a></li>
-        <li><a href="schedule.php">Расписание</a></li>
+        <li><a href="shedule.php">Расписание</a></li>
         <li><a href="trainers.php">Преподаватели</a></li>
-        <li><a href="dance-styles.php">Стили</a></li>
+        <li><a href="dance_styles.php">Стили</a></li>
         <li><a href="faq.php">FAQ</a></li>
         <li><a href="news.php">Новости</a></li>
         <li><a href="contacts.php">Контакты</a></li>

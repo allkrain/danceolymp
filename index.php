@@ -57,7 +57,10 @@
             <div class="service__top-img">
               <img src="img/services/individual_lesson.png" alt="">
             </div>
-            <figcaption><span>Индивидуальный</span> урок</figcaption>
+            <figcaption>
+              <p class="service__title service__title_small">Индивидуальный</p>
+              <p class="service__title service__title_big">урок</p>
+            </figcaption>
           </figure>
           <div class="service__content">
             <p>Тем, кто хочет быстрее научиться танцевать, или уделить больше внимания танцевальной технике, можно посоветовать занятия в формате индивидуального урока.
@@ -76,7 +79,9 @@
             <div class="service__top-img">
               <img src="img/services/group.png" alt="">
             </div>
-            <figcaption>Группа</figcaption>
+            <figcaption>
+              <p class="service__title service__title_big">Группа</p>
+            </figcaption>
           </figure>
           <div class="service__content">
             <p>Занятия в группе проходят более динамично, чем индивидуальный урок, взаимодействие между тренером и учениками создает особую атмосферу, 
@@ -96,7 +101,9 @@
             <div class="service__top-img">
               <img src="img/services/tango.png" alt="">
             </div>
-            <figcaption>Танго</figcaption>
+            <figcaption>
+              <p class="service__title service__title_big">Танго</p>
+            </figcaption>
           </figure>
           <div class="service__content">
             <p>

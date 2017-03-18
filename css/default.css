@@ -359,34 +359,35 @@ select, input, textarea {
       font-style: normal;
       color: #b0966c;
       text-transform: uppercase;
-      text-decoration: none; }
-      /* line 108, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      text-decoration: none;
+      transition: all 0.25 ease-in-out; }
+      /* line 109, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
       .main-menu li a:hover {
         color: #ffdda5; }
-    /* line 113, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 114, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .main-menu li.active a,
     .main-menu li.active a:hover {
       color: #fff; }
 
-/* line 122, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 123, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .page-footer {
   padding: 30px 0;
   background-color: #232322;
   color: #fff;
   align-self: flex-end; }
-  /* line 128, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 129, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .page-footer__container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch; }
-  /* line 135, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 136, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .page-footer__copyright {
     margin-top: -6px;
     margin-right: auto;
     box-sizing: border-box;
     width: 53.47985%; }
-    /* line 143, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 144, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .page-footer__copyright p {
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
@@ -394,10 +395,10 @@ select, input, textarea {
       line-height: 1.66667em;
       text-align: left;
       margin-bottom: 24px; }
-      /* line 151, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      /* line 152, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
       .page-footer__copyright p:last-child {
         margin-bottom: 0; }
-  /* line 157, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 158, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .page-footer__contacts {
     display: flex;
     flex-direction: column;
@@ -405,7 +406,7 @@ select, input, textarea {
     align-items: flex-end;
     padding: 0 32px;
     padding-right: 0; }
-  /* line 166, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 167, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .page-footer__developer {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 12px;
@@ -414,22 +415,22 @@ select, input, textarea {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff; }
-    /* line 175, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 176, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .page-footer__developer:hover {
       color: #9c8561; }
 
-/* line 181, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 182, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .socials {
   font-size: 0; }
-  /* line 184, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 185, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .socials li {
     display: inline-block;
     vertical-align: top;
     margin-right: 18px; }
-    /* line 189, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 190, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .socials li:last-child {
       margin-right: 0; }
-    /* line 193, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 194, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .socials li a {
       position: relative;
       display: block;
@@ -437,20 +438,20 @@ select, input, textarea {
       height: 30px;
       border-radius: 50%;
       background-color: #b0966c; }
-      /* line 201, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      /* line 202, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
       .socials li a:hover {
         background-color: #ffdda5; }
-      /* line 205, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      /* line 206, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
       .socials li a img {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); }
 
-/* line 217, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 218, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .lead {
   position: relative; }
-  /* line 220, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 221, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .lead__img {
     margin: 0 auto;
     padding: 0;
@@ -459,7 +460,7 @@ select, input, textarea {
     height: 768px;
     overflow: hidden;
     background-color: #212121; }
-    /* line 229, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 230, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .lead__img img {
       position: absolute;
       top: 0;
@@ -472,7 +473,7 @@ select, input, textarea {
       width: 0;
       object-fit: cover;
       opacity: 0.32; }
-  /* line 244, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 245, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .lead__container {
     margin-top: -768px;
     height: 768px;
@@ -481,7 +482,7 @@ select, input, textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  /* line 254, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 255, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .lead__title {
     align-self: center;
     display: flex;
@@ -489,10 +490,10 @@ select, input, textarea {
     justify-content: center;
     align-items: center;
     box-sizing: border-box; }
-    /* line 262, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 263, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .lead__title h2 {
       position: relative; }
-      /* line 265, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      /* line 266, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
       .lead__title h2 a {
         padding: 0 10px;
         font-family: "Philosopher", "Arial", sans-serif;
@@ -504,7 +505,7 @@ select, input, textarea {
         text-decoration: none;
         text-transform: uppercase;
         text-align: center; }
-    /* line 279, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 280, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .lead__title p {
       box-sizing: border-box;
       padding: 0 30px;
@@ -515,7 +516,7 @@ select, input, textarea {
       font-weight: 400;
       font-style: italic;
       text-align: center; }
-  /* line 292, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 293, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .lead__controls {
     position: absolute;
     top: 50%;
@@ -526,7 +527,7 @@ select, input, textarea {
     justify-content: space-between;
     padding: 0 50px;
     box-sizing: border-box; }
-  /* line 304, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 305, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .lead__footer {
     position: absolute;
     left: 0;
@@ -535,10 +536,10 @@ select, input, textarea {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end; }
-  /* line 314, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 315, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .lead__socials {
     margin-bottom: 20px; }
-  /* line 318, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 319, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .lead__btn-mouse {
     position: relative;
     position: absolute;
@@ -547,8 +548,9 @@ select, input, textarea {
     font-size: 0;
     line-height: 0;
     transform: translate(-50%, 0);
-    z-index: 10; }
-    /* line 328, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    z-index: 10;
+    transition: all 0.25 ease-in-out; }
+    /* line 330, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .lead__btn-mouse::before {
       position: absolute;
       content: '';
@@ -557,23 +559,26 @@ select, input, textarea {
       width: 1px;
       height: 90px;
       background-color: #b0966c;
-      transform: translate(-50%, 0); }
-    /* line 339, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      transform: translate(-50%, 0);
+      transition: all 0.25 ease-in-out; }
+    /* line 342, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .lead__btn-mouse:hover::before {
       height: 68px;
       background-color: #ffdda5; }
-    /* line 344, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 347, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .lead__btn-mouse svg {
       width: 23px;
       height: 35px;
-      fill: #b0966c; }
-    /* line 350, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      fill: #b0966c;
+      transition: all 0.25 ease-in-out; }
+    /* line 354, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .lead__btn-mouse:hover > svg {
       fill: #ffdda5; }
 
-/* line 356, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 360, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .btn {
   display: inline-block;
+  box-sizing: border-box;
   position: relative;
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 11px;
@@ -582,14 +587,15 @@ select, input, textarea {
   letter-spacing: 4.4px;
   color: #b0966c;
   text-decoration: none;
-  text-transform: uppercase; }
-  /* line 368, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out; }
+  /* line 374, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .btn:hover {
     color: #ffdda5; }
-  /* line 372, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 378, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .btn_round {
     padding-right: 48px; }
-    /* line 375, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 381, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .btn_round::before {
       display: block;
       content: '';
@@ -601,11 +607,12 @@ select, input, textarea {
       border: 1px solid #b0966c;
       border-radius: 50%;
       transform: translate(0, -50%);
-      box-sizing: border-box; }
-    /* line 389, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      box-sizing: border-box;
+      transition: all 0.25 ease-in-out; }
+    /* line 396, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .btn_round:hover::before {
       border-color: #ffdda5; }
-  /* line 395, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 402, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .btn_plus::after {
     display: block;
     content: '+';
@@ -618,18 +625,32 @@ select, input, textarea {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    transform: translate(0, -50%); }
-  /* line 410, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    transform: translate(0, -50%);
+    transition: all 0.25 ease-in-out; }
+  /* line 418, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .btn_plus:hover::after {
     font-size: 20px;
     color: #ffdda5; }
-  /* line 416, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 424, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .btn_youtube {
-    padding-left: 68px; }
-    /* line 419, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    padding-left: 68px;
+    transform: translate3d(0, 0, 0);
+    /*    &::after {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      content: '';
+      width: 155px;
+      height: 155px;
+      border-radius: 50%;
+      background-color: $bg_color_3;
+      transform: translate(calc(-50% + 23px), -50%);
+      z-index: -100;
+    }*/ }
+    /* line 428, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .btn_youtube:hover {
       padding-left: 120px; }
-    /* line 423, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 432, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .btn_youtube::before {
       position: absolute;
       top: 50%;
@@ -637,20 +658,22 @@ select, input, textarea {
       content: '';
       width: 46px;
       height: 32px;
-      background: url(../img/youtube_dark.svg) 0 0 no-repeat;
-      transform: translate(0, -50%); }
-    /* line 447, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      background: url(../img/youtube.svg) 0 0 no-repeat;
+      transform: translate(0, -50%);
+      transition: all 0.25 ease-in-out; }
+    /* line 457, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .btn_youtube:hover::before {
-      background-image: url(../img/youtube_light.svg); }
+      background-image: url(../img/youtube.svg);
+      background-position: -48px 0; }
 
-/* line 455, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 466, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .controls__prev, .controls__next {
   position: relative;
   font-size: 0;
   line-height: 0;
   cursor: pointer; }
 
-/* line 463, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 474, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .controls__prev::before, .controls__next::before {
   position: absolute;
   content: '';
@@ -658,13 +681,14 @@ select, input, textarea {
   right: 0;
   width: 72px;
   height: 2px;
-  background-color: #b0966c; }
+  background-color: #b0966c;
+  transition: all 0.25 ease-in-out; }
 
-/* line 474, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 486, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .controls__prev::before {
   left: 0; }
 
-/* line 478, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 490, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .controls__prev::after, .controls__next::after {
   position: absolute;
   content: '';
@@ -673,7 +697,7 @@ select, input, textarea {
   width: 7px;
   height: 7px; }
 
-/* line 488, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 500, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .controls__prev::after {
   left: 0;
   border: 0px solid #b0966c;
@@ -681,26 +705,26 @@ select, input, textarea {
   border-left-width: 2px;
   transform: translate(0, -3px) rotate(-45deg); }
 
-/* line 496, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 508, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .controls__next::after {
   border: 0px solid #b0966c;
   border-bottom-width: 2px;
   border-right-width: 2px;
   transform: translate(0, -3px) rotate(-45deg); }
 
-/* line 503, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 515, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .controls__prev:hover::before, .controls__next:hover::before {
   background-color: #ffdda5; }
 
-/* line 508, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 520, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .controls__prev:hover::after, .controls__next:hover::after {
   border-color: #ffdda5; }
 
-/* line 514, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 526, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .services {
   position: relative;
   margin-top: 88px; }
-  /* line 518, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 530, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .services h2 {
     position: absolute;
     top: 0;
@@ -717,20 +741,20 @@ select, input, textarea {
     text-transform: uppercase;
     transform: translate(-50%, 0); }
 
-/* line 536, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 548, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .service {
   display: flex;
   margin-bottom: 84px;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start; }
-  /* line 544, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 556, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service:nth-child(odd) .service__img {
     order: 2; }
-  /* line 548, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 560, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service:nth-child(odd) .service__content {
     order: 1; }
-  /* line 553, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 565, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service__img {
     margin: 0;
     position: relative;
@@ -738,43 +762,59 @@ select, input, textarea {
     min-height: 400px;
     box-sizing: border-box;
     z-index: -1; }
-    /* line 561, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 573, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .service__img figcaption {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       position: absolute;
       padding: 0 50px;
       top: 0;
       left: 0;
-      font-family: "GothamPro", "Arial", sans-serif;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      box-sizing: border-box; }
+  /* line 589, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  .service__title {
+    font-family: "GothamPro", "Arial", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+    /* line 595, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    .service__title_big {
       font-size: 124px;
-      font-weight: 700;
       line-height: 0.45968em;
       letter-spacing: 37.2px;
-      text-transform: uppercase;
-      text-align: center;
-      z-index: 1; }
-      /* line 575, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
-      .service__img figcaption span {
-        font-size: 33px;
-        line-height: 1.72727em;
-        letter-spacing: 9.9px; }
-  /* line 583, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+      margin-bottom: 30px; }
+    /* line 602, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    .service__title_small {
+      font-size: 33px;
+      line-height: 1.72727em;
+      letter-spacing: 9.9px;
+      margin-bottom: 30px; }
+  /* line 610, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service__bottom-img {
     z-index: -3; }
-  /* line 587, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 614, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service__top-img {
     z-index: -2; }
-  /* line 591, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 618, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service__bottom-img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-  /* line 598, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 624, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    .service__bottom-img img {
+      transform: translate(0, -50px); }
+  /* line 629, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service__content {
     width: 50%;
     padding: 0 70px;
     box-sizing: border-box; }
-    /* line 603, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 634, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .service__content p {
       padding: 18px 6px;
       font-family: "Philosopher", "Arial", sans-serif;
@@ -782,51 +822,51 @@ select, input, textarea {
       font-weight: 400;
       line-height: 2em;
       font-style: italic; }
-  /* line 614, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 645, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service__btn {
     padding-left: 6px; }
-  /* line 620, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 651, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service_personal .service__content {
     padding-top: 58px;
     padding-left: 116px; }
-  /* line 625, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 656, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service_personal .service__top-img {
     transform: translateX(110px); }
-  /* line 630, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 661, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service_group {
     margin-bottom: 120px; }
-    /* line 634, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
-    .service_group .service__img figcaption {
+    /* line 665, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    .service_group .service__title_big {
       font-size: 116px;
       line-height: 0.37069em;
       letter-spacing: 11.6px; }
-    /* line 641, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 672, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .service_group .service__content {
       padding-top: 24px; }
-    /* line 645, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 676, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .service_group .service__top-img {
       transform: translateX(124px); }
-  /* line 650, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 681, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .service_tango {
     margin-bottom: 70px; }
-    /* line 654, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
-    .service_tango service__img figcaption {
+    /* line 685, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    .service_tango service__title_big {
       font-size: 117px;
       line-height: 0.37607em;
       letter-spacing: 35.1px; }
-    /* line 661, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 692, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .service_tango .service__top-img {
       transform: translateX(124px); }
-    /* line 665, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 696, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .service_tango .service__content {
       padding-top: 46px;
       padding-left: 116px; }
 
-/* line 673, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 704, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .slider__item {
   position: relative; }
 
-/* line 677, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 708, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .slider__count {
   position: absolute;
   top: 0;
@@ -837,7 +877,7 @@ select, input, textarea {
   align-items: center;
   transform: translate(-50%, 0); }
 
-/* line 689, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 720, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .slider__number {
   display: inline-block;
   margin-top: -10px;
@@ -848,7 +888,7 @@ select, input, textarea {
   font-weight: 700;
   color: #b0966c; }
 
-/* line 701, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 732, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .slider__total {
   display: inline-block;
   padding-top: 12px;
@@ -860,11 +900,11 @@ select, input, textarea {
   color: #fff;
   border-top: 8px solid #fff; }
 
-/* line 717, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 748, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .dance-styles h2 {
   margin-bottom: 36px; }
 
-/* line 721, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 752, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .dance-styles__content {
   display: flex;
   flex-direction: row;
@@ -872,22 +912,22 @@ select, input, textarea {
   align-items: flex-start;
   padding-right: 180px; }
 
-/* line 729, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 760, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .dance-styles__describe {
   box-sizing: border-box;
   width: 50%;
   padding-top: 96px;
   padding-left: 170px; }
-  /* line 735, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 766, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .dance-styles__describe h3 {
     margin-bottom: 30px;
     padding-left: 17px;
     text-align: left; }
-    /* line 740, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 771, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .dance-styles__describe h3 a {
       color: inherit;
       text-decoration: none; }
-  /* line 746, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 777, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .dance-styles__describe p {
     padding-left: 17px;
     font-family: "GothamPro", "Arial", sans-serif;
@@ -895,13 +935,13 @@ select, input, textarea {
     line-height: 2.14286em;
     text-align: left; }
 
-/* line 755, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 786, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .dance-styles__img {
   position: relative;
   width: 348px;
   height: 472px;
   overflow: hidden; }
-  /* line 761, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 792, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .dance-styles__img img {
     position: absolute;
     left: 0;
@@ -914,10 +954,10 @@ select, input, textarea {
     width: 0;
     object-fit: cover; }
 
-/* line 775, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 806, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .dance-styles__slider {
   position: relative; }
-  /* line 778, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 809, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .dance-styles__slider::before, .dance-styles__slider::after {
     content: '';
     position: absolute;
@@ -927,43 +967,43 @@ select, input, textarea {
     height: 230px;
     background-color: #232322;
     z-index: -1; }
-  /* line 790, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 821, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .dance-styles__slider::before {
     left: 0;
     transform: translate(-40px, -50%); }
-  /* line 795, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 826, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .dance-styles__slider::after {
     right: 0;
     transform: translate(40px, -50%); }
 
-/* line 801, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 832, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .dance-styles__controls {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%); }
-  /* line 808, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 839, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .dance-styles__controls .controls__prev {
     position: absolute;
     left: 50px; }
-  /* line 813, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 844, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .dance-styles__controls .controls__next {
     position: absolute;
     right: 50px; }
 
-/* line 820, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 851, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .review {
   padding-top: 156px;
   margin-bottom: 60px; }
-  /* line 824, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 855, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__container {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    /* line 831, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 862, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .review__container::before {
       position: absolute;
       content: '';
@@ -974,27 +1014,27 @@ select, input, textarea {
       background-color: #232322;
       transform: translate(-40px, -50%);
       z-index: -1; }
-  /* line 844, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 875, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__header, .review__footer {
     box-sizing: border-box;
     width: 460px;
     text-align: center;
     border: 1px solid #b0966c; }
-  /* line 852, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 883, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__header {
     padding: 30px 20px;
     border-bottom: none; }
-  /* line 857, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 888, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__footer {
     padding: 15px 20px;
     border-top: none; }
-  /* line 862, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 893, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__img {
     position: relative;
     width: 921px;
     height: 557px;
     overflow: hidden; }
-    /* line 868, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 899, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .review__img img {
       position: absolute;
       top: 0;
@@ -1007,7 +1047,7 @@ select, input, textarea {
       width: 0;
       object-fit: cover;
       z-index: 1; }
-    /* line 882, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 913, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .review__img::before {
       position: absolute;
       top: 0;
@@ -1018,10 +1058,10 @@ select, input, textarea {
       opacity: 0.75;
       background-color: #232322;
       z-index: 2; }
-  /* line 895, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 926, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__media {
     position: relative; }
-    /* line 898, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 929, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .review__media::after {
       position: absolute;
       top: 0;
@@ -1033,16 +1073,16 @@ select, input, textarea {
       background-color: #232322;
       transform: translate(50%, -50%);
       z-index: -5; }
-  /* line 912, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 943, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__video {
     position: absolute;
     top: 0;
     right: 0;
     z-index: 3; }
-  /* line 919, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 950, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__video-btn {
     transform: translate(calc(100% - 23px), -50%); }
-  /* line 923, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+  /* line 954, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
   .review__content {
     display: flex;
     flex-direction: column;
@@ -1054,13 +1094,13 @@ select, input, textarea {
     height: 557px;
     z-index: 10;
     box-sizing: border-box; }
-    /* line 935, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+    /* line 966, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
     .review__content p {
       box-sizing: border-box;
       padding: 0 10px;
       width: 33%; }
 
-/* line 949, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
+/* line 980, D:/openserver/OpenServer/domains/danceolymp/css/default.scss */
 .popup {
   display: none;
   width: 350px;

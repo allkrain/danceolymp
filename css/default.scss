@@ -104,6 +104,7 @@
       color: $base_color_2;
       text-transform: uppercase;
       text-decoration: none;
+      transition: all 0.25 ease-in-out;
       
       &:hover {
         color: $base_color_4;
@@ -324,6 +325,7 @@
     line-height: 0;
     transform: translate(-50%, 0);
     z-index: 10;
+    transition: all 0.25 ease-in-out;
     
     &::before {
       position: absolute;
@@ -334,6 +336,7 @@
       height: 90px;
       background-color: $base_color_2;
       transform: translate(-50%, 0);
+      transition: all 0.25 ease-in-out;
     }
     
     &:hover::before {
@@ -344,7 +347,8 @@
     svg {
       width: 23px;
       height: 35px;
-      fill: $base_color_2; 
+      fill: $base_color_2;
+      transition: all 0.25 ease-in-out;
     }
     
     &:hover>svg {
@@ -355,6 +359,7 @@
 
 .btn {
   display: inline-block;
+  box-sizing: border-box;
   position: relative;
   font-family: $font_1;
   font-size: 11px;
@@ -364,6 +369,7 @@
   color: $base_color_2;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
   
   &:hover {
     color: $base_color_4;
@@ -384,6 +390,7 @@
       border-radius: 50%;
       transform: translate(0, -50%);
       box-sizing: border-box;
+      transition: all 0.25 ease-in-out;
     }
     
     &:hover::before {
@@ -405,6 +412,7 @@
       line-height: 30px;
       text-align: center;
       transform: translate(0, -50%);
+      transition: all 0.25 ease-in-out;
     }
     
     &:hover::after {
@@ -415,6 +423,7 @@
   
   &_youtube {
     padding-left: 68px;
+    transform: translate3d(0, 0, 0);
     
     &:hover {
       padding-left: 120px;
@@ -427,25 +436,27 @@
       content: '';
       width: 46px;
       height: 32px;
-      background: url(../img/youtube_dark.svg) 0 0 no-repeat;
+      background: url(../img/youtube.svg) 0 0 no-repeat;
       transform: translate(0, -50%);
+      transition: all 0.25 ease-in-out;
     }
     
-//    &::after {
-//      position: absolute;
-//      top: 50%;
-//      left: 0;
-//      content: '';
-//      width: 155px;
-//      height: 155px;
-//      border-radius: 50%;
-//      background-color: $bg_color_3;
-//      transform: translate(calc(-50% + 23px), -50%);
-//      z-index: -100;
-//    }
+/*    &::after {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      content: '';
+      width: 155px;
+      height: 155px;
+      border-radius: 50%;
+      background-color: $bg_color_3;
+      transform: translate(calc(-50% + 23px), -50%);
+      z-index: -100;
+    }*/
     
     &:hover::before {
-      background-image: url(../img/youtube_light.svg);
+      background-image: url(../img/youtube.svg);
+      background-position: -48px 0;
     }
   }
 }
@@ -469,6 +480,7 @@
     width: 72px;
     height: 2px;
     background-color: $base_color_2;
+    transition: all 0.25 ease-in-out;
   }
   
   &__prev::before {
@@ -559,24 +571,39 @@
     z-index: -1;
     
     figcaption {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       position: absolute;
       padding: 0 50px;
       top: 0;
       left: 0;
-      font-family: $font_1;
-      font-size: 124px;
-      font-weight: 700;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      box-sizing: border-box;
+    }
+  }
+  
+  &__title {
+    font-family: $font_1;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+    &_big {
+      font-size: 124px;      
       line-height: (57/124)*1em;
       letter-spacing: 37.2px;
-      text-transform: uppercase;
-      text-align: center;
-      z-index: 1;
-      
-      span {
-        font-size: 33px;
-        line-height: (57/33)*1em;
-        letter-spacing: 9.9px;
-      }
+      margin-bottom: 30px;
+    }
+    
+    &_small {
+      font-size: 33px;
+      line-height: (57/33)*1em;
+      letter-spacing: 9.9px;
+      margin-bottom: 30px;
     }
   }
   
@@ -593,6 +620,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);    
+    
+    img {
+      transform: translate(0, -50px);
+    }
   }
   
   &__content {
@@ -630,8 +661,8 @@
   &_group {
     margin-bottom: 120px;
     
-    .service__img {
-      figcaption {
+    .service__title {
+      &_big {
         font-size: 116px;
         line-height: (43/116)*1em;
         letter-spacing: (116px*100)/1000;
@@ -650,8 +681,8 @@
   &_tango {
     margin-bottom: 70px;
     
-    service__img {
-      figcaption {
+    service__title {
+      &_big {
         font-size: 117px;
         line-height: (44/117)*1em;
         letter-spacing: (117px*300)/1000;
