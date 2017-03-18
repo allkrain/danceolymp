@@ -40,6 +40,7 @@
     padding-left: 32px;
     padding-right: 24px;
     width: 200px;
+    min-width: 200px;
     font-family: $font_2;
     font-size: 15px;
     font-style: italic;
@@ -60,6 +61,7 @@
 //    padding-right: 40px;
     padding-left: 10px;
     width: 173px;
+    min-width: 173px;
     
     a {
       font-family: $font_1;
@@ -253,11 +255,13 @@
   }
   
   &__title {
+    margin-bottom: -14px;
     align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 80px 150px;
     box-sizing: border-box;    
     
     h2 {
@@ -291,6 +295,7 @@
   }
   
   &__controls {
+    margin-top: -38px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -828,6 +833,7 @@
     
     &::before, 
     &::after {
+      margin-top: -20px;
       content: '';
       position: absolute;
       top: 50%;
@@ -850,6 +856,7 @@
   }
   
   &__controls {
+    margin-top: -20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -991,7 +998,6 @@
     }
   }
 }
-
 
 
 

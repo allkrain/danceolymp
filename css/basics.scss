@@ -137,6 +137,7 @@ body {
   font-size:16px; 
   font-family: $font_2;
   color: $base_color_1;
+  background-color: $bg_color_1;
   background-image: linear-gradient(to right, $bg_color_1 0px, $bg_color_1 225.8px, $bg_color_2 225.8px, $bg_color_2 227.8px);
   background-size: 227.8px;
   background-position: 0 0;
@@ -144,7 +145,7 @@ body {
 }
 
 header, section, footer {width:100%; float:left;}
-.container { width: 1285px; margin: 0 auto;}
+.container { width: 1285px; margin: 0 auto; padding: 0;}
 // Основы //
 
 

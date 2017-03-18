@@ -1,15 +1,17 @@
 // Адаптивная верстка //
-@media (max-width: 1360px) {
-  .container {/*width:600px*/}
+@media (max-width: 1325px) {
+  .container {/*width:600px*/
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
   
   .page-header {
     &__container {
-      max-width: 1359px;
-      flex-wrap: wrap;
-    }
-    
-    &__navigation {
-      margin-right: 0;
+      width: 100%;
+      margin: 0;
     }
   }
 }
