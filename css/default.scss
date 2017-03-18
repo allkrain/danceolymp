@@ -648,6 +648,16 @@
   
   &_personal {
     
+    .service__title {
+      &_small {
+        margin-left: -45px;
+      }
+      
+      &_big {
+        margin-left: -20px;
+      }
+    }
+    
     .service__content {
       padding-top: 58px;
       padding-left: 116px;
@@ -663,6 +673,7 @@
     
     .service__title {
       &_big {
+        margin-top: -24px;
         font-size: 116px;
         line-height: (43/116)*1em;
         letter-spacing: (116px*100)/1000;
@@ -681,8 +692,16 @@
   &_tango {
     margin-bottom: 70px;
     
-    service__title {
+    .service__img {
+      figcaption {
+        z-index: -2;
+      }
+    }
+    
+    .service__title {
       &_big {
+        margin-top: -60px;
+        margin-left: -24px;
         font-size: 117px;
         line-height: (44/117)*1em;
         letter-spacing: (117px*300)/1000;
@@ -691,6 +710,7 @@
     
     .service__top-img {
       transform: translateX(124px);
+      z-index: 1;
     }
     
     .service__content {
