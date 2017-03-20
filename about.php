@@ -53,9 +53,9 @@
           </div>
         </div>
         <div class="page-intro__btns page-btns page-btns_vertical">
-          <a href="#" class="btn btn_round btn_right btn_shift">Свадебный танец</a>
-          <a href="#" class="btn btn_round btn_right btn_shift">Танцуем танго</a>
-          <a href="#" class="btn btn_round btn_right btn_shift">Индивидуальный урок</a>
+          <a href="#" class="btn btn_round btn_right btn_shift btn_move-right">Свадебный танец</a>
+          <a href="#" class="btn btn_round btn_right btn_shift btn_move-right">Танцуем танго</a>
+          <a href="#" class="btn btn_round btn_right btn_shift btn_move-right">Индивидуальный урок</a>
         </div>      
       </div>
     </div>
@@ -82,7 +82,7 @@
         </div>
         <div class="about__gallery slider">
           <ul class="about__gallery-list slider__list">
-            <li class="slider__item"><img src="img/about/about_slide1.jpg" alt=""></li>
+            <li class="about__gallery-img slider__item"><img src="img/about/about_slide1.jpg" alt=""></li>
           </ul>
           <div class="about__gallery-controls controls container">
             <span class="controls__prev">Назад</span>
