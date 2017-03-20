@@ -1222,6 +1222,8 @@
 }
 
 .about {
+  margin-bottom: 68px;
+  
   &__container {
     display: flex;
     flex-direction: column;
@@ -1296,7 +1298,45 @@
     }
   }
   
+  &__video {
+    margin-left: -20px;
+    width: 916px;
+    height: 545px;
+  }
   
+  &__video-promo {
+    position: relative;
+    width: 916px;
+    height: 545px;
+    overflow: hidden;
+    
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      min-width: 100%;
+      min-height: 100%;
+      width: 0;
+      object-fit: cover;
+      z-index: -1;
+    }
+    
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../img/about/reflection.png');
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      opacity: 0.1;
+    }
+  }
 }
 
 .updown-border {
@@ -1331,6 +1371,31 @@
     font-style: italic;
     color: $base_color_2;
   }
+}
+
+.trainers {
+  &__title {
+    margin-bottom: 42px;
+  }
+  
+  &__slider {
+    box-sizing: border-box;
+    padding: 0 195px 0 173px;
+  }
+  
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+    figure {
+      margin: 0;
+    }    
+  }
+  
+  
 }
 
 

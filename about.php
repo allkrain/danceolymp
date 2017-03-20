@@ -99,8 +99,8 @@
       <header class="trainers__title container">
         <h2>Наши преподаватели</h2>
       </header>
-      <div class="slider">
-        <ul class="trainers__list trainers__list_unwrap slider__list container">
+      <div class="trainers__slider slider container">
+        <ul class="trainers__list trainers__list_unwrap slider__list">
           <li class="trainers__item slider__item">
             <figure>
               <picture class="trainers__img">
