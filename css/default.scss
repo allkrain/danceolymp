@@ -3,6 +3,13 @@
 // Секции, header, footer и т.д. //
 // Главное меню
 
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .page-header {
   position: fixed;
   top: 0;
@@ -384,7 +391,6 @@
     padding-right: 48px;
     
     &::before {
-      display: block;
       content: '';
       position: absolute;
       right: 0;
@@ -405,7 +411,6 @@
   
   &_plus {
     &::after {
-      display: block;
       content: '\002B';
       position: absolute;
       right: 0;
@@ -446,22 +451,59 @@
       transition: all 0.25 ease-in-out;
     }
     
-/*    &::after {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      content: '';
-      width: 155px;
-      height: 155px;
-      border-radius: 50%;
-      background-color: $bg_color_3;
-      transform: translate(calc(-50% + 23px), -50%);
-      z-index: -100;
-    }*/
-    
     &:hover::before {
       background-image: url(../img/youtube.svg);
       background-position: -48px 0;
+    }
+  }
+  
+  &_empty {
+    width: 28px;
+    height: 30px;
+  }
+  
+  &_shift {
+    margin-top: -32px;
+    margin-bottom: 8px;
+  }
+  
+  &_right {
+    &::after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      width: 7px;
+      height: 7px;
+      border: 1px solid $base_color_2;
+      border-left-width: 0;
+      border-top-width: 0;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      transition: all 0.25 ease-in-out;
+    }
+    
+    &:hover::after {
+      border-color: $base_color_4;
+    }
+  }
+  
+  &_left {
+    &::after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      width: 7px;
+      height: 7px;
+      border: 1px solid $base_color_2;
+      border-right-width: 0;
+      border-top-width: 0;
+      transform: translate(-50%, -50%) rotate(45deg);
+      transition: all 0.25 ease-in-out;
+    }
+    
+    &:hover::after {
+      border-color: $base_color_4;
     }
   }
 }
@@ -999,7 +1041,235 @@
   }
 }
 
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  margin: 22px 0;
+  
+  li {
+    display: inline-block;
+    vertical-align: top;
+    
+    a {
+      position: relative;
+      padding-left: 12px;
+      padding-right: 20px;
+      font-family: $font_2;
+      font-size: 15px;
+      line-height: (34/15)*1em;
+      font-weight: 400;
+      font-style: italic;
+      text-decoration: none;
+      color: $base_color_6;
+      transition: all 0.25 ease-in-out;
+      
+      &::before {
+        position: absolute;
+        content: '\003E';
+        top: 50%;
+        right: 0;
+        color: $base_color_6;
+        transform: translate(0, -50%);
+      }
+      
+      &:hover {
+        color: $base_color_4;
+      }
+    }
+    
+    &:last-child {
+      a {
+        color: $base_color_1;
+        
+        &::before {
+          display: none;
+        }
+        
+        &:hover {
+          color: $base_color_1;
+        }
+      }
+    }
+  }
+  
+  &_about {
+    padding: 0 160px;
+  }
+}
 
+.page-navigation {
+  
+}
+
+.page-intro {  
+  margin-top: 25px;
+  margin-bottom: 45px;
+  
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 160px;    
+    box-sizing: border-box;
+  }
+  
+  &__col {
+    box-sizing: border-box;
+    width: 50%;
+    
+    p {
+      padding: 0 30px 0 12px;
+      font-family: $font_2;
+      font-size: 17px;
+      line-height: (34/17)*1em;
+      font-style: italic;
+    }
+    
+    &_right {
+      padding-left: 34px;
+    }
+  }
+  
+  &__btns {
+    padding-right: 195px;
+  }
+}
+
+.text-list {
+  margin: 32px 0;
+  font-family: $font_2;
+  font-size: 17px;
+  line-height: (34/17)*1em;
+  font-style: italic;
+  
+  &__list {
+    padding-left: 12px;
+    
+    &_about {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      padding: 43px 0 53px;
+      font-size: 16px;
+      line-height: (30/16)*1em;
+
+      & .text-list__item {
+        box-sizing: border-box;
+        padding-right: 30px;
+        width: 50%;
+        
+        &:nth-child(even) {
+          padding-left: 22px;
+          padding-right: 40px;
+        }
+        
+        &:nth-child(3) {
+          margin-top: -30px;
+        }
+        
+        &:nth-child(5) {
+          margin-top: -60px;
+        }
+      }
+    }
+  }
+  
+  &__item {
+    
+    &::before {
+      content: '\2022';
+      width: 10px;
+      height: 10px;
+      text-align: left;
+      top: 0;
+      left: 0;
+      padding-right: 3px;
+    }
+  }
+}
+
+.page-btns {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+  &_vertical {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+.about {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    h2 {
+      margin-left: -10px;
+    }
+  }
+  
+  &__features {
+    align-self: stretch;
+    padding: 4px 198px 0 172px;
+  }
+  
+  &__mission {
+    padding: 0 220px;
+  }
+}
+
+.updown-border {
+  border: 1px solid $base_color_6;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.mission {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: -4px;
+  font-family: $font_2;
+  font-size: 16px;
+  line-height: (30/16)*1em;
+  font-style: italic;
+  color: $base_color_2;
+  
+  &__title {
+    padding: 0 4px 0 15px;
+    box-sizing: border-box;
+    min-width: 115px;
+  }
+  
+  &__title, 
+  &__text {
+    font-family: $font_2;
+    font-size: 16px;
+    line-height: (30/16)*1em;
+    font-style: italic;
+    color: $base_color_2;
+  }
+}
 
 
 

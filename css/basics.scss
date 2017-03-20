@@ -5,6 +5,7 @@ $base_color_2: #b0966c;
 $base_color_3: #9c8561;
 $base_color_4: #ffdda5; //ссылки при наведении
 $base_color_5: #ac936a;//граница таблиц на страницах с занятиями
+$base_color_6: #ae956b;
 $error_color: #7c3535;
 $bg_color_1: #272727;
 $bg_color_2: #1c1c1b;
@@ -176,16 +177,17 @@ p.small {font-size:12px;}
 p.big {font-size:16px;}
 p.huge {font-size:18px;}
 
-p.gotham {
+.gotham {
   font-family: $font_1;
   font-size: 14px;
   line-height: (30/14)*1em;
 }
 
-p.phil {
+.phil {
   font-family: $font_2;
   font-size: 17px;
   line-height: (34/17)*1em;
+  font-style: italic;
 }
 // Типографика //
 

@@ -36,65 +36,70 @@
   <section class="page-section trainers">
     <div class="container">
       <ul class="trainers__list">
-        <li>
+        <li class=trainers__item>
           <figure>
-            <picture>
+            <picture class="trainers__img">
               <img src="img/trainers/Sadovskiy@1x.jpg" alt="" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
             </picture>
-            <figcaption>
-              <b>Садовский</b> Владимир Алексеевич
+            <figcaption class="trainers__title">
+              <p class="trainers__surname">Садовский</p>
+              <p class="trainers__name">Владимир Алексеевич</p>
             </figcaption>
           </figure>
           <p>
             Художественный руководитель студии — Садовский Владимир. Все тренеры, преподающие в студии, являются профессиональными танцорами высокого уровня 
           </p>
         </li>
-        <li>
+        <li class="trainers__item">
           <figure>
-            <picture>
+            <picture class="trainers__img">
               <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x">
             </picture>
-            <figcaption>
-              <b>Громов</b> Никита Сергеевич
+            <figcaption class="trainers__title">
+              <p class="trainers__surname">Громов</p>
+              <p class="trainers__name">Никита Сергеевич</p>
             </figcaption>
           </figure>
           <p>
             Художественный руководитель студии — Садовский Владимир. Все тренеры, преподающие в студии, являются профессиональными танцорами высокого уровня 
           </p>
         </li>
-        <li>
+        <li class="trainers__item">
           <figure>
-            <picture>
+            <picture class="trainers__img">
               <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x">
             </picture>
-            <figcaption>
-              <b>Садовская</b> Екатерина Дмитриевна
+            <figcaption class="trainers__title">
+              <p class="trainers__surname">Садовская</p>
+              <p class="trainers__name">Екатерина Дмитриевна</p>
             </figcaption>
           </figure>
           <p>
             Художественный руководитель студии — Садовский Владимир. Все тренеры, преподающие в студии, являются профессиональными танцорами высокого уровня 
           </p>
         </li>
-        <li>
+        <li class="trainers__item">
           <figure>
-            <picture>
+            <picture class="trainers__img">
               <img src="img/trainers/Usikova.jpg" alt="">
             </picture>
-            <figcaption>
-              <b>Усикова</b> Каролина Сергеевна
+            <figcaption class="trainers__title">
+              <p class="trainers__surname">Усикова</p>
+              <p class="trainers__name">Каролина Сергеевна</p>
             </figcaption>
           </figure>
           <p>
             Художественный руководитель студии — Садовский Владимир. Все тренеры, преподающие в студии, являются профессиональными танцорами высокого уровня 
           </p>
         </li>
-        <li>
+        <li class="trainers__item">
           <figure>
-            <picture>
+            <picture class="trainers__img">
               <img src="img/trainers/Yankovskiy@1x.jpg" alt="" srcset="img/trainers/Yankovskiy@1,5x.jpg 1.5x, img/trainers/Yankovskiy@2x.jpg 2x, img/trainers/Yankovskiy@3x.jpg 3x">
             </picture>
-            <figcaption>
-              <b>Янковский</b> Александр Анатольевич
+            <figcaption class="trainers__title">
+              <p class="trainers__surname">Янковский</p>
+              <p class="trainers__name">Александр Анатольевич</p>
             </figcaption>
           </figure>
           <p>
@@ -112,10 +117,10 @@
         <a href="services.php" class="btn btn_round btn_left">Услуги</a>
         <a href="shedule.php" class="btn btn_round btn_left">Расписание</a>
       </div>
-      <div class="mission">
-        <p>
-          <strong>Наша цель</strong> &mdash; помочь Вам раскрыть свой потенциал, наш приоритет — индивидуальный подход к каждому.
-          Ждем Вас в студии и желаем успешного путешествия в волшебный мир танца!
+      <div class="mission mission_stylized updown-border">
+        <p class="misson__title">Наша цель &mdash;</p>
+        <p class="mission__text">
+          помочь Вам раскрыть свой потенциал, наш приоритет — индивидуальный подход к каждому. Ждем Вас в студии и желаем успешного путешествия в волшебный мир танца!
         </p>
       </div>
       <adress>
