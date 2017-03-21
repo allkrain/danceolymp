@@ -915,7 +915,7 @@
         line-height: (81/37)*1em;
         letter-spacing: (37px*420)/1000;
         margin-bottom: 0;
-        margin-top: -25;
+        margin-top: -25px;
         margin-left: -10px;
       }
     }
@@ -932,7 +932,7 @@
   }
   
   &_party {
-    margin-bottom: 16px;
+    margin-bottom: 40px;
     
     .service__title {
       &_big {
@@ -940,7 +940,7 @@
         line-height: (100/105)*1em;
         letter-spacing: (105px*400)/1000;
         margin-bottom: 0;  
-        margin-top: 0px;
+        margin-top: -15px;
         margin-left: 0px;
       }
       
@@ -948,9 +948,9 @@
         font-size: 30px;
         line-height: (57/30)*1em;
         letter-spacing: (30px*800)/1000;
-        margin-bottom: 0;
-        margin-top: 0px;
-        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: -25px;
+        margin-left: -12px;
       }
     }
     
@@ -961,6 +961,74 @@
     .service__content {
       padding-top: 114px;
       padding-left: 122px;
+      padding-right: 122px;
+    }
+  }
+  
+  &_gift {
+    margin-bottom: 62px;
+    
+    .service__title {
+      &_big {
+        font-size: 60px;
+        line-height: (72/60)*1em;
+        letter-spacing: (60px*200)/1000;
+        margin-bottom: 0px;  
+        margin-top: -10px;
+        margin-left: -60px;
+      }
+      
+      &_small {
+        font-size: 30px;
+        line-height: (72/30)*1em;
+        letter-spacing: (30px*1100)/1000;
+        margin-bottom: 0px;
+        margin-top: -10px;
+        margin-left: -60px;
+      }
+    }
+    
+    .service__top-img {
+      transform: translateX(44px);
+    }
+    
+    .service__content {
+      padding-top: 44px;
+      padding-left: 82px;
+      padding-right: 170px;
+    }
+  }
+  
+  &_competition {
+    margin-bottom: 58px;
+    
+    .service__title {
+      &_big {
+        font-size: 54px;
+        line-height: (60/54)*1em;
+        letter-spacing: (54px*200)/1000;
+        margin-bottom: 15px;  
+        margin-top: -30px;
+        margin-left: -46px;
+      }
+      
+      &_small {
+        font-size: 36px;
+        line-height: (60/36)*1em;
+        letter-spacing: (36px*200)/1000;
+        margin-bottom: 0px;
+        margin-top: -10px;
+        margin-left: -60px;
+      }
+    }
+    
+    .service__top-img {
+      transform: translateX(174px);
+    }
+    
+    .service__content {
+      padding-top: 46px;
+      padding-left: 116px;
       padding-right: 122px;
     }
   }
@@ -1817,6 +1885,94 @@
   }
 }
 
+.support {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  &__phone {
+    padding: 0 364px;
+    margin-bottom: 20px;
+    
+    p {
+      margin-bottom: 50px;
+      font-family: $font_2;
+      font-size: 17px;
+      line-height: (34/17)*1em;
+      font-weight: 400;
+      font-style: italic;
+      text-align: center;
+      color: $base_color_1;
+    }
+    
+    a {
+      display: block;
+      font-family: $font_1;
+      font-size: 14px;
+      line-height: (24/14)*1em;
+      font-weight: 400;
+      font-style: normal;
+      color: $base_color_1;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+  
+  &__email {
+    margin-bottom: 5px;
+    font-family: $font_1;
+    font-size: 14px;
+    line-height: (42/14)*1em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: $base_color_1;
+    
+    a {
+      color: $base_color_7;
+      text-decoration: none;
+      border-bottom: 1px solid $base_color_7;
+      transition: all 0.25s ease-in-out;
+      
+      &:hover {
+        color: $base_color_4;
+        border-bottom-color: $base_color_4;
+      }
+    }
+  }
+  
+  &__answer {
+    margin-bottom: 56px;
+    font-family: $font_1;
+    font-size: 14px;
+    line-height: (28/14)*1em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }  
+}
+
+.page-request {
+  &__title {
+    padding: 0 72px;
+    
+    p{
+      box-sizing: border-box;
+      margin-right: -12px;
+      font-family: $font_1;
+      font-size: 12px;
+      line-height: 5.4em;
+      font-weight: 500;
+      letter-spacing: (12px*200)/1000;
+      text-transform: uppercase;
+      text-align: center;
+      color: $base_color_2;
+    }
+  }
+}
 
 
 // Всплывающие окна и другие элементы сайта //

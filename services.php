@@ -229,7 +229,7 @@
       
     
     <section class="page-section support">
-      <div class="container">
+      <div class="support__container container">
         <div class="support__phone">
           <p>
             По вопросу предоставления услуг частным лицам, компаниям 
@@ -245,7 +245,9 @@
           <p>Или оставьте свои контакты и мы Вам перезвоним</p>
         </div>
         <div class="page-request">
-          <p>Запишитесь на пробное задание</p>
+          <div class="page-request__title n-border n-border_cross">
+            <p>Запишитесь на пробное занятие</p>
+          </div>
           <?php include "blocks/order_form.php"; ?>
         </div>
       </div>
