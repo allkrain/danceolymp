@@ -1,9 +1,9 @@
 <form action="send.php" method="post" class="order-form">
   <div class="order-form__input">
-    <label for="name">Имя</label><input type="text" name="name" id="name">
+    <label for="name">Имя</label><input type="text" name="name" id="name" required>
   </div>
   <div class="order-form__input">
-    <label for="phone">Телефон</label><input type="tel" name="phone" id="phone">
+    <label for="phone">Телефон</label><input type="tel" name="phone" id="phone" required>
   </div>
   <div class="order-form__input">
     <label for="email">Эл. почта</label><input type="email" name="email" id="email">

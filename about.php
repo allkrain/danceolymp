@@ -21,8 +21,8 @@
     </section>
     
     <div class="page-navigation">
-      <div class="page-navigation__wrapper container">
-        <ul class="breadcrumbs breadcrumbs_about">
+      <div class="page-navigation__container page-navigation__container_about container">
+        <ul class="breadcrumbs">
           <li><a href="index.php">Главная</a></li>
           <li><a>О студии</a></li>
         </ul>

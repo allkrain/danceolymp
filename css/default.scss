@@ -8,6 +8,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  
+  &_nolead {
+    padding-top: 102px;
+  }
 }
 
 .page-header {
@@ -519,6 +523,19 @@
   }
 }
 
+.page-btns {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+  &_vertical {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
 .controls {
   
   &__prev,
@@ -600,7 +617,13 @@
     opacity: 0.05;
     text-transform: uppercase;
     transform: translate(-50%, 0);
-  } 
+  }
+  
+  &_all{
+    h2 {
+      margin-top: -84px;
+    }
+  }
 }
 
 .service {
@@ -704,6 +727,30 @@
     padding-left: 6px;
   }
   
+  &__btns {
+    align-items: flex-start;
+    
+    .service_private & {
+      margin-top: 28px;
+    }
+  }
+  
+  &__btns-list {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 142px;
+    height: 142px;
+    padding-left: 84px;
+    padding-right: 64px;
+    margin-top: 54px;
+  }
+  
   &_personal {
     
     .service__title {
@@ -726,8 +773,29 @@
     }
   }
   
+  &_private {
+    margin-bottom: 31px;
+    
+    .service__title {
+      &_small {
+        margin-left: 45px;
+        margin-bottom: 24px;
+      }
+      
+      &_big {
+        margin-left: 65px;
+        margin-bottom: 0;
+      }
+    }
+    
+    .service__top-img {
+      transform: translateX(132px);
+    }
+  }
+  
   &_group {
     margin-bottom: 120px;
+    flex-wrap: wrap;
     
     .service__title {
       &_big {
@@ -744,6 +812,27 @@
     
     .service__top-img {
       transform: translateX(124px);
+    }
+  }
+  
+  &_band {
+    margin-bottom: 34px;
+    
+    .service__content {
+      padding-left: 80px;
+      padding-right: 112px;
+      padding-top: 4px;
+    }
+    
+    .service__title {
+      &_big {
+        margin-top: -28px;
+        margin-right: -12px
+      }
+    }
+    
+    .service__top-img {
+      transform: translateX(134px);
     }
   }
   
@@ -776,6 +865,106 @@
       padding-left: 116px;
     }
   }
+  
+  &_wedding {
+    margin-bottom: 58px;
+    
+    .service__title {
+      &_big {
+        font-size: 105px;
+        line-height: (100/105)*1em;
+        letter-spacing: (105px*200)/1000;
+        margin-bottom: 0;       
+      }
+      
+      &_small {
+        font-size: 33px;
+        line-height: (57/33)*1em;
+        letter-spacing: (33px*800)/1000;
+        margin-bottom: 0;
+        margin-top: -25px;
+      }
+    }
+    
+    .service__top-img {
+      transform: translateX(92px);
+    }
+    
+    .service__content {
+      padding-top: 127px;
+      padding-left: 116px;
+      padding-right: 120px;
+    }
+  }
+  
+  &_corporative {
+    margin-bottom: 13px;
+    
+    .service__title {
+      &_big {
+        font-size: 81px;
+        line-height: (81/81)*1em;
+        letter-spacing: normal;
+        margin-bottom: 0;  
+        margin-top: -15px;
+        margin-left: -10px;
+      }
+      
+      &_small {
+        font-size: 37px;
+        line-height: (81/37)*1em;
+        letter-spacing: (37px*420)/1000;
+        margin-bottom: 0;
+        margin-top: -25;
+        margin-left: -10px;
+      }
+    }
+    
+    .service__top-img {
+      transform: translateX(44px);
+    }
+    
+    .service__content {
+      padding-top: 84px;
+      padding-left: 78px;
+      padding-right: 170px;
+    }
+  }
+  
+  &_party {
+    margin-bottom: 16px;
+    
+    .service__title {
+      &_big {
+        font-size: 105px;
+        line-height: (100/105)*1em;
+        letter-spacing: (105px*400)/1000;
+        margin-bottom: 0;  
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+      
+      &_small {
+        font-size: 30px;
+        line-height: (57/30)*1em;
+        letter-spacing: (30px*800)/1000;
+        margin-bottom: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+    }
+    
+    .service__top-img {
+      transform: translateX(169px);
+    }
+    
+    .service__content {
+      padding-top: 114px;
+      padding-left: 122px;
+      padding-right: 122px;
+    }
+  }
+  
 }
 
 .slider {
@@ -1192,19 +1381,34 @@
       }
     }
   }
-  
-  &_about {
-    padding: 0 160px;
-  }
 }
 
 .page-navigation {
-  
+  &__container {
+    box-sizing: border-box;
+    
+    &_about {
+      padding: 0 160px;
+    }
+
+    &_services {
+      padding: 46px 80px 0;      
+    }
+  }
 }
 
 .page-intro {  
   margin-top: 25px;
   margin-bottom: 45px;
+  
+  p {
+    padding: 0 30px 0 12px;
+    font-family: $font_2;
+    font-size: 17px;
+    line-height: (34/17)*1em;
+    font-style: italic;
+    text-align: center;
+  }
   
   &__container {
     display: flex;
@@ -1232,6 +1436,7 @@
       font-size: 17px;
       line-height: (34/17)*1em;
       font-style: italic;
+      text-align: left;
     }
     
     &_right {
@@ -1241,6 +1446,15 @@
   
   &__btns {
     padding-right: 195px;
+  }
+  
+  &_services {
+    margin-top: 5px;
+    margin-bottom: 63px;
+    
+    p {
+      padding: 0 198px;
+    }
   }
 }
 
@@ -1297,19 +1511,6 @@
       left: 0;
       padding-right: 3px;
     }
-  }
-}
-
-.page-btns {
-  align-self: flex-end;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  
-  &_vertical {
-    flex-direction: column;
-    align-items: flex-end;
   }
 }
 
