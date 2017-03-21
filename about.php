@@ -23,8 +23,8 @@
     <div class="page-navigation">
       <div class="page-navigation__wrapper container">
         <ul class="breadcrumbs breadcrumbs_about">
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">О студии</a></li>
+          <li><a href="index.php">Главная</a></li>
+          <li><a>О студии</a></li>
         </ul>
       </div>
     </div>
@@ -167,13 +167,13 @@
             </div>
           </div>
           <div class="review__slider-controls slider__controls">
-            <span class="btn btn_empty btn_round btn_left"></span>
+            <span class="btn btn_empty btn_round btn_left btn_move-left"></span>
             <ul class="review__minigallery">
               <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-              <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+              <li class="active"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
               <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
             </ul>
-            <span class="btn btn_empty btn_round btn_right"></span>
+            <span class="btn btn_empty btn_round btn_right btn_move-right"></span>
           </div>
         </div>
       </div>
