@@ -96,16 +96,16 @@
     </section>
     
     <section class="page-section trainers">
-      <header class="trainers__title container">
+      <header class="trainers__header container">
         <h2>Наши преподаватели</h2>
       </header>
       <div class="trainers__slider slider container">
-        <ul class="trainers__list trainers__list_unwrap slider__list">
+        <ul class="trainers__list slider__list">
           <li class="trainers__item slider__item">
             <figure>
-              <picture class="trainers__img">
+              <div class="trainers__img">
                 <img src="img/trainers/Sadovskiy@1x.jpg" alt="" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
-              </picture>
+              </div>
               <figcaption class="trainers__title">
                 <p class="trainers__surname">Садовский</p>
                 <p class="trainers__name">Владимир Алексеевич</p>
@@ -114,9 +114,9 @@
           </li>
           <li class="trainers__item slider__item">
             <figure>
-              <picture class="trainers__img">
+              <div class="trainers__img">
                 <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x">
-              </picture>
+              </div>
               <figcaption class="trainers__title">
                 <p class="trainers__surname">Громов</p>
                 <p class="trainers__name">Никита Сергеевич</p>
@@ -125,9 +125,9 @@
           </li>
           <li class="trainers__item slider__item">
             <figure>
-              <picture class="trainers__img">
+              <div class="trainers__img">
                 <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x">
-              </picture>
+              </div>
               <figcaption class="trainers__title">
                 <p class="trainers__surname">Садовская</p>
                 <p class="trainers__name">Екатерина Дмитриевна</p>
@@ -142,7 +142,7 @@
       </div>
     </section>
     
-    <section class="page-section review">
+    <section class="page-section review review_about">
       <div class="review__container container">
         <header class="review__header">
           <h2>Отзывы о нас</h2>

@@ -36,11 +36,11 @@
   <section class="page-section trainers">
     <div class="container">
       <ul class="trainers__list">
-        <li class=trainers__item>
+        <li class="trainers__item">
           <figure>
-            <picture class="trainers__img">
+            <div class="trainers__img">
               <img src="img/trainers/Sadovskiy@1x.jpg" alt="" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
-            </picture>
+            </div>
             <figcaption class="trainers__title">
               <p class="trainers__surname">Садовский</p>
               <p class="trainers__name">Владимир Алексеевич</p>
@@ -52,9 +52,9 @@
         </li>
         <li class="trainers__item">
           <figure>
-            <picture class="trainers__img">
+            <div class="trainers__img">
               <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x">
-            </picture>
+            </div>
             <figcaption class="trainers__title">
               <p class="trainers__surname">Громов</p>
               <p class="trainers__name">Никита Сергеевич</p>
@@ -66,9 +66,9 @@
         </li>
         <li class="trainers__item">
           <figure>
-            <picture class="trainers__img">
+            <div class="trainers__img">
               <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x">
-            </picture>
+            </div>
             <figcaption class="trainers__title">
               <p class="trainers__surname">Садовская</p>
               <p class="trainers__name">Екатерина Дмитриевна</p>
@@ -80,9 +80,9 @@
         </li>
         <li class="trainers__item">
           <figure>
-            <picture class="trainers__img">
+            <div class="trainers__img">
               <img src="img/trainers/Usikova.jpg" alt="">
-            </picture>
+            </div>
             <figcaption class="trainers__title">
               <p class="trainers__surname">Усикова</p>
               <p class="trainers__name">Каролина Сергеевна</p>
@@ -94,9 +94,9 @@
         </li>
         <li class="trainers__item">
           <figure>
-            <picture class="trainers__img">
+            <div class="trainers__img">
               <img src="img/trainers/Yankovskiy@1x.jpg" alt="" srcset="img/trainers/Yankovskiy@1,5x.jpg 1.5x, img/trainers/Yankovskiy@2x.jpg 2x, img/trainers/Yankovskiy@3x.jpg 3x">
-            </picture>
+            </div>
             <figcaption class="trainers__title">
               <p class="trainers__surname">Янковский</p>
               <p class="trainers__name">Александр Анатольевич</p>

@@ -147,7 +147,7 @@
     
     <section class="page-section review">
       <div class="review__container container">
-        <header class="review__header">
+        <header class="review__header n-border">
           <h2>Отзывы</h2>
         </header>
         <div class="review__media">
@@ -166,7 +166,7 @@
             отбивать ритм и танцоры едва могут устоять на месте!
           </p>
         </div>
-        <footer class="review__footer">
+        <footer class="review__footer u-border">
           <a href="#" class="btn">Все отзывы</a>
         </footer>
       </div>
