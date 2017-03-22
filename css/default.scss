@@ -2,6 +2,9 @@
 
 // Секции, header, footer и т.д. //
 // Главное меню
+.hidden {
+  display: none;
+}
 
 .page {
   display: flex;
@@ -374,6 +377,9 @@
 }
 
 .btn {
+  padding: 0;
+  border: none;
+  outline: none;
   display: inline-block;
   box-sizing: border-box;
   position: relative;
@@ -410,6 +416,33 @@
     
     &:hover::before {
       border-color: $base_color_4;
+    }
+  }
+  
+  &_form {
+    position: relative;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: (72/12)*1em;
+    letter-spacing: (12px*200)/1000;
+    background-color: $bg_color_4;
+    
+    &::before {
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: 0;
+      height: 1px;
+      width: 100%;
+      transition: all 0.25s ease-in-out;
+    }
+    
+    &:hover::before {
+      left: 0;
+      bottom: 0;
+      transform: translate(0, -2em);
+      background-color: $base_color_4;
     }
   }
   
@@ -1886,6 +1919,11 @@
 }
 
 .support {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
   &__container {
     display: flex;
     flex-direction: column;
@@ -1923,6 +1961,7 @@
   
   &__email {
     margin-bottom: 5px;
+    padding: 0 364px;
     font-family: $font_1;
     font-size: 14px;
     line-height: (42/14)*1em;
@@ -1945,6 +1984,7 @@
   }
   
   &__answer {
+    padding: 0 364px;
     margin-bottom: 56px;
     font-family: $font_1;
     font-size: 14px;
@@ -1956,7 +1996,14 @@
 }
 
 .page-request {
+  width: 100%;
+  text-align: center;
+  
   &__title {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
     padding: 0 72px;
     
     p{
@@ -1970,6 +2017,148 @@
       text-transform: uppercase;
       text-align: center;
       color: $base_color_2;
+    }
+    
+    &::before {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 50%;
+      width: 1px;
+      height: 12px;
+      background-color: $base_color_2;
+      transform: translate(-50%, 50%) rotate(-45deg);
+    }
+    
+    &::after {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 50%;
+      width: 12px;
+      height: 1px;
+      background-color: $base_color_2;
+      transform: translate(-50%, 0) rotate(-45deg);
+    }
+  }
+}
+
+.order-form {
+  background-color: $bg_color_4;
+  
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 35px 42px 0 70px;
+    box-sizing: border-box;
+  }
+  
+  &__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 28px;
+    width: 29.3%;
+    box-sizing: border-box;
+    
+    label {
+      margin-bottom: -1.5em;
+      padding-right: 10px;
+      font-family: $font_1;
+      font-size: 12px;
+      line-height: (32/12)*1em;
+      font-weight: 400;
+      letter-spacing: (12px*50)/1000;
+      color: $base_color_2;
+      
+      &.error {
+        color: $error_color;
+      }
+    }
+    
+    input {
+      font-family: $font_1;
+      font-size: 12px;
+      line-height: (32/12)*1em;
+      font-weight: 400;
+      letter-spacing: (12px*50)/1000;
+      color: $base_color_1;
+      background-color: $bg_color_4;
+      border-bottom: 1px solid $base_color_2;
+      flex-grow: 2;
+       
+      .error {
+        border-bottom-color: $error_color;
+      }
+      
+      &:focus {
+        border-bottom-color: $base_color_1;
+      }
+    }
+  }
+  
+  &__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    
+    label {
+      margin-bottom: -1.5em;
+      padding-right: 30px;
+      font-family: $font_1;
+      font-size: 12px;
+      line-height: (32/12)*1em;
+      font-weight: 400;
+      letter-spacing: (12px*50)/1000;
+      color: $base_color_2;
+    }
+    
+    textarea {
+      flex-grow: 2;
+      resize: none;
+      font-family: $font_1;
+      font-size: 12px;
+      line-height: (32/12)*1em;
+      font-weight: 400;
+      letter-spacing: (12px*50)/1000;
+      color: $base_color_1;
+      background-color: $bg_color_4;
+      border-bottom: 1px solid $base_color_2;
+      flex-grow: 2;
+      
+      &:focus {
+        border-bottom-color: $base_color_1;
+      }
+    }
+  }
+  
+  &__btn {
+    margin: 0 auto;
+    margin-bottom: 26px;
+  }
+  
+  &__phone {
+    width: 30.2%;
+  }
+  
+  &__name {
+    width: 26.3%;
+  }
+  
+  &__email {
+    width: 31.2%;
+    
+    label {
+      padding-left: 10px;
+      padding-right: 20px;
     }
   }
 }

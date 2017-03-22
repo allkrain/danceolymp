@@ -244,12 +244,12 @@
         <div class="support__answer">
           <p>Или оставьте свои контакты и мы Вам перезвоним</p>
         </div>
-        <div class="page-request">
-          <div class="page-request__title n-border n-border_cross">
-            <p>Запишитесь на пробное занятие</p>
-          </div>
-          <?php include "blocks/order_form.php"; ?>
+      </div>
+      <div class="page-request">
+        <div class="page-request__title n-border n-border_cross">
+          <p>Запишитесь на пробное занятие</p>
         </div>
+        <?php include "blocks/order_form.php"; ?>
       </div>
     </section>
   </main>
