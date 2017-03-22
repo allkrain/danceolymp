@@ -18,10 +18,10 @@
         Заполните обязательные поля
       </p>
     </div>
-    <div class="order-form__success-message" hidden>
+    <div class="order-form__success-message u-border" hidden>
       <h5>Ваше сообщение отправлено</h5>
       <p>
-        В скором времени с Вами свяжется наш менеджер
+        В скором времени<br> с Вами свяжется наш менеджер
       </p>
     </div>
   </div>

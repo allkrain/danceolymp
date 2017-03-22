@@ -2,9 +2,6 @@
 
 // Секции, header, footer и т.д. //
 // Главное меню
-.hidden {
-  display: none;
-}
 
 .page {
   display: flex;
@@ -2004,7 +2001,8 @@
     display: inline-block;
     margin: 0 auto;
     position: relative;
-    padding: 0 72px;
+    padding: 0 20px;
+    width: 450px;
     
     p{
       box-sizing: border-box;
@@ -2045,6 +2043,7 @@
 
 .order-form {
   background-color: $bg_color_4;
+  min-height: 253px;
   
   &__container {
     display: flex;
@@ -2161,9 +2160,57 @@
       padding-right: 20px;
     }
   }
+  
+  &__error-message {
+    margin: 0 auto;
+    
+    p{
+      padding: 0 10px;
+      font-family: $font_1;
+      font-size: 12px;
+      line-height: (72/12)*1em;
+      font-weight: 500;
+      letter-spacing: (12px*200)/1000;
+      color: $error_color;
+      text-transform: uppercase;
+    }
+  }
+  
+  &__success-message {
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 450px;
+    transform: translate(-14px, -35px);
+    
+    h5 {
+      margin-bottom: 16px;
+      padding-top: 20px;
+      font-family: $font_1;
+      font-size: 12px;
+      line-height: (72/12)*1em;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: (12px*200)/1000;
+      color: $base_color_1;
+      text-transform: uppercase;
+    }
+    
+    p {
+      margin-bottom: 52px;
+      font-family: $font_2;
+      font-size: 16px;
+      line-height: (28/16)*1em;
+      font-weight: 400;
+      font-style: italic;
+      color: $base_color_1;
+    }
+  }
 }
 
-
+.hidden {
+  display: none;
+}
 // Всплывающие окна и другие элементы сайта //
 .popup {display:none; width: 350px; padding: 20px;}
 // Всплывающие окна и другие элементы сайта //
