@@ -192,6 +192,21 @@
   }
 }
 
+.page-title {  
+  &_shedule {
+    margin-top: -4px;
+    margin-bottom: 10px;
+    
+    h1 {
+      padding: 0 68px;
+      font-size: 30px;
+      line-height: (44/33)*1em;
+      letter-spacing: (30px*200)/1000;
+      text-align: left;
+    }
+  }
+}
+
 .socials {
   font-size: 0;
   
@@ -389,6 +404,7 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
+  cursor: pointer;
   
   &:hover {
     color: $base_color_4;
@@ -549,6 +565,18 @@
   &_move-left {
     &:hover::after {
       right: 35px;
+    }
+  }
+  
+  &_white {
+    border-color: $base_color_1;
+    
+    &:hover,
+    &:hover::before,
+    &:hover::after,
+    &::before,
+    &::after {
+      border-color: $base_color_1;
     }
   }
 }
@@ -1492,6 +1520,10 @@
     &_services {
       padding: 46px 80px 0;      
     }
+    
+    &_shedule {
+      padding: 22px 58px 0;
+    }
   }
 }
 
@@ -2205,6 +2237,237 @@
       font-style: italic;
       color: $base_color_1;
     }
+  }
+}
+
+.shedule {
+  margin-bottom: 85px;
+  
+  &__container {
+    box-sizing: border-box;
+    padding: 0 78px 0 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  
+  &__header,
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  
+  &__body {
+    box-shadow: 0 40px 25px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    
+    &_days {
+      margin-top: -14px;
+    }
+  }
+  
+  &__month-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+  }
+  
+  &__mmyyyy {
+    position: relative;
+    padding: 0 30px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__year {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: $font_1;
+    font-size: 120px;
+    line-height: (44/120)*1em;
+    font-weight: 700;
+    letter-spacing: (120px*200)/1000;
+    color: rgba($base_color_6, 0.05);
+    transform: translate(calc(-50% + 10px), -50%);
+    text-transform: uppercase;
+    z-index: -1;
+  }
+  
+  &__month {
+    margin-right: -4px;
+    font-family: $font_2;
+    font-size: 30px;
+    line-height: (44/30)*1em;
+    font-weight: 400;
+    letter-spacing: (30px*200)/1000;
+    color: $base_color_1;
+    text-transform: uppercase;
+  }
+  
+  &__cell {
+    box-sizing: border-box;
+    width: (147/1134)*100%;
+    height: 106px;
+    text-align: left;
+    background-color: $bg_color_5;
+    border: 1px solid $bg_color_8;
+    border-top-width: 0;
+    border-left-width: 0;    
+    
+    &:last-child {
+      border-right-width: 0;
+    }
+    
+    &_time {
+      text-align: center;
+      width: (98/1134)*100%;
+      background-color: $bg_color_1;
+      border-right-width: 2px;
+      border-bottom-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      p {
+        font-family: $font_2;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: (106/16)*1em;
+        letter-spacing: (16px*50)/1000;
+        color: $base_color_2;
+      }
+    }
+    
+    &_day {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: baseline;
+      padding: 15px 0;
+      text-align: center;
+      background-color: $bg_color_8;
+      height: 57px;
+    }
+    
+    &_cancel {
+      background-color: $bg_color_7;
+    }
+    
+    a {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      font-family: $font_2;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: (20/15)*1em;
+      font-style: italic;
+      color: $base_color_1;
+      text-decoration: none;
+      
+      &:hover {
+        background-color: $bg_color_6;
+        box-shadow: 0 21px 13px 0 rgba(0, 0, 0, 0.31);
+        
+        & .shedule__order-btn {
+          display: block;
+          box-shadow: 0 21px 13px 0 rgba(0, 0, 0, 0.31);
+        }
+      }
+    }
+    
+    p {
+      padding: 10px 18px;
+    }
+  }  
+  
+  &__week-controls {
+    padding: 12px 0;
+    text-align: center;
+    width: (98/1134)*100%;
+    background-color: $bg_color_8;
+    height: 57px;
+  }
+  
+  &__week-btn-left {
+    margin-right: 7px;
+  }
+  
+  &__day-number {
+    padding-right: 4px;
+    font-family: $font_2;
+    font-size: 22px;
+    line-height: (24/22)*1em;
+    font-weight: 700;
+    color: $base_color_2;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  
+  &__day-name {
+    font-family: $font_2;
+    font-size: 15px;
+    line-height: (24/15)*1em;
+    font-weight: 400;
+    font-style: italic;
+    color: $base_color_1;
+  }
+  
+  &__order {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 5px !important;
+  }
+  
+  &__vacancies {
+    font-family: $font_1;
+    font-size: 12px;
+    line-height: (20/12)*1em;
+    font-weight: 400;
+    font-style: normal;
+    color: $base_color_6;
+  }
+  
+  &__order-btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    display: none;
+    height: 43px;
+    font-style: normal;
+    font-family: $font_1;
+    font-size: 11px;
+    line-height: 43px;
+    font-weight: 700;
+    font-style: normal;
+    color: $bg_color_3;
+    background-color: $base_color_2; 
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    transform: translate(-50%, 0);
   }
 }
 

@@ -14,7 +14,8 @@ $bg_color_3: #232322;
 $bg_color_4: #212121;
 $bg_color_5: #2d2d2d; //ячейки в таблице
 $bg_color_6: #393939; //ячейки в таблице при наведении
-$bg_color_7: #532e2e; //ячейки в таблице при отмене занятий
+$bg_color_7: #583232; //ячейки в таблице при отмене занятий
+$bg_color_8: #202020; //ячейки в таблице дни недели
 
 @mixin border-radius($topleft, $topright: $topleft, $bottomright: $topleft, $bottomleft: $topleft) {
     -moz-border-radius-topleft:     $topleft;
@@ -166,7 +167,7 @@ span {font-style: inherit; font-family: inherit; font-weight: inherit;}
 h1,h2,h3,h4,h5 {} // Общие стили для заголовков (если есть)
 
 // Стили заголовков (удалить лишнее)
-h1 {font-size:36px; line-height:1.2em;}
+h1 {font-size:36px; line-height:(44/36)*1em; text-transform: uppercase; color: $base_color_3; letter-spacing: (200*36px)/1000; text-align: center; font-weight: 700;}
 h2 {font-size:36px; line-height:(44/36)*1em; text-transform: uppercase; color: $base_color_3; letter-spacing: (200*36px)/1000; text-align: center; font-weight: 700;}
 h3 {font-size:24px; line-height:(40/24)*1em; text-transform: uppercase; color: $base_color_1; letter-spacing: (200*24px)/1000; font-weight: 700;}
 h4 {font-size:22px; line-height:(32/22)*1em; color: $base_color_5; font-weight: 700;}
