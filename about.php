@@ -53,9 +53,9 @@
           </div>
         </div>
         <div class="page-intro__btns page-btns page-btns_vertical">
-          <a href="#" class="btn btn_round btn_right btn_shift btn_move-right">Свадебный танец</a>
-          <a href="#" class="btn btn_round btn_right btn_shift btn_move-right">Танцуем танго</a>
-          <a href="#" class="btn btn_round btn_right btn_shift btn_move-right">Индивидуальный урок</a>
+          <a href="wedding_dance.php" class="btn btn_round btn_right btn_shift btn_move-right">Свадебный танец</a>
+          <a href="tango.php" class="btn btn_round btn_right btn_shift btn_move-right">Танцуем танго</a>
+          <a href="private_lesson.php" class="btn btn_round btn_right btn_shift btn_move-right">Индивидуальный урок</a>
         </div>      
       </div>
     </div>
@@ -89,8 +89,8 @@
             <span class="controls__next">Вперед</span>
           </div>
         </div>
-        <div class="about__video">
-          <div class="about__video-promo"><img src="img/about/about_video_promo1.jpg" alt=""></div>
+        <div class="about__video video">
+          <div class="video__promo"><img src="img/about/about_video_promo1.jpg" alt=""></div>
         </div>
       </div>
     </section>

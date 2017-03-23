@@ -16,6 +16,7 @@ $bg_color_5: #2d2d2d; //ячейки в таблице
 $bg_color_6: #393939; //ячейки в таблице при наведении
 $bg_color_7: #583232; //ячейки в таблице при отмене занятий
 $bg_color_8: #202020; //ячейки в таблице дни недели
+$bg_color_9: #353535; //ячейки faq при навадении
 
 @mixin border-radius($topleft, $topright: $topleft, $bottomright: $topleft, $bottomleft: $topleft) {
     -moz-border-radius-topleft:     $topleft;
