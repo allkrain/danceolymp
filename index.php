@@ -68,7 +68,7 @@
             <p> Опытный тренер подберет программу, соответствующую вашему уровню подготовки, прислушается к вашим пожеланиям и обеспечит
             гибкий график занятий.
             </p>
-            <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+            <a href="private_lesson.php" class="service__btn btn btn_round btn_plus">Подробнее</a>
           </div>
         </section>
         <section class="services__section service service_group">

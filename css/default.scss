@@ -215,6 +215,20 @@
   }
 }
 
+.page-section {
+  &__title {
+    padding: 0 100px;
+    font-family: $font_2;
+    font-size: 30px;
+    line-height: (44/30)*1em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: (30px*200)/1000;
+    color: $base_color_6;
+    text-align: center;    
+  }
+}
+
 .socials {
   font-size: 0;
   
@@ -253,6 +267,7 @@
 
 .lead {
   position: relative;
+  overflow: hidden;
   
   &__img {    
     margin: 0 auto;
@@ -300,6 +315,16 @@
     
     h2 {
       position: relative;
+      padding: 0 10px;
+      font-family: $font_2;
+      font-size: 36px;
+      line-height: (56/36)*1em;
+      letter-spacing: (36px*300)/1000;
+      font-weight: 400;
+      color: $base_color_1;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
       
       a {
         padding: 0 10px;
@@ -392,6 +417,21 @@
     
     &:hover>svg {
       fill: $base_color_4;
+    }
+  }
+  
+  &_wedding, 
+  &_private {
+    .lead__title {
+      margin-top: -60px;
+      margin-bottom: 0;
+      
+      h2{
+        font-size: 32px;
+        letter-spacing: (32px*300)/1000;
+        font-weight: 700;
+        color: $base_color_1;
+      }
     }
   }
 }
@@ -1562,10 +1602,7 @@
 .page-navigation {
   &__container {
     box-sizing: border-box;
-    
-    &_about {
-      padding: 0 160px;
-    }
+    padding: 0 160px;
 
     &_services {
       padding: 46px 80px 0;      
@@ -1648,6 +1685,20 @@
     p {
       padding: 6px 170px;
       text-align: left;
+    }
+  }
+  
+  &_wedding {
+    margin-top: 18px;
+    padding: 0 168px 0 144px;
+  }
+  
+  &_private {
+    margin-top: 18px;
+    margin-bottom: 46px;
+    
+    p {
+      padding: 0 168px 0 144px;
     }
   }
 }
@@ -1821,7 +1872,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('../img/about/reflection.png');
+      background-image: url('../img/reflection.png');
       background-position: 0 0;
       background-repeat: no-repeat;
       opacity: 0.1;
@@ -2629,6 +2680,269 @@
       & .btn_down::after {
         transform: translate(-50%, 20px) rotate(45deg);
       }
+    }
+  }
+}
+
+.dance {
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 172px;
+  }
+  
+  &__title {
+    margin: 6px 0 50px 0;
+  }
+  
+  &__describe {
+    font-family: $font_2;
+    font-size: 17px;
+    line-height: (34/17)*1em;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    color: $base_color_1;
+    
+    p{
+      margin-bottom: 48px;
+//      padding: 0 172px;
+      font-family: $font_2;
+      font-size: 17px;
+      line-height: (34/17)*1em;
+      font-weight: 400;
+      font-style: italic;
+      text-align: left;
+      color: $base_color_1;
+    }
+  }
+  
+  &__cost {
+    box-sizing: border-box;
+    margin-bottom: 18px;
+//    padding: 0 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__price,
+  &__count {
+    font-family: $font_2;
+    font-size: 60px;
+    line-height: (30/60)*1em;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    color: $base_color_1;
+    
+    span {
+      font-weight: 400;
+      font-size: 28px;
+      line-height: (30/28)*1em;
+      color: $base_color_1;
+    }
+  }
+  
+  &__price {
+    padding-right: 10px;
+    color: $base_color_6;
+    
+    span {
+      color: $base_color_6;
+    }
+  }
+  
+  &__duration {
+    margin-bottom: 48px;
+    border-bottom: 1px solid $base_color_6;
+    
+    p {
+      padding: 0 11px 19px;
+      font-family: $font_2;
+      font-size: 16px;
+      line-height: (30/16)*1em;
+      font-weight: 400;
+      font-style: italic;
+      color: $base_color_1;
+    }
+  }
+  
+  &__video {
+    margin-left: -20px;
+    margin-bottom: 56px;
+  }
+  
+  &_private {
+    margin-bottom: 48px;
+    
+    .dance__title {
+      padding-right: 60px;
+    }
+    
+    .dance__describe {
+      margin-bottom: 32px
+    }
+    
+    .dance__video {
+      margin-bottom: 44px;
+    }
+    
+    .dance__btn {
+      align-self: flex-end;
+      margin-right: 22px;
+    }
+  }
+}
+
+.additionally {
+  margin-bottom: 34px;
+  
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  &__title {
+    padding-right: 125px;
+    margin-bottom: 25px;
+  }
+  
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  &__list-describe {
+    margin-bottom: 2px;
+    font-family: $font_2;
+    font-size: 17px;
+    line-height: (34/17)*1em;
+    font-weight: 400;
+    font-style: italic;
+    color: $base_color_1;
+    text-align: center;
+    
+    p {
+      box-sizing: border-box;
+      padding: 0 310px 0 300px;
+      font-family: $font_2;
+      font-size: 17px;
+      line-height: (34/17)*1em;
+      font-weight: 400;
+      font-style: italic;
+      color: $base_color_1;
+      text-align: center;
+    }
+  }
+  
+  &__items {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0 145px;
+  }
+  
+  &__item {
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 60px;
+  }
+  
+  &__offer {
+    h3 {
+      margin-bottom: 34px;
+      padding-left: 28px;
+      padding-right: 180px;
+      font-family: $font_2;
+      font-size: 18px;
+      line-height: (34/18)*1em;
+      font-weight: 400;
+      font-style: italic;
+      color: $base_color_2;
+      text-align: left;
+      text-transform: none;
+      letter-spacing: normal;
+    }
+    
+    p {
+      margin-bottom: 40px;
+      padding-left: 28px;
+      padding-right: 48px;
+      font-family: $font_2;
+      font-size: 16px;
+      line-height: (30/16)*1em;
+      font-weight: 400;
+      font-style: italic;
+      color: $base_color_1;
+      text-align: left;
+    }
+  }
+  
+  &__btn {
+    margin-top: -11px;
+    margin-left: -14px;
+    padding-right: 44px;
+  }
+}
+
+.contact-info {
+  margin-bottom: 95px;
+  
+  &__container {
+    box-sizing: border-box;
+    padding-right: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  &__phone {
+    p {
+      margin-bottom: 9px;
+      font-family: $font_2;
+      font-size: 17px;
+      line-height: (30/17)*1em;
+      font-weight: 400;
+      font-style: italic;
+      color: $base_color_5;
+      text-align: center;
+    }
+    
+    a {
+      display: block;
+      font-family: $font_1;
+      font-size: 14px;
+      line-height: (30/14)*1em;
+      font-weight: 400;
+      color: $base_color_1;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+  
+  &__address {
+    p {
+      font-family: $font_1;
+      font-size: 14px;
+      line-height: (30/14)*1em;
+      font-weight: 400;
+      color: $base_color_1;
+      text-align: center;
     }
   }
 }

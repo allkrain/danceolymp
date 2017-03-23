@@ -17,7 +17,7 @@
     <div class="page-navigation page-navigation_services">
       <div class="page-navigation__container page-navigation__container_services container">
         <ul class="breadcrumbs">
-          <li><a href="#">Главная</a></li>
+          <li><a href="index.php">Главная</a></li>
           <li><a>Услуги</a></li>
         </ul>
       </div>
@@ -57,7 +57,7 @@
             гибкий график занятий.
             </p>
             <div class="page-btns page-btns_vertical service__btns">
-              <a href="#" class="service__btn btn btn_round btn_plus btn_shift">Подробнее</a>
+              <a href="private_lesson.php" class="service__btn btn btn_round btn_plus btn_shift">Подробнее</a>
               <a href="dance-styles.php" class="service__btn btn btn_round btn_plus btn_shift">Стили</a>
               <a href="trainers.php" class="service__btn btn btn_round btn_plus btn_shift">Преподаватели</a>
             </div>
@@ -122,7 +122,7 @@
               и в удобное для них время!
             </p>
             <div class="service__btns">
-              <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+              <a href="wedding_dance.php" class="service__btn btn btn_round btn_plus">Подробнее</a>
             </div>
           </div>
         </section>

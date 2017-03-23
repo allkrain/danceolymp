@@ -90,7 +90,7 @@
           </div>
         </div>
         <div class="about__video video">
-          <div class="video__promo"><img src="img/about/about_video_promo1.jpg" alt=""></div>
+          <div class="video__promo"><img src="img/video_promo1.jpg" alt=""></div>
         </div>
       </div>
     </section>
