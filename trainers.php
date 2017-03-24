@@ -153,9 +153,7 @@
         </div>
       </div>
     </section>
-  </main>
-  
-  
+  </main>  
 
   <?php include "blocks/page_footer.php"; ?>
 
