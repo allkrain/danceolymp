@@ -135,6 +135,7 @@ $col:(100-($col-m*11))/12; // Ширина колонки
 
 
 // Основы //
+html, body {overflow-x: hidden;}
 html {width:100%; height:100%}
 body {
   width:100%; 
