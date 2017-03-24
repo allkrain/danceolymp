@@ -286,7 +286,6 @@
 
 .lead {
   position: relative;
-  overflow: hidden;
   
   &__img {    
     margin: 0 auto;
@@ -452,6 +451,108 @@
         color: $base_color_1;
       }
     }
+  }
+  
+  &_tango {
+    .lead__title {
+      margin: 0;
+      
+      h2{
+        padding: 0 100px;
+        font-size: 32px;
+        line-height: (56/32)*1em;
+        letter-spacing: (32px*300)/1000;
+        font-weight: 700;
+        color: $base_color_1;
+      }
+    }
+  }
+}
+
+.video-bg {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 1366px;
+  height: 768px;
+  overflow: hidden;
+  
+  &__controls {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+  }
+  
+  &__toggles {
+    margin-left: auto;
+    margin-right: 44px;
+    margin-bottom: 28px;
+  }
+  
+  &__btn {
+    position: relative;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;    
+    
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 17px;
+      height: 17px;
+      background-image: url('../img/video_controls.svg');
+      background-repeat: no-repeat;
+    }
+    
+    &_pause {
+      margin-right: 24px;
+      
+      &::before {
+        background-position: 0 0;
+      }
+      
+      &:hover::before {
+        background-position: 0 -20px;
+      }
+    }
+    
+    &_music {
+      &::before {
+        background-position: -20px 0;
+      }
+      
+      &:hover::before {
+        background-position: -20px -20px;
+      }
+    }
+  }
+  
+  &__statusbar {
+    width: 100%;
+    height: 5px;
+    background-color: $bg_color_10;
+  }
+  
+  &__status-pass {
+    height: 100%;
+    width: 43%;
+    background-color: $base_color_5;
+  }
+  
+  &__status-still {
+    height: 100%;
+    width: 57%;
+    background-color: $bg_color_10;
   }
 }
 
@@ -1719,6 +1820,15 @@
       text-align: left;
     }
   }
+
+  &_tango {
+    margin-top: 18px;
+    margin-bottom: 52px;
+    
+    p {
+      padding: 0 194px 0 172px;
+    }
+  }
 }
 
 .text-list {
@@ -2790,6 +2900,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
+    &_tango {
+      padding-right: 64px;
+    }
   }
   
   &__price,
@@ -2831,6 +2945,15 @@
       font-weight: 400;
       font-style: italic;
       color: $base_color_1;
+    }
+    
+    &_tango {
+      margin-left: -12px;
+      
+      p {
+        padding: 0;
+        padding-bottom: 20px;
+      }
     }
   }
   
@@ -3012,6 +3135,10 @@
     padding-right: 11px; 
     margin-bottom: 62px;
   }
+  
+  &_tango {
+    margin-bottom: 60px;
+  }
 }
 
 .trainers-contacts {
@@ -3038,6 +3165,199 @@
   &__btn {
     &_services {
       padding-left: 20px;
+    }
+  }
+}
+
+.trends {
+  margin-bottom: 50px;
+  
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 185px 0 172px;
+  }
+  
+  &__title {
+    padding-left: 0;
+    padding-right: 300px;
+    text-align: left;
+  }
+  
+  &__list {
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    
+  }
+  
+  &__items {
+    padding-left: 0;
+    box-sizing: border-box;
+    width: 50%;
+    
+    &_left {
+      padding-right: 30px;
+    }
+    
+    &_right {
+      padding-left: 44px;
+    }
+  }
+  
+  &__describe {
+    p {
+      font-size: 17px;
+      font-style: italic;
+      line-height: (34/17)*1em;
+      text-align: left;
+    }
+  }
+  
+}
+
+.tango-trainers {
+  margin-bottom: 42px;
+  
+  &__title {
+    margin-bottom: 40px;
+    padding-right: 124px;
+  }
+  
+  &__list {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0 278px 0 258px;
+    width: 100%;
+    
+    li {
+      margin-right: 0;
+      
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.tango-shedule {
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 196px 0 172px;
+  }
+  
+  &__title {
+    padding: 0 180px;
+    margin-bottom: 46px;
+  }
+  
+  &__describe {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    
+    p {
+      box-sizing: border-box;
+      width: 50%;
+      font-size: 16px;
+      font-style: italic;
+      line-height: (30/16)*1em;
+      text-align: left;
+      
+      &:nth-child(odd) {
+        padding-right: 40px;
+      }
+      
+      &:nth-child(even) {
+        padding-left: 40px;
+      }
+    }
+  }
+}
+
+.shedule-table { 
+  margin-bottom: 58px;
+  width: 100%;
+  border-collapse: collapse;
+  
+  &__row {
+    &:first-child .shedule-table__cell {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+    
+    &:nth-child(2) .shedule-table__cell{
+      padding-top: 17px;
+      padding-bottom: 17px;
+    }
+    
+    &_gold {
+      background-color: $base_color_5;
+      
+      .shedule-table__cell {
+        color: $base_color_1;
+      }
+    }
+  }
+  
+  &__cell {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 1px solid $base_color_5;
+    vertical-align: middle;
+    text-align: left;
+    font-family: $font_1;
+    font-size: 14px;
+    line-height: (30/14)*1em;
+    font-weight: 400;
+    color: $base_color_1;
+
+    &_day {
+      padding-left: 19px;
+      padding-right: 19px;
+      width: (224/915)*100%;
+      font-family: $font_2;
+      font-size: 16px;
+      line-height: (30/16)*1em;
+      font-weight: 400;
+      color: $base_color_1;
+    }
+    
+    &_lesson {
+      padding-left: 28px;
+      padding-right: 28px;
+      width: (461/915)*100%;
+    }
+    
+    &_time {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: (224/915)*100%;
+      text-align: center;
+      color: $base_color_6;
     }
   }
 }

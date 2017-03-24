@@ -5,7 +5,7 @@
   <?php include "blocks/head.php"; ?>
   <meta name="robots" content="all">
   <?php include "blocks/meta.php"; ?>
-  <title></title>
+  <title>Танцуем танго</title>
   <?php include "blocks/css.php"; ?>
 </head>
 
@@ -22,15 +22,18 @@
         </div>
         <div class="video-bg__controls">
           <div class="video-bg__toggles">
-            <p class="btn btn_pause"></p>
-            <p class="btn btn_music"></p>
+            <button class="video-bg__btn video-bg__btn_pause"></button>
+            <button class="video-bg__btn video-bg__btn_music"></button>
           </div>
-          <div class="video-bg__statusbar"></div>
+          <div class="video-bg__statusbar">
+            <div class="video-bg__status-pass"></div>
+            <div class="video-bg__status-still"></div>
+          </div>
         </div>
       </div>
       <div class="lead__container container">
         <header class="lead__title">
-          <h2>Танго-один из узнаваемых и популярных парных танцев</h2>
+          <h2>Танго-один из узнаваемых<br> и популярных парных танцев</h2>
         </header>
       </div>      
     </section>
@@ -58,16 +61,16 @@
       <div class="trends__container container">
         <h2 class="page-section__title trends__title">Условно выделяют следующие основные направления</h2>
         <div class="text-list trends__list">
-          <ul class="text-list__list phil trends__items">
+          <ul class="text-list__list phil trends__items trends__items_left">
             <li class="text-list__item">бальное танго (Ballroom Tango или Tango International), танец из программы спортивно-бальных танцев;</li>
             <li class="text-list__item">аргентинское танго (Tango Argentine) – очень популярный и зрелищный вид танго, внутри которого существует несколько самостоятельных стилей; </li>
           </ul>
-          <ul class="text-list__list phil trends__items">
+          <ul class="text-list__list phil trends__items trends__items_right">
             <li class="text-list__item">американское танго (Tango American Style);</li>
             <li class="text-list__item">танго в стиле social dance, которое включает в себя самые популярные фигуры из бального танго, аргентинского и американского танго.</li>
           </ul>
         </div>
-        <div class="trends__describe">
+        <div class="trends__describe phil">
           <p>
             На уроках в группе Танго-mix под руководством опытных преподавателей вы быстро освоите популярные фигуры и хореографию танго и сможете 
             танцевать любимый танец на дружеской вечеринке, светском мероприятии или на отдыхе. Начните свой роман с танго с первого урока!
@@ -106,17 +109,17 @@
       </div>
     </section>
     
-    <section class="page-section tango-shedule">
+    <section class="page-section tango-shedule dance">
       <div class="tango-shedule__container container">
         <h2 class="page-section__title tango-shedule__title">Расписание группы танго-mix на сентябрь</h2>
-        <div class="dance__cost">
+        <div class="dance__cost dance__cost_tango">
           <p class="dance__price">4000<span> руб. </span>&mdash; </p>
-          <p class="dance__count">8<span> урок</span></p>
+          <p class="dance__count">8<span> уроков</span></p>
         </div>
-        <div class="dance__duration">
+        <div class="dance__duration dance__duration_tango">
           <p>Пятница, 19:00-20:00</p>
         </div>
-        <div class="tango-shedule__describe">
+        <div class="tango-shedule__describe phil">
           <p>
             Для углубленной работы над танцевальной техникой или постановки показательного номера рекомендуем записаться на индивидуальный урок с персональным тренером. 
             Продолжительность урока 45 минут, стоимость 1600 руб.
@@ -128,33 +131,31 @@
           </p>
         </div>
         <table class="shedule-table">
-          <tbody>
-            <tr class="shedule-table__head">
-              <td class="shedule-table__cell shedule-table__cell_day">Понедельник</td>
-              <td class="shedule-table__cell shedule-table__cell_lesson">Бальные танцы/social dance</td>
-              <td class="shedule-table__cell shedule-table__cell_time">19:00 - 20:00</td>
-            </tr>
-            <tr class="shedul-table__row">
-              <td class="shedule-table__cell shedule-table__cell_day">Среда</td>
-              <td class="shedule-table__cell shedule-table__cell_lesson">Бальные танцы/social dance</td>
-              <td class="shedule-table__cell shedule-table__cell_time">19:00 - 20:00</td>
-            </tr>
-            <tr class="shedul-table__row shedul-table__row_gold">
-              <td class="shedule-table__cell shedule-table__cell_day">Пятница</td>
-              <td class="shedule-table__cell shedule-table__cell_lesson">Танго-mix</td>
-              <td class="shedule-table__cell shedule-table__cell_time">19:00 - 20:00</td>
-            </tr>
-            <tr class="shedul-table__row">
-              <td class="shedule-table__cell shedule-table__cell_day">Суббота</td>
-              <td class="shedule-table__cell shedule-table__cell_lesson">Латина-mix</td>
-              <td class="shedule-table__cell shedule-table__cell_time">11:00 - 12:00</td>
-            </tr>
-          </tbody>
+          <tr class="shedule-table__row">
+            <td class="shedule-table__cell shedule-table__cell_day">Понедельник</td>
+            <td class="shedule-table__cell shedule-table__cell_lesson">Бальные танцы/social dance</td>
+            <td class="shedule-table__cell shedule-table__cell_time">19:00 - 20:00</td>
+          </tr>
+          <tr class="shedule-table__row">
+            <td class="shedule-table__cell shedule-table__cell_day">Среда</td>
+            <td class="shedule-table__cell shedule-table__cell_lesson">Бальные танцы/social dance</td>
+            <td class="shedule-table__cell shedule-table__cell_time">19:00 - 20:00</td>
+          </tr>
+          <tr class="shedule-table__row shedule-table__row_gold">
+            <td class="shedule-table__cell shedule-table__cell_day">Пятница</td>
+            <td class="shedule-table__cell shedule-table__cell_lesson">Танго-mix</td>
+            <td class="shedule-table__cell shedule-table__cell_time">19:00 - 20:00</td>
+          </tr>
+          <tr class="shedule-table__row">
+            <td class="shedule-table__cell shedule-table__cell_day">Суббота</td>
+            <td class="shedule-table__cell shedule-table__cell_lesson">Латина-mix</td>
+            <td class="shedule-table__cell shedule-table__cell_time">11:00 - 12:00</td>
+          </tr>
         </table>
       </div>
     </section>
     
-    <section class="page-section contact-info">
+    <section class="page-section contact-info contacts-info_tango">
       <div class="contact-info__container container">
         <div class="contact-info__phone">
           <p>

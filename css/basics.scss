@@ -18,6 +18,7 @@ $bg_color_6: #393939; //ячейки в таблице при наведении
 $bg_color_7: #583232; //ячейки в таблице при отмене занятий
 $bg_color_8: #202020; //ячейки в таблице дни недели
 $bg_color_9: #353535; //ячейки faq при навадении
+$bg_color_10: #373737; //фон статус бара в видео
 
 @mixin border-radius($topleft, $topright: $topleft, $bottomright: $topleft, $bottomleft: $topleft) {
     -moz-border-radius-topleft:     $topleft;
