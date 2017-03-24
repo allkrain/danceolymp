@@ -213,6 +213,13 @@
     padding: 5px 102px;
     margin-bottom: 20px;
   }
+  
+  &_trainers {
+    h1 {
+      padding: 0 170px;
+      margin-bottom: 32px;
+    }
+  }
 }
 
 .page-section {
@@ -564,19 +571,25 @@
     margin-bottom: 8px;
   }
   
+  &_right::after,
+  &_left::after,
+  &_up::after,
+  &_down::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    border: 1px solid $base_color_2;
+    transition: all 0.25s ease-in-out;
+  }
+  
   &_right {
     &::after {
-      content: '';
-      position: absolute;
       right: 10px;
-      top: 50%;
-      width: 7px;
-      height: 7px;
-      border: 1px solid $base_color_2;
       border-left-width: 0;
       border-top-width: 0;
       transform: translate(-50%, -50%) rotate(-45deg);
-      transition: all 0.25s ease-in-out;
     }
     
     &:hover::after {
@@ -592,17 +605,10 @@
   
   &_left {
     &::after {
-      content: '';
-      position: absolute;
       right: 6px;
-      top: 50%;
-      width: 7px;
-      height: 7px;
-      border: 1px solid $base_color_2;
       border-right-width: 0;
       border-top-width: 0;
       transform: translate(-50%, -50%) rotate(45deg);
-      transition: all 0.25s ease-in-out;
     }
     
     &:hover::after {
@@ -618,33 +624,19 @@
   
   &_up {
     &::after {
-      content: '';
-      position: absolute;
       right: 7px;
-      top: 50%;
-      width: 7px;
-      height: 7px;
-      border: 1px solid $base_color_2;
       border-left-width: 0;
       border-bottom-width: 0;
       transform: translate(-50%, calc(-50% + 2px)) rotate(-45deg);
-      transition: all 0.25s ease-in-out;
     }
   }
   
   &_down {
     &::after {
-      content: '';
-      position: absolute;
       right: 7px;
-      top: 50%;
-      width: 7px;
-      height: 7px;
-      border: 1px solid $base_color_2;
       border-left-width: 0;
       border-top-width: 0;
       transform: translate(-50%, calc(-50% - 2px)) rotate(45deg);
-      transition: all 0.25s ease-in-out;
     }
     
     &:hover::after {
@@ -1615,6 +1607,10 @@
     &_faq {
       padding: 50px 86px 0;
     }
+    
+    &_trainers {
+      padding-top: 50px;
+    }
   }
 }
 
@@ -1699,6 +1695,16 @@
     
     p {
       padding: 0 168px 0 144px;
+    }
+  }
+  
+  &_trainers {
+    margin-top: 29px;
+    margin-bottom: 58px;
+    
+    p {
+      padding: 0 210px 0 170px;
+      text-align: left;
     }
   }
 }
@@ -1912,9 +1918,36 @@
     font-style: italic;
     color: $base_color_2;
   }
+  
+  &_stylized {
+    box-sizing: border-box;
+    padding: 44px 42px 42px;
+    margin-bottom: 32px;
+    
+    .mission__title {
+      padding-left: 0;
+      font-size: 18px;
+      line-height: (30/18)*1em;
+      letter-spacing: (18px*50)/1000;
+      font-weight: 700;
+      font-style: normal;
+      color: $base_color_6;
+      text-transform: uppercase;
+      min-width: 117px;
+    }
+    
+    .mission__text {
+      color: $base_color_1;
+    }
+  }
 }
 
 .trainers {
+  &__container {
+    box-sizing: border-box;
+    padding: 0 170px 0 172px;
+  }
+  
   &__header {
     margin-bottom: 42px;
   }
@@ -1951,6 +1984,19 @@
       margin: 0;
       width: 280px;
       height: 419px;
+    }
+  }
+  
+  &__biography {
+    padding-top: 18px;
+    
+    p {
+      font-family: $font_1;
+      font-size: 13px;
+      line-height: (26/13)*1em;
+      font-weight: 400;
+      color: $base_color_8;
+      text-align: left;
     }
   }
   
@@ -2451,6 +2497,10 @@
       border-right-width: 0;
     }
     
+    p {
+      padding: 10px 18px;
+    }
+    
     &_time {
       text-align: center;
       width: (98/1134)*100%;
@@ -2476,10 +2526,11 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: baseline;
+      align-items: center;
       padding: 15px 0;
       text-align: center;
       background-color: $bg_color_8;
+      min-height: 57px;
       height: 57px;
     }
     
@@ -2513,10 +2564,6 @@
         }
       }
     }
-    
-    p {
-      padding: 10px 18px;
-    }
   }  
   
   &__week-controls {
@@ -2524,6 +2571,7 @@
     text-align: center;
     width: (98/1134)*100%;
     background-color: $bg_color_8;
+    min-height: 57px;
     height: 57px;
   }
   
@@ -2532,7 +2580,8 @@
   }
   
   &__day-number {
-    padding-right: 4px;
+    padding: 0 !important;
+    padding-right: 4px !important;
     font-family: $font_2;
     font-size: 22px;
     line-height: (24/22)*1em;
@@ -2543,6 +2592,7 @@
   }
   
   &__day-name {
+    padding: 0 !important;
     font-family: $font_2;
     font-size: 15px;
     line-height: (24/15)*1em;
@@ -2943,6 +2993,39 @@
       font-weight: 400;
       color: $base_color_1;
       text-align: center;
+    }
+  }
+  
+  &_trainers {
+    padding-right: 11px; 
+    margin-bottom: 62px;
+  }
+}
+
+.trainers-contacts {
+  margin-top: 16px;
+  
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 200px 0 172px;
+  }
+  
+  &__btns {
+    margin-bottom: 48px;
+    box-sizing: border-box;
+    padding: 0 130px 0 62px;
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+  }
+  
+  &__btn {
+    &_services {
+      padding-left: 20px;
     }
   }
 }
