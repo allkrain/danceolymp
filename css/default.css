@@ -2831,7 +2831,10 @@ select, input, textarea {
     padding: 10px 14px; }
   /*--- Tango ---*/
   .lead_tango .lead__title h2 {
-    padding: 0 90px; } }
+    padding: 0 90px; }
+  /*--- Trainers ---*/
+  .page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {
+    padding: 0 140px; } }
 
 @media (max-width: 1270px) {
   /*--- Main ---*/
@@ -2909,7 +2912,18 @@ select, input, textarea {
   .tango-shedule__title {
     padding: 0 50px; }
   .tango-shedule__container {
-    padding: 0 80px; } }
+    padding: 0 80px; }
+  /*--- Trainers ---*/
+  .page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {
+    padding: 0 70px; }
+  .trainers__list {
+    justify-content: center; }
+  .trainers__item {
+    margin: 0 20px 50px; }
+  .trainers__item:nth-child(3n+3) {
+    margin-right: 20px; }
+  .trainers__item:last-child {
+    margin-right: 20px; } }
 
 @media (max-width: 1014px) {
   /*--- Main ---*/
@@ -2957,7 +2971,10 @@ select, input, textarea {
   .trends__title {
     padding-right: 200px; }
   .tango-trainers__list {
-    padding: 0 120px; } }
+    padding: 0 120px; }
+  /*--- Trainers ---*/
+  .trainers-contacts__btns {
+    padding: 0; } }
 
 @media (max-width: 950px) {
   /*--- Main ---*/
@@ -3009,7 +3026,20 @@ select, input, textarea {
   .trends__title {
     padding: 0; }
   .tango-trainers__list {
-    padding: 0 60px; } }
+    padding: 0 60px; }
+  /*--- Trainers ---*/
+  .page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {
+    padding: 0 60px; }
+  .trainers__list {
+    justify-content: flex-start; }
+  .trainers__item:nth-child(odd) {
+    margin-left: 0; }
+  .trainers__item:nth-child(even) {
+    margin-right: 0; }
+  .trainers-contacts__btns {
+    flex-wrap: wrap; }
+  .trainers-contacts__btn {
+    margin-right: 15px; } }
 
 @media (min-width: 791px) {
   /*--- Main ---*/
@@ -3154,7 +3184,17 @@ select, input, textarea {
   .tango-shedule__describe p:nth-child(even) {
     padding-left: 0; }
   .dance__duration {
-    margin-bottom: 28px; } }
+    margin-bottom: 28px; }
+  /*--- Trainers ---*/
+  .page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {
+    padding: 0; }
+  .trainers__item:nth-child(odd) {
+    margin-right: 10px; }
+  .trainers__item:nth-child(even) {
+    margin-left: 10px; }
+  .trainers__biography p {
+    text-align: center;
+    padding: 0 10px; } }
 
 @media (max-width: 640px) {
   /*--- Main ---*/
@@ -3207,17 +3247,17 @@ select, input, textarea {
   .review__content {
     padding: 0; }
   .page-title h1 {
-    padding: 0 48px; }
+    padding: 0; }
   .dance__price, .dance__count {
     font-size: 40px; }
+  .page-intro p {
+    padding: 0; }
   /*--- Shedule ---*/
   .shedule__cell_time p {
     line-height: 5.7em; }
   .page-navigation__container_shedule {
     padding: 22px 38px 0; }
   /*--- Wedding dance ---*/
-  .page-intro p {
-    padding: 0 40px; }
   .page-section__title {
     padding: 0; }
   .dance__container {
@@ -3252,7 +3292,21 @@ select, input, textarea {
     padding-right: 12px; }
   .shedule-table__cell_time {
     padding-left: 6px;
-    padding-right: 6px; } }
+    padding-right: 6px; }
+  /*--- Trainers ---*/
+  .trainers__list {
+    justify-content: center; }
+  .trainers__item {
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+  .trainers-contacts__btns {
+    justify-content: center; }
+  .trainers-contacts__btn {
+    margin: 0 25px; }
+  .trainers-contacts__btn_services {
+    padding-left: 0; }
+  .mission_stylized {
+    padding: 44px 0; } }
 
 @media (max-width: 480px) {
   /*--- Main ---*/
@@ -3290,8 +3344,7 @@ select, input, textarea {
   .review__content p {
     width: 100%; }
   .page-title h1 {
-    padding: 0 30px;
-    font-size: 27px; }
+    font-size: 25px; }
   .breadcrumbs {
     flex-wrap: wrap; }
   .page-navigation__container {
@@ -3359,6 +3412,20 @@ select, input, textarea {
     margin-bottom: 58px; }
   .shedule-table {
     margin-bottom: 0;
-    width: 150%; } }
+    width: 150%; }
+  /*--- Trainers ---*/
+  .trainers-contacts__btns {
+    justify-content: flex-start; }
+  .trainers-contacts__btn {
+    margin: 20px;
+    letter-spacing: 3px;
+    line-height: 2em; }
+  .mission_stylized {
+    flex-wrap: wrap; }
+  .mission_stylized .mission__title {
+    width: 100%;
+    margin-bottom: 15px; }
+  .contact-info_trainers {
+    padding-right: 0; } }
 
 /*# sourceMappingURL=default.css.map */
