@@ -2824,9 +2824,14 @@ select, input, textarea {
     width: 1210px; }
   .lead__img {
     width: 100%; }
+  .video-bg {
+    width: 100%; }
   /*--- Shedule ---*/
   .shedule__cell p {
-    padding: 10px 14px; } }
+    padding: 10px 14px; }
+  /*--- Tango ---*/
+  .lead_tango .lead__title h2 {
+    padding: 0 90px; } }
 
 @media (max-width: 1270px) {
   /*--- Main ---*/
@@ -2859,6 +2864,8 @@ select, input, textarea {
     width: 50%; }
   .page-navigation__container {
     padding: 0 60px; }
+  .lead__title {
+    padding: 80px 120px; }
   /*--- Shedule ---*/
   .shedule__wrapper {
     overflow-x: scroll; }
@@ -2889,7 +2896,20 @@ select, input, textarea {
   .page-intro_faq p {
     padding: 6px 130px; }
   .faq__container {
-    padding: 0 130px; } }
+    padding: 0 130px; }
+  /*--- Tango ---*/
+  .lead_tango .lead__title h2 {
+    padding: 0; }
+  .page-intro_tango p {
+    padding: 0 70px; }
+  .trends__container {
+    padding: 0 80px; }
+  .tango-trainers__list {
+    padding: 0 140px; }
+  .tango-shedule__title {
+    padding: 0 50px; }
+  .tango-shedule__container {
+    padding: 0 80px; } }
 
 @media (max-width: 1014px) {
   /*--- Main ---*/
@@ -2919,6 +2939,10 @@ select, input, textarea {
   .btn_youtube {
     padding-left: 60px;
     letter-spacing: 3px; }
+  .order-form__container {
+    padding: 35px 42px 0; }
+  .contact-info__container {
+    padding: 0; }
   /*--- Wedding dance ---*/
   .page-intro p {
     padding: 0 60px; }
@@ -2926,11 +2950,14 @@ select, input, textarea {
     display: none; }
   .additionally__offer h3 {
     padding-right: 130px; }
-  .order-form__container {
-    padding: 35px 42px 0; }
   /*--- FAQ ---*/
   .faq__container {
-    padding: 0 60px; } }
+    padding: 0 60px; }
+  /*--- Tango ---*/
+  .trends__title {
+    padding-right: 200px; }
+  .tango-trainers__list {
+    padding: 0 120px; } }
 
 @media (max-width: 950px) {
   /*--- Main ---*/
@@ -2977,7 +3004,12 @@ select, input, textarea {
   .order-form__name {
     width: 100%; }
   .order-form__phone, .order-form__email {
-    width: 48%; } }
+    width: 48%; }
+  /*--- Tango ---*/
+  .trends__title {
+    padding: 0; }
+  .tango-trainers__list {
+    padding: 0 60px; } }
 
 @media (min-width: 791px) {
   /*--- Main ---*/
@@ -3057,6 +3089,21 @@ select, input, textarea {
   .lead__container {
     height: 700px;
     margin-top: -700px; }
+  .order-form__phone, .order-form__email {
+    width: 100%; }
+  .order-form__email label {
+    padding-left: 0;
+    padding-right: 10px; }
+  .order-form__text textarea {
+    line-height: 2.6em;
+    height: 5.2em; }
+  .order-form__text label {
+    align-self: flex-start;
+    padding-right: 10px; }
+  .video-bg {
+    height: 700px; }
+  .lead__title {
+    padding: 80px; }
   /*--- Shedule ---*/
   .shedule__container {
     padding: 0; }
@@ -3079,22 +3126,35 @@ select, input, textarea {
     width: 100%; }
   .additionally__offer h3, .additionally__offer p {
     padding: 0; }
-  .order-form__phone, .order-form__email {
-    width: 100%; }
-  .order-form__email label {
-    padding-left: 0;
-    padding-right: 10px; }
-  .order-form__text textarea {
-    line-height: 2.6em;
-    height: 5.2em; }
-  .order-form__text label {
-    align-self: flex-start;
-    padding-right: 10px; }
+  .dance__video {
+    margin-top: 20px; }
   /*--- FAQ ---*/
   .page-title_faq {
     padding: 5px 40px; }
   .faq__container {
-    padding: 0; } }
+    padding: 0; }
+  /*--- Tango ---*/
+  .trends__container {
+    padding: 0; }
+  .trends__items {
+    width: 100%; }
+  .trends__items_left {
+    padding-right: 0; }
+  .trends__items_right {
+    padding-left: 0; }
+  .tango-trainers__list {
+    padding: 0; }
+  .tango-shedule__container {
+    padding: 0; }
+  .tango-shedule__describe p {
+    width: 100%;
+    margin-top: 20px; }
+  .tango-shedule__describe p:nth-child(odd) {
+    padding-right: 0; }
+  .tango-shedule__describe p:nth-child(even) {
+    padding-left: 0; }
+  .dance__duration {
+    margin-bottom: 28px; } }
 
 @media (max-width: 640px) {
   /*--- Main ---*/
@@ -3106,7 +3166,7 @@ select, input, textarea {
   .page-header__contacts a {
     letter-spacing: 0.6px; }
   .lead__title {
-    padding: 70px 40px; }
+    padding: 70px 0; }
   .lead__title p {
     width: 100%; }
   .lead__title h2 a {
@@ -3148,6 +3208,8 @@ select, input, textarea {
     padding: 0; }
   .page-title h1 {
     padding: 0 48px; }
+  .dance__price, .dance__count {
+    font-size: 40px; }
   /*--- Shedule ---*/
   .shedule__cell_time p {
     line-height: 5.7em; }
@@ -3175,7 +3237,22 @@ select, input, textarea {
     letter-spacing: 3px; }
   /*--- FAQ ---*/
   .faq__question p {
-    padding-right: 10px; } }
+    padding-right: 10px; }
+  /*--- Tango ---*/
+  .tango-trainers__list {
+    justify-content: center; }
+  .shedule-table__cell_lesson {
+    padding-left: 12px;
+    padding-right: 12px; }
+  .shedule-table__cell {
+    font-size: 13px; }
+  .shedule-table__cell_day {
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px; }
+  .shedule-table__cell_time {
+    padding-left: 6px;
+    padding-right: 6px; } }
 
 @media (max-width: 480px) {
   /*--- Main ---*/
@@ -3222,6 +3299,12 @@ select, input, textarea {
   .page-section__title {
     font-size: 22px;
     letter-spacing: 4px; }
+  .order-form__container {
+    padding: 35px 0 0; }
+  .order-form__text textarea {
+    height: 7.8em; }
+  .dance__price, .dance__count {
+    font-size: 30px; }
   /*--- Shedule ---*/
   .page-navigation__container_shedule {
     padding: 22px 20px 0; }
@@ -3246,21 +3329,13 @@ select, input, textarea {
     font-size: 28px; }
   .page-intro p {
     padding: 0; }
-  .dance__price, .dance__count {
-    font-size: 40px; }
   .video {
     height: 240px; }
   .additionally__btn {
     margin-left: 0;
     line-height: 2em; }
-  .contact-info__container {
-    padding-right: 0; }
   .page-request__title {
     width: 90%; }
-  .order-form__container {
-    padding: 35px 0 0; }
-  .order-form__text textarea {
-    height: 7.8em; }
   /*--- FAQ ---*/
   .page-title_faq {
     padding: 5px 0; }
@@ -3272,6 +3347,18 @@ select, input, textarea {
     padding: 0 20px; }
   .faq__answer p {
     padding: 8px 50px 38px 0;
-    line-height: 1.5em; } }
+    line-height: 1.5em; }
+  /*--- Tango ---*/
+  .lead_tango .lead__title h2 {
+    font-size: 25px;
+    letter-spacing: 6px; }
+  .dance__cost_tango {
+    padding-right: 0; }
+  .shedule-table-wrapper {
+    overflow-x: scroll;
+    margin-bottom: 58px; }
+  .shedule-table {
+    margin-bottom: 0;
+    width: 150%; } }
 
 /*# sourceMappingURL=default.css.map */
