@@ -140,7 +140,7 @@ span {
 
 h1 {
   font-size: 36px;
-  line-height: 1.22222em;
+  line-height: 1.2222222222em;
   text-transform: uppercase;
   color: #9c8561;
   letter-spacing: 7.2px;
@@ -149,7 +149,7 @@ h1 {
 
 h2 {
   font-size: 36px;
-  line-height: 1.22222em;
+  line-height: 1.2222222222em;
   text-transform: uppercase;
   color: #9c8561;
   letter-spacing: 7.2px;
@@ -158,7 +158,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  line-height: 1.66667em;
+  line-height: 1.6666666667em;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 4.8px;
@@ -166,13 +166,13 @@ h3 {
 
 h4 {
   font-size: 22px;
-  line-height: 1.45455em;
+  line-height: 1.4545454545em;
   color: #ac936a;
   font-weight: 700; }
 
 h5 {
   font-size: 18px;
-  line-height: 1.77778em;
+  line-height: 1.7777777778em;
   color: #fff;
   font-weight: 700;
   font-style: italic; }
@@ -193,7 +193,7 @@ p.huge {
 .gotham {
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 2.14286em; }
+  line-height: 2.1428571429em; }
 
 .phil {
   font-family: "Philosopher", "Arial", sans-serif;
@@ -316,7 +316,7 @@ select, input, textarea {
     font-size: 15px;
     font-style: italic;
     font-weight: normal;
-    line-height: 1.46667em; }
+    line-height: 1.4666666667em; }
   .page-header__navigation {
     margin-right: auto;
     padding-top: 10px;
@@ -384,12 +384,12 @@ select, input, textarea {
     margin-top: -6px;
     margin-right: auto;
     box-sizing: border-box;
-    width: 53.47985%; }
+    width: 53.4798534799%; }
     .page-footer__copyright p {
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
       font-weight: 400;
-      line-height: 1.66667em;
+      line-height: 1.6666666667em;
       text-align: left;
       margin-bottom: 24px; }
       .page-footer__copyright p:last-child {
@@ -405,7 +405,7 @@ select, input, textarea {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.66667em;
+    line-height: 1.6666666667em;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff; }
@@ -418,14 +418,14 @@ select, input, textarea {
     padding: 0 68px;
     font-size: 30px;
     font-weight: 400;
-    line-height: 1.46667em;
+    line-height: 1.4666666667em;
     letter-spacing: 6px;
     text-align: left; }
   .page-title h2 {
     padding: 0 68px;
     font-size: 24px;
     font-weight: 400;
-    line-height: 1.41667em;
+    line-height: 1.4166666667em;
     letter-spacing: normal;
     color: #fff;
     text-transform: none;
@@ -463,7 +463,7 @@ select, input, textarea {
     padding-right: 10px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 17px;
-    line-height: 1.76471em;
+    line-height: 1.7647058824em;
     font-weight: 700;
     font-style: italic;
     color: #b0966c; }
@@ -473,10 +473,10 @@ select, input, textarea {
       top: 0;
       right: 0;
       width: 5px;
-      height: 1.76471em;
+      height: 1.7647058824em;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 17px;
-      line-height: 1.76471em;
+      line-height: 1.7647058824em;
       font-weight: 700;
       font-style: italic;
       color: #b0966c; }
@@ -487,7 +487,7 @@ select, input, textarea {
     .page-menu__item a {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 17px;
-      line-height: 1.76471em;
+      line-height: 1.7647058824em;
       font-weight: 700;
       font-style: italic;
       color: #b0966c;
@@ -499,7 +499,7 @@ select, input, textarea {
   padding: 0 100px;
   font-family: "Philosopher", "Arial", sans-serif;
   font-size: 30px;
-  line-height: 1.46667em;
+  line-height: 1.4666666667em;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 6px;
@@ -573,7 +573,7 @@ select, input, textarea {
       padding: 0 10px;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 36px;
-      line-height: 1.55556em;
+      line-height: 1.5555555556em;
       letter-spacing: 10.8px;
       font-weight: 400;
       color: #fff;
@@ -584,7 +584,7 @@ select, input, textarea {
         padding: 0 10px;
         font-family: "Philosopher", "Arial", sans-serif;
         font-size: 36px;
-        line-height: 1.55556em;
+        line-height: 1.5555555556em;
         letter-spacing: 10.8px;
         font-weight: 400;
         color: #fff;
@@ -740,7 +740,7 @@ select, input, textarea {
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 11px;
   font-weight: 500;
-  line-height: 6.54545em;
+  line-height: 6.5454545455em;
   letter-spacing: 4.4px;
   color: #b0966c;
   text-decoration: none;
@@ -869,7 +869,6 @@ select, input, textarea {
     border-color: #fff; }
     .btn_white:hover, .btn_white:hover::before, .btn_white:hover::after, .btn_white::before, .btn_white::after {
       border-color: #fff; }
-
   .btn_arrow-left {
     position: relative;
     font-size: 11px;
@@ -969,7 +968,7 @@ select, input, textarea {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 60px;
     font-weight: 700;
-    line-height: 1.83333em;
+    line-height: 1.8333333333em;
     letter-spacing: 12px;
     color: #b0966c;
     opacity: 0.05;
@@ -1015,12 +1014,12 @@ select, input, textarea {
     text-align: center; }
     .service__title_big {
       font-size: 124px;
-      line-height: 0.45968em;
+      line-height: 0.4596774194em;
       letter-spacing: 37.2px;
       margin-bottom: 30px; }
     .service__title_small {
       font-size: 33px;
-      line-height: 1.72727em;
+      line-height: 1.7272727273em;
       letter-spacing: 9.9px;
       margin-bottom: 30px; }
   .service__bottom-img {
@@ -1090,7 +1089,7 @@ select, input, textarea {
     .service_group .service__title_big {
       margin-top: -24px;
       font-size: 116px;
-      line-height: 0.37069em;
+      line-height: 0.3706896552em;
       letter-spacing: 11.6px; }
     .service_group .service__content {
       padding-top: 24px; }
@@ -1115,7 +1114,7 @@ select, input, textarea {
       margin-top: -60px;
       margin-left: -24px;
       font-size: 117px;
-      line-height: 0.37607em;
+      line-height: 0.3760683761em;
       letter-spacing: 35.1px; }
     .service_tango .service__top-img {
       transform: translateX(124px);
@@ -1127,12 +1126,12 @@ select, input, textarea {
     margin-bottom: 58px; }
     .service_wedding .service__title_big {
       font-size: 105px;
-      line-height: 0.95238em;
+      line-height: 0.9523809524em;
       letter-spacing: 21px;
       margin-bottom: 0; }
     .service_wedding .service__title_small {
       font-size: 33px;
-      line-height: 1.72727em;
+      line-height: 1.7272727273em;
       letter-spacing: 26.4px;
       margin-bottom: 0;
       margin-top: -25px; }
@@ -1153,7 +1152,7 @@ select, input, textarea {
       margin-left: -10px; }
     .service_corporative .service__title_small {
       font-size: 37px;
-      line-height: 2.18919em;
+      line-height: 2.1891891892em;
       letter-spacing: 15.54px;
       margin-bottom: 0;
       margin-top: -25px;
@@ -1168,7 +1167,7 @@ select, input, textarea {
     margin-bottom: 40px; }
     .service_party .service__title_big {
       font-size: 105px;
-      line-height: 0.95238em;
+      line-height: 0.9523809524em;
       letter-spacing: 42px;
       margin-bottom: 0;
       margin-top: -15px;
@@ -1212,14 +1211,14 @@ select, input, textarea {
     margin-bottom: 58px; }
     .service_competition .service__title_big {
       font-size: 54px;
-      line-height: 1.11111em;
+      line-height: 1.1111111111em;
       letter-spacing: 10.8px;
       margin-bottom: 15px;
       margin-top: -30px;
       margin-left: -46px; }
     .service_competition .service__title_small {
       font-size: 36px;
-      line-height: 1.66667em;
+      line-height: 1.6666666667em;
       letter-spacing: 7.2px;
       margin-bottom: 0px;
       margin-top: -10px;
@@ -1291,7 +1290,7 @@ select, input, textarea {
     padding-left: 17px;
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 2.14286em;
+    line-height: 2.1428571429em;
     text-align: left; }
 
 .dance-styles__img {
@@ -1515,7 +1514,7 @@ select, input, textarea {
       padding-right: 20px;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 15px;
-      line-height: 2.26667em;
+      line-height: 2.2666666667em;
       font-weight: 400;
       font-style: italic;
       text-decoration: none;
@@ -1603,9 +1602,7 @@ select, input, textarea {
       text-align: left; }
   .page-intro_wedding {
     margin-top: 18px;
-    padding: 0 168px 0 144px;
     box-sizing: border-box; }
-
   .page-intro_private {
     margin-top: 18px;
     margin-bottom: 46px; }
@@ -1789,7 +1786,7 @@ select, input, textarea {
     .mission_stylized .mission__title {
       padding-left: 0;
       font-size: 18px;
-      line-height: 1.66667em;
+      line-height: 1.6666666667em;
       letter-spacing: 0.9px;
       font-weight: 700;
       font-style: normal;
@@ -1899,7 +1896,7 @@ select, input, textarea {
   padding: 2px 5px;
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 22px;
-  line-height: 1.09091em;
+  line-height: 1.0909090909em;
   font-weight: 700;
   letter-spacing: 6.6px;
   color: #fff;
@@ -1912,7 +1909,7 @@ select, input, textarea {
   padding: 0 5px;
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 13px;
-  line-height: 1.84615em;
+  line-height: 1.8461538462em;
   font-weight: 500;
   color: #fff;
   text-align: center;
@@ -1963,7 +1960,7 @@ select, input, textarea {
       display: block;
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 14px;
-      line-height: 1.71429em;
+      line-height: 1.7142857143em;
       font-weight: 400;
       font-style: normal;
       color: #fff;
@@ -2062,7 +2059,7 @@ select, input, textarea {
       padding-right: 10px;
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
-      line-height: 2.66667em;
+      line-height: 2.6666666667em;
       font-weight: 400;
       letter-spacing: 0.6px;
       color: #b0966c; }
@@ -2071,7 +2068,7 @@ select, input, textarea {
     .order-form__input input {
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
-      line-height: 2.66667em;
+      line-height: 2.6666666667em;
       font-weight: 400;
       letter-spacing: 0.6px;
       color: #fff;
@@ -2094,7 +2091,7 @@ select, input, textarea {
       padding-right: 30px;
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
-      line-height: 2.66667em;
+      line-height: 2.6666666667em;
       font-weight: 400;
       letter-spacing: 0.6px;
       color: #b0966c; }
@@ -2103,7 +2100,7 @@ select, input, textarea {
       resize: none;
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
-      line-height: 2.66667em;
+      line-height: 2.6666666667em;
       font-weight: 400;
       letter-spacing: 0.6px;
       color: #fff;
@@ -2206,7 +2203,7 @@ select, input, textarea {
     left: 50%;
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 120px;
-    line-height: 0.36667em;
+    line-height: 0.3666666667em;
     font-weight: 700;
     letter-spacing: 24px;
     color: rgba(174, 149, 107, 0.05);
@@ -2217,14 +2214,14 @@ select, input, textarea {
     margin-right: -4px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 30px;
-    line-height: 1.46667em;
+    line-height: 1.4666666667em;
     font-weight: 400;
     letter-spacing: 6px;
     color: #fff;
     text-transform: uppercase; }
   .shedule__cell {
     box-sizing: border-box;
-    width: 12.96296%;
+    width: 12.962962963%;
     min-height: 106px;
     text-align: left;
     background-color: #2d2d2d;
@@ -2237,7 +2234,7 @@ select, input, textarea {
       padding: 10px 18px; }
     .shedule__cell_time {
       text-align: center;
-      width: 8.64198%;
+      width: 8.6419753086%;
       background-color: #272727;
       border-right-width: 2px;
       border-bottom-width: 0;
@@ -2275,7 +2272,7 @@ select, input, textarea {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 15px;
       font-weight: 400;
-      line-height: 1.33333em;
+      line-height: 1.3333333333em;
       font-style: italic;
       color: #fff;
       text-decoration: none; }
@@ -2288,7 +2285,7 @@ select, input, textarea {
   .shedule__week-controls {
     padding: 12px 0;
     text-align: center;
-    width: 8.64198%;
+    width: 8.6419753086%;
     background-color: #202020;
     min-height: 57px;
     height: 57px; }
@@ -2299,7 +2296,7 @@ select, input, textarea {
     padding-right: 4px !important;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 22px;
-    line-height: 1.09091em;
+    line-height: 1.0909090909em;
     font-weight: 700;
     color: #b0966c;
     font-style: italic;
@@ -2320,7 +2317,7 @@ select, input, textarea {
   .shedule__vacancies {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 12px;
-    line-height: 1.66667em;
+    line-height: 1.6666666667em;
     font-weight: 400;
     font-style: normal;
     color: #ae956b; }
@@ -2365,7 +2362,7 @@ select, input, textarea {
     .faq__question p {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 18px;
-      line-height: 1.88889em;
+      line-height: 1.8888888889em;
       font-weight: 400;
       font-style: italic;
       color: #fff; }
@@ -2452,7 +2449,7 @@ select, input, textarea {
   .dance__price span, .dance__count span {
     font-weight: 400;
     font-size: 28px;
-    line-height: 1.07143em;
+    line-height: 1.0714285714em;
     color: #fff; }
 
 .dance__price {
@@ -2548,7 +2545,7 @@ select, input, textarea {
     padding-right: 180px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 18px;
-    line-height: 1.88889em;
+    line-height: 1.8888888889em;
     font-weight: 400;
     font-style: italic;
     color: #b0966c;
@@ -2584,7 +2581,7 @@ select, input, textarea {
     margin-bottom: 9px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 17px;
-    line-height: 1.76471em;
+    line-height: 1.7647058824em;
     font-weight: 400;
     font-style: italic;
     color: #ac936a;
@@ -2593,7 +2590,7 @@ select, input, textarea {
     display: block;
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 2.14286em;
+    line-height: 2.1428571429em;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -2601,7 +2598,7 @@ select, input, textarea {
   .contact-info__address p {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 2.14286em;
+    line-height: 2.1428571429em;
     font-weight: 400;
     color: #fff;
     text-align: center; }
@@ -2742,13 +2739,13 @@ select, input, textarea {
     text-align: left;
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 2.14286em;
+    line-height: 2.1428571429em;
     font-weight: 400;
     color: #fff; }
     .shedule-table__cell_day {
       padding-left: 19px;
       padding-right: 19px;
-      width: 24.48087%;
+      width: 24.4808743169%;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 16px;
       line-height: 1.875em;
@@ -2757,11 +2754,11 @@ select, input, textarea {
     .shedule-table__cell_lesson {
       padding-left: 28px;
       padding-right: 28px;
-      width: 50.38251%; }
+      width: 50.3825136612%; }
     .shedule-table__cell_time {
       padding-left: 10px;
       padding-right: 10px;
-      width: 24.48087%;
+      width: 24.4808743169%;
       text-align: center;
       color: #ae956b; }
 
@@ -2810,7 +2807,7 @@ select, input, textarea {
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 26px;
     font-weight: 700;
-    line-height: 1.30769em;
+    line-height: 1.3076923077em;
     letter-spacing: normal;
     color: #fff;
     text-transform: none; }
@@ -3110,9 +3107,6 @@ select, input, textarea {
     width: 1210px; }
   .lead__img {
     width: 100%; }
-  /*--- Shedule ---*/
-  .shedule__cell p {
-    padding: 10px 14px; } }
   .video-bg {
     width: 100%; }
   /*--- Shedule ---*/
@@ -3154,12 +3148,10 @@ select, input, textarea {
     padding: 0 150px; }
   .review__content p {
     width: 50%; }
- 
   .page-navigation__container {
     padding: 0 60px; }
   .lead__title {
     padding: 80px 120px; }
-
   /*--- Shedule ---*/
   .shedule__wrapper {
     overflow-x: scroll; }
@@ -3407,7 +3399,6 @@ select, input, textarea {
     height: 700px; }
   .lead__controls {
     padding: 0; }
- 
   .lead__container {
     height: 700px;
     margin-top: -700px; }
@@ -3636,7 +3627,6 @@ select, input, textarea {
   .review__content p {
     width: 100%; }
   .page-title h1 {
-    padding: 0 30px;
     font-size: 25px; }
   .breadcrumbs {
     flex-wrap: wrap; }
