@@ -1,10 +1,16 @@
 // Адаптивная верстка //
 @media (max-width: 1360px) {
 	/*--- Main ---*/
+	body {background-position: center;}
 	.container {width: 1210px;}
 	.lead__img {width: 100%;}
+	.video-bg {width: 100%;}
 	/*--- Shedule ---*/
 	.shedule__cell p {padding: 10px 14px;}
+	/*--- Tango ---*/
+	.lead_tango .lead__title h2 {padding: 0 90px;}
+	/*--- Trainers ---*/
+	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0 140px;}
 }
 
 @media (max-width:1270px) {
@@ -21,11 +27,37 @@
 	.review__img {width: 700px;}
 	.review__content {padding: 0 150px;}
 	.review__content p {width: 50%;}
+	.page-navigation__container {padding: 0 60px;}
+	.lead__title {padding: 80px 120px;}
 	/*--- Shedule ---*/
 	.shedule__wrapper {overflow-x: scroll;}
 	.shedule__body {width: 1000px;}
 	.shedule__cell p {padding: 10px;}
 	.shedule__cell_time p {line-height: 6.3em;}
+	/*--- Wedding dance ---*/
+	.dance__container {padding: 0 60px;}
+	.video {width: 100%; height: 500px;}
+	.video__promo {width: 100%; height: 100%;}
+	.additionally__list-describe p {padding: 0 220px;}
+	.additionally__items {padding: 0 60px;}
+	.additionally__offer h3 {padding-right: 160px;}
+	/*--- FAQ ---*/
+	.page-title_faq {padding: 5px 60px;}
+	.page-intro_faq p {padding: 6px 130px;}
+	.faq__container {padding: 0 130px;}
+	/*--- Tango ---*/
+	.lead_tango .lead__title h2 {padding: 0;}
+	.page-intro_tango p {padding: 0 70px;}
+	.trends__container {padding: 0 80px;}
+	.tango-trainers__list {padding: 0 140px;}
+	.tango-shedule__title {padding: 0 50px;}
+	.tango-shedule__container {padding: 0 80px;}
+	/*--- Trainers ---*/
+	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0 70px;}
+	.trainers__list {justify-content: center;}
+	.trainers__item {margin: 0 20px 50px;}
+	.trainers__item:nth-child(3n+3) {margin-right: 20px;}
+	.trainers__item:last-child {margin-right: 20px;}
 }
 
 @media (max-width:1014px) {
@@ -40,6 +72,19 @@
 	.dance-styles__describe {padding-left: 130px; width: 58%;}
 	.dance-styles__describe h3 {font-size: 22px;}
 	.btn_youtube {padding-left: 60px; letter-spacing: 3px;}
+	.order-form__container {padding: 35px 42px 0;}
+	.contact-info__container {padding: 0;}
+	/*--- Wedding dance ---*/
+	.page-intro p {padding: 0 60px;}
+	.page-intro p br {display: none;}
+	.additionally__offer h3 {padding-right: 130px;}
+	/*--- FAQ ---*/
+	.faq__container {padding: 0 60px;}
+	/*--- Tango ---*/
+	.trends__title {padding-right: 200px;}
+	.tango-trainers__list {padding: 0 120px;}
+	/*--- Trainers ---*/
+	.trainers-contacts__btns {padding: 0;}
 }
 
 @media (max-width:950px) {
@@ -57,6 +102,22 @@
 	.dance-styles__describe {width: 100%; padding: 0 130px;}
 	.review__content {padding: 0 70px; height: 450px; margin-top: -450px;}
 	.review__img {width: 650px; height: 450px;}
+	/*--- Wedding dance ---*/
+	.video {height: 400px;}
+	.additionally__list-describe p {padding: 0 100px;}
+	.additionally__offer h3 {padding-right: 50px;}
+	.order-form__name {width: 100%;}
+	.order-form__phone, .order-form__email {width: 48%;}
+	/*--- Tango ---*/
+	.trends__title {padding: 0;}
+	.tango-trainers__list {padding: 0 60px;}
+	/*--- Trainers ---*/
+	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0 60px;}
+	.trainers__list {justify-content: flex-start;}
+	.trainers__item:nth-child(odd) {margin-left: 0;}
+	.trainers__item:nth-child(even) {margin-right: 0;}
+	.trainers-contacts__btns {flex-wrap: wrap;}
+	.trainers-contacts__btn {margin-right: 15px;}
 }
 
 @media (min-width:791px) {
@@ -86,9 +147,45 @@
 	.dance-styles__describe {padding: 0 100px;}
 	.lead__img {height: 700px;}
 	.lead__controls {padding: 0;}
+	.lead__container {height: 700px; margin-top: -700px;}
+	.order-form__phone, .order-form__email {width: 100%;}
+	.order-form__email label {padding-left: 0; padding-right: 10px;}
+	.order-form__text textarea {line-height: 2.6em; height: 5.2em;}
+	.order-form__text label {align-self: flex-start; padding-right: 10px;}
+	.video-bg {height: 700px;}
+	.lead__title {padding: 80px;}
 	/*--- Shedule ---*/
 	.shedule__container {padding: 0;}
 	.shedule__cell_time p {line-height: 6em;}
+	/*--- Wedding dance ---*/
+	.page-navigation__container {padding: 0 40px;}
+	.page-section__title {padding: 0 30px;}
+	.dance__container {padding: 0 40px;}
+	.video {height: 340px;}
+	.additionally__list-describe p {padding: 0 40px;}
+	.additionally__items {padding: 0 40px;}
+	.additionally__item {width: 100%;}
+	.additionally__offer h3, .additionally__offer p {padding: 0;}
+	.dance__video {margin-top: 20px;}
+	/*--- FAQ ---*/
+	.page-title_faq {padding: 5px 40px;}
+	.faq__container {padding: 0;}
+	/*--- Tango ---*/
+	.trends__container {padding: 0;}
+	.trends__items {width: 100%;}
+	.trends__items_left {padding-right: 0;}
+	.trends__items_right {padding-left: 0;}
+	.tango-trainers__list {padding: 0;}
+	.tango-shedule__container {padding: 0;}
+	.tango-shedule__describe p {width: 100%; margin-top: 20px;}
+	.tango-shedule__describe p:nth-child(odd) {padding-right: 0;}
+	.tango-shedule__describe p:nth-child(even) {padding-left: 0;}
+	.dance__duration {margin-bottom: 28px;}
+	/*--- Trainers ---*/
+	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0;}
+	.trainers__item:nth-child(odd) {margin-right: 10px;}
+	.trainers__item:nth-child(even) {margin-left: 10px;}
+	.trainers__biography p {text-align: center; padding: 0 10px;}
 }
 
 @media (max-width:640px) {
@@ -96,7 +193,7 @@
 	.container {width: 420px;}
 	.page-header__contacts {width: 130px; min-width: 0;}
 	.page-header__contacts a {letter-spacing: 0.6px;}
-	.lead__title {padding: 70px 40px;}
+	.lead__title {padding: 70px 0;}
 	.lead__title p {width: 100%;}
 	.lead__title h2 a {font-size: 28px;}
 	.lead__btn-mouse {display: none;}
@@ -113,17 +210,43 @@
 	.review__header, .review__footer {width: 100%;}
 	.review__img {width: 480px;}
 	.review__content {padding: 0;}
-	.page-title h1 {padding: 0 48px;}
+	.page-title h1 {padding: 0;}
+	.dance__price, .dance__count {font-size: 40px;}
+	.page-intro p {padding: 0;}
 	/*--- Shedule ---*/
 	.shedule__cell_time p {line-height: 5.7em;}
 	.page-navigation__container_shedule {padding: 22px 38px 0;}
+	/*--- Wedding dance ---*/
+	.page-section__title {padding: 0;}
+	.dance__container {padding: 0;}
+	.dance__video {margin-left: 0;}
+	.additionally__list-describe p {padding: 0;}
+	.additionally__items {padding: 0;}
+	.additionally__item {margin-top: 50px;}
+	.additionally__offer h3 {margin-bottom: 20px;}
+	.additionally__btn {max-width: 100%; letter-spacing: 3px;}
+	/*--- FAQ ---*/
+	.faq__question p {padding-right: 10px;}
+	/*--- Tango ---*/
+	.tango-trainers__list {justify-content: center;}
+	.shedule-table__cell_lesson {padding-left: 12px; padding-right: 12px;}
+	.shedule-table__cell {font-size: 13px;}
+	.shedule-table__cell_day {font-size: 14px; padding-left: 12px; padding-right: 12px;}
+	.shedule-table__cell_time {padding-left: 6px; padding-right: 6px;}
+	/*--- Trainers ---*/
+	.trainers__list {justify-content: center}
+	.trainers__item {margin-left: 0 !important; margin-right: 0 !important;}
+	.trainers-contacts__btns {justify-content: center;}
+	.trainers-contacts__btn {margin: 0 25px;}
+	.trainers-contacts__btn_services {padding-left: 0;}
+	.mission_stylized {padding: 44px 0;}
 }
 
 @media (max-width:480px) {
 	/*--- Main ---*/
 	.container {width: 290px;}
 	.page-header__contacts {display: none;}
-	.lead__title h2 a {font-size: 18px;}
+	.lead__title h2 a {font-size: 20px;}
 	.lead__title p {padding: 0 10px;}
 	.service__title_small {font-size: 14px;}
 	.service_personal .service__title_big {font-size: 48px; margin-bottom: 0;}
@@ -135,7 +258,13 @@
 	.dance-styles__describe h3 {font-size: 15px; word-wrap: break-word;}
 	.review__img {width: 340px;}
 	.review__content p {width: 100%;}
-	.page-title h1 {padding: 0 30px; font-size: 27px;}
+	.page-title h1 {font-size: 25px;}
+	.breadcrumbs {flex-wrap: wrap;}
+	.page-navigation__container {padding: 0;}
+	.page-section__title {font-size: 22px; letter-spacing: 4px;}
+	.order-form__container {padding: 35px 0 0;}
+	.order-form__text textarea {height: 7.8em;}
+	.dance__price, .dance__count {font-size: 30px;}
 	/*--- Shedule ---*/
 	.page-navigation__container_shedule {padding: 22px 20px 0;}
 	.shedule__month {font-size: 25px;}
@@ -143,5 +272,30 @@
 	.shedule__year {font-size: 90px; letter-spacing: 20px;}
 	.shedule__wrapper {margin-top: -25px;}
 	.shedule__cell_time p {line-height: 5em;}
+	/*--- Wedding dance ---*/
+	.lead_wedding .lead__img {height: 500px;}
+	.lead_wedding .lead__container {height: 500px; margin-top: -500px;}
+	.lead_wedding .lead__title h2 {font-size: 28px;}
+	.page-intro p {padding: 0;}
+	.video {height: 240px;}
+	.additionally__btn {margin-left: 0; line-height: 2em;}
+	.page-request__title {width: 90%;}
+	/*--- FAQ ---*/
+	.page-title_faq {padding: 5px 0;}
+	.faq__question {padding: 20px;}
+	.faq__question p {line-height: 1.5em;}
+	.faq__answer {padding: 0 20px;}
+	.faq__answer p {padding: 8px 50px 38px 0; line-height: 1.5em;}
+	/*--- Tango ---*/
+	.lead_tango .lead__title h2 {font-size: 25px; letter-spacing: 6px;}
+	.dance__cost_tango {padding-right: 0;}
+	.shedule-table-wrapper {overflow-x: scroll; margin-bottom: 58px;}
+	.shedule-table {margin-bottom: 0; width: 150%;}
+	/*--- Trainers ---*/
+	.trainers-contacts__btns {justify-content: flex-start;}
+	.trainers-contacts__btn {margin: 20px; letter-spacing: 3px; line-height: 2em;}
+	.mission_stylized {flex-wrap: wrap;}
+	.mission_stylized .mission__title {width: 100%; margin-bottom: 15px;}
+	.contact-info_trainers {padding-right: 0;}
 }
 // Адаптивная верстка //

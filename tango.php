@@ -130,6 +130,7 @@
             которые можно танцевать как в паре, так и сольно.
           </p>
         </div>
+        <div class="shedule-table-wrapper">
         <table class="shedule-table">
           <tr class="shedule-table__row">
             <td class="shedule-table__cell shedule-table__cell_day">Понедельник</td>
@@ -152,6 +153,7 @@
             <td class="shedule-table__cell shedule-table__cell_time">11:00 - 12:00</td>
           </tr>
         </table>
+        </div>
       </div>
     </section>
     

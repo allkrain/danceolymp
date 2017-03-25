@@ -140,7 +140,7 @@ span {
 
 h1 {
   font-size: 36px;
-  line-height: 1.2222222222em;
+  line-height: 1.22222em;
   text-transform: uppercase;
   color: #9c8561;
   letter-spacing: 7.2px;
@@ -149,7 +149,7 @@ h1 {
 
 h2 {
   font-size: 36px;
-  line-height: 1.2222222222em;
+  line-height: 1.22222em;
   text-transform: uppercase;
   color: #9c8561;
   letter-spacing: 7.2px;
@@ -158,7 +158,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  line-height: 1.6666666667em;
+  line-height: 1.66667em;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 4.8px;
@@ -166,13 +166,13 @@ h3 {
 
 h4 {
   font-size: 22px;
-  line-height: 1.4545454545em;
+  line-height: 1.45455em;
   color: #ac936a;
   font-weight: 700; }
 
 h5 {
   font-size: 18px;
-  line-height: 1.7777777778em;
+  line-height: 1.77778em;
   color: #fff;
   font-weight: 700;
   font-style: italic; }
@@ -193,7 +193,7 @@ p.huge {
 .gotham {
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 2.1428571429em; }
+  line-height: 2.14286em; }
 
 .phil {
   font-family: "Philosopher", "Arial", sans-serif;
@@ -316,7 +316,7 @@ select, input, textarea {
     font-size: 15px;
     font-style: italic;
     font-weight: normal;
-    line-height: 1.4666666667em; }
+    line-height: 1.46667em; }
   .page-header__navigation {
     margin-right: auto;
     padding-top: 10px;
@@ -384,12 +384,12 @@ select, input, textarea {
     margin-top: -6px;
     margin-right: auto;
     box-sizing: border-box;
-    width: 53.4798534799%; }
+    width: 53.47985%; }
     .page-footer__copyright p {
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
       font-weight: 400;
-      line-height: 1.6666666667em;
+      line-height: 1.66667em;
       text-align: left;
       margin-bottom: 24px; }
       .page-footer__copyright p:last-child {
@@ -405,7 +405,7 @@ select, input, textarea {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.6666666667em;
+    line-height: 1.66667em;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff; }
@@ -418,14 +418,14 @@ select, input, textarea {
     padding: 0 68px;
     font-size: 30px;
     font-weight: 400;
-    line-height: 1.4666666667em;
+    line-height: 1.46667em;
     letter-spacing: 6px;
     text-align: left; }
   .page-title h2 {
     padding: 0 68px;
     font-size: 24px;
     font-weight: 400;
-    line-height: 1.4166666667em;
+    line-height: 1.41667em;
     letter-spacing: normal;
     color: #fff;
     text-transform: none;
@@ -463,7 +463,7 @@ select, input, textarea {
     padding-right: 10px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 17px;
-    line-height: 1.7647058824em;
+    line-height: 1.76471em;
     font-weight: 700;
     font-style: italic;
     color: #b0966c; }
@@ -473,10 +473,10 @@ select, input, textarea {
       top: 0;
       right: 0;
       width: 5px;
-      height: 1.7647058824em;
+      height: 1.76471em;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 17px;
-      line-height: 1.7647058824em;
+      line-height: 1.76471em;
       font-weight: 700;
       font-style: italic;
       color: #b0966c; }
@@ -487,7 +487,7 @@ select, input, textarea {
     .page-menu__item a {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 17px;
-      line-height: 1.7647058824em;
+      line-height: 1.76471em;
       font-weight: 700;
       font-style: italic;
       color: #b0966c;
@@ -499,7 +499,7 @@ select, input, textarea {
   padding: 0 100px;
   font-family: "Philosopher", "Arial", sans-serif;
   font-size: 30px;
-  line-height: 1.4666666667em;
+  line-height: 1.46667em;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 6px;
@@ -573,7 +573,7 @@ select, input, textarea {
       padding: 0 10px;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 36px;
-      line-height: 1.5555555556em;
+      line-height: 1.55556em;
       letter-spacing: 10.8px;
       font-weight: 400;
       color: #fff;
@@ -584,7 +584,7 @@ select, input, textarea {
         padding: 0 10px;
         font-family: "Philosopher", "Arial", sans-serif;
         font-size: 36px;
-        line-height: 1.5555555556em;
+        line-height: 1.55556em;
         letter-spacing: 10.8px;
         font-weight: 400;
         color: #fff;
@@ -740,7 +740,7 @@ select, input, textarea {
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 11px;
   font-weight: 500;
-  line-height: 6.5454545455em;
+  line-height: 6.54545em;
   letter-spacing: 4.4px;
   color: #b0966c;
   text-decoration: none;
@@ -869,6 +869,7 @@ select, input, textarea {
     border-color: #fff; }
     .btn_white:hover, .btn_white:hover::before, .btn_white:hover::after, .btn_white::before, .btn_white::after {
       border-color: #fff; }
+
   .btn_arrow-left {
     position: relative;
     font-size: 11px;
@@ -968,7 +969,7 @@ select, input, textarea {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 60px;
     font-weight: 700;
-    line-height: 1.8333333333em;
+    line-height: 1.83333em;
     letter-spacing: 12px;
     color: #b0966c;
     opacity: 0.05;
@@ -1014,12 +1015,12 @@ select, input, textarea {
     text-align: center; }
     .service__title_big {
       font-size: 124px;
-      line-height: 0.4596774194em;
+      line-height: 0.45968em;
       letter-spacing: 37.2px;
       margin-bottom: 30px; }
     .service__title_small {
       font-size: 33px;
-      line-height: 1.7272727273em;
+      line-height: 1.72727em;
       letter-spacing: 9.9px;
       margin-bottom: 30px; }
   .service__bottom-img {
@@ -1089,7 +1090,7 @@ select, input, textarea {
     .service_group .service__title_big {
       margin-top: -24px;
       font-size: 116px;
-      line-height: 0.3706896552em;
+      line-height: 0.37069em;
       letter-spacing: 11.6px; }
     .service_group .service__content {
       padding-top: 24px; }
@@ -1114,7 +1115,7 @@ select, input, textarea {
       margin-top: -60px;
       margin-left: -24px;
       font-size: 117px;
-      line-height: 0.3760683761em;
+      line-height: 0.37607em;
       letter-spacing: 35.1px; }
     .service_tango .service__top-img {
       transform: translateX(124px);
@@ -1126,12 +1127,12 @@ select, input, textarea {
     margin-bottom: 58px; }
     .service_wedding .service__title_big {
       font-size: 105px;
-      line-height: 0.9523809524em;
+      line-height: 0.95238em;
       letter-spacing: 21px;
       margin-bottom: 0; }
     .service_wedding .service__title_small {
       font-size: 33px;
-      line-height: 1.7272727273em;
+      line-height: 1.72727em;
       letter-spacing: 26.4px;
       margin-bottom: 0;
       margin-top: -25px; }
@@ -1152,7 +1153,7 @@ select, input, textarea {
       margin-left: -10px; }
     .service_corporative .service__title_small {
       font-size: 37px;
-      line-height: 2.1891891892em;
+      line-height: 2.18919em;
       letter-spacing: 15.54px;
       margin-bottom: 0;
       margin-top: -25px;
@@ -1167,7 +1168,7 @@ select, input, textarea {
     margin-bottom: 40px; }
     .service_party .service__title_big {
       font-size: 105px;
-      line-height: 0.9523809524em;
+      line-height: 0.95238em;
       letter-spacing: 42px;
       margin-bottom: 0;
       margin-top: -15px;
@@ -1211,14 +1212,14 @@ select, input, textarea {
     margin-bottom: 58px; }
     .service_competition .service__title_big {
       font-size: 54px;
-      line-height: 1.1111111111em;
+      line-height: 1.11111em;
       letter-spacing: 10.8px;
       margin-bottom: 15px;
       margin-top: -30px;
       margin-left: -46px; }
     .service_competition .service__title_small {
       font-size: 36px;
-      line-height: 1.6666666667em;
+      line-height: 1.66667em;
       letter-spacing: 7.2px;
       margin-bottom: 0px;
       margin-top: -10px;
@@ -1290,7 +1291,7 @@ select, input, textarea {
     padding-left: 17px;
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 2.1428571429em;
+    line-height: 2.14286em;
     text-align: left; }
 
 .dance-styles__img {
@@ -1514,7 +1515,7 @@ select, input, textarea {
       padding-right: 20px;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 15px;
-      line-height: 2.2666666667em;
+      line-height: 2.26667em;
       font-weight: 400;
       font-style: italic;
       text-decoration: none;
@@ -1602,7 +1603,9 @@ select, input, textarea {
       text-align: left; }
   .page-intro_wedding {
     margin-top: 18px;
-    padding: 0 168px 0 144px; }
+    padding: 0 168px 0 144px;
+    box-sizing: border-box; }
+
   .page-intro_private {
     margin-top: 18px;
     margin-bottom: 46px; }
@@ -1786,7 +1789,7 @@ select, input, textarea {
     .mission_stylized .mission__title {
       padding-left: 0;
       font-size: 18px;
-      line-height: 1.6666666667em;
+      line-height: 1.66667em;
       letter-spacing: 0.9px;
       font-weight: 700;
       font-style: normal;
@@ -1896,7 +1899,7 @@ select, input, textarea {
   padding: 2px 5px;
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 22px;
-  line-height: 1.0909090909em;
+  line-height: 1.09091em;
   font-weight: 700;
   letter-spacing: 6.6px;
   color: #fff;
@@ -1909,7 +1912,7 @@ select, input, textarea {
   padding: 0 5px;
   font-family: "GothamPro", "Arial", sans-serif;
   font-size: 13px;
-  line-height: 1.8461538462em;
+  line-height: 1.84615em;
   font-weight: 500;
   color: #fff;
   text-align: center;
@@ -1960,7 +1963,7 @@ select, input, textarea {
       display: block;
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 14px;
-      line-height: 1.7142857143em;
+      line-height: 1.71429em;
       font-weight: 400;
       font-style: normal;
       color: #fff;
@@ -2059,7 +2062,7 @@ select, input, textarea {
       padding-right: 10px;
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
-      line-height: 2.6666666667em;
+      line-height: 2.66667em;
       font-weight: 400;
       letter-spacing: 0.6px;
       color: #b0966c; }
@@ -2068,7 +2071,7 @@ select, input, textarea {
     .order-form__input input {
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
-      line-height: 2.6666666667em;
+      line-height: 2.66667em;
       font-weight: 400;
       letter-spacing: 0.6px;
       color: #fff;
@@ -2091,7 +2094,7 @@ select, input, textarea {
       padding-right: 30px;
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
-      line-height: 2.6666666667em;
+      line-height: 2.66667em;
       font-weight: 400;
       letter-spacing: 0.6px;
       color: #b0966c; }
@@ -2100,7 +2103,7 @@ select, input, textarea {
       resize: none;
       font-family: "GothamPro", "Arial", sans-serif;
       font-size: 12px;
-      line-height: 2.6666666667em;
+      line-height: 2.66667em;
       font-weight: 400;
       letter-spacing: 0.6px;
       color: #fff;
@@ -2203,7 +2206,7 @@ select, input, textarea {
     left: 50%;
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 120px;
-    line-height: 0.3666666667em;
+    line-height: 0.36667em;
     font-weight: 700;
     letter-spacing: 24px;
     color: rgba(174, 149, 107, 0.05);
@@ -2214,14 +2217,14 @@ select, input, textarea {
     margin-right: -4px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 30px;
-    line-height: 1.4666666667em;
+    line-height: 1.46667em;
     font-weight: 400;
     letter-spacing: 6px;
     color: #fff;
     text-transform: uppercase; }
   .shedule__cell {
     box-sizing: border-box;
-    width: 12.962962963%;
+    width: 12.96296%;
     min-height: 106px;
     text-align: left;
     background-color: #2d2d2d;
@@ -2234,7 +2237,7 @@ select, input, textarea {
       padding: 10px 18px; }
     .shedule__cell_time {
       text-align: center;
-      width: 8.6419753086%;
+      width: 8.64198%;
       background-color: #272727;
       border-right-width: 2px;
       border-bottom-width: 0;
@@ -2272,7 +2275,7 @@ select, input, textarea {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 15px;
       font-weight: 400;
-      line-height: 1.3333333333em;
+      line-height: 1.33333em;
       font-style: italic;
       color: #fff;
       text-decoration: none; }
@@ -2285,7 +2288,7 @@ select, input, textarea {
   .shedule__week-controls {
     padding: 12px 0;
     text-align: center;
-    width: 8.6419753086%;
+    width: 8.64198%;
     background-color: #202020;
     min-height: 57px;
     height: 57px; }
@@ -2296,7 +2299,7 @@ select, input, textarea {
     padding-right: 4px !important;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 22px;
-    line-height: 1.0909090909em;
+    line-height: 1.09091em;
     font-weight: 700;
     color: #b0966c;
     font-style: italic;
@@ -2317,7 +2320,7 @@ select, input, textarea {
   .shedule__vacancies {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 12px;
-    line-height: 1.6666666667em;
+    line-height: 1.66667em;
     font-weight: 400;
     font-style: normal;
     color: #ae956b; }
@@ -2362,7 +2365,7 @@ select, input, textarea {
     .faq__question p {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 18px;
-      line-height: 1.8888888889em;
+      line-height: 1.88889em;
       font-weight: 400;
       font-style: italic;
       color: #fff; }
@@ -2449,7 +2452,7 @@ select, input, textarea {
   .dance__price span, .dance__count span {
     font-weight: 400;
     font-size: 28px;
-    line-height: 1.0714285714em;
+    line-height: 1.07143em;
     color: #fff; }
 
 .dance__price {
@@ -2545,7 +2548,7 @@ select, input, textarea {
     padding-right: 180px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 18px;
-    line-height: 1.8888888889em;
+    line-height: 1.88889em;
     font-weight: 400;
     font-style: italic;
     color: #b0966c;
@@ -2581,7 +2584,7 @@ select, input, textarea {
     margin-bottom: 9px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 17px;
-    line-height: 1.7647058824em;
+    line-height: 1.76471em;
     font-weight: 400;
     font-style: italic;
     color: #ac936a;
@@ -2590,7 +2593,7 @@ select, input, textarea {
     display: block;
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 2.1428571429em;
+    line-height: 2.14286em;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -2598,7 +2601,7 @@ select, input, textarea {
   .contact-info__address p {
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 2.1428571429em;
+    line-height: 2.14286em;
     font-weight: 400;
     color: #fff;
     text-align: center; }
@@ -2739,13 +2742,13 @@ select, input, textarea {
     text-align: left;
     font-family: "GothamPro", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 2.1428571429em;
+    line-height: 2.14286em;
     font-weight: 400;
     color: #fff; }
     .shedule-table__cell_day {
       padding-left: 19px;
       padding-right: 19px;
-      width: 24.4808743169%;
+      width: 24.48087%;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 16px;
       line-height: 1.875em;
@@ -2754,11 +2757,11 @@ select, input, textarea {
     .shedule-table__cell_lesson {
       padding-left: 28px;
       padding-right: 28px;
-      width: 50.3825136612%; }
+      width: 50.38251%; }
     .shedule-table__cell_time {
       padding-left: 10px;
       padding-right: 10px;
-      width: 24.4808743169%;
+      width: 24.48087%;
       text-align: center;
       color: #ae956b; }
 
@@ -2807,7 +2810,7 @@ select, input, textarea {
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 26px;
     font-weight: 700;
-    line-height: 1.3076923077em;
+    line-height: 1.30769em;
     letter-spacing: normal;
     color: #fff;
     text-transform: none; }
@@ -3101,6 +3104,8 @@ select, input, textarea {
 
 @media (max-width: 1360px) {
   /*--- Main ---*/
+  body {
+    background-position: center; }
   .container {
     width: 1210px; }
   .lead__img {
@@ -3108,6 +3113,17 @@ select, input, textarea {
   /*--- Shedule ---*/
   .shedule__cell p {
     padding: 10px 14px; } }
+  .video-bg {
+    width: 100%; }
+  /*--- Shedule ---*/
+  .shedule__cell p {
+    padding: 10px 14px; }
+  /*--- Tango ---*/
+  .lead_tango .lead__title h2 {
+    padding: 0 90px; }
+  /*--- Trainers ---*/
+  .page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {
+    padding: 0 140px; } }
 
 @media (max-width: 1270px) {
   /*--- Main ---*/
@@ -3138,6 +3154,12 @@ select, input, textarea {
     padding: 0 150px; }
   .review__content p {
     width: 50%; }
+ 
+  .page-navigation__container {
+    padding: 0 60px; }
+  .lead__title {
+    padding: 80px 120px; }
+
   /*--- Shedule ---*/
   .shedule__wrapper {
     overflow-x: scroll; }
@@ -3146,7 +3168,53 @@ select, input, textarea {
   .shedule__cell p {
     padding: 10px; }
   .shedule__cell_time p {
-    line-height: 6.3em; } }
+    line-height: 6.3em; }
+  /*--- Wedding dance ---*/
+  .dance__container {
+    padding: 0 60px; }
+  .video {
+    width: 100%;
+    height: 500px; }
+  .video__promo {
+    width: 100%;
+    height: 100%; }
+  .additionally__list-describe p {
+    padding: 0 220px; }
+  .additionally__items {
+    padding: 0 60px; }
+  .additionally__offer h3 {
+    padding-right: 160px; }
+  /*--- FAQ ---*/
+  .page-title_faq {
+    padding: 5px 60px; }
+  .page-intro_faq p {
+    padding: 6px 130px; }
+  .faq__container {
+    padding: 0 130px; }
+  /*--- Tango ---*/
+  .lead_tango .lead__title h2 {
+    padding: 0; }
+  .page-intro_tango p {
+    padding: 0 70px; }
+  .trends__container {
+    padding: 0 80px; }
+  .tango-trainers__list {
+    padding: 0 140px; }
+  .tango-shedule__title {
+    padding: 0 50px; }
+  .tango-shedule__container {
+    padding: 0 80px; }
+  /*--- Trainers ---*/
+  .page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {
+    padding: 0 70px; }
+  .trainers__list {
+    justify-content: center; }
+  .trainers__item {
+    margin: 0 20px 50px; }
+  .trainers__item:nth-child(3n+3) {
+    margin-right: 20px; }
+  .trainers__item:last-child {
+    margin-right: 20px; } }
 
 @media (max-width: 1014px) {
   /*--- Main ---*/
@@ -3175,7 +3243,29 @@ select, input, textarea {
     font-size: 22px; }
   .btn_youtube {
     padding-left: 60px;
-    letter-spacing: 3px; } }
+    letter-spacing: 3px; }
+  .order-form__container {
+    padding: 35px 42px 0; }
+  .contact-info__container {
+    padding: 0; }
+  /*--- Wedding dance ---*/
+  .page-intro p {
+    padding: 0 60px; }
+  .page-intro p br {
+    display: none; }
+  .additionally__offer h3 {
+    padding-right: 130px; }
+  /*--- FAQ ---*/
+  .faq__container {
+    padding: 0 60px; }
+  /*--- Tango ---*/
+  .trends__title {
+    padding-right: 200px; }
+  .tango-trainers__list {
+    padding: 0 120px; }
+  /*--- Trainers ---*/
+  .trainers-contacts__btns {
+    padding: 0; } }
 
 @media (max-width: 950px) {
   /*--- Main ---*/
@@ -3211,7 +3301,36 @@ select, input, textarea {
     margin-top: -450px; }
   .review__img {
     width: 650px;
-    height: 450px; } }
+    height: 450px; }
+  /*--- Wedding dance ---*/
+  .video {
+    height: 400px; }
+  .additionally__list-describe p {
+    padding: 0 100px; }
+  .additionally__offer h3 {
+    padding-right: 50px; }
+  .order-form__name {
+    width: 100%; }
+  .order-form__phone, .order-form__email {
+    width: 48%; }
+  /*--- Tango ---*/
+  .trends__title {
+    padding: 0; }
+  .tango-trainers__list {
+    padding: 0 60px; }
+  /*--- Trainers ---*/
+  .page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {
+    padding: 0 60px; }
+  .trainers__list {
+    justify-content: flex-start; }
+  .trainers__item:nth-child(odd) {
+    margin-left: 0; }
+  .trainers__item:nth-child(even) {
+    margin-right: 0; }
+  .trainers-contacts__btns {
+    flex-wrap: wrap; }
+  .trainers-contacts__btn {
+    margin-right: 15px; } }
 
 @media (min-width: 791px) {
   /*--- Main ---*/
@@ -3288,11 +3407,86 @@ select, input, textarea {
     height: 700px; }
   .lead__controls {
     padding: 0; }
+ 
+  .lead__container {
+    height: 700px;
+    margin-top: -700px; }
+  .order-form__phone, .order-form__email {
+    width: 100%; }
+  .order-form__email label {
+    padding-left: 0;
+    padding-right: 10px; }
+  .order-form__text textarea {
+    line-height: 2.6em;
+    height: 5.2em; }
+  .order-form__text label {
+    align-self: flex-start;
+    padding-right: 10px; }
+  .video-bg {
+    height: 700px; }
+  .lead__title {
+    padding: 80px; }
   /*--- Shedule ---*/
   .shedule__container {
     padding: 0; }
   .shedule__cell_time p {
-    line-height: 6em; } }
+    line-height: 6em; }
+  /*--- Wedding dance ---*/
+  .page-navigation__container {
+    padding: 0 40px; }
+  .page-section__title {
+    padding: 0 30px; }
+  .dance__container {
+    padding: 0 40px; }
+  .video {
+    height: 340px; }
+  .additionally__list-describe p {
+    padding: 0 40px; }
+  .additionally__items {
+    padding: 0 40px; }
+  .additionally__item {
+    width: 100%; }
+  .additionally__offer h3, .additionally__offer p {
+    padding: 0; }
+  .dance__video {
+    margin-top: 20px; }
+  /*--- FAQ ---*/
+  .page-title_faq {
+    padding: 5px 40px; }
+  .faq__container {
+    padding: 0; }
+  /*--- Tango ---*/
+  .trends__container {
+    padding: 0; }
+  .trends__items {
+    width: 100%; }
+  .trends__items_left {
+    padding-right: 0; }
+  .trends__items_right {
+    padding-left: 0; }
+  .tango-trainers__list {
+    padding: 0; }
+  .tango-shedule__container {
+    padding: 0; }
+  .tango-shedule__describe p {
+    width: 100%;
+    margin-top: 20px; }
+  .tango-shedule__describe p:nth-child(odd) {
+    padding-right: 0; }
+  .tango-shedule__describe p:nth-child(even) {
+    padding-left: 0; }
+  .dance__duration {
+    margin-bottom: 28px; }
+  /*--- Trainers ---*/
+  .page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {
+    padding: 0; }
+  .trainers__item:nth-child(odd) {
+    margin-right: 10px; }
+  .trainers__item:nth-child(even) {
+    margin-left: 10px; }
+  .trainers__biography p {
+    text-align: center;
+    padding: 0 10px; } }
 
 @media (max-width: 640px) {
   /*--- Main ---*/
@@ -3304,7 +3498,7 @@ select, input, textarea {
   .page-header__contacts a {
     letter-spacing: 0.6px; }
   .lead__title {
-    padding: 70px 40px; }
+    padding: 70px 0; }
   .lead__title p {
     width: 100%; }
   .lead__title h2 a {
@@ -3345,12 +3539,66 @@ select, input, textarea {
   .review__content {
     padding: 0; }
   .page-title h1 {
-    padding: 0 48px; }
+    padding: 0; }
+  .dance__price, .dance__count {
+    font-size: 40px; }
+  .page-intro p {
+    padding: 0; }
   /*--- Shedule ---*/
   .shedule__cell_time p {
     line-height: 5.7em; }
   .page-navigation__container_shedule {
-    padding: 22px 38px 0; } }
+    padding: 22px 38px 0; }
+  /*--- Wedding dance ---*/
+  .page-section__title {
+    padding: 0; }
+  .dance__container {
+    padding: 0; }
+  .dance__video {
+    margin-left: 0; }
+  .additionally__list-describe p {
+    padding: 0; }
+  .additionally__items {
+    padding: 0; }
+  .additionally__item {
+    margin-top: 50px; }
+  .additionally__offer h3 {
+    margin-bottom: 20px; }
+  .additionally__btn {
+    max-width: 100%;
+    letter-spacing: 3px; }
+  /*--- FAQ ---*/
+  .faq__question p {
+    padding-right: 10px; }
+  /*--- Tango ---*/
+  .tango-trainers__list {
+    justify-content: center; }
+  .shedule-table__cell_lesson {
+    padding-left: 12px;
+    padding-right: 12px; }
+  .shedule-table__cell {
+    font-size: 13px; }
+  .shedule-table__cell_day {
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px; }
+  .shedule-table__cell_time {
+    padding-left: 6px;
+    padding-right: 6px; }
+  /*--- Trainers ---*/
+  .trainers__list {
+    justify-content: center; }
+  .trainers__item {
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+  .trainers-contacts__btns {
+    justify-content: center; }
+  .trainers-contacts__btn {
+    margin: 0 25px; }
+  .trainers-contacts__btn_services {
+    padding-left: 0; }
+  .mission_stylized {
+    padding: 44px 0; } }
 
 @media (max-width: 480px) {
   /*--- Main ---*/
@@ -3359,7 +3607,7 @@ select, input, textarea {
   .page-header__contacts {
     display: none; }
   .lead__title h2 a {
-    font-size: 18px; }
+    font-size: 20px; }
   .lead__title p {
     padding: 0 10px; }
   .service__title_small {
@@ -3389,7 +3637,20 @@ select, input, textarea {
     width: 100%; }
   .page-title h1 {
     padding: 0 30px;
-    font-size: 27px; }
+    font-size: 25px; }
+  .breadcrumbs {
+    flex-wrap: wrap; }
+  .page-navigation__container {
+    padding: 0; }
+  .page-section__title {
+    font-size: 22px;
+    letter-spacing: 4px; }
+  .order-form__container {
+    padding: 35px 0 0; }
+  .order-form__text textarea {
+    height: 7.8em; }
+  .dance__price, .dance__count {
+    font-size: 30px; }
   /*--- Shedule ---*/
   .page-navigation__container_shedule {
     padding: 22px 20px 0; }
@@ -3403,6 +3664,61 @@ select, input, textarea {
   .shedule__wrapper {
     margin-top: -25px; }
   .shedule__cell_time p {
-    line-height: 5em; } }
+    line-height: 5em; }
+  /*--- Wedding dance ---*/
+  .lead_wedding .lead__img {
+    height: 500px; }
+  .lead_wedding .lead__container {
+    height: 500px;
+    margin-top: -500px; }
+  .lead_wedding .lead__title h2 {
+    font-size: 28px; }
+  .page-intro p {
+    padding: 0; }
+  .video {
+    height: 240px; }
+  .additionally__btn {
+    margin-left: 0;
+    line-height: 2em; }
+  .page-request__title {
+    width: 90%; }
+  /*--- FAQ ---*/
+  .page-title_faq {
+    padding: 5px 0; }
+  .faq__question {
+    padding: 20px; }
+  .faq__question p {
+    line-height: 1.5em; }
+  .faq__answer {
+    padding: 0 20px; }
+  .faq__answer p {
+    padding: 8px 50px 38px 0;
+    line-height: 1.5em; }
+  /*--- Tango ---*/
+  .lead_tango .lead__title h2 {
+    font-size: 25px;
+    letter-spacing: 6px; }
+  .dance__cost_tango {
+    padding-right: 0; }
+  .shedule-table-wrapper {
+    overflow-x: scroll;
+    margin-bottom: 58px; }
+  .shedule-table {
+    margin-bottom: 0;
+    width: 150%; }
+  /*--- Trainers ---*/
+  .trainers-contacts__btns {
+    justify-content: flex-start; }
+  .trainers-contacts__btn {
+    margin: 20px;
+    letter-spacing: 3px;
+    line-height: 2em; }
+  .mission_stylized {
+    flex-wrap: wrap; }
+  .mission_stylized .mission__title {
+    width: 100%;
+    margin-bottom: 15px; }
+  .contact-info_trainers {
+    padding-right: 0; } }
 
 /*# sourceMappingURL=default.css.map */

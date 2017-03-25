@@ -1938,7 +1938,8 @@
   
   &_wedding {
     margin-top: 18px;
-    padding: 0 168px 0 144px;
+//    padding: 0 168px 0 144px;
+	box-sizing: border-box;
   }
   
   &_private {
