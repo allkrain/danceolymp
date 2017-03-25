@@ -2545,9 +2545,11 @@
     justify-content: flex-start;
     align-items: stretch;
   }
+	
+  &__wrapper {padding-top: 15px; margin-top: -15px; box-shadow: 0 40px 25px 0 rgba(0, 0, 0, 0.1);}
   
   &__body {
-    box-shadow: 0 40px 25px 0 rgba(0, 0, 0, 0.1);
+    
   }
   
   &__row {

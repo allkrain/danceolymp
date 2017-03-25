@@ -42,6 +42,10 @@
               <span class="shedule__month-btn-right btn btn_empty btn_round btn_right btn_white btn_move-right"></span>
             </div>
           </div>
+          
+        </div>
+        <div class="shedule__wrapper">
+         <div class="shedule__body">
           <div class="shedule__row shedule__row_days">
             <div class="shedule__cell shedule__week-controls">
               <span class="shedule__week-btn-left btn btn_empty btn_round btn_left btn_move-left"></span>
@@ -76,8 +80,6 @@
               <p class="shedule__day-name">Вс</p>
             </div>
           </div>
-        </div>
-        <div class="shedule__body"> 
           <div class="shedule__row">
             <div class="shedule__cell shedule__cell_time">
               <p>11:00</p>
@@ -282,6 +284,7 @@
             <div class="shedule__cell"></div>
             <div class="shedule__cell"></div>
           </div>
+        </div>
         </div>
       </div>
     </section>
