@@ -200,7 +200,18 @@
 
     &:hover {
       color: $base_color_3;
-    }   
+      
+      .cross {
+        fill: $base_color_3;
+      }
+    }
+    
+    svg {
+      margin-left: 3px;
+      width: 23px;
+      height: 15px;
+      transform: translate(0, 2px);
+    }
   }
 }
 

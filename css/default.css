@@ -411,6 +411,13 @@ select, input, textarea {
     color: #fff; }
     .page-footer__developer:hover {
       color: #9c8561; }
+      .page-footer__developer:hover .cross {
+        fill: #9c8561; }
+    .page-footer__developer svg {
+      margin-left: 3px;
+      width: 23px;
+      height: 15px;
+      transform: translate(0, 2px); }
 
 .page-title {
   box-sizing: border-box; }
