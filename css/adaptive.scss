@@ -1,6 +1,7 @@
 // Адаптивная верстка //
 @media (max-width: 1360px) {
 	/*--- Main ---*/
+	body {background-position: center;}
 	.container {width: 1210px;}
 	.lead__img {width: 100%;}
 	/*--- Shedule ---*/
@@ -21,11 +22,19 @@
 	.review__img {width: 700px;}
 	.review__content {padding: 0 150px;}
 	.review__content p {width: 50%;}
+	.page-navigation__container {padding: 0 60px;}
 	/*--- Shedule ---*/
 	.shedule__wrapper {overflow-x: scroll;}
 	.shedule__body {width: 1000px;}
 	.shedule__cell p {padding: 10px;}
 	.shedule__cell_time p {line-height: 6.3em;}
+	/*--- Wedding dance ---*/
+	.dance__container {padding: 0 60px;}
+	.video {width: 100%; height: 500px;}
+	.video__promo {width: 100%; height: 100%;}
+	.additionally__list-describe p {padding: 0 220px;}
+	.additionally__items {padding: 0 60px;}
+	.additionally__offer h3 {padding-right: 160px;}
 }
 
 @media (max-width:1014px) {
@@ -40,6 +49,11 @@
 	.dance-styles__describe {padding-left: 130px; width: 58%;}
 	.dance-styles__describe h3 {font-size: 22px;}
 	.btn_youtube {padding-left: 60px; letter-spacing: 3px;}
+	/*--- Wedding dance ---*/
+	.page-intro p {padding: 0 60px;}
+	.page-intro p br {display: none;}
+	.additionally__offer h3 {padding-right: 130px;}
+	.order-form__container {padding: 35px 42px 0;}
 }
 
 @media (max-width:950px) {
@@ -57,6 +71,12 @@
 	.dance-styles__describe {width: 100%; padding: 0 130px;}
 	.review__content {padding: 0 70px; height: 450px; margin-top: -450px;}
 	.review__img {width: 650px; height: 450px;}
+	/*--- Wedding dance ---*/
+	.video {height: 400px;}
+	.additionally__list-describe p {padding: 0 100px;}
+	.additionally__offer h3 {padding-right: 50px;}
+	.order-form__name {width: 100%;}
+	.order-form__phone, .order-form__email {width: 48%;}
 }
 
 @media (min-width:791px) {
@@ -86,9 +106,23 @@
 	.dance-styles__describe {padding: 0 100px;}
 	.lead__img {height: 700px;}
 	.lead__controls {padding: 0;}
+	.lead__container {height: 700px; margin-top: -700px;}
 	/*--- Shedule ---*/
 	.shedule__container {padding: 0;}
 	.shedule__cell_time p {line-height: 6em;}
+	/*--- Wedding dance ---*/
+	.page-navigation__container {padding: 0 40px;}
+	.page-section__title {padding: 0 30px;}
+	.dance__container {padding: 0 40px;}
+	.video {height: 340px;}
+	.additionally__list-describe p {padding: 0 40px;}
+	.additionally__items {padding: 0 40px;}
+	.additionally__item {width: 100%;}
+	.additionally__offer h3, .additionally__offer p {padding: 0;}
+	.order-form__phone, .order-form__email {width: 100%;}
+	.order-form__email label {padding-left: 0; padding-right: 10px;}
+	.order-form__text textarea {line-height: 2.6em; height: 5.2em;}
+	.order-form__text label {align-self: flex-start; padding-right: 10px;}
 }
 
 @media (max-width:640px) {
@@ -117,13 +151,23 @@
 	/*--- Shedule ---*/
 	.shedule__cell_time p {line-height: 5.7em;}
 	.page-navigation__container_shedule {padding: 22px 38px 0;}
+	/*--- Wedding dance ---*/
+	.page-intro p {padding: 0 40px;}
+	.page-section__title {padding: 0;}
+	.dance__container {padding: 0;}
+	.dance__video {margin-left: 0;}
+	.additionally__list-describe p {padding: 0;}
+	.additionally__items {padding: 0;}
+	.additionally__item {margin-top: 50px;}
+	.additionally__offer h3 {margin-bottom: 20px;}
+	.additionally__btn {max-width: 100%; letter-spacing: 3px;}
 }
 
 @media (max-width:480px) {
 	/*--- Main ---*/
 	.container {width: 290px;}
 	.page-header__contacts {display: none;}
-	.lead__title h2 a {font-size: 18px;}
+	.lead__title h2 a {font-size: 20px;}
 	.lead__title p {padding: 0 10px;}
 	.service__title_small {font-size: 14px;}
 	.service_personal .service__title_big {font-size: 48px; margin-bottom: 0;}
@@ -136,6 +180,9 @@
 	.review__img {width: 340px;}
 	.review__content p {width: 100%;}
 	.page-title h1 {padding: 0 30px; font-size: 27px;}
+	.breadcrumbs {flex-wrap: wrap;}
+	.page-navigation__container {padding: 0;}
+	.page-section__title {font-size: 22px; letter-spacing: 4px;}
 	/*--- Shedule ---*/
 	.page-navigation__container_shedule {padding: 22px 20px 0;}
 	.shedule__month {font-size: 25px;}
@@ -143,5 +190,17 @@
 	.shedule__year {font-size: 90px; letter-spacing: 20px;}
 	.shedule__wrapper {margin-top: -25px;}
 	.shedule__cell_time p {line-height: 5em;}
+	/*--- Wedding dance ---*/
+	.lead_wedding .lead__img {height: 500px;}
+	.lead_wedding .lead__container {height: 500px; margin-top: -500px;}
+	.lead_wedding .lead__title h2 {font-size: 28px;}
+	.page-intro p {padding: 0;}
+	.dance__price, .dance__count {font-size: 40px;}
+	.video {height: 240px;}
+	.additionally__btn {margin-left: 0; line-height: 2em;}
+	.contact-info__container {padding-right: 0;}
+	.page-request__title {width: 90%;}
+	.order-form__container {padding: 35px 0 0;}
+	.order-form__text textarea {height: 7.8em;}
 }
 // Адаптивная верстка //
