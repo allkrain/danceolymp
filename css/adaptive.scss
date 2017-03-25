@@ -35,6 +35,10 @@
 	.additionally__list-describe p {padding: 0 220px;}
 	.additionally__items {padding: 0 60px;}
 	.additionally__offer h3 {padding-right: 160px;}
+	/*--- FAQ ---*/
+	.page-title_faq {padding: 5px 60px;}
+	.page-intro_faq p {padding: 6px 130px;}
+	.faq__container {padding: 0 130px;}
 }
 
 @media (max-width:1014px) {
@@ -54,6 +58,8 @@
 	.page-intro p br {display: none;}
 	.additionally__offer h3 {padding-right: 130px;}
 	.order-form__container {padding: 35px 42px 0;}
+	/*--- FAQ ---*/
+	.faq__container {padding: 0 60px;}
 }
 
 @media (max-width:950px) {
@@ -123,6 +129,9 @@
 	.order-form__email label {padding-left: 0; padding-right: 10px;}
 	.order-form__text textarea {line-height: 2.6em; height: 5.2em;}
 	.order-form__text label {align-self: flex-start; padding-right: 10px;}
+	/*--- FAQ ---*/
+	.page-title_faq {padding: 5px 40px;}
+	.faq__container {padding: 0;}
 }
 
 @media (max-width:640px) {
@@ -161,6 +170,8 @@
 	.additionally__item {margin-top: 50px;}
 	.additionally__offer h3 {margin-bottom: 20px;}
 	.additionally__btn {max-width: 100%; letter-spacing: 3px;}
+	/*--- FAQ ---*/
+	.faq__question p {padding-right: 10px;}
 }
 
 @media (max-width:480px) {
@@ -202,5 +213,11 @@
 	.page-request__title {width: 90%;}
 	.order-form__container {padding: 35px 0 0;}
 	.order-form__text textarea {height: 7.8em;}
+	/*--- FAQ ---*/
+	.page-title_faq {padding: 5px 0;}
+	.faq__question {padding: 20px;}
+	.faq__question p {line-height: 1.5em;}
+	.faq__answer {padding: 0 20px;}
+	.faq__answer p {padding: 8px 50px 38px 0; line-height: 1.5em;}
 }
 // Адаптивная верстка //

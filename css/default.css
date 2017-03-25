@@ -2882,7 +2882,14 @@ select, input, textarea {
   .additionally__items {
     padding: 0 60px; }
   .additionally__offer h3 {
-    padding-right: 160px; } }
+    padding-right: 160px; }
+  /*--- FAQ ---*/
+  .page-title_faq {
+    padding: 5px 60px; }
+  .page-intro_faq p {
+    padding: 6px 130px; }
+  .faq__container {
+    padding: 0 130px; } }
 
 @media (max-width: 1014px) {
   /*--- Main ---*/
@@ -2920,7 +2927,10 @@ select, input, textarea {
   .additionally__offer h3 {
     padding-right: 130px; }
   .order-form__container {
-    padding: 35px 42px 0; } }
+    padding: 35px 42px 0; }
+  /*--- FAQ ---*/
+  .faq__container {
+    padding: 0 60px; } }
 
 @media (max-width: 950px) {
   /*--- Main ---*/
@@ -3079,7 +3089,12 @@ select, input, textarea {
     height: 5.2em; }
   .order-form__text label {
     align-self: flex-start;
-    padding-right: 10px; } }
+    padding-right: 10px; }
+  /*--- FAQ ---*/
+  .page-title_faq {
+    padding: 5px 40px; }
+  .faq__container {
+    padding: 0; } }
 
 @media (max-width: 640px) {
   /*--- Main ---*/
@@ -3157,7 +3172,10 @@ select, input, textarea {
     margin-bottom: 20px; }
   .additionally__btn {
     max-width: 100%;
-    letter-spacing: 3px; } }
+    letter-spacing: 3px; }
+  /*--- FAQ ---*/
+  .faq__question p {
+    padding-right: 10px; } }
 
 @media (max-width: 480px) {
   /*--- Main ---*/
@@ -3242,6 +3260,18 @@ select, input, textarea {
   .order-form__container {
     padding: 35px 0 0; }
   .order-form__text textarea {
-    height: 7.8em; } }
+    height: 7.8em; }
+  /*--- FAQ ---*/
+  .page-title_faq {
+    padding: 5px 0; }
+  .faq__question {
+    padding: 20px; }
+  .faq__question p {
+    line-height: 1.5em; }
+  .faq__answer {
+    padding: 0 20px; }
+  .faq__answer p {
+    padding: 8px 50px 38px 0;
+    line-height: 1.5em; } }
 
 /*# sourceMappingURL=default.css.map */
