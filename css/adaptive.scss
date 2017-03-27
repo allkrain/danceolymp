@@ -76,6 +76,24 @@
 	.about__features, .about__mission {padding: 0 60px;}
 	.trainers__slider li:nth-child(n+3) {display: none;}
 	.review__slider-controls {padding: 0 30px;}
+	/*--- Services ---*/
+	.page-intro_services p {padding: 0 70px;}
+	.service__btns-list {flex-direction: row; height: auto;}
+	.service__btns-list li {margin-right: 30px;}
+	.service_band .service__content {padding-left: 70px;}
+	.service_wedding .service__content {padding-right: 70px;}
+	.service_corporative .service__content {padding-left: 70px;}
+	.service_corporative .service__title_small {margin-left: -30px;}
+	.service_corporative .service__title_big {margin-left: -40px;}
+	.service_party .service__content {padding-right: 70px;}
+	.service_party .service__title_small {margin-left: 60px;}
+	.service_party .service__title_big {margin-left: 80px;}
+	.service_gift .service__content {padding-left: 70px;}
+	.service_competition .service__content {padding-right: 70px;}
+	.service_competition .service__title_big {margin-left: 30px;}
+	.service_competition .service__title_small {margin-left: 30px;}
+	.support__phone {padding: 0 200px;}
+	.support__email, .support__answer {padding: 0;}
 }
 
 @media (max-width:1014px) {
@@ -108,6 +126,12 @@
 	.about__gallery-img {width: 700px; height: 460px;}
 	.trainers__slider {padding: 0 120px;}
 	.review__minigallery li {width: 230px; height: 140px; margin-right: 20px;}
+	/*--- Services ---*/
+	.service_corporative .service__title_small {margin-left: -50px;}
+	.service_corporative .service__title_big {margin-left: -70px;}
+	.service_party .service__title_small {margin-left: 90px;}
+	.service_party .service__title_big {margin-left: 110px;}
+	.support__phone {padding: 0 150px;}
 }
 
 @media (max-width:950px) {
@@ -149,6 +173,14 @@
 	.trainers__controls .controls__next {right: -15px;}
 	.trainers__slider {padding: 0 65px;}
 	.review__minigallery li {width: 180px; height: 110px;}
+	/*--- Services ---*/
+	.service_corporative .service__title_small {margin-left: 0;}
+	.service_corporative .service__title_big {margin-left: -15px;}
+	.service_party .service__title_small {margin-left: 10px;}
+	.service_party .service__title_big {margin-left: 30px;}
+	.service_gift .service__title_small {margin-left: 20px;}
+	.service_gift .service__title_big {margin-left: 0;}
+	.support__phone {padding: 0 70px;}
 }
 
 @media (min-width:791px) {
@@ -296,6 +328,21 @@
 	.review_about {margin-left: 0;}
 	.review__slider, .review__slider-item {width: 100%;}
 	.review__media {width: 100%;}
+	/*--- Services ---*/
+	.service__bottom-img img {width: 100%; transform: translate(0);}
+	.service__btns-list {padding: 0;}
+	.service_wedding .service__title_small {font-size: 24px;}
+	.service_wedding .service__title_big {font-size: 90px;}
+	.service_corporative .service__title_small {font-size: 24px; margin-left: 10px;}
+	.service_corporative .service__title_big {font-size: 62px; margin-left: -5px;}
+	.service_party .service__title_small {font-size: 24px; letter-spacing: 18px; margin-left: 15px;}
+	.service_party .service__title_big {font-size: 90px; letter-spacing: 30px;}
+	.service_gift .service__title_small {font-size: 24px; letter-spacing: 22px;}
+	.service_gift .service__title_big {font-size: 50px; letter-spacing: 7px;}
+	.service_competition .service__title_big {font-size: 44px; letter-spacing: 9px; margin-left: 20px;}
+	.service_competition .service__title_small {font-size: 30px; letter-spacing: 7px; margin-left: 20px;}
+	.support__phone {padding: 0;}
+	.page-request__title {width: 90%;}
 }
 
 @media (max-width:480px) {
@@ -309,7 +356,7 @@
 	.service_group .service__title_big {font-size: 48px; margin-bottom: 0;}
 	.service__img figcaption {padding: 0;}
 	.service_tango .service__title_big {font-size: 48px; letter-spacing: 20px;}
-	.service__bottom-img {top: -20%; left: -50%;}
+	.service__img {min-height: 220px;}
 	h2 {font-size: 24px;}
 	.dance-styles__describe h3 {font-size: 15px; word-wrap: break-word;}
 	.review__content p {width: 100%;}
@@ -363,5 +410,17 @@
 	.trainers__controls .controls__next {right: 0;}
 	.trainers__slider {padding: 0;}
 	.review__slider-controls {padding: 0;}
+	/*--- Services ---*/
+	.service_wedding .service__title_small {font-size: 14px; letter-spacing: 20px; margin-left: 20px;}
+	.service_wedding .service__title_big {font-size: 50px; margin-left: 20px;}
+	.service_corporative .service__title_small {font-size: 14px; letter-spacing: 11px;}
+	.service_corporative .service__title_big {font-size: 40px; margin-top: 0;}
+	.service_party .service__title_small {font-size: 14px; letter-spacing: 13px;}
+	.service_party .service__title_big {font-size: 60px; letter-spacing: 22px;}
+	.service_gift .service__title_small {font-size: 14px; letter-spacing: 18px;}
+	.service_gift .service__title_big {font-size: 34px; letter-spacing: 5px;}
+	.service_competition .service__title_big {font-size: 28px; letter-spacing: 6px; margin-left: 10px;}
+	.service_competition .service__title_small {font-size: 22px; letter-spacing: 5px; margin-left: 10px;}
+	.page-request__title p {margin-right: 0; line-height: 2em; padding: 10px 0;}
 }
 // Адаптивная верстка //
