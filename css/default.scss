@@ -4031,6 +4031,8 @@
 }
 
 .contacts {
+  margin-bottom: 42px;
+  
   &__container {
     box-sizing: border-box;
     display: flex;
@@ -4042,7 +4044,6 @@
   
   &__list {
     box-sizing: border-box;
-    margin-bottom: 42px;
     min-width: 450px;
     width: 450px;
   }
@@ -4156,7 +4157,7 @@
   background-image: url(../img/nojs_map.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .event {
