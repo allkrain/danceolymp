@@ -3385,6 +3385,18 @@ select, input, textarea {
     width: 80%; }
   .post__follow {
     width: 20%; } }
+  /*--- Dance styles ---*/
+  .page-intro_styles .page-intro__container {
+    padding: 0 90px; }
+  .styles__container {
+    padding: 0 135px; }
+  .page-intro_styles .page-intro__container {
+    padding: 0 60px; }
+  /*--- News ---*/
+  .news__container {
+    padding: 0 160px; }
+  .news__tab-navigation {
+    padding: 0 230px; } }
 
 @media (max-width: 1270px) {
   /*--- Main ---*/
@@ -3497,6 +3509,62 @@ select, input, textarea {
     width: 75%; }
   .post__follow {
     width: 25%; } }
+  /*--- Services ---*/
+  .page-intro_services p {
+    padding: 0 70px; }
+  .service__btns-list {
+    flex-direction: row;
+    height: auto; }
+  .service__btns-list li {
+    margin-right: 30px; }
+  .service_band .service__content {
+    padding-left: 70px; }
+  .service_wedding .service__content {
+    padding-right: 70px; }
+  .service_corporative .service__content {
+    padding-left: 70px; }
+  .service_corporative .service__title_small {
+    margin-left: -30px; }
+  .service_corporative .service__title_big {
+    margin-left: -40px; }
+  .service_party .service__content {
+    padding-right: 70px; }
+  .service_party .service__title_small {
+    margin-left: 60px; }
+  .service_party .service__title_big {
+    margin-left: 80px; }
+  .service_gift .service__content {
+    padding-left: 70px; }
+  .service_competition .service__content {
+    padding-right: 70px; }
+  .service_competition .service__title_big {
+    margin-left: 30px; }
+  .service_competition .service__title_small {
+    margin-left: 30px; }
+  .support__phone {
+    padding: 0 200px; }
+  .support__email, .support__answer {
+    padding: 0; }
+  /*--- Dance styles ---*/
+  .styles__container {
+    padding: 0 60px; }
+  .dance-category__img-bottom, .dance-category__img-top {
+    width: 100%;
+    transform: translate(0) !important; }
+  .dance-category__img-bottom img {
+    width: 120%;
+    margin-left: -10%; }
+  .dance-category__img-top img {
+    width: 100%; }
+  .dance-category__img {
+    margin-bottom: 90px; }
+  /*--- News ---*/
+  .news__container {
+    padding: 0 60px; }
+  .news__btn {
+    left: -50px; }
+  .news__content {
+    padding-left: 20px; } }
 
 @media (max-width: 1014px) {
   /*--- Main ---*/
@@ -3565,6 +3633,22 @@ select, input, textarea {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; } }
+  /*--- Services ---*/
+  .service_corporative .service__title_small {
+    margin-left: -50px; }
+  .service_corporative .service__title_big {
+    margin-left: -70px; }
+  .service_party .service__title_small {
+    margin-left: 90px; }
+  .service_party .service__title_big {
+    margin-left: 110px; }
+  .support__phone {
+    padding: 0 150px; }
+  /*--- News ---*/
+  .news__tabs {
+    padding: 0 105px; }
+  .news__tab-navigation {
+    padding: 0 200px; } }
 
 @media (max-width: 950px) {
   /*--- Main ---*/
@@ -3652,6 +3736,40 @@ select, input, textarea {
   /*--- Publication ---*/
   .post__img {
     margin-right: 30px; } }
+  /*--- Services ---*/
+  .service_corporative .service__title_small {
+    margin-left: 0; }
+  .service_corporative .service__title_big {
+    margin-left: -15px; }
+  .service_party .service__title_small {
+    margin-left: 10px; }
+  .service_party .service__title_big {
+    margin-left: 30px; }
+  .service_gift .service__title_small {
+    margin-left: 20px; }
+  .service_gift .service__title_big {
+    margin-left: 0; }
+  .support__phone {
+    padding: 0 70px; }
+  /*--- Dance styles ---*/
+  .page-menu {
+    padding: 0 70px; }
+  .dance-category__img {
+    min-height: 0;
+    margin-bottom: 40px; }
+  .dance-category p {
+    padding-right: 0; }
+  .page-intro_styles p {
+    padding: 0; }
+  .dance-category_latino h3 {
+    padding-right: 0; }
+  /*--- News ---*/
+  .news__tabs {
+    padding: 0 30px; }
+  .news__item {
+    width: 100%; }
+  .news__tab-navigation {
+    padding: 0 120px; } }
 
 @media (min-width: 791px) {
   /*--- Main ---*/
@@ -3839,6 +3957,19 @@ select, input, textarea {
     float: none;
     margin-right: auto;
     margin-left: auto; } }
+  /*--- Dance styles ---*/
+  .page-intro_styles .page-intro__container {
+    padding: 0 40px; }
+  .dance-category__img {
+    display: none; }
+  .styles__container {
+    padding: 0 40px; }
+  /*--- News ---*/
+  .news__tabs {
+    justify-content: center;
+    flex-wrap: wrap; }
+  .news__tab-navigation {
+    padding: 0 60px; } }
 
 @media (max-width: 640px) {
   /*--- Main ---*/
@@ -3993,6 +4124,66 @@ select, input, textarea {
     width: 100%;
     flex-direction: row;
     align-items: flex-start; } }
+  /*--- Services ---*/
+  .service__bottom-img img {
+    width: 100%;
+    transform: translate(0); }
+  .service__btns-list {
+    padding: 0; }
+  .service_wedding .service__title_small {
+    font-size: 24px; }
+  .service_wedding .service__title_big {
+    font-size: 90px; }
+  .service_corporative .service__title_small {
+    font-size: 24px;
+    margin-left: 10px; }
+  .service_corporative .service__title_big {
+    font-size: 62px;
+    margin-left: -5px; }
+  .service_party .service__title_small {
+    font-size: 24px;
+    letter-spacing: 18px;
+    margin-left: 15px; }
+  .service_party .service__title_big {
+    font-size: 90px;
+    letter-spacing: 30px; }
+  .service_gift .service__title_small {
+    font-size: 24px;
+    letter-spacing: 22px; }
+  .service_gift .service__title_big {
+    font-size: 50px;
+    letter-spacing: 7px; }
+  .service_competition .service__title_big {
+    font-size: 44px;
+    letter-spacing: 9px;
+    margin-left: 20px; }
+  .service_competition .service__title_small {
+    font-size: 30px;
+    letter-spacing: 7px;
+    margin-left: 20px; }
+  .support__phone {
+    padding: 0; }
+  .page-request__title {
+    width: 90%; }
+  /*--- Dance styles ---*/
+  .page-intro_styles .page-intro__container {
+    padding: 0; }
+  .styles__container {
+    padding: 0; }
+  /*--- News ---*/
+  .news__tabs {
+    padding: 0 40px; }
+  .news__tabs-item:nth-of-type(2) {
+    padding-left: 0; }
+  .news__img {
+    display: none; }
+  .news__content {
+    padding-left: 0; }
+  .news__tab-navigation {
+    padding: 0;
+    margin: 76px 0 36px; }
+  .news__btn {
+    top: -100px; } }
 
 @media (max-width: 480px) {
   /*--- Main ---*/
@@ -4017,9 +4208,8 @@ select, input, textarea {
   .service_tango .service__title_big {
     font-size: 48px;
     letter-spacing: 20px; }
-  .service__bottom-img {
-    top: -20%;
-    left: -50%; }
+  .service__img {
+    min-height: 220px; }
   h2 {
     font-size: 24px; }
   .dance-styles__describe h3 {
@@ -4142,5 +4332,66 @@ select, input, textarea {
     padding-right: 35px; }
   .post__title h2 {
     font-size: 24px; } }
+  /*--- Services ---*/
+  .service_wedding .service__title_small {
+    font-size: 14px;
+    letter-spacing: 20px;
+    margin-left: 20px; }
+  .service_wedding .service__title_big {
+    font-size: 50px;
+    margin-left: 20px; }
+  .service_corporative .service__title_small {
+    font-size: 14px;
+    letter-spacing: 11px; }
+  .service_corporative .service__title_big {
+    font-size: 40px;
+    margin-top: 0; }
+  .service_party .service__title_small {
+    font-size: 14px;
+    letter-spacing: 13px; }
+  .service_party .service__title_big {
+    font-size: 60px;
+    letter-spacing: 22px; }
+  .service_gift .service__title_small {
+    font-size: 14px;
+    letter-spacing: 18px; }
+  .service_gift .service__title_big {
+    font-size: 34px;
+    letter-spacing: 5px; }
+  .service_competition .service__title_big {
+    font-size: 28px;
+    letter-spacing: 6px;
+    margin-left: 10px; }
+  .service_competition .service__title_small {
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-left: 10px; }
+  .page-request__title p {
+    margin-right: 0;
+    line-height: 2em;
+    padding: 10px 0; }
+  /*--- Dance styles ---*/
+  .page-menu {
+    padding: 0; }
+  .dance-category_euro p:nth-of-type(3) {
+    padding-right: 0; }
+  .dance-category_latino p:nth-of-type(4) {
+    padding-right: 0; }
+  .styles__btns {
+    align-items: flex-start;
+    padding-right: 0; }
+  .styles__btns a {
+    margin: 20px;
+    letter-spacing: 3px;
+    line-height: 2em; }
+  /*--- News ---*/
+  .news__container {
+    padding: 0; }
+  .paginator__item:first-child {
+    margin-right: 20px; }
+  .paginator__item:last-child {
+    margin-left: 20px; }
+  .news__btn {
+    left: 0; } }
 
 /*# sourceMappingURL=default.css.map */
