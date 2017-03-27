@@ -771,7 +771,8 @@ select, input, textarea {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 100; }
   .btn:hover {
     color: #ffdda5; }
   .btn_round {
@@ -880,12 +881,12 @@ select, input, textarea {
     right: 7px;
     border-left-width: 0;
     border-bottom-width: 0;
-    transform: translate(-50%, calc(-50% + 2px)) rotate(-45deg); }
+    transform: translate(-50%, -50%) rotate(-45deg); }
   .btn_down::after {
     right: 7px;
     border-left-width: 0;
     border-top-width: 0;
-    transform: translate(-50%, calc(-50% - 2px)) rotate(45deg); }
+    transform: translate(-50%, -50%) rotate(45deg); }
   .btn_down:hover::after {
     border-color: #ffdda5; }
   .btn_move-down::after {
@@ -1413,7 +1414,9 @@ select, input, textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%; }
   .review__header, .review__footer {
     box-sizing: border-box;
     width: 460px;
@@ -1426,7 +1429,8 @@ select, input, textarea {
     position: relative;
     width: 921px;
     height: 557px;
-    overflow: hidden; }
+    overflow: hidden;
+    z-index: -1; }
     .review__img img {
       position: absolute;
       top: 0;
@@ -1466,10 +1470,11 @@ select, input, textarea {
     position: absolute;
     top: 0;
     left: 100%;
-    z-index: 3;
+    z-index: 20;
     transform: translate(0, -50%); }
   .review__video-btn {
-    margin-left: -23px; }
+    margin-left: -23px;
+    z-index: 100; }
   .review__content {
     display: flex;
     flex-direction: column;
@@ -1479,12 +1484,13 @@ select, input, textarea {
     margin-top: -557px;
     padding: 0 60px;
     height: 557px;
-    z-index: 10;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    width: 100%; }
     .review__content p {
       box-sizing: border-box;
       padding: 0 10px;
-      width: 33%; }
+      width: 33%;
+      z-index: 10; }
   .review_about {
     margin-left: -20px;
     padding-top: 62px;
@@ -1625,7 +1631,8 @@ select, input, textarea {
     justify-content: space-between;
     align-items: stretch;
     padding: 0 160px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    width: 100%; }
   .page-intro__col {
     box-sizing: border-box;
     width: 50%; }
@@ -1674,6 +1681,8 @@ select, input, textarea {
     .page-intro_styles .page-intro__container {
       padding: 0 158px; }
     .page-intro_styles p {
+      box-sizing: border-box;
+      width: 100%;
       text-align: left; }
 
 .text-list {
@@ -1809,11 +1818,13 @@ select, input, textarea {
   border-right-width: 0; }
 
 .mission {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: -4px;
+  width: 100%;
   font-family: "Philosopher", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.875em;
@@ -1993,8 +2004,11 @@ select, input, textarea {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center; }
+    align-items: center;
+    box-sizing: border-box; }
   .support__phone {
+    box-sizing: border-box;
+    width: 100%;
     padding: 0 364px;
     margin-bottom: 20px; }
     .support__phone p {
@@ -2017,6 +2031,8 @@ select, input, textarea {
       text-align: center;
       text-decoration: none; }
   .support__email {
+    box-sizing: border-box;
+    width: 100%;
     margin-bottom: 5px;
     padding: 0 364px;
     font-family: "GothamPro", "Arial", sans-serif;
@@ -2035,6 +2051,8 @@ select, input, textarea {
         color: #ffdda5;
         border-bottom-color: #ffdda5; }
   .support__answer {
+    box-sizing: border-box;
+    width: 100%;
     padding: 0 364px;
     margin-bottom: 56px;
     font-family: "GothamPro", "Arial", sans-serif;
@@ -2221,7 +2239,9 @@ select, input, textarea {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: stretch; }
+    align-items: stretch;
+    box-sizing: border-box;
+    width: 100%; }
   .shedule__wrapper {
     padding-top: 15px;
     margin-top: -15px;
@@ -2230,16 +2250,20 @@ select, input, textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: stretch; }
+    align-items: stretch;
+    box-sizing: border-box;
+    width: 100%; }
     .shedule__row_days {
       margin-top: -14px; }
   .shedule__month-controls {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 0; }
   .shedule__mmyyyy {
+    box-sizing: border-box;
     position: relative;
     padding: 0 30px;
     height: 120px;
@@ -2257,10 +2281,13 @@ select, input, textarea {
     font-weight: 700;
     letter-spacing: 24px;
     color: rgba(174, 149, 107, 0.05);
-    transform: translate(calc(-50% + 10px), -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
     text-transform: uppercase;
     z-index: -1; }
   .shedule__month {
+    box-sizing: border-box;
+    width: 100%;
     margin-right: -4px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 30px;
@@ -2271,7 +2298,7 @@ select, input, textarea {
     text-transform: uppercase; }
   .shedule__cell {
     box-sizing: border-box;
-    width: 12.96296%;
+    width: 13%;
     min-height: 106px;
     text-align: left;
     background-color: #2d2d2d;
@@ -2281,10 +2308,12 @@ select, input, textarea {
     .shedule__cell:last-child {
       border-right-width: 0; }
     .shedule__cell p {
+      box-sizing: border-box;
+      width: 100%;
       padding: 10px 18px; }
     .shedule__cell_time {
       text-align: center;
-      width: 8.64198%;
+      width: 9%;
       background-color: #272727;
       border-right-width: 2px;
       border-bottom-width: 0;
@@ -2311,6 +2340,8 @@ select, input, textarea {
       height: 57px; }
     .shedule__cell_cancel {
       background-color: #583232; }
+      .shedule__cell_cancel a:hover {
+        background-color: #583232 !important; }
     .shedule__cell a {
       position: relative;
       display: flex;
@@ -2332,10 +2363,13 @@ select, input, textarea {
         .shedule__cell a:hover .shedule__order-btn {
           display: block;
           box-shadow: 0 21px 13px 0 rgba(0, 0, 0, 0.31); }
+      .shedule__cell a_cancel a:hover {
+        background-color: #583232; }
   .shedule__week-controls {
+    box-sizing: border-box;
     padding: 12px 0;
     text-align: center;
-    width: 8.64198%;
+    width: 9%;
     background-color: #202020;
     min-height: 57px;
     height: 57px; }
@@ -2350,8 +2384,10 @@ select, input, textarea {
     font-weight: 700;
     color: #b0966c;
     font-style: italic;
+    text-align: right;
     text-transform: uppercase; }
   .shedule__day-name {
+    text-align: left;
     padding: 0 !important;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 15px;
@@ -2406,10 +2442,15 @@ select, input, textarea {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     box-sizing: border-box;
     padding: 0 40px;
-    min-height: 96px; }
+    min-height: 96px;
+    box-sizing: border-box;
+    width: 100%; }
     .faq__question p {
+      box-sizing: border-box;
+      padding: 31px 0;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 18px;
       line-height: 1.88889em;
@@ -2418,7 +2459,8 @@ select, input, textarea {
       color: #fff; }
   .faq__answer {
     box-sizing: border-box;
-    padding: 0 40px; }
+    padding: 0 40px;
+    width: 100%; }
     .faq__answer p {
       padding: 8px 70px 38px 0;
       font-family: "GothamPro", "Arial", sans-serif;
@@ -2461,6 +2503,8 @@ select, input, textarea {
   margin: 6px 0 50px 0; }
 
 .dance__describe {
+  box-sizing: border-box;
+  width: 100%;
   font-family: "Philosopher", "Arial", sans-serif;
   font-size: 17px;
   line-height: 2em;
@@ -2556,8 +2600,12 @@ select, input, textarea {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center; }
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%; }
   .additionally__list-describe {
+    box-sizing: border-box;
+    width: 100%;
     margin-bottom: 2px;
     font-family: "Philosopher", "Arial", sans-serif;
     font-size: 17px;
@@ -2578,6 +2626,7 @@ select, input, textarea {
       text-align: center; }
   .additionally__items {
     box-sizing: border-box;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -2589,30 +2638,37 @@ select, input, textarea {
     box-sizing: border-box;
     width: 50%;
     margin-top: 60px; }
-  .additionally__offer h3 {
-    margin-bottom: 34px;
-    padding-left: 28px;
-    padding-right: 180px;
-    font-family: "Philosopher", "Arial", sans-serif;
-    font-size: 18px;
-    line-height: 1.88889em;
-    font-weight: 400;
-    font-style: italic;
-    color: #b0966c;
-    text-align: left;
-    text-transform: none;
-    letter-spacing: normal; }
-  .additionally__offer p {
-    margin-bottom: 40px;
-    padding-left: 28px;
-    padding-right: 48px;
-    font-family: "Philosopher", "Arial", sans-serif;
-    font-size: 16px;
-    line-height: 1.875em;
-    font-weight: 400;
-    font-style: italic;
-    color: #fff;
-    text-align: left; }
+  .additionally__offer {
+    box-sizing: border-box;
+    width: 100%; }
+    .additionally__offer h3 {
+      box-sizing: border-box;
+      width: 100%;
+      margin-bottom: 34px;
+      padding-left: 28px;
+      padding-right: 180px;
+      font-family: "Philosopher", "Arial", sans-serif;
+      font-size: 18px;
+      line-height: 1.88889em;
+      font-weight: 400;
+      font-style: italic;
+      color: #b0966c;
+      text-align: left;
+      text-transform: none;
+      letter-spacing: normal; }
+    .additionally__offer p {
+      box-sizing: border-box;
+      width: 100%;
+      margin-bottom: 40px;
+      padding-left: 28px;
+      padding-right: 48px;
+      font-family: "Philosopher", "Arial", sans-serif;
+      font-size: 16px;
+      line-height: 1.875em;
+      font-weight: 400;
+      font-style: italic;
+      color: #fff;
+      text-align: left; }
   .additionally__btn {
     margin-top: -11px;
     margin-left: -14px;
@@ -2687,6 +2743,8 @@ select, input, textarea {
     align-items: center;
     padding: 0 185px 0 172px; }
   .trends__title {
+    box-sizing: border-box;
+    width: 100%;
     padding-left: 0;
     padding-right: 300px;
     text-align: left; }
@@ -2708,11 +2766,14 @@ select, input, textarea {
       padding-right: 30px; }
     .trends__items_right {
       padding-left: 44px; }
-  .trends__describe p {
-    font-size: 17px;
-    font-style: italic;
-    line-height: 2em;
-    text-align: left; }
+  .trends__describe {
+    box-sizing: border-box;
+    width: 100%; }
+    .trends__describe p {
+      font-size: 17px;
+      font-style: italic;
+      line-height: 2em;
+      text-align: left; }
 
 .tango-trainers {
   margin-bottom: 42px; }
@@ -2743,11 +2804,14 @@ select, input, textarea {
   padding: 0 196px 0 172px; }
 
 .tango-shedule__title {
+  box-sizing: border-box;
+  width: 100%;
   padding: 0 180px;
   margin-bottom: 46px; }
 
 .tango-shedule__describe {
   box-sizing: border-box;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -2953,7 +3017,8 @@ select, input, textarea {
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    width: 100%; }
   .news__item {
     box-sizing: border-box;
     width: 48.5%;
@@ -2990,7 +3055,8 @@ select, input, textarea {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 56px; }
+    padding-left: 56px;
+    width: 100%; }
     .news__content p {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 17px;
@@ -3000,12 +3066,15 @@ select, input, textarea {
       letter-spacing: normal;
       color: #fff;
       text-decoration: none;
-      text-transform: none; }
+      text-transform: none;
+      box-sizing: border-box;
+      width: 100%; }
   .news__title {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start; }
+    align-items: flex-start;
+    width: 100%; }
     .news__title h3 {
       order: 2;
       margin-bottom: 24px;
@@ -3017,7 +3086,9 @@ select, input, textarea {
       letter-spacing: normal;
       color: #af966c;
       text-decoration: none;
-      text-transform: none; }
+      text-transform: none;
+      box-sizing: border-box;
+      width: 100%; }
     .news__title a {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 22px;
@@ -3027,7 +3098,9 @@ select, input, textarea {
       letter-spacing: normal;
       color: #af966c;
       text-decoration: none;
-      text-transform: none; }
+      text-transform: none;
+      box-sizing: border-box;
+      width: 100%; }
       .news__title a:hover {
         color: #ffdda5; }
     .news__title time {
@@ -3258,6 +3331,7 @@ select, input, textarea {
 
 .post {
   box-sizing: border-box;
+  width: 100%;
   margin-bottom: 48px; }
   .post__header {
     display: flex;
@@ -3266,6 +3340,8 @@ select, input, textarea {
     align-items: flex-start;
     margin-bottom: 4px; }
     .post__header h2 {
+      box-sizing: border-box;
+      width: 100%;
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 30px;
       font-weight: 400;
