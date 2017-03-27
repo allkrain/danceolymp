@@ -3128,7 +3128,7 @@ select, input, textarea {
   font-size: 17px;
   font-weight: 400;
   font-style: italic;
-  line-height: 1.6470588235em;
+  line-height: 1.64706em;
   letter-spacing: normal;
   color: #fff;
   text-decoration: none;
@@ -3175,7 +3175,7 @@ select, input, textarea {
   font-size: 15px;
   font-weight: 400;
   font-style: italic;
-  line-height: 2.2666666667em;
+  line-height: 2.26667em;
   letter-spacing: normal;
   color: #fff;
   text-decoration: none;
@@ -3185,7 +3185,7 @@ select, input, textarea {
     font-size: 15px;
     font-weight: 400;
     font-style: italic;
-    line-height: 2.2666666667em;
+    line-height: 2.26667em;
     letter-spacing: normal;
     color: #fff;
     text-decoration: none;
