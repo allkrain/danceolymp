@@ -3374,7 +3374,14 @@ select, input, textarea {
   .trainers__slider {
     padding: 0 140px; }
   .review__slider-controls {
-    padding: 0 160px; } }
+    padding: 0 160px; }
+  /*--- Dance styles ---*/
+  .page-intro_styles .page-intro__container {
+    padding: 0 90px; }
+  .styles__container {
+    padding: 0 135px; }
+  .page-intro_styles .page-intro__container {
+    padding: 0 60px; } }
 
 @media (max-width: 1270px) {
   /*--- Main ---*/
@@ -3510,7 +3517,20 @@ select, input, textarea {
   .support__phone {
     padding: 0 200px; }
   .support__email, .support__answer {
-    padding: 0; } }
+    padding: 0; }
+  /*--- Dance styles ---*/
+  .styles__container {
+    padding: 0 60px; }
+  .dance-category__img-bottom, .dance-category__img-top {
+    width: 100%;
+    transform: translate(0) !important; }
+  .dance-category__img-bottom img {
+    width: 120%;
+    margin-left: -10%; }
+  .dance-category__img-top img {
+    width: 100%; }
+  .dance-category__img {
+    margin-bottom: 90px; } }
 
 @media (max-width: 1014px) {
   /*--- Main ---*/
@@ -3683,7 +3703,19 @@ select, input, textarea {
   .service_gift .service__title_big {
     margin-left: 0; }
   .support__phone {
-    padding: 0 70px; } }
+    padding: 0 70px; }
+  /*--- Dance styles ---*/
+  .page-menu {
+    padding: 0 70px; }
+  .dance-category__img {
+    min-height: 0;
+    margin-bottom: 40px; }
+  .dance-category p {
+    padding-right: 0; }
+  .page-intro_styles p {
+    padding: 0; }
+  .dance-category_latino h3 {
+    padding-right: 0; } }
 
 @media (min-width: 791px) {
   /*--- Main ---*/
@@ -3861,7 +3893,14 @@ select, input, textarea {
   .trainers__slider .trainers__item {
     margin: 0; }
   .review__minigallery li:nth-child(3n) {
-    display: none; } }
+    display: none; }
+  /*--- Dance styles ---*/
+  .page-intro_styles .page-intro__container {
+    padding: 0 40px; }
+  .dance-category__img {
+    display: none; }
+  .styles__container {
+    padding: 0 40px; } }
 
 @media (max-width: 640px) {
   /*--- Main ---*/
@@ -4040,7 +4079,12 @@ select, input, textarea {
   .support__phone {
     padding: 0; }
   .page-request__title {
-    width: 90%; } }
+    width: 90%; }
+  /*--- Dance styles ---*/
+  .page-intro_styles .page-intro__container {
+    padding: 0; }
+  .styles__container {
+    padding: 0; } }
 
 @media (max-width: 480px) {
   /*--- Main ---*/
@@ -4217,6 +4261,20 @@ select, input, textarea {
   .page-request__title p {
     margin-right: 0;
     line-height: 2em;
-    padding: 10px 0; } }
+    padding: 10px 0; }
+  /*--- Dance styles ---*/
+  .page-menu {
+    padding: 0; }
+  .dance-category_euro p:nth-of-type(3) {
+    padding-right: 0; }
+  .dance-category_latino p:nth-of-type(4) {
+    padding-right: 0; }
+  .styles__btns {
+    align-items: flex-start;
+    padding-right: 0; }
+  .styles__btns a {
+    margin: 20px;
+    letter-spacing: 3px;
+    line-height: 2em; } }
 
 /*# sourceMappingURL=default.css.map */
