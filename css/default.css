@@ -126,6 +126,17 @@ header, section, footer {
   padding: 0;
   box-sizing: border-box; }
 
+.slider {
+  overflow: hidden; }
+
+.wrapper {
+  position: relative;
+  font-size: 0;
+  transition: all 1s ease-in-out; }
+
+.slide {
+  display: inline-block; }
+
 h1, h2, h3, h4, h5, h6, p, span, ul, li {
   margin: 0;
   padding: 0; }
@@ -937,13 +948,17 @@ select, input, textarea {
   position: relative;
   font-size: 0;
   line-height: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 72px;
+  height: 20px; }
 
 .controls__prev::before, .controls__next::before {
   position: absolute;
   content: '';
-  top: 50%;
+  top: 0;
   right: 0;
+  bottom: 0;
+  margin: auto;
   width: 72px;
   height: 2px;
   background-color: #b0966c;
@@ -957,34 +972,39 @@ select, input, textarea {
   content: '';
   top: 0;
   right: 0;
-  width: 7px;
-  height: 7px; }
+  bottom: 0;
+  margin: auto;
+  width: 6px;
+  height: 6px;
+  transition: all 0.25s ease-in-out; }
 
 .controls__prev::after {
   left: 0;
-  border: 0px solid #b0966c;
-  border-top-width: 2px;
-  border-left-width: 2px;
-  transform: translate(0, -3px) rotate(-45deg); }
+  right: auto;
+  border: 2px solid #b0966c;
+  border-color: #b0966c transparent transparent #b0966c;
+  transform: rotate(-45deg); }
 
 .controls__next::after {
-  border: 0px solid #b0966c;
-  border-bottom-width: 2px;
-  border-right-width: 2px;
-  transform: translate(0, -3px) rotate(-45deg); }
+  border: 2px solid #b0966c;
+  border-color: transparent #b0966c #b0966c transparent;
+  transform: rotate(-45deg); }
 
 .controls__prev:hover::before, .controls__next:hover::before {
   background-color: #ffdda5; }
 
-.controls__prev:hover::after, .controls__next:hover::after {
-  border-color: #ffdda5; }
+.controls__prev:hover::after {
+  border-color: #ffdda5 transparent transparent #ffdda5; }
+
+.controls__next:hover::after {
+  border-color: transparent #ffdda5 #ffdda5 transparent; }
 
 .services {
   position: relative;
-  margin-top: 88px; }
+  padding-top: 88px; }
   .services h2 {
     position: absolute;
-    top: 0;
+    top: 88px;
     left: 50%;
     display: block;
     width: 45px;
@@ -1034,7 +1054,8 @@ select, input, textarea {
     font-family: "GothamPro", "Arial", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    white-space: nowrap; }
     .service__title_big {
       font-size: 124px;
       line-height: 0.45968em;
@@ -1051,9 +1072,11 @@ select, input, textarea {
     z-index: -2; }
   .service__bottom-img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
     .service__bottom-img img {
       transform: translate(0, -50px); }
   .service__content {

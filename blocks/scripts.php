@@ -24,4 +24,8 @@
 <script src="js/owl/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
 
+<!-- Textillate -->
+<script src="js/jquery.lettering.js"></script>
+<script src="js/jquery.textillate.js"></script>
+
 <script src="js/scripts.min.js"></script>

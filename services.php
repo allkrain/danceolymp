@@ -46,8 +46,8 @@
               <img src="img/services/individual_lesson.png" alt="">
             </div>
             <figcaption>
-              <p class="service__title service__title_small">Индивидуальный</p>
-              <p class="service__title service__title_big">урок</p>
+              <p class="service__title service__title_small tlt">Индивидуальный</p>
+              <p class="service__title service__title_big tlt2">урок</p>
             </figcaption>
           </figure>
           <div class="service__content">
@@ -73,7 +73,7 @@
               <img src="img/services/group.png" alt="">
             </div>
             <figcaption>
-              <p class="service__title service__title_big">Группа</p>
+              <p class="service__title service__title_big tlt">Группа</p>
             </figcaption>
           </figure>
           <div class="service__content">
@@ -111,8 +111,8 @@
               <img src="img/services/wedding_dance.png" alt="">
             </div>
             <figcaption>
-              <p class="service__title service__title_small">Свадебный</p>
-              <p class="service__title service__title_big">танец</p>
+              <p class="service__title service__title_small tlt">Свадебный</p>
+              <p class="service__title service__title_big tlt2">танец</p>
             </figcaption>
           </figure>
           <div class="service__content">
@@ -136,8 +136,8 @@
               <img src="img/services/corporative_dance.png" alt="">
             </div>
             <figcaption>
-              <p class="service__title service__title_small">Корпоративные</p>
-              <p class="service__title service__title_big">программы</p>
+              <p class="service__title service__title_small tlt">Корпоративные</p>
+              <p class="service__title service__title_big tlt2">программы</p>
             </figcaption>
           </figure>
           <div class="service__content">
@@ -159,8 +159,8 @@
               <img src="img/services/dance_party.png" alt="">
             </div>
             <figcaption>
-              <p class="service__title service__title_small">Танцевальный</p>
-              <p class="service__title service__title_big">вечер</p>
+              <p class="service__title service__title_small tlt">Танцевальный</p>
+              <p class="service__title service__title_big tlt2">вечер</p>
             </figcaption>
           </figure>
           <div class="service__content">
@@ -184,8 +184,8 @@
               <img src="img/services/gift_dance.png" alt="">
             </div>
             <figcaption>
-              <p class="service__title service__title_small">Подарочный</p>
-              <p class="service__title service__title_big">сертификат</p>
+              <p class="service__title service__title_small tlt">Подарочный</p>
+              <p class="service__title service__title_big tlt2">сертификат</p>
             </figcaption>
           </figure>
           <div class="service__content">
@@ -209,8 +209,8 @@
               <img src="img/services/competition.png" alt="">
             </div>
             <figcaption>
-              <p class="service__title service__title_big">Подготовка</p>
-              <p class="service__title service__title_small">к соревнованиям</p>
+              <p class="service__title service__title_big tlt">Подготовка</p>
+              <p class="service__title service__title_small tlt2">к соревнованиям</p>
             </figcaption>
           </figure>
           <div class="service__content">
