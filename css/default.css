@@ -3230,7 +3230,28 @@ select, input, textarea {
     padding: 0 140px; }
   /*--- Private lesson ---*/
   .dance_private .dance__title {
-    padding: inherit; } }
+    padding: inherit; }
+  /*--- About ---*/
+  .about__features {
+    padding: 4px 160px; }
+  .about__mission {
+    padding: 0 160px; }
+  .about__gallery-list {
+    margin-left: 0;
+    width: 100%; }
+  .about__gallery-img {
+    width: 760px;
+    height: 510px; }
+  .about__gallery-controls .controls__prev {
+    left: 0; }
+  .about__gallery-controls .controls__next {
+    right: 0; }
+  .about__video {
+    margin-left: 0; }
+  .trainers__slider {
+    padding: 0 140px; }
+  .review__slider-controls {
+    padding: 0 160px; } }
 
 @media (max-width: 1270px) {
   /*--- Main ---*/
@@ -3319,7 +3340,18 @@ select, input, textarea {
   .trainers__item:nth-child(3n+3) {
     margin-right: 20px; }
   .trainers__item:last-child {
-    margin-right: 20px; } }
+    margin-right: 20px; }
+  /*--- About ---*/
+  .page-intro__content {
+    padding: 0 60px; }
+  .page-intro__btns {
+    padding-right: 105px; }
+  .about__features, .about__mission {
+    padding: 0 60px; }
+  .trainers__slider li:nth-child(n+3) {
+    display: none; }
+  .review__slider-controls {
+    padding: 0 30px; } }
 
 @media (max-width: 1014px) {
   /*--- Main ---*/
@@ -3370,7 +3402,19 @@ select, input, textarea {
     padding: 0 120px; }
   /*--- Trainers ---*/
   .trainers-contacts__btns {
-    padding: 0; } }
+    padding: 0; }
+  /*--- About ---*/
+  .page-intro__col p {
+    padding: 0 30px 0 12px; }
+  .about__gallery-img {
+    width: 700px;
+    height: 460px; }
+  .trainers__slider {
+    padding: 0 120px; }
+  .review__minigallery li {
+    width: 230px;
+    height: 140px;
+    margin-right: 20px; } }
 
 @media (max-width: 950px) {
   /*--- Main ---*/
@@ -3407,6 +3451,12 @@ select, input, textarea {
   .review__img {
     width: 650px;
     height: 450px; }
+  .review__media::after {
+    display: none; }
+  .review__video {
+    top: 40px;
+    right: 20px;
+    left: auto; }
   /*--- Wedding dance ---*/
   .video {
     height: 400px; }
@@ -3435,7 +3485,20 @@ select, input, textarea {
   .trainers-contacts__btns {
     flex-wrap: wrap; }
   .trainers-contacts__btn {
-    margin-right: 15px; } }
+    margin-right: 15px; }
+  /*--- About ---*/
+  .about__gallery-img {
+    width: 550px;
+    height: 370px; }
+  .trainers__controls .controls__prev {
+    left: -15px; }
+  .trainers__controls .controls__next {
+    right: -15px; }
+  .trainers__slider {
+    padding: 0 65px; }
+  .review__minigallery li {
+    width: 180px;
+    height: 110px; } }
 
 @media (min-width: 791px) {
   /*--- Main ---*/
@@ -3500,12 +3563,6 @@ select, input, textarea {
     right: 0; }
   .review__content p {
     width: 70%; }
-  .review__media::after {
-    display: none; }
-  .review__video {
-    top: 40px;
-    right: 20px;
-    left: auto; }
   .dance-styles__describe {
     padding: 0 100px; }
   .lead__img {
@@ -3590,10 +3647,41 @@ select, input, textarea {
     margin-left: 10px; }
   .trainers__biography p {
     text-align: center;
-    padding: 0 10px; } }
+    padding: 0 10px; }
+  /*--- About ---*/
+  .page-intro__content {
+    padding: 0 40px;
+    flex-wrap: wrap; }
+  .page-intro__col {
+    width: 100%; }
+  .page-intro__col_right {
+    padding-left: 0; }
+  .about__features, .about__mission {
+    padding: 0 40px; }
+  .text-list__list_about .text-list__item {
+    width: 100%; }
+  .text-list__list_about .text-list__item:nth-child(even) {
+    padding-left: 0; }
+  .text-list__list_about .text-list__item:nth-child(3) {
+    margin-top: 0; }
+  .text-list__list_about .text-list__item:nth-child(5) {
+    margin-top: 0; }
+  .about__gallery-img {
+    width: 410px;
+    height: 270px; }
+  .trainers__slider li:nth-child(n+2) {
+    display: none; }
+  .trainers__slider .trainers__list {
+    justify-content: center; }
+  .trainers__slider .trainers__item {
+    margin: 0; }
+  .review__minigallery li:nth-child(3n) {
+    display: none; } }
 
 @media (max-width: 640px) {
   /*--- Main ---*/
+  h2 {
+    font-size: 28px; }
   .container {
     width: 420px; }
   .page-header__contacts {
@@ -3639,7 +3727,7 @@ select, input, textarea {
   .review__header, .review__footer {
     width: 100%; }
   .review__img {
-    width: 480px; }
+    width: 100%; }
   .review__content {
     padding: 0; }
   .page-title h1 {
@@ -3707,7 +3795,26 @@ select, input, textarea {
     padding: 44px 0; }
   /*--- Private lesson ---*/
   .lead_private .lead__title h2 {
-    letter-spacing: 5px; } }
+    letter-spacing: 5px; }
+  /*--- About ---*/
+  .page-intro__btns {
+    padding-right: 0; }
+  .about__container h2 {
+    font-size: 28px;
+    margin-left: 0; }
+  .about__gallery-img {
+    width: 310px;
+    height: 210px; }
+  .review__minigallery li:first-child {
+    display: none; }
+  .review__minigallery li {
+    margin: 0; }
+  .review_about {
+    margin-left: 0; }
+  .review__slider, .review__slider-item {
+    width: 100%; }
+  .review__media {
+    width: 100%; } }
 
 @media (max-width: 480px) {
   /*--- Main ---*/
@@ -3740,8 +3847,6 @@ select, input, textarea {
   .dance-styles__describe h3 {
     font-size: 15px;
     word-wrap: break-word; }
-  .review__img {
-    width: 340px; }
   .review__content p {
     width: 100%; }
   .page-title h1 {
@@ -3829,6 +3934,26 @@ select, input, textarea {
   /*--- Private lesson ---*/
   .lead_private .lead__title h2 {
     letter-spacing: 2.9px;
-    font-size: 24px; } }
+    font-size: 24px; }
+  /*--- About ---*/
+  .page-intro__content {
+    padding: 0; }
+  .about__container h2 {
+    font-size: 24px; }
+  .about__features, .about__mission {
+    padding: 0; }
+  .text-list__list_about .text-list__item, .text-list__list_about .text-list__item:nth-child(even) {
+    padding-right: 0; }
+  .about__gallery-img {
+    width: 190px;
+    height: 130px; }
+  .trainers__controls .controls__prev {
+    left: 0; }
+  .trainers__controls .controls__next {
+    right: 0; }
+  .trainers__slider {
+    padding: 0; }
+  .review__slider-controls {
+    padding: 0; } }
 
 /*# sourceMappingURL=default.css.map */
