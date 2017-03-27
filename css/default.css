@@ -3253,7 +3253,8 @@ select, input, textarea {
       letter-spacing: 6px;
       color: #ae956b;
       text-decoration: none;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      text-align: left; }
     .post__header time {
       font-family: "Philosopher", "Arial", sans-serif;
       font-size: 17px;
@@ -3263,7 +3264,8 @@ select, input, textarea {
       letter-spacing: normal;
       color: #fff;
       text-decoration: none;
-      text-transform: none; }
+      text-transform: none;
+      text-align: left; }
   .post__title {
     display: flex;
     flex-direction: column;
@@ -3374,7 +3376,15 @@ select, input, textarea {
   .trainers__slider {
     padding: 0 140px; }
   .review__slider-controls {
-    padding: 0 160px; } }
+    padding: 0 160px; }
+  /*--- Publication ---*/
+  .event__btns {
+    width: 916px;
+    padding: 0; }
+  .post__title {
+    width: 80%; }
+  .post__follow {
+    width: 20%; } }
 
 @media (max-width: 1270px) {
   /*--- Main ---*/
@@ -3474,7 +3484,19 @@ select, input, textarea {
   .trainers__slider li:nth-child(n+3) {
     display: none; }
   .review__slider-controls {
-    padding: 0 30px; } }
+    padding: 0 30px; }
+  /*--- Publication ---*/
+  .event__container {
+    padding: 0 72px; }
+  .event__btns {
+    width: 100%;
+    padding: 0; }
+  .post__content p {
+    padding-right: 0; }
+  .post__title {
+    width: 75%; }
+  .post__follow {
+    width: 25%; } }
 
 @media (max-width: 1014px) {
   /*--- Main ---*/
@@ -3537,7 +3559,12 @@ select, input, textarea {
   .review__minigallery li {
     width: 230px;
     height: 140px;
-    margin-right: 20px; } }
+    margin-right: 20px; }
+  /*--- Publication ---*/
+  .post__follow {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; } }
 
 @media (max-width: 950px) {
   /*--- Main ---*/
@@ -3621,7 +3648,10 @@ select, input, textarea {
     padding: 0 65px; }
   .review__minigallery li {
     width: 180px;
-    height: 110px; } }
+    height: 110px; }
+  /*--- Publication ---*/
+  .post__img {
+    margin-right: 30px; } }
 
 @media (min-width: 791px) {
   /*--- Main ---*/
@@ -3799,7 +3829,16 @@ select, input, textarea {
   .trainers__slider .trainers__item {
     margin: 0; }
   .review__minigallery li:nth-child(3n) {
-    display: none; } }
+    display: none; }
+  /*--- Publication ---*/
+  .event__container {
+    padding: 0; }
+  .post__header {
+    margin-bottom: 20px; }
+  .post__img {
+    float: none;
+    margin-right: auto;
+    margin-left: auto; } }
 
 @media (max-width: 640px) {
   /*--- Main ---*/
@@ -3937,7 +3976,23 @@ select, input, textarea {
   .review__slider, .review__slider-item {
     width: 100%; }
   .review__media {
-    width: 100%; } }
+    width: 100%; }
+  /*--- Publication ---*/
+  .event__btn {
+    line-height: 2em; }
+  .event__btn:last-of-type {
+    text-align: right; }
+  .post {
+    width: 100%; }
+  .post__header {
+    width: 100%;
+    flex-direction: column; }
+  .post__title {
+    width: 100%; }
+  .post__follow {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start; } }
 
 @media (max-width: 480px) {
   /*--- Main ---*/
@@ -4077,6 +4132,15 @@ select, input, textarea {
   .trainers__slider {
     padding: 0; }
   .review__slider-controls {
-    padding: 0; } }
+    padding: 0; }
+  /*--- Publication ---*/
+  .event__btn {
+    letter-spacing: 1px; }
+  .event__btn:first-of-type {
+    padding-left: 35px; }
+  .event__btn:last-of-type {
+    padding-right: 35px; }
+  .post__title h2 {
+    font-size: 24px; } }
 
 /*# sourceMappingURL=default.css.map */

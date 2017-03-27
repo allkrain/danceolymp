@@ -62,8 +62,8 @@
         </div>
         
         <div class="event__btns">
-          <a href="#" class="btn btn_round btn_left btn_move-left btn_start">Предыдущая новость</a>
-          <a href="#" class="btn btn_round btn_right btn_move-right">Следующая новость</a>
+          <a href="#" class="event__btn btn btn_round btn_left btn_move-left btn_start">Предыдущая новость</a>
+          <a href="#" class="event__btn btn btn_round btn_right btn_move-right">Следующая новость</a>
         </div>
       </div>
     </section>

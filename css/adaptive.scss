@@ -23,6 +23,11 @@
 	.about__video {margin-left: 0;}
 	.trainers__slider {padding: 0 140px;}
 	.review__slider-controls {padding: 0 160px;}
+  /*--- Publication ---*/
+  .event__btns {width: 916px; padding: 0;}
+  .post__title {width: 80%;}
+  .post__follow {width: 20%;}
+  
 }
 
 @media (max-width:1270px) {
@@ -76,6 +81,12 @@
 	.about__features, .about__mission {padding: 0 60px;}
 	.trainers__slider li:nth-child(n+3) {display: none;}
 	.review__slider-controls {padding: 0 30px;}
+  /*--- Publication ---*/
+  .event__container {padding: 0 72px;}
+  .event__btns {width: 100%; padding: 0;}
+  .post__content p {padding-right: 0;}
+  .post__title {width: 75%;}
+  .post__follow {width: 25%;}
 }
 
 @media (max-width:1014px) {
@@ -108,6 +119,8 @@
 	.about__gallery-img {width: 700px; height: 460px;}
 	.trainers__slider {padding: 0 120px;}
 	.review__minigallery li {width: 230px; height: 140px; margin-right: 20px;}
+  /*--- Publication ---*/
+  .post__follow {flex-direction: column; justify-content: flex-start; align-items: center;}
 }
 
 @media (max-width:950px) {
@@ -149,6 +162,8 @@
 	.trainers__controls .controls__next {right: -15px;}
 	.trainers__slider {padding: 0 65px;}
 	.review__minigallery li {width: 180px; height: 110px;}
+  /*--- Publication ---*/
+  .post__img {margin-right: 30px;}
 }
 
 @media (min-width:791px) {
@@ -229,6 +244,10 @@
 	.trainers__slider .trainers__list {justify-content: center;}
 	.trainers__slider .trainers__item {margin: 0;}
 	.review__minigallery li:nth-child(3n) {display: none;}
+  /*--- Publication ---*/
+  .event__container {padding: 0;}
+  .post__header {margin-bottom: 20px;}
+  .post__img {float: none; margin-right: auto; margin-left: auto;}
 }
 
 @media (max-width:640px) {
@@ -296,6 +315,13 @@
 	.review_about {margin-left: 0;}
 	.review__slider, .review__slider-item {width: 100%;}
 	.review__media {width: 100%;}
+  /*--- Publication ---*/
+  .event__btn {line-height: 2em;}
+  .event__btn:last-of-type {text-align: right;}
+  .post {width: 100%;}
+  .post__header {width: 100%; flex-direction: column;}
+  .post__title {width: 100%; }
+  .post__follow {width: 100%; flex-direction: row; align-items: flex-start;}
 }
 
 @media (max-width:480px) {
@@ -363,5 +389,10 @@
 	.trainers__controls .controls__next {right: 0;}
 	.trainers__slider {padding: 0;}
 	.review__slider-controls {padding: 0;}
+  /*--- Publication ---*/
+  .event__btn {letter-spacing: 1px;}
+  .event__btn:first-of-type {padding-left: 35px;}
+  .event__btn:last-of-type {padding-right: 35px;}  
+  .post__title h2 {font-size: 24px;}
 }
 // Адаптивная верстка //
