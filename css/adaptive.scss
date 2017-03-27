@@ -11,6 +11,8 @@
 	.lead_tango .lead__title h2 {padding: 0 90px;}
 	/*--- Trainers ---*/
 	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0 140px;}
+	/*--- Private lesson ---*/
+	.dance_private .dance__title {padding: inherit;}
 }
 
 @media (max-width:1270px) {
@@ -213,6 +215,7 @@
 	.page-title h1 {padding: 0;}
 	.dance__price, .dance__count {font-size: 40px;}
 	.page-intro p {padding: 0;}
+	.breadcrumbs {flex-wrap: wrap;}
 	/*--- Shedule ---*/
 	.shedule__cell_time p {line-height: 5.7em;}
 	.page-navigation__container_shedule {padding: 22px 38px 0;}
@@ -240,6 +243,8 @@
 	.trainers-contacts__btn {margin: 0 25px;}
 	.trainers-contacts__btn_services {padding-left: 0;}
 	.mission_stylized {padding: 44px 0;}
+	/*--- Private lesson ---*/
+	.lead_private .lead__title h2 {letter-spacing: 5px;}
 }
 
 @media (max-width:480px) {
@@ -259,7 +264,6 @@
 	.review__img {width: 340px;}
 	.review__content p {width: 100%;}
 	.page-title h1 {font-size: 25px;}
-	.breadcrumbs {flex-wrap: wrap;}
 	.page-navigation__container {padding: 0;}
 	.page-section__title {font-size: 22px; letter-spacing: 4px;}
 	.order-form__container {padding: 35px 0 0;}
@@ -297,5 +301,7 @@
 	.mission_stylized {flex-wrap: wrap;}
 	.mission_stylized .mission__title {width: 100%; margin-bottom: 15px;}
 	.contact-info_trainers {padding-right: 0;}
+	/*--- Private lesson ---*/
+	.lead_private .lead__title h2 {letter-spacing: 2.9px; font-size: 24px;}
 }
 // Адаптивная верстка //
