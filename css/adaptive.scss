@@ -27,6 +27,9 @@
 	.page-intro_styles .page-intro__container {padding: 0 90px;}
 	.styles__container {padding: 0 135px;}
 	.page-intro_styles .page-intro__container {padding: 0 60px;}
+	/*--- News ---*/
+	.news__container {padding: 0 160px;}
+	.news__tab-navigation {padding: 0 230px;}
 }
 
 @media (max-width:1270px) {
@@ -104,6 +107,10 @@
 	.dance-category__img-bottom img {width: 120%; margin-left: -10%;}
 	.dance-category__img-top img {width: 100%;}
 	.dance-category__img {margin-bottom: 90px;}
+	/*--- News ---*/
+	.news__container {padding: 0 60px;}
+	.news__btn {left: -50px;}
+	.news__content {padding-left: 20px;}
 }
 
 @media (max-width:1014px) {
@@ -142,6 +149,9 @@
 	.service_party .service__title_small {margin-left: 90px;}
 	.service_party .service__title_big {margin-left: 110px;}
 	.support__phone {padding: 0 150px;}
+	/*--- News ---*/
+	.news__tabs {padding: 0 105px;}
+	.news__tab-navigation {padding: 0 200px;}
 }
 
 @media (max-width:950px) {
@@ -197,6 +207,10 @@
 	.dance-category p {padding-right: 0;}
 	.page-intro_styles p {padding: 0;}
 	.dance-category_latino h3 {padding-right: 0;}
+	/*--- News ---*/
+	.news__tabs {padding: 0 30px;}
+	.news__item {width: 100%;}
+	.news__tab-navigation {padding: 0 120px;}
 }
 
 @media (min-width:791px) {
@@ -281,6 +295,9 @@
 	.page-intro_styles .page-intro__container {padding: 0 40px;}
 	.dance-category__img {display: none;}
 	.styles__container {padding: 0 40px;}
+	/*--- News ---*/
+	.news__tabs {justify-content: center; flex-wrap: wrap;}
+	.news__tab-navigation {padding: 0 60px;}
 }
 
 @media (max-width:640px) {
@@ -366,6 +383,13 @@
 	/*--- Dance styles ---*/
 	.page-intro_styles .page-intro__container {padding: 0;}
 	.styles__container {padding: 0;}
+	/*--- News ---*/
+	.news__tabs {padding: 0 40px;}
+	.news__tabs-item:nth-of-type(2) {padding-left: 0;}
+	.news__img {display: none;}
+	.news__content {padding-left: 0;}
+	.news__tab-navigation {padding: 0; margin: 76px 0 36px;}
+	.news__btn {top: -100px;}
 }
 
 @media (max-width:480px) {
@@ -451,5 +475,10 @@
 	.dance-category_latino p:nth-of-type(4) {padding-right: 0;}
 	.styles__btns {align-items: flex-start; padding-right: 0;}
 	.styles__btns a {margin: 20px; letter-spacing: 3px; line-height: 2em;}
+	/*--- News ---*/
+	.news__container {padding: 0;}
+	.paginator__item:first-child {margin-right: 20px;}
+	.paginator__item:last-child {margin-left: 20px;}
+	.news__btn {left: 0;}
 }
 // Адаптивная верстка //
