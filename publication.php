@@ -24,15 +24,17 @@
     </div>
     
     <section class="page-section event">
-      <div class="event__container container">
+      <div class="page-section__container event__container container">
         <article class="post">
           <header class="post__header">
-            <h2>
-              У нашей звёздной Каролины бронза!
-            </h2>
-            <time datetime="2016-09-09">09. 09. 2016</time>
+            <div class="post__title">
+              <h2>
+                У нашей звёздной Каролины бронза!
+              </h2>
+              <time datetime="2016-09-09">09. 09. 2016</time>
+            </div>
             <div class="post__follow">
-              <span>Поделиться:</span>
+              <p>Поделиться:</p>
               <ul class="post__socials socials">
                 <li><a href="https://www.facebook.com/danceolymp/"><img src="img/fb.svg" alt="Facebook" width="7" height="11"></a></li>
                 <li><a href="https://vk.com/dance_olymp"><img src="img/vk.svg" alt="ВКонтакте" width="15" height="8"></a></li>

@@ -408,7 +408,8 @@ select, input, textarea {
     line-height: 1.66667em;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff; }
+    color: #fff;
+    transition: all 0.25s ease-in-out; }
     .page-footer__developer:hover {
       color: #9c8561; }
       .page-footer__developer:hover .cross {
@@ -417,7 +418,8 @@ select, input, textarea {
       margin-left: 3px;
       width: 23px;
       height: 15px;
-      transform: translate(0, 2px); }
+      transform: translate(0, 2px);
+      transition: all 0.25s ease-in-out; }
 
 .page-title {
   box-sizing: border-box; }
@@ -877,6 +879,15 @@ select, input, textarea {
     border-color: #ffdda5; }
   .btn_move-down::after {
     transform: translate(-50%, 20px) rotate(45deg); }
+  .btn_start {
+    padding-left: 48px;
+    padding-right: 0; }
+    .btn_start::before {
+      left: 0; }
+    .btn_start::after {
+      left: 17px; }
+    .btn_start:hover::after {
+      left: -10px; }
   .btn_white {
     border-color: #fff; }
     .btn_white:hover, .btn_white:hover::before, .btn_white:hover::after, .btn_white::before, .btn_white::after {
@@ -1565,6 +1576,8 @@ select, input, textarea {
     padding-top: 50px; }
   .page-navigation__container_contacts {
     padding: 50px 88px 0; }
+  .page-navigation__container_events {
+    padding-top: 50px; }
 
 .page-intro {
   margin-top: 25px;
@@ -3200,6 +3213,116 @@ select, input, textarea {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.event {
+  margin-bottom: 54px; }
+  .event__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 27px;
+    padding-left: 172px; }
+  .event__video {
+    margin-bottom: 54px; }
+  .event__btns {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding-right: 196px; }
+
+.post {
+  box-sizing: border-box;
+  margin-bottom: 48px; }
+  .post__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px; }
+    .post__header h2 {
+      font-family: "Philosopher", "Arial", sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.46667em;
+      letter-spacing: 6px;
+      color: #ae956b;
+      text-decoration: none;
+      text-transform: uppercase; }
+    .post__header time {
+      font-family: "Philosopher", "Arial", sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 2em;
+      letter-spacing: normal;
+      color: #fff;
+      text-decoration: none;
+      text-transform: none; }
+  .post__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 82.95964%; }
+  .post__follow {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 17.04036%; }
+    .post__follow p {
+      margin-right: 12px;
+      font-family: "Philosopher", "Arial", sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 2em;
+      letter-spacing: normal;
+      color: #fff;
+      text-decoration: none;
+      text-transform: none; }
+  .post__content {
+    box-sizing: border-box; }
+    .post__content p {
+      box-sizing: border-box;
+      margin-bottom: 34px;
+      padding-right: 210px;
+      font-family: "Philosopher", "Arial", sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 2em;
+      letter-spacing: normal;
+      color: #fff;
+      text-decoration: none;
+      text-transform: none; }
+  .post__img {
+    float: left;
+    position: relative;
+    margin-top: 14px;
+    margin-right: 94px;
+    margin-bottom: 30px;
+    width: 280px;
+    height: 419px;
+    overflow: hidden; }
+    .post__img img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      min-width: 100%;
+      min-height: 100%;
+      width: 0;
+      object-fit: cover; }
 
 .hidden {
   display: none; }
