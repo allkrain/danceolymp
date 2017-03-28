@@ -31,22 +31,22 @@
         </header>
         <div class="page-menu">
           <ul class="page-menu__list">
-            <li class="page-menu__item"><a href="#valtz">Вальс</a></li>
-            <li class="page-menu__item"><a href="#tango">Танго</a></li>
-            <li class="page-menu__item"><a href="#viennese_valtz">Венский вальс</a></li>
-            <li class="page-menu__item"><a href="#foxtrot">Фокстрот</a></li>
-            <li class="page-menu__item"><a href="#quickstep">Квикстеп</a></li>
-            <li class="page-menu__item"><a href="#samba">Самба</a></li>
-            <li class="page-menu__item"><a href="#cha_cha_cha">Ча-ча-ча</a></li>
-            <li class="page-menu__item"><a href="#rumba">Румба</a></li>
+            <li class="page-menu__item"><a href="#valtz" class="nav">Вальс</a></li>
+            <li class="page-menu__item"><a href="#tango" class="nav">Танго</a></li>
+            <li class="page-menu__item"><a href="#viennese_valtz" class="nav">Венский вальс</a></li>
+            <li class="page-menu__item"><a href="#foxtrot" class="nav">Фокстрот</a></li>
+            <li class="page-menu__item"><a href="#quickstep" class="nav">Квикстеп</a></li>
+            <li class="page-menu__item"><a href="#samba" class="nav">Самба</a></li>
+            <li class="page-menu__item"><a href="#cha_cha_cha" class="nav">Ча-ча-ча</a></li>
+            <li class="page-menu__item"><a href="#rumba" class="nav">Румба</a></li>
           </ul>
           <ul class="page-menu__list"> 
-            <li class="page-menu__item"><a href="#paso_doble">Пасодобль</a></li>
-            <li class="page-menu__item"><a href="#jive">Джайв</a></li>
-            <li class="page-menu__item"><a href="#salsa">Сальса</a></li>
-            <li class="page-menu__item"><a href="#bachata">Бачата</a></li>
-            <li class="page-menu__item"><a href="#merengue">Меренге</a></li>
-            <li class="page-menu__item"><a href="#swing">Свинг</a></li>
+            <li class="page-menu__item"><a href="#paso_doble" class="nav">Пасодобль</a></li>
+            <li class="page-menu__item"><a href="#jive" class="nav">Джайв</a></li>
+            <li class="page-menu__item"><a href="#latina" class="nav">Сальса</a></li>
+            <li class="page-menu__item"><a href="#latina" class="nav">Бачата</a></li>
+            <li class="page-menu__item"><a href="#latina" class="nav">Меренге</a></li>
+            <li class="page-menu__item"><a href="#latina" class="nav">Свинг</a></li>
           </ul>
         </div>
         <p>
@@ -125,7 +125,7 @@
     
     <section class="page-section styles">
       <div class="styles__container container">
-        <article class="dance-category dance-category_club">
+        <article class="dance-category dance-category_club" id="latina">
           <div class="dance-category__img dance-category__img_club">
             <div class="dance-category__img-bottom">
               <img src="img/dance_styles/bg_img.png" alt="">

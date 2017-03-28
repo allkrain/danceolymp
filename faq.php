@@ -36,12 +36,12 @@
     
     <section class="page-section faq">
       <div class="faq__container container">
-        <div class="faq__item opened">
+        <div class="faq__item closed">
           <div class="faq__question">
             <p>
               В чем приходить на занятия? 
             </p>
-            <span class="btn btn_empty btn_round btn_up btn_white"></span>
+            <span class="btn btn_empty btn_round btn_down"></span>
           </div>
           <div class="faq__answer">
             <p>

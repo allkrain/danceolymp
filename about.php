@@ -80,14 +80,17 @@
             помочь Вам раскрыть свой потенциал, наш приоритет &mdash; индивидуальный подход к каждому. Ждем Вас в студии и желаем успешного путешествия в волшебный мир танца!
           </p>
         </div>
-        <div class="about__gallery slider">
-          <ul class="about__gallery-list slider__list">
-            <li class="about__gallery-img slider__item"><img src="img/about/about_slide1.jpg" alt=""></li>
-          </ul>
-          <div class="about__gallery-controls controls container">
-            <span class="controls__prev">Назад</span>
-            <span class="controls__next">Вперед</span>
-          </div>
+        <div class="about__slider slider">
+        	<div class="about__gallery">
+        	  <div class="about__gallery-list slider__list wrapper">
+        	    <div class="about__gallery-img slider__item slide"><img src="img/about/about_slide1.jpg" alt=""></div>
+        	    <div class="about__gallery-img slider__item slide"><img src="img/about/about_slide1.jpg" alt=""></div>
+        	  </div>
+        	</div>
+        	<div class="about__gallery-controls controls container">
+        	  <span class="controls__prev slider-arrow prev">Назад</span>
+        	  <span class="controls__next slider-arrow next">Вперед</span>
+        	</div>
         </div>
         <div class="about__video video">
           <div class="video__promo"><img src="img/video_promo1.jpg" alt=""></div>
@@ -95,59 +98,98 @@
       </div>
     </section>
     
-    <section class="page-section trainers">
+    <section class="page-section trainers slider">
       <header class="trainers__header container">
         <h2>Наши преподаватели</h2>
       </header>
-      <div class="trainers__slider slider container">
-        <ul class="trainers__list slider__list">
-          <li class="trainers__item slider__item">
-            <figure>
-              <div class="trainers__img">
-                <img src="img/trainers/Sadovskiy@1x.jpg" alt="" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
-              </div>
-              <figcaption class="trainers__title">
-                <p class="trainers__surname">Садовский</p>
-                <p class="trainers__name">Владимир Алексеевич</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="trainers__item slider__item">
-            <figure>
-              <div class="trainers__img">
-                <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x">
-              </div>
-              <figcaption class="trainers__title">
-                <p class="trainers__surname">Громов</p>
-                <p class="trainers__name">Никита Сергеевич</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="trainers__item slider__item">
-            <figure>
-              <div class="trainers__img">
-                <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x">
-              </div>
-              <figcaption class="trainers__title">
-                <p class="trainers__surname">Садовская</p>
-                <p class="trainers__name">Екатерина Дмитриевна</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+      <div class="trainers__slider container">
+        <div class="trainers__gallery">
+        	<div class="wrapper">
+        		<ul class="trainers__list slider__list slide">
+        		  <li class="trainers__item slider__item">
+        		    <figure>
+        		      <div class="trainers__img">
+        		        <img src="img/trainers/Sadovskiy@1x.jpg" alt="" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
+        		      </div>
+        		      <figcaption class="trainers__title">
+        		        <p class="trainers__surname">Садовский</p>
+        		        <p class="trainers__name">Владимир Алексеевич</p>
+        		      </figcaption>
+        		    </figure>
+        		  </li>
+        		  <li class="trainers__item slider__item">
+        		    <figure>
+        		      <div class="trainers__img">
+        		        <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x">
+        		      </div>
+        		      <figcaption class="trainers__title">
+        		        <p class="trainers__surname">Громов</p>
+        		        <p class="trainers__name">Никита Сергеевич</p>
+        		      </figcaption>
+        		    </figure>
+        		  </li>
+        		  <li class="trainers__item slider__item">
+        		    <figure>
+        		      <div class="trainers__img">
+        		        <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x">
+        		      </div>
+        		      <figcaption class="trainers__title">
+        		        <p class="trainers__surname">Садовская</p>
+        		        <p class="trainers__name">Екатерина Дмитриевна</p>
+        		      </figcaption>
+        		    </figure>
+        		  </li>
+        		</ul>
+        		<ul class="trainers__list slider__list slide">
+        		  <li class="trainers__item slider__item">
+        		    <figure>
+        		      <div class="trainers__img">
+        		        <img src="img/trainers/Sadovskiy@1x.jpg" alt="" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
+        		      </div>
+        		      <figcaption class="trainers__title">
+        		        <p class="trainers__surname">Садовский</p>
+        		        <p class="trainers__name">Владимир Алексеевич</p>
+        		      </figcaption>
+        		    </figure>
+        		  </li>
+        		  <li class="trainers__item slider__item">
+        		    <figure>
+        		      <div class="trainers__img">
+        		        <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x">
+        		      </div>
+        		      <figcaption class="trainers__title">
+        		        <p class="trainers__surname">Громов</p>
+        		        <p class="trainers__name">Никита Сергеевич</p>
+        		      </figcaption>
+        		    </figure>
+        		  </li>
+        		  <li class="trainers__item slider__item">
+        		    <figure>
+        		      <div class="trainers__img">
+        		        <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x">
+        		      </div>
+        		      <figcaption class="trainers__title">
+        		        <p class="trainers__surname">Садовская</p>
+        		        <p class="trainers__name">Екатерина Дмитриевна</p>
+        		      </figcaption>
+        		    </figure>
+        		  </li>
+        		</ul>
+        	</div>
+        </div>
         <div class="trainers__controls controls container">
-          <span class="controls__prev">Назад</span>
-          <span class="controls__next">Вперед</span>
+          <span class="controls__prev slider-arrow prev">Назад</span>
+          <span class="controls__next slider-arrow next">Вперед</span>
         </div>
       </div>
     </section>
     
-    <section class="page-section review review_about">
+    <section class="page-section review review_about slider">
       <div class="review__container container">
         <header class="review__header">
           <h2>Отзывы о нас</h2>
         </header>
-        <div class="review__slider slider">
+        <div class="review__slider">
           <div class="review__slider-item slider__item">
             <div class="review__media">
               <div class="review__img">
@@ -167,13 +209,22 @@
             </div>
           </div>
           <div class="review__slider-controls slider__controls">
-            <span class="btn btn_empty btn_round btn_left btn_move-left"></span>
-            <ul class="review__minigallery">
-              <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-              <li class="active"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-              <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            </ul>
-            <span class="btn btn_empty btn_round btn_right btn_move-right"></span>
+            <span class="btn btn_empty btn_round btn_left btn_move-left slider-arrow prev"></span>
+            <div class="review__slider-overflow slider-overflow">
+            	<div class="wrapper">
+            		<ul class="review__minigallery slide">
+            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  <li class="active"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		</ul>
+            		<ul class="review__minigallery slide">
+            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		</ul>
+            	</div>
+            </div>
+            <span class="btn btn_empty btn_round btn_right btn_move-right slider-arrow next"></span>
           </div>
         </div>
       </div>

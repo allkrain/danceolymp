@@ -960,6 +960,7 @@
 }
 
 .controls {
+  pointer-events: none;
   
   &__prev,
   &__next {
@@ -969,6 +970,7 @@
     cursor: pointer;
 	width: 72px;
 	height: 20px;
+	pointer-events: all;
   }
   
   &__prev::before,
@@ -1767,7 +1769,7 @@
     }
   }
   
-  &__slider-controls {
+  &__slider-controls { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1777,9 +1779,13 @@
     width: 100%;
     padding: 0 188px 0 180px; 
   }
+	
+	&__slider-overflow {
+		width: 85%;
+	}
   
   &__minigallery {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -1792,6 +1798,8 @@
       height: 148px;
       overflow: hidden;
       margin-right: 28px;
+	  cursor: pointer;
+	  transition: all 0.25s ease-in-out;
       
       &:last-child {
         margin-right: auto;
@@ -1801,7 +1809,7 @@
         margin-right: 0;
       }
       
-      &.active {
+      &:hover, &.active {
         box-shadow: inset 0 0 0 4px $base_color_3;
       }
       
@@ -2130,18 +2138,18 @@
     margin-bottom: 78px;
   }
   
+  &__slider {
+	width: 100%;
+	position: relative;
+	margin-bottom: 70px;
+	padding: 0 182px;
+	box-sizing: border-box;
+  }
+	
   &__gallery {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 70px;
-  }
-  
-  &__gallery-list {
-    margin-left: -16px;
-    width: 922px;
+    overflow: hidden;
+	margin-left: -16px;
   }
   
   &__gallery-img {
@@ -2174,12 +2182,12 @@
     
     .controls__prev {
       position: absolute;
-      left: -154px;
+      left: 14px;
     }
     
     .controls__next {
       position: absolute;
-      right: -140px;
+      right: 14px;
     }
   }
   
@@ -2300,17 +2308,18 @@
     box-sizing: border-box;
     padding: 0 195px 0 173px;
   }
+	
+  &__gallery {
+	overflow: hidden;
+  }
   
   &__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
     font-size: 0;
   }
   
   &__item {
+	display: inline-block;
+	vertical-align: top;
     width: 280px;
     margin-right: 38px;
     margin-bottom: 50px;
@@ -2324,6 +2333,7 @@
     }
     
     figure {
+	  display: block;
       margin: 0;
       width: 280px;
       height: 419px;
@@ -3033,6 +3043,7 @@
     min-height: 96px;
     box-sizing: border-box;
     width: 100%;
+	cursor: pointer;
     
     p {
       box-sizing: border-box;
@@ -3072,6 +3083,15 @@
         p {
           color: $base_color_1;
         }
+      }
+		
+	  & .btn_round::before,
+      & .btn_down::after {
+           border-color: #fff;
+      }
+        
+      & .btn_down::after {
+        transform: translate(-50%, -35%) rotate(-135deg);
       }
     }
     

@@ -16,13 +16,15 @@
 	/*--- About ---*/
 	.about__features {padding: 4px 160px;}
 	.about__mission {padding: 0 160px;}
+	.about__slider {padding: 0 140px;}
 	.about__gallery-list {margin-left: 0; width: 100%;}
 	.about__gallery-img {width: 760px; height: 510px;}
-	.about__gallery-controls .controls__prev {left: 0;}
-	.about__gallery-controls .controls__next {right: 0;}
+	.about__gallery-controls .controls__prev {left: 3px;}
+	.about__gallery-controls .controls__next {right: 3px;}
 	.about__video {margin-left: 0;}
 	.trainers__slider {padding: 0 140px;}
 	.review__slider-controls {padding: 0 160px;}
+	.about__gallery {margin-left: 0;}
   /*--- Publication ---*/
   .event__btns {width: 916px; padding: 0;}
   .post__title {width: 80%;}
@@ -87,6 +89,7 @@
 	.about__features, .about__mission {padding: 0 60px;}
 	.trainers__slider li:nth-child(n+3) {display: none;}
 	.review__slider-controls {padding: 0 30px;}
+	.about__slider {padding: 0 110px;}
   /*--- Publication ---*/
   .event__container {padding: 0 72px;}
   .event__btns {width: 100%; padding: 0;}
@@ -309,9 +312,11 @@
 	.text-list__list_about .text-list__item:nth-child(5) {margin-top: 0;}
 	.about__gallery-img {width: 410px; height: 270px;}
 	.trainers__slider li:nth-child(n+2) {display: none;}
-	.trainers__slider .trainers__list {justify-content: center;}
+	.trainers__slider .trainers__list {text-align: center;}
 	.trainers__slider .trainers__item {margin: 0;}
 	.review__minigallery li:nth-child(3n) {display: none;}
+	.review__minigallery li:nth-child(2) {margin-right: 0;}
+	.review__slider-overflow {width: 80%;}
   /*--- Publication ---*/
   .event__container {padding: 0;}
   .post__header {margin-bottom: 20px;}
@@ -345,6 +350,7 @@
 	.service_personal .service__title_big {margin-left: 20px; font-size: 80px;}
 	.service_group .service__title_big {margin-bottom: 0; font-size: 80px;}
 	.service_tango .service__title_big {margin: 0; font-size: 80px;}
+	.controls__prev, .controls__next {width: 40px;}
 	.controls__prev::before, .controls__next::before {width: 40px;}
 	.dance-styles__describe {padding: 0 40px;}
 	.dance-styles__describe h3 {font-size: 18px;}
@@ -393,6 +399,9 @@
 	.review_about {margin-left: 0;}
 	.review__slider, .review__slider-item {width: 100%;}
 	.review__media {width: 100%;}
+	.about__slider {padding: 0 60px;}
+	.review__minigallery {justify-content: center;}
+	.review__slider-overflow {width: 65%;}
   /*--- Publication ---*/
   .event__btn {line-height: 2em;}
   .event__btn:last-of-type {text-align: right;}
@@ -435,7 +444,7 @@
 	.container {width: 290px;}
 	.page-header__contacts {display: none;}
 	.lead__title h2 a {font-size: 20px;}
-	.lead__title p {padding: 0 10px;}
+	.lead__title p {padding: 0 10px; margin-top: 30px;}
 	.service__title_small {font-size: 14px;}
 	.service_personal .service__title_big {font-size: 48px; margin-bottom: 0;}
 	.service_group .service__title_big {font-size: 48px; margin-bottom: 0;}
