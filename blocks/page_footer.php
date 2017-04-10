@@ -20,3 +20,5 @@
     </div>
   </div>
 </footer>
+
+<div class="page-bg-container"></div>

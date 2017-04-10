@@ -14,64 +14,58 @@
   <?php include "blocks/page_header.php"; ?>
 
   <main class="page-content">
-    <section class="page-section lead slider">
-      <div class="wrapper">
-      	<div class="slider__item slide">
-      	  <div class="lead__img">
-      	    <img src="img/australian_tango@1x.jpg" alt="" width="100%" srcset="img/australian_tango@1,5x.jpg 1.5x, img/australian_tango@2x.jpg 2x, img/australian_tango@3x.jpg 3x">
-      	  </div>
-      	  <div class="lead__container container">
-      	    <header class="lead__title">
-      	      <h2>
-      	        <a href="#">Аргентинское танго</a>
-      	      </h2>
-      	      <p>Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса,
-      	       куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.
-      	      </p>
-      	    </header>
-      	    <footer class="lead__footer">
-      	      <ul class="lead__socials socials">
-      	        <li><a href="https://www.facebook.com/danceolymp/"><img src="img/fb.svg" alt="" width="7" height="11"></a></li>
-      	        <li><a href="https://vk.com/dance_olymp"><img src="img/vk.svg" alt="" width="15" height="8">></a></li>
-      	      </ul>
-      	      <a href="#services" class="lead__btn-mouse nav">
-      	        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="35" viewBox="0 0 23 35"><defs><style>.cls-1{fill-rule:evenodd}</style></defs><path class="cls-1" d="M11.5 0A11.6 11.6 0 0 0 0 11.661V23.34a11.5 11.5 0 1 0 23 0V11.661A11.6 11.6 0 0 0 11.5 0zm10.22 23.34a10.221 10.221 0 1 1-20.44 0V11.661a10.221 10.221 0 1 1 20.44 0V23.34zM11.5 3.888a.646.646 0 0 0-.64.649v5.869a.64.64 0 1 0 1.28 0V4.537a.646.646 0 0 0-.64-.649z"/></svg>
-      	      </a>
-      	      <a href="" class="lead__btn btn btn_round btn_plus">Подробнее</a>
-      	    </footer>
-      	  </div>
-      	</div>
-      	<div class="slider__item slide">
-      	  <div class="lead__img">
-      	    <img src="img/australian_tango@1x.jpg" alt="" width="100%" srcset="img/australian_tango@1,5x.jpg 1.5x, img/australian_tango@2x.jpg 2x, img/australian_tango@3x.jpg 3x">
-      	  </div>
-      	  <div class="lead__container container">
-      	    <header class="lead__title">
-      	      <h2>
-      	        <a href="#">Аргентинское танго</a>
-      	      </h2>
-      	      <p>Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса,
-      	       куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.
-      	      </p>
-      	    </header>
-      	    <footer class="lead__footer">
-      	      <ul class="lead__socials socials">
-      	        <li><a href="https://www.facebook.com/danceolymp/"><img src="img/fb.svg" alt="" width="7" height="11"></a></li>
-      	        <li><a href="https://vk.com/dance_olymp"><img src="img/vk.svg" alt="" width="15" height="8">></a></li>
-      	      </ul>
-      	      <a href="#services" class="lead__btn-mouse nav">
-      	        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="35" viewBox="0 0 23 35"><defs><style>.cls-1{fill-rule:evenodd}</style></defs><path class="cls-1" d="M11.5 0A11.6 11.6 0 0 0 0 11.661V23.34a11.5 11.5 0 1 0 23 0V11.661A11.6 11.6 0 0 0 11.5 0zm10.22 23.34a10.221 10.221 0 1 1-20.44 0V11.661a10.221 10.221 0 1 1 20.44 0V23.34zM11.5 3.888a.646.646 0 0 0-.64.649v5.869a.64.64 0 1 0 1.28 0V4.537a.646.646 0 0 0-.64-.649z"/></svg>
-      	      </a>
-      	      <a href="" class="lead__btn btn btn_round btn_plus">Подробнее</a>
-      	    </footer>
-      	  </div>
-      	</div>
-      </div>
-      <div class="lead__controls controls container">
-        <span class="controls__prev slider-arrow prev">Назад</span>
-        <span class="controls__next slider-arrow next">Вперед</span>
-      </div>
-    </section>
+    <div class="page-section__maincontainer">
+        <section class="page-section lead slider">
+          <div class="wrapper">
+              <div class="slider__item slide" data-link="tango.php">
+                <div class="lead__img">
+                  <img src="img/australian_tango@1x.jpg" alt="" width="100%" srcset="img/australian_tango@1,5x.jpg 1.5x, img/australian_tango@2x.jpg 2x, img/australian_tango@3x.jpg 3x">
+                </div>
+                <div class="lead__container container">
+                  <header class="lead__title">
+                    <h2 class="animated">
+                      <a href="#">Аргентинское танго</a>
+                    </h2>
+                    <p class="animated">Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса,
+                     куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.
+                    </p>
+                  </header>
+                </div>
+              </div>
+              <div class="slider__item slide" data-link="wedding_dance.php">
+                <div class="lead__img">
+                  <img src="img/australian_tango@1x.jpg" alt="" width="100%" srcset="img/australian_tango@1,5x.jpg 1.5x, img/australian_tango@2x.jpg 2x, img/australian_tango@3x.jpg 3x">
+                </div>
+                <div class="lead__container container">
+                  <header class="lead__title">
+                    <h2 class="animated">
+                      <a href="#">Аргентинское танго</a>
+                    </h2>
+                    <p class="animated">Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса,
+                     куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.
+                    </p>
+                  </header>
+                </div>
+              </div>
+          </div>
+          <div class="lead__controls controls container">
+            <span class="controls__prev slider-arrow prev">Назад</span>
+            <span class="controls__next slider-arrow next">Вперед</span>
+          </div>
+        </section>
+        <div class="container">
+            <footer class="lead__footer">
+              <ul class="lead__socials socials">
+                <li><a href="https://www.facebook.com/danceolymp/"><img src="img/fb.svg" alt="" width="7" height="11"></a></li>
+                <li><a href="https://vk.com/dance_olymp"><img src="img/vk.svg" alt="" width="15" height="8">></a></li>
+              </ul>
+              <a href="#services" class="lead__btn-mouse nav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="35" viewBox="0 0 23 35"><defs><style>.cls-1{fill-rule:evenodd}</style></defs><path class="cls-1" d="M11.5 0A11.6 11.6 0 0 0 0 11.661V23.34a11.5 11.5 0 1 0 23 0V11.661A11.6 11.6 0 0 0 11.5 0zm10.22 23.34a10.221 10.221 0 1 1-20.44 0V11.661a10.221 10.221 0 1 1 20.44 0V23.34zM11.5 3.888a.646.646 0 0 0-.64.649v5.869a.64.64 0 1 0 1.28 0V4.537a.646.646 0 0 0-.64-.649z"/></svg>
+              </a>
+              <a href="" class="lead__btn btn btn_round btn_plus lead__footerlink">Подробнее</a>
+            </footer>
+        </div>
+    </div>
     
     <section class="page-section services" id="services">
       <div class="container">
@@ -147,6 +141,7 @@
       <div class="container">
         <h2>Танцевальные стили</h2>
         <div class="dance-styles__slider slider">
+         <div class="dance-styles__slider-main-container">
           <div class="slider__count">
           	<span class="slider__number">01</span>
           	<span class="slider__total">03</span>
@@ -155,8 +150,8 @@
           	<div class="slide">
           		<div class="dance-styles__content slider__item">
           		  <article class="dance-styles__describe">
-          		    <h3><a href="#">Бальные танцы, латиноамериканская программа</a></h3>
-          		    <p class="gotham">
+          		    <h3 class="animated"><a href="#">Бальные танцы, латиноамериканская программа</a></h3>
+          		    <p class="gotham animated">
           		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
           		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем.
           		      Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы
@@ -170,8 +165,8 @@
           	<div class="slide">
           		<div class="dance-styles__content slider__item">
           		  <article class="dance-styles__describe">
-          		    <h3><a href="#">Бальные танцы, латиноамериканская программа</a></h3>
-          		    <p class="gotham">
+          		    <h3 class="animated"><a href="#">Бальные танцы, латиноамериканская программа</a></h3>
+          		    <p class="gotham animated">
           		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
           		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем.
           		      Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы
@@ -187,6 +182,7 @@
             <span class="controls__prev slider-arrow prev">Назад</span>
             <span class="controls__next slider-arrow next">Вперед</span>
           </div>
+        </div>
         </div>
       </div>
     </section>

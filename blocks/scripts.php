@@ -28,4 +28,20 @@
 <script src="js/jquery.lettering.js"></script>
 <script src="js/jquery.textillate.js"></script>
 
+<!-- Карта -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUaCNfcDZQL7nZK07DQmAHsEetCCMIQ5w&callback=initMap" async defer></script>
+<script>
+  function initMap() {
+    var myLatLng = {lat: 55.726542, lng: 37.639794};
+
+    // Create a map object and specify the DOM element for display.
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: myLatLng,
+      scrollwheel: false,
+      zoom: 15,
+	  noClear: true
+    });
+  }
+</script>
+
 <script src="js/scripts.min.js"></script>
