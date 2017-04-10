@@ -2382,7 +2382,8 @@ select, input, textarea {
         background-color: #393939;
         box-shadow: 0 21px 13px 0 rgba(0, 0, 0, 0.31); }
         .shedule__cell a:hover .shedule__order-btn {
-          display: block;
+          opacity: 1;
+          pointer-events: all;
           box-shadow: 0 21px 13px 0 rgba(0, 0, 0, 0.31); }
       .shedule__cell a_cancel a:hover {
         background-color: #583232; }
@@ -2432,7 +2433,10 @@ select, input, textarea {
     position: absolute;
     top: 100%;
     left: 50%;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease-in-out;
+    padding-left: 3px;
     height: 43px;
     font-style: normal;
     font-family: "GothamPro", "Arial", sans-serif;
@@ -2482,7 +2486,9 @@ select, input, textarea {
   .faq__answer {
     box-sizing: border-box;
     padding: 0 40px;
-    width: 100%; }
+    width: 100%;
+    height: 0;
+    transition: all 0.25s ease-in-out; }
     .faq__answer p {
       padding: 8px 70px 38px 0;
       font-family: "GothamPro", "Arial", sans-serif;
@@ -2505,7 +2511,8 @@ select, input, textarea {
     .faq__item.closed {
       cursor: pointer; }
       .faq__item.closed .faq__answer {
-        display: none; }
+        pointer-events: none;
+        opacity: 0; }
       .faq__item.closed .faq__question p {
         color: #b0966c; }
     .faq__item.closed:hover {
@@ -3039,7 +3046,8 @@ select, input, textarea {
     .news__tabs-item.active a {
       color: #fff; }
   .news__tab-pane {
-    position: relative; }
+    position: relative;
+    display: none; }
     .news__tab-pane h2 {
       position: absolute;
       top: 0;
@@ -3047,13 +3055,8 @@ select, input, textarea {
       width: 0px;
       height: 10px;
       overflow: hidden; }
-    .news__tab-pane.active {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: stretch; }
-    .news__tab-pane.fade {
-      display: none; }
+    .news__tab-pane:first-child {
+      display: block; }
   .news__tabs-content {
     box-sizing: border-box;
     width: 100%;
@@ -3626,6 +3629,10 @@ select, input, textarea {
     right: 0; }
   .review__media::after {
     right: 143px; }
+  .page-title h1 {
+    padding: 0; }
+  .breadcrumbs li:first-child a {
+    padding-left: 0; }
   /*--- Shedule ---*/
   .shedule__wrapper {
     overflow-x: scroll; }
@@ -3654,11 +3661,11 @@ select, input, textarea {
     padding-right: 160px; }
   /*--- FAQ ---*/
   .page-title_faq {
-    padding: 5px 60px; }
+    padding: 0; }
   .page-intro_faq p {
-    padding: 6px 130px; }
+    padding: 0; }
   .faq__container {
-    padding: 0 130px; }
+    padding: 0; }
   /*--- Tango ---*/
   .lead_tango .lead__title h2 {
     padding: 0; }
@@ -3698,7 +3705,7 @@ select, input, textarea {
     padding: 0 110px; }
   /*--- Publication ---*/
   .event__container {
-    padding: 0 72px; }
+    padding: 0; }
   .event__btns {
     width: 100%;
     padding: 0; }
@@ -3710,32 +3717,33 @@ select, input, textarea {
     width: 25%; }
   /*--- Services ---*/
   .page-intro_services p {
-    padding: 0 70px; }
+    padding: 0; }
   .service__btns-list {
     flex-direction: row;
-    height: auto; }
+    height: auto;
+    padding: 0; }
   .service__btns-list li {
     margin-right: 30px; }
   .service_band .service__content {
-    padding-left: 70px; }
+    padding-left: 0; }
   .service_wedding .service__content {
-    padding-right: 70px; }
+    padding-right: 0; }
   .service_corporative .service__content {
-    padding-left: 70px; }
+    padding-left: 0; }
   .service_corporative .service__title_small {
     margin-left: -30px; }
   .service_corporative .service__title_big {
     margin-left: -40px; }
   .service_party .service__content {
-    padding-right: 70px; }
+    padding-right: 0; }
   .service_party .service__title_small {
     margin-left: 60px; }
   .service_party .service__title_big {
     margin-left: 80px; }
   .service_gift .service__content {
-    padding-left: 70px; }
+    padding-left: 0; }
   .service_competition .service__content {
-    padding-right: 70px; }
+    padding-right: 0; }
   .service_competition .service__title_big {
     margin-left: 30px; }
   .service_competition .service__title_small {
@@ -3821,9 +3829,6 @@ select, input, textarea {
     display: none; }
   .additionally__offer h3 {
     padding-right: 130px; }
-  /*--- FAQ ---*/
-  .faq__container {
-    padding: 0 60px; }
   /*--- Tango ---*/
   .trends__title {
     padding-right: 200px; }
@@ -3845,6 +3850,9 @@ select, input, textarea {
     height: 140px;
     margin-right: 20px; }
   /*--- Publication ---*/
+  .post__header h2 {
+    font-size: 26px;
+    letter-spacing: 5px; }
   .post__follow {
     flex-direction: column;
     justify-content: flex-start;
@@ -4110,8 +4118,6 @@ select, input, textarea {
   .dance__video {
     margin-top: 20px; }
   /*--- FAQ ---*/
-  .page-title_faq {
-    padding: 5px 40px; }
   .faq__container {
     padding: 0; }
   /*--- Tango ---*/
@@ -4146,6 +4152,14 @@ select, input, textarea {
   .trainers__biography p {
     text-align: center;
     padding: 0 10px; }
+  /*--- Private lesson ---*/
+  .lead_private .lead__img {
+    height: 500px; }
+  .lead_private .lead__container {
+    height: 500px;
+    margin-top: -500px; }
+  .lead_private .lead__title {
+    margin-top: 0; }
   /*--- About ---*/
   .page-intro__content {
     padding: 0 40px;
@@ -4188,6 +4202,11 @@ select, input, textarea {
     float: none;
     margin-right: auto;
     margin-left: auto; }
+  .post__header h2 {
+    font-size: 24px;
+    letter-spacing: 4px; }
+  .event__btns .event__btn {
+    letter-spacing: 3px; }
   /*--- Dance styles ---*/
   .dance-category__img {
     display: none; }
@@ -4501,6 +4520,13 @@ select, input, textarea {
     font-size: 13px; }
   .service__content p {
     font-size: 15px; }
+  .page-intro p {
+    font-size: 15px; }
+  .breadcrumbs li a {
+    padding-left: 6px;
+    padding-right: 12px; }
+  .breadcrumbs li:last-child a {
+    padding-right: 0; }
   /*--- Shedule ---*/
   .page-navigation__container_shedule {
     padding: 22px 20px 0; }
@@ -4574,6 +4600,8 @@ select, input, textarea {
   .lead_private .lead__title h2 {
     letter-spacing: 2.9px;
     font-size: 24px; }
+  .dance__describe p {
+    font-size: 15px; }
   /*--- About ---*/
   .page-intro__content {
     padding: 0; }
@@ -4602,8 +4630,15 @@ select, input, textarea {
   .event__btn:last-of-type {
     padding-right: 35px; }
   .post__title h2 {
-    font-size: 24px; }
+    font-size: 22px;
+    letter-spacing: 2px; }
+  .post__content p {
+    font-size: 15px; }
+  .event__btns .event__btn {
+    letter-spacing: 1px; }
   /*--- Services ---*/
+  .services {
+    padding-top: 0; }
   .service_wedding .service__title_small {
     font-size: 14px;
     letter-spacing: 20px;

@@ -26,13 +26,13 @@
     <section class="page-section news">
       <div class="news__container container">
         <ul class="news__tabs updown-border">
-          <li class="news__tabs-item active"><a href="#tab1">Статьи</a></li>
-          <li class="news__tabs-item"><a href="#tab2">События</a></li>
-          <li class="news__tabs-item"><a href="#tab3">Фотографии</a></li>
+          <li class="news__tabs-item active" data-tab="tab1"><a href="#">Статьи</a></li>
+          <li class="news__tabs-item" data-tab="tab2"><a href="#">События</a></li>
+          <li class="news__tabs-item" data-tab="tab3"><a href="#">Фотографии</a></li>
         </ul>
         
         <div class="news__tabs-content">
-          <div id="tab1" class="news__tab-pane active">
+          <div id="tab1" class="news__tab-pane">
             <h2>Статьи</h2>
             <div class="news__tab-content">
               <article class="news__item">
@@ -114,7 +114,7 @@
               </ul>
             </div>
           </div>
-          <div id="tab2" class="news__tab-pane fade">
+          <div id="tab2" class="news__tab-pane">
             <h2>События</h2>
             <ul class="news__events">
               <li class="news__event-item">
@@ -162,7 +162,7 @@
               </ul>
             </div>        
           </div>
-          <div id="tab3" class="news__tab-pane fade">
+          <div id="tab3" class="news__tab-pane">
             <h2>Фотографии</h2>
             <div class="news__gallery-img"><img src="" alt=""></div>
             <ul class="news__gallery-controls">
