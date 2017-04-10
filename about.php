@@ -93,7 +93,10 @@
         	</div>
         </div>
         <div class="about__video video">
-          <div class="video__promo"><img src="img/video_promo1.jpg" alt=""></div>
+          <div class="video__promo">
+          	<img src="img/video_promo1.jpg" alt="@@">
+          	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </section>
@@ -196,7 +199,7 @@
                 <img src="img/about/review_img.jpg" alt="">
               </div>
               <div class="review__video">
-                <a href="#" class="review__video-btn btn btn_youtube">Смотреть</a>
+                <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox>Смотреть</a>
               </div>
             </div>
             <div class="review__content">

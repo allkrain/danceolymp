@@ -23,10 +23,10 @@
                 </div>
                 <div class="lead__container container">
                   <header class="lead__title">
-                    <h2 class="animated">
-                      <a href="#">Аргентинское танго</a>
+                    <h2 class="animated fast">
+                      <a href="tango.php">Аргентинское танго</a>
                     </h2>
-                    <p class="animated">Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса,
+                    <p class="animated fast delay">Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса,
                      куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.
                     </p>
                   </header>
@@ -38,10 +38,10 @@
                 </div>
                 <div class="lead__container container">
                   <header class="lead__title">
-                    <h2 class="animated">
-                      <a href="#">Аргентинское танго</a>
+                    <h2 class="animated fast">
+                      <a href="wedding_dance.php">Аргентинское танго</a>
                     </h2>
-                    <p class="animated">Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса,
+                    <p class="animated fast delay">Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса,
                      куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.
                     </p>
                   </header>
@@ -150,8 +150,8 @@
           	<div class="slide">
           		<div class="dance-styles__content slider__item">
           		  <article class="dance-styles__describe">
-          		    <h3 class="animated"><a href="#">Бальные танцы, латиноамериканская программа</a></h3>
-          		    <p class="gotham animated">
+          		    <h3 class="animated fast"><a href="dance_styles.php">Бальные танцы, латиноамериканская программа</a></h3>
+          		    <p class="gotham animated fast delay">
           		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
           		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем.
           		      Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы
@@ -159,14 +159,14 @@
           		      едва могут устоять на месте!
           		    </p>
           		  </article>
-          		  <div class="dance-styles__img"><img src="img/dance_style_1.jpg" alt=""></div>
+          		  <div class="dance-styles__img"><img src="img/dance_style_1.jpg" alt="@@" class="animated fast"></div>
           		</div>
           	</div>
           	<div class="slide">
           		<div class="dance-styles__content slider__item">
           		  <article class="dance-styles__describe">
-          		    <h3 class="animated"><a href="#">Бальные танцы, латиноамериканская программа</a></h3>
-          		    <p class="gotham animated">
+          		    <h3 class="animated fast"><a href="dance_styles.php">Бальные танцы, латиноамериканская программа</a></h3>
+          		    <p class="gotham animated fast delay">
           		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
           		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем.
           		      Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы
@@ -174,7 +174,7 @@
           		      едва могут устоять на месте!
           		    </p>
           		  </article>
-          		  <div class="dance-styles__img"><img src="img/dance_style_1.jpg" alt=""></div>
+          		  <div class="dance-styles__img"><img src="img/dance_style_1.jpg" alt="@@" class="animated fast"></div>
           		</div>
           	</div>
           </div>
@@ -197,7 +197,7 @@
             <img src="img/review_img.jpg" alt="">
           </div>
           <div class="review__video">
-            <a href="#" class="review__video-btn btn btn_youtube">Смотреть</a>
+            <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox>Смотреть</a>
           </div>
         </div>
         <div class="review__content">
@@ -209,7 +209,7 @@
           </p>
         </div>
         <footer class="review__footer u-border">
-          <a href="#" class="btn">Все отзывы</a>
+          <a href="about.php" class="btn">Все отзывы</a>
         </footer>
       </div>
     </section>

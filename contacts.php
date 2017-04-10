@@ -45,12 +45,18 @@
       </div>
     </section>
     
-    <div class="map" id="map"></div>
+    <div class="map" id="googlemap"></div>
   </main>
   
   <?php include "blocks/page_footer.php"; ?>
 
   <?php include "blocks/forms.php"; ?>
+  
+  <!-- Карта -->
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCUaCNfcDZQL7nZK07DQmAHsEetCCMIQ5w"></script>
+  <script src="js/CustomGoogleMapMarker.js"></script>
+  <script src="js/googlemap.js"></script>
+  
   <?php include "blocks/scripts.php"; ?>
 </body>
 </html>

@@ -8,4 +8,3 @@
 
 <link rel="stylesheet" href="js/owl/owl.carousel.css"/>
 <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css"/>
-

@@ -56,7 +56,8 @@
         </div>
         <div class="dance__video video">
           <div class="video__promo">
-            <img src="img/video_promo1.jpg" alt="">
+          	<img src="img/video_promo1.jpg" alt="@@">
+          	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
         <a href="tango.php" class="dance__btn btn btn_round btn_right btn_move-right">Танцуем танго</a>

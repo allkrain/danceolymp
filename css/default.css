@@ -216,6 +216,21 @@ p.huge {
   line-height: 2em;
   font-style: italic; }
 
+.mapmarker__content {
+  position: absolute;
+  left: -100px;
+  top: -45px;
+  width: 230px;
+  text-align: center;
+  cursor: pointer; }
+
+.mapmarker__location {
+  font-family: "Philosopher", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 2em;
+  font-style: italic;
+  white-space: nowrap; }
+
 a, input, button, select, textarea {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -568,7 +583,8 @@ select, input, textarea {
         transform: translate(-50%, -50%); }
 
 .lead {
-  position: relative; }
+  position: relative;
+  pointer-events: all; }
   .lead__img {
     margin: 0 auto;
     padding: 0;
@@ -629,6 +645,8 @@ select, input, textarea {
         text-decoration: none;
         text-transform: uppercase;
         text-align: center; }
+        .lead__title h2 a:hover {
+          opacity: 0.7; }
     .lead__title p {
       margin-top: 12px;
       box-sizing: border-box;
@@ -1342,6 +1360,8 @@ select, input, textarea {
     .dance-styles__describe h3 a {
       color: inherit;
       text-decoration: none; }
+      .dance-styles__describe h3 a:hover {
+        opacity: 0.7; }
   .dance-styles__describe p {
     padding-left: 17px;
     font-family: "GothamPro", "Arial", sans-serif;
@@ -1807,7 +1827,8 @@ select, input, textarea {
     position: relative;
     width: 916px;
     height: 545px;
-    overflow: hidden; }
+    overflow: hidden;
+    cursor: pointer; }
     .video__promo img {
       position: absolute;
       top: 0;
@@ -1819,7 +1840,8 @@ select, input, textarea {
       min-height: 100%;
       width: 0;
       object-fit: cover;
-      z-index: -1; }
+      z-index: 0;
+      transition: all 0.5s ease-in-out; }
     .video__promo::before {
       position: absolute;
       content: '';
@@ -1830,7 +1852,18 @@ select, input, textarea {
       background-image: url("../img/reflection.png");
       background-position: 0 0;
       background-repeat: no-repeat;
-      opacity: 0.1; }
+      opacity: 0.1;
+      z-index: 1;
+      transition: all 0.5s ease-in-out; }
+    .video__promo.active::before {
+      opacity: 0;
+      pointer-events: none; }
+    .video__promo.active img {
+      opacity: 0;
+      pointer-events: none; }
+  .video__frame {
+    width: 100%;
+    height: 100%; }
 
 .updown-border {
   border: 1px solid #ae956b;
@@ -2092,7 +2125,11 @@ select, input, textarea {
     margin: 0 auto;
     position: relative;
     padding: 0 20px;
-    width: 450px; }
+    width: 450px;
+    z-index: 1; }
+    .page-request__title.success p {
+      opacity: 0;
+      pointer-events: none; }
     .page-request__title p {
       box-sizing: border-box;
       margin-right: -12px;
@@ -2103,7 +2140,8 @@ select, input, textarea {
       letter-spacing: 2.4px;
       text-transform: uppercase;
       text-align: center;
-      color: #b0966c; }
+      color: #b0966c;
+      transition: all 0.25s ease-in-out; }
     .page-request__title::before {
       position: absolute;
       content: '';
@@ -2125,7 +2163,14 @@ select, input, textarea {
 
 .order-form {
   background-color: #212121;
-  min-height: 253px; }
+  min-height: 253px;
+  position: relative; }
+  .order-form.success .order-form__container {
+    opacity: 0;
+    pointer-events: none; }
+  .order-form.success .order-form__success-message {
+    opacity: 1;
+    pointer-events: all; }
   .order-form__container {
     display: flex;
     flex-direction: row;
@@ -2134,7 +2179,8 @@ select, input, textarea {
     align-content: flex-start;
     flex-wrap: wrap;
     padding: 35px 42px 0 70px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    transition: all 0.25s ease-in-out; }
   .order-form__input {
     display: flex;
     flex-direction: row;
@@ -2151,7 +2197,8 @@ select, input, textarea {
       line-height: 2.66667em;
       font-weight: 400;
       letter-spacing: 0.6px;
-      color: #b0966c; }
+      color: #b0966c;
+      transition: all 0.25s ease-in-out; }
       .order-form__input label.error {
         color: #7c3535; }
     .order-form__input input {
@@ -2163,11 +2210,23 @@ select, input, textarea {
       color: #fff;
       background-color: #212121;
       border-bottom: 1px solid #b0966c;
-      flex-grow: 2; }
+      flex-grow: 2;
+      transition: all 0.25s ease-in-out; }
       .order-form__input input .error {
         border-bottom-color: #7c3535; }
       .order-form__input input:focus {
         border-bottom-color: #fff; }
+    .order-form__input.active label {
+      transform: translate3d(-10px, 0, 0);
+      opacity: 0;
+      pointer-events: none;
+      width: 0;
+      padding: 0;
+      white-space: nowrap; }
+    .order-form__input.error label {
+      color: #7c3535; }
+    .order-form__input.error input {
+      border-color: #7c3535; }
   .order-form__text {
     display: flex;
     flex-direction: row;
@@ -2183,7 +2242,8 @@ select, input, textarea {
       line-height: 2.66667em;
       font-weight: 400;
       letter-spacing: 0.6px;
-      color: #b0966c; }
+      color: #b0966c;
+      transition: all 0.25s ease-in-out; }
     .order-form__text textarea {
       flex-grow: 2;
       resize: none;
@@ -2198,6 +2258,22 @@ select, input, textarea {
       flex-grow: 2; }
       .order-form__text textarea:focus {
         border-bottom-color: #fff; }
+    .order-form__text.active label {
+      transform: translate3d(-10px, 0, 0);
+      opacity: 0;
+      pointer-events: none;
+      width: 0;
+      padding: 0;
+      white-space: nowrap; }
+  .order-form__bottom {
+    width: 100%;
+    position: relative; }
+    .order-form__bottom.error .order-form__btn {
+      opacity: 0;
+      pointer-events: none; }
+    .order-form__bottom.error .order-form__error-message {
+      opacity: 1;
+      pointer-events: all; }
   .order-form__btn {
     margin: 0 auto;
     margin-bottom: 26px; }
@@ -2211,7 +2287,14 @@ select, input, textarea {
       padding-left: 10px;
       padding-right: 20px; }
   .order-form__error-message {
-    margin: 0 auto; }
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease-in-out; }
     .order-form__error-message p {
       padding: 0 10px;
       font-family: "GothamPro", "Arial", sans-serif;
@@ -2226,7 +2309,13 @@ select, input, textarea {
     padding: 0 20px;
     box-sizing: border-box;
     width: 450px;
-    transform: translate(-14px, -35px); }
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease-in-out; }
     .order-form__success-message h5 {
       margin-bottom: 16px;
       padding-top: 20px;
