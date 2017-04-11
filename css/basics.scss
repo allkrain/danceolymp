@@ -156,7 +156,7 @@ body {
 header, section, footer {width:100%; /*float:left;*/}
 .container { width: 1285px; margin: 0 auto; padding: 0; box-sizing: border-box;}
 
-.slider {overflow: hidden;}
+.slider {overflow: hidden; transform: translate3d(0,0,0);}
 .slider-overflow {overflow: hidden;}
 .wrapper {position: relative; font-size: 0; transition: all 1s ease-in-out;}
 .slide {display: inline-block;}

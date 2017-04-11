@@ -25,6 +25,7 @@
 	.trainers__slider {padding: 0 140px;}
 	.review__slider-controls {padding: 0 160px;}
 	.about__gallery {margin-left: 0;}
+	.review__slider .review__video {left: 88%;}
   /*--- Publication ---*/
   .event__btns {width: 916px; padding: 0;}
   .post__title {width: 80%;}
@@ -36,6 +37,7 @@
 	/*--- News ---*/
 	.news__container {padding: 0 160px;}
 	.news__tab-navigation {padding: 0 230px;}
+	.news__gallery-img {height: 600px;}
 }
 
 @media (max-width:1270px) {
@@ -64,7 +66,7 @@
 	.review__img {width: 100%;}
 	.page-footer__copyright {width: 68%;}
 	.dance-styles__describe h3 {font-size: 20px;}
-	.review__video {left: auto; right: 0;}
+	.review__video {left: 85%;}
 	.review__media::after {right: 143px;}
 	.page-title h1 {padding: 0;}
 	.breadcrumbs li:first-child a {padding-left: 0;}
@@ -105,6 +107,7 @@
 	.trainers__slider li:nth-child(n+3) {display: none;}
 	.review__slider-controls {padding: 0 30px;}
 	.about__slider {padding: 0 110px;}
+	.review__slider-overflow {width: 87%;}
   /*--- Publication ---*/
   .event__container {padding: 0;}
   .event__btns {width: 100%; padding: 0;}
@@ -144,6 +147,7 @@
 	.news__container {padding: 0 60px;}
 	.news__btn {left: -50px;}
 	.news__content {padding-left: 20px;}
+	.news__gallery-img {height: 500px;}
   /*--- Contacts ---*/
   .contacts__fullway {padding: 0;}
 	.page-title_contacts h1 {padding: 0;}
@@ -165,6 +169,8 @@
 	.order-form__container {padding: 35px 42px 0;}
 	.contact-info__container {padding: 0;}
 	.review__media::after {right: 123px;}
+	.btn_youtube:hover {padding-left: 80px;}
+	.review__video {left: 86%;}
 	/*--- Wedding dance ---*/
 	.page-intro p br {display: none;}
 	.additionally__offer h3 {padding-right: 130px;}
@@ -177,7 +183,8 @@
 	.page-intro__col p {padding: 0 30px 0 12px;}
 	.about__gallery-img {width: 700px; height: 460px;}
 	.trainers__slider {padding: 0 120px;}
-	.review__minigallery li {width: 230px; height: 140px; margin-right: 20px;}
+	.review__minigallery li {width: 230px; height: 140px;}
+	.review__slider-overflow .wrapper-outer {width: 254px;}
   /*--- Publication ---*/
 	.post__header h2 {font-size: 26px; letter-spacing: 5px;}
   .post__follow {flex-direction: column; justify-content: flex-start; align-items: center;}
@@ -211,7 +218,7 @@
 	.review__content {padding: 0 70px; height: 450px; margin-top: -450px;}
 	.review__img {height: 450px;}
 	.review__media::after {display: none;}
-	.review__video {top: 40px; right: 20px; left: auto;}
+	.review__video {top: 40px; left: 81%;}
 	.lead__controls {padding: 0;}
 	.lead__title h2 a {display: block; font-size: 26px;}
 	/*--- Wedding dance ---*/
@@ -236,6 +243,8 @@
 	.trainers__controls .controls__next {right: -15px;}
 	.trainers__slider {padding: 0 65px;}
 	.review__minigallery li {width: 180px; height: 110px;}
+	.review__slider .review__video {left: 81%;}
+	.review__slider-overflow .wrapper-outer {width: 208px;}
   /*--- Publication ---*/
   .post__img {margin-right: 30px;}
 	/*--- Services ---*/
@@ -256,6 +265,7 @@
 	.news__tabs {padding: 0 30px;}
 	.news__item {width: 100%;}
 	.news__tab-navigation {padding: 0 120px;}
+	.news__gallery-img {height: 400px;}
 }
 
 @media (min-width:791px) {
@@ -290,6 +300,7 @@
 	.order-form__input label {width: 80px; text-align: left;}
 	.video-bg {height: 700px;}
 	.lead__title {padding: 80px;}
+	.review__video {left: 77%;}
 	/*--- Shedule ---*/
 	.shedule__container {padding: 0;}
 	.shedule__cell_time p {line-height: 6em;}
@@ -337,9 +348,8 @@
 	.trainers__slider li:nth-child(n+2) {display: none;}
 	.trainers__slider .trainers__list {text-align: center;}
 	.trainers__slider .trainers__item {margin: 0;}
-	.review__minigallery li:nth-child(3n) {display: none;}
-	.review__minigallery li:nth-child(2) {margin-right: 0;}
 	.review__slider-overflow {width: 80%;}
+	.review__slider .review__video {left: 76%;}
   /*--- Publication ---*/
   .event__container {padding: 0;}
   .post__header {margin-bottom: 20px;}
@@ -352,6 +362,8 @@
 	/*--- News ---*/
 	.news__tabs {justify-content: center; flex-wrap: wrap;}
 	.news__tab-navigation {padding: 0 60px;}
+	.news__gallery-img {height: 300px;}
+	.news__slider-overflow {width: 75%;}
    /*--- Contacts ---*/
   .page-title_contacts h1 {padding: 0;}
   .contacts__container {padding: 0;}
@@ -389,6 +401,7 @@
 	.service {margin-bottom: 50px;}
 	.service_group {margin-bottom: 50px;}
 	.review {padding-top: 70px;}
+	.review__video {left: 70%;}
 	/*--- Shedule ---*/
 	.shedule__cell_time p {line-height: 5.7em;}
 	.page-navigation__container_shedule {padding: 22px 38px 0;}
@@ -422,14 +435,12 @@
 	.page-intro__btns {padding-right: 0;}
 	.about__container h2 {font-size: 28px; margin-left: 0;}
 	.about__gallery-img {width: 310px; height: 210px;}
-	.review__minigallery li:first-child {display: none;}
-	.review__minigallery li {margin: 0;}
 	.review_about {margin-left: 0;}
 	.review__slider, .review__slider-item {width: 100%;}
 	.review__media {width: 100%;}
 	.about__slider {padding: 0 60px;}
-	.review__minigallery {justify-content: center;}
 	.review__slider-overflow {width: 65%;}
+	.review__slider .review__video {left: 67%;}
   /*--- Publication ---*/
   .event__btn {line-height: 2em;}
   .event__btn:last-of-type {text-align: right;}
@@ -462,6 +473,8 @@
 	.news__content {padding-left: 0;}
 	.news__tab-navigation {padding: 0; margin: 76px 0 36px;}
 	.news__btn {top: -100px;}
+	.news__title a {font-size: 18px;}
+	.news__gallery-img {height: 200px;}
   /*--- Contacts ---*/
   .contacts__list {min-width: 420px; width: 100%;}
   .map {height: 460px;}
@@ -496,6 +509,7 @@
 	.page-intro p {font-size: 15px;}
 	.breadcrumbs li a {padding-left: 6px; padding-right: 12px;}
 	.breadcrumbs li:last-child a {padding-right: 0;}
+	.review__video {left: 55%;}
 	/*--- Shedule ---*/
 	.page-navigation__container_shedule {padding: 22px 20px 0;}
 	.shedule__month {font-size: 25px;}
@@ -541,6 +555,8 @@
 	.trainers__controls .controls__next {right: 0;}
 	.trainers__slider {padding: 0;}
 	.review__slider-controls {padding: 0;}
+	.review__slider .review__video {left: 52%;}
+	.review__slider-overflow .wrapper-outer {width: 200px;}
   /*--- Publication ---*/
   .event__btn {letter-spacing: 1px;}
   .event__btn:first-of-type {padding-left: 35px;}
@@ -572,6 +588,7 @@
 	.paginator__item:first-child {margin-right: 20px;}
 	.paginator__item:last-child {margin-left: 20px;}
 	.news__btn {left: 0;}
+	.news__title a {font-size: 16px;}
   /*--- Contacts ---*/
   .contacts__list {min-width: 100%;}
   .map {height: 345px;}

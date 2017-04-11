@@ -95,7 +95,7 @@
         <div class="about__video video">
           <div class="video__promo">
           	<img src="img/video_promo1.jpg" alt="@@">
-          	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+          	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -112,7 +112,7 @@
         		  <li class="trainers__item slider__item">
         		    <figure>
         		      <div class="trainers__img">
-        		        <img src="img/trainers/Sadovskiy@1x.jpg" alt="" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
+        		        <img src="img/trainers/Sadovskiy@1x.jpg" alt="@@" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
         		      </div>
         		      <figcaption class="trainers__title">
         		        <p class="trainers__surname">Садовский</p>
@@ -193,37 +193,82 @@
           <h2>Отзывы о нас</h2>
         </header>
         <div class="review__slider">
-          <div class="review__slider-item slider__item">
-            <div class="review__media">
-              <div class="review__img">
-                <img src="img/about/review_img.jpg" alt="">
-              </div>
-              <div class="review__video">
-                <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox>Смотреть</a>
-              </div>
-            </div>
-            <div class="review__content">
-              <p class="gotham">          
-                Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
-                с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
-                действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
-                отбивать ритм и танцоры едва могут устоять на месте!
-              </p>
-            </div>
+          <div class="review__video">
+            <a href="" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+          </div>
+          <div class="slider-overflow">
+          	<div class="wrapper">
+          		<div class="review__slider-item slider__item slide" data-link="https://www.youtube.com/watch?v=KvxNbi8tsrs">
+          		  <div class="review__media">
+          		    <div class="review__img">
+          		      <img src="img/about/review_img.jpg" alt="">
+          		    </div>
+          		  </div>
+          		  <div class="review__content">
+          		    <p class="gotham animated fast">          
+          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
+          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
+          		      действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
+          		      отбивать ритм и танцоры едва могут устоять на месте!
+          		    </p>
+          		  </div>
+          		</div>
+          		<div class="review__slider-item slider__item slide" data-link="https://www.youtube.com/watch?v=KvxNbi8tsrs">
+          		  <div class="review__media">
+          		    <div class="review__img">
+          		      <img src="img/about/review_img.jpg" alt="">
+          		    </div>
+          		  </div>
+          		  <div class="review__content">
+          		    <p class="gotham animated fast">          
+          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
+          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
+          		      действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
+          		      отбивать ритм и танцоры едва могут устоять на месте!
+          		    </p>
+          		  </div>
+          		</div>
+          		<div class="review__slider-item slider__item slide" data-link="https://www.youtube.com/watch?v=KvxNbi8tsrs">
+          		  <div class="review__media">
+          		    <div class="review__img">
+          		      <img src="img/about/review_img.jpg" alt="">
+          		    </div>
+          		  </div>
+          		  <div class="review__content">
+          		    <p class="gotham animated fast">          
+          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
+          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
+          		      действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
+          		      отбивать ритм и танцоры едва могут устоять на месте!
+          		    </p>
+          		  </div>
+          		</div>
+          		<div class="review__slider-item slider__item slide" data-link="https://www.youtube.com/watch?v=KvxNbi8tsrs">
+          		  <div class="review__media">
+          		    <div class="review__img">
+          		      <img src="img/about/review_img.jpg" alt="">
+          		    </div>
+          		  </div>
+          		  <div class="review__content">
+          		    <p class="gotham animated fast">          
+          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
+          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
+          		      действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
+          		      отбивать ритм и танцоры едва могут устоять на месте!
+          		    </p>
+          		  </div>
+          		</div>
+          	</div>
           </div>
           <div class="review__slider-controls slider__controls">
             <span class="btn btn_empty btn_round btn_left btn_move-left slider-arrow prev"></span>
             <div class="review__slider-overflow slider-overflow">
-            	<div class="wrapper">
-            		<ul class="review__minigallery slide">
-            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            		  <li class="active"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            		</ul>
-            		<ul class="review__minigallery slide">
-            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            		  <li><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            	<div class="wrapper-outer">
+            		<ul class="review__minigallery wrapper slider-gallery">
+            		  <li class="slide active"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  <li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  <li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  <li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
             		</ul>
             	</div>
             </div>

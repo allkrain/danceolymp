@@ -19,6 +19,9 @@
       <div class="lead__video video-bg">
         <div class="video-bg__promo lead__img">
           <img src="img/services/tango_lead@1x.jpg" alt="" srcset="img/services/tango_lead@1,5x.jpg 1.5x, img/services/tango_lead@2x.jpg 2x">
+          <div class="tv">
+		  	<div class="screen mute" id="tv"></div>
+		  </div>
         </div>
         <div class="video-bg__controls">
           <div class="video-bg__toggles">

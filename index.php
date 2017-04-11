@@ -62,7 +62,7 @@
               <a href="#services" class="lead__btn-mouse nav">
                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="35" viewBox="0 0 23 35"><defs><style>.cls-1{fill-rule:evenodd}</style></defs><path class="cls-1" d="M11.5 0A11.6 11.6 0 0 0 0 11.661V23.34a11.5 11.5 0 1 0 23 0V11.661A11.6 11.6 0 0 0 11.5 0zm10.22 23.34a10.221 10.221 0 1 1-20.44 0V11.661a10.221 10.221 0 1 1 20.44 0V23.34zM11.5 3.888a.646.646 0 0 0-.64.649v5.869a.64.64 0 1 0 1.28 0V4.537a.646.646 0 0 0-.64-.649z"/></svg>
               </a>
-              <a href="" class="lead__btn btn btn_round btn_plus lead__footerlink">Подробнее</a>
+              <a href="" class="lead__btn btn btn_round btn_plus" data-anchor>Подробнее</a>
             </footer>
         </div>
     </div>
@@ -200,7 +200,7 @@
             <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox>Смотреть</a>
           </div>
         </div>
-        <div class="review__content">
+        <div class="review__content review__content_block">
           <p class="gotham">          
             Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
             с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,

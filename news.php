@@ -162,33 +162,30 @@
               </ul>
             </div>        
           </div>
-          <div id="tab3" class="news__tab-pane">
+          <div id="tab3" class="news__tab-pane news__slider slider">
             <h2>Фотографии</h2>
-            <div class="news__gallery-img"><img src="" alt=""></div>
-            <ul class="news__gallery-controls">
-              <li class="news__gallery-btn"><a href="#" class="btn btn_round btn_empty btn_left btn_move-left"></a></li>
-              <li class="news__gallery-item">
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-              </li>
-              <li  class="news__gallery-item">
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-              </li>
-              <li class="news__gallery-item">
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-              </li>
-              <li class="news__gallery-item">
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-              </li>
-              <li class="news__gallery-btn"><a href="#" class="btn btn_round btn_empty btn_right btn_move-right"></a></li>
-            </ul>
+            <div class="slider-overflow">
+            	<div class="wrapper">
+            		<div class="news__gallery-img slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
+            		<div class="news__gallery-img slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
+            		<div class="news__gallery-img slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
+            		<div class="news__gallery-img slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
+            	</div>
+            </div>
+            <div class="news__gallery-controls slider__controls">
+            	<span class="btn btn_empty btn_round btn_left btn_move-left slider-arrow prev"></span>
+            	<div class="news__slider-overflow slider-overflow">
+            		<div class="wrapper-outer">
+            			<ul class="news__minigallery wrapper slider-gallery">
+            		  		<li class="slide active"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  		<li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  		<li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  		<li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            			</ul>
+            		</div>
+            	</div>
+            	<span class="btn btn_empty btn_round btn_right btn_move-right slider-arrow next"></span>
+          	</div>
           </div>
         </div>
       </div>
