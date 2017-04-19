@@ -18,7 +18,6 @@
 	.about__mission {padding: 0 160px;}
 	.about__slider {padding: 0 140px;}
 	.about__gallery-list {margin-left: 0; width: 100%;}
-	.about__gallery-img {width: 760px; height: 510px;}
 	.about__gallery-controls .controls__prev {left: 3px;}
 	.about__gallery-controls .controls__next {right: 3px;}
 	.about__video {margin-left: 0;}
@@ -181,7 +180,7 @@
 	.trainers-contacts__btns {padding: 0;}
 	/*--- About ---*/
 	.page-intro__col p {padding: 0 30px 0 12px;}
-	.about__gallery-img {width: 700px; height: 460px;}
+	.about__slider {height: 460px;}
 	.trainers__slider {padding: 0 120px;}
 	.review__minigallery li {width: 230px; height: 140px;}
 	.review__slider-overflow .wrapper-outer {width: 254px;}
@@ -201,6 +200,8 @@
   .contacts__container {flex-wrap: wrap;}
   .contacts__list {margin-bottom: 30px;}
   .contacts__fullway {width: 100%;}
+	/*--- Animations ---*/
+	.decolines--fixed {width: 620px;}
 }
 
 @media (max-width:950px) {
@@ -238,7 +239,7 @@
 	.trainers-contacts__btns {flex-wrap: wrap;}
 	.trainers-contacts__btn {margin-right: 15px;}
 	/*--- About ---*/
-	.about__gallery-img {width: 550px; height: 370px;}
+	.about__slider {height: 370px;}
 	.trainers__controls .controls__prev {left: -15px;}
 	.trainers__controls .controls__next {right: -15px;}
 	.trainers__slider {padding: 0 65px;}
@@ -434,7 +435,7 @@
 	/*--- About ---*/
 	.page-intro__btns {padding-right: 0;}
 	.about__container h2 {font-size: 28px; margin-left: 0;}
-	.about__gallery-img {width: 310px; height: 210px;}
+	.about__slider {height: 210px;}
 	.review_about {margin-left: 0;}
 	.review__slider, .review__slider-item {width: 100%;}
 	.review__media {width: 100%;}
@@ -478,6 +479,8 @@
   /*--- Contacts ---*/
   .contacts__list {min-width: 420px; width: 100%;}
   .map {height: 460px;}
+	/*--- Animations ---*/
+	.decolines--fixed {width: 290px;}
 }
 
 @media (max-width:480px) {
@@ -550,7 +553,7 @@
 	.about__container h2 {font-size: 24px;}
 	.about__features, .about__mission {padding: 0;}
 	.text-list__list_about .text-list__item, .text-list__list_about .text-list__item:nth-child(even) {padding-right: 0;}
-	.about__gallery-img {width: 190px; height: 130px;}
+	.about__slider {height: 130px;}
 	.trainers__controls .controls__prev {left: 0;}
 	.trainers__controls .controls__next {right: 0;}
 	.trainers__slider {padding: 0;}

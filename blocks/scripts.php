@@ -28,4 +28,17 @@
 <script src="js/jquery.lettering.js"></script>
 <script src="js/jquery.textillate.js"></script>
 
+<!-- Segment -->
+<script src="js/ease.min.js"></script>
+<script src="js/segment.min.js"></script>
+
+<!-- LineMaker -->
+<script src="js/anime.min.js"></script>
+<script src="js/linemaker.js"></script>
+
+<!-- CSS Mask Transitions -->
+<script src="js/zepto.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masktransitions.js"></script>
+
 <script src="js/scripts.min.js"></script>

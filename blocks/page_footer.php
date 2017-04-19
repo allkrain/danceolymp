@@ -21,4 +21,4 @@
   </div>
 </footer>
 
-<div class="page-bg-container"></div>
+<!-- <div class="page-bg-container"></div> -->

@@ -80,21 +80,22 @@
             помочь Вам раскрыть свой потенциал, наш приоритет &mdash; индивидуальный подход к каждому. Ждем Вас в студии и желаем успешного путешествия в волшебный мир танца!
           </p>
         </div>
-        <div class="about__slider slider">
+        <div class="about__slider mask-slider">
         	<div class="about__gallery">
-        	  <div class="about__gallery-list slider__list wrapper">
-        	    <div class="about__gallery-img slider__item slide"><img src="img/about/about_slide1.jpg" alt=""></div>
-        	    <div class="about__gallery-img slider__item slide"><img src="img/about/about_slide1.jpg" alt=""></div>
-        	  </div>
+        	  <div class="about__gallery-img slider__item project"><img src="img/about/about_slide1.jpg" alt=""></div>
+        	  <div class="about__gallery-img slider__item project"><img src="img/about/about_lead.jpg" alt=""></div>
+        	  <div class="about__gallery-img slider__item project"><img src="img/about/about_slide1.jpg" alt=""></div>
+        	  <div class="about__gallery-img slider__item project"><img src="img/about/about_lead.jpg" alt=""></div>
         	</div>
         	<div class="about__gallery-controls controls container">
-        	  <span class="controls__prev slider-arrow prev">Назад</span>
-        	  <span class="controls__next slider-arrow next">Вперед</span>
+        	  <span class="controls__prev mask-slider-arrow previous">Назад</span>
+        	  <span class="controls__next mask-slider-arrow next">Вперед</span>
         	</div>
         </div>
         <div class="about__video video">
           <div class="video__promo">
-          	<img src="img/video_promo1.jpg" alt="@@">
+          	<img src="img/video_promo1.jpg" alt="@@" class="video__poster">
+          	<img src="img/play.svg" alt="@@" class="video__playicon">
           	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
