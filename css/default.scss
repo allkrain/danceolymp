@@ -367,7 +367,7 @@
         }
         
         footer {
-            pointer-events: all;
+//            pointer-events: all;
         }
     }
 }
@@ -411,6 +411,29 @@
 .lead {
   position: relative;
 	pointer-events: all;
+	
+	&__slider {
+		height: 768px;
+		.slider__item {
+			pointer-events: all;
+			background-color: #272727;
+		}
+		.lead__img {
+			position: absolute;
+		}
+		img {
+			opacity: 0.32;
+		}
+		.lead__container {
+			margin-top: 0;
+			height: 100%;
+		}
+		.lead__btn {
+			position: absolute;
+			right: 0;
+			bottom: 20px;
+		}
+	}
   
   &__img {    
     margin: 0 auto;
@@ -509,6 +532,7 @@
     justify-content: space-between;
     padding: 0 50px;
     box-sizing: border-box;
+	  z-index: 31;
   }
   
   &__footer {
@@ -519,6 +543,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+	  z-index: 31;
+	  pointer-events: none;
+	  * {pointer-events: all;}
   }
   
   &__socials {
@@ -564,6 +591,12 @@
       fill: $base_color_4;
     }
   }
+	
+	&_wedding {
+		.lead__btn-mouse {
+			bottom: 90px;
+		}
+	}
   
   &_wedding, 
   &_private {
@@ -763,7 +796,7 @@
       top: 50%;
       font-size: 17px;
       font-weight: 400;
-      width: 28px;
+      width: 26px;
       height: 30px;
       line-height: 30px;
       text-align: center;
@@ -4769,7 +4802,7 @@
   background: url(../img/nature-sprite-2.png) no-repeat -9999px -9999px;
 }
 
-.about .mask-slider .project:nth-child(even).hide {
+.mask-slider .project:nth-child(even).hide {
   -webkit-mask: url(../img/nature-sprite.png);
           mask: url(../img/nature-sprite.png);
   -webkit-mask-size: 2300% 100%;
@@ -4778,7 +4811,7 @@
           animation: mask-play 1.4s steps(22) forwards;
 }
 
-.about .mask-slider .project:nth-child(odd).hide {
+.mask-slider .project:nth-child(odd).hide {
   -webkit-mask: url(../img/nature-sprite-2.png);
           mask: url(../img/nature-sprite-2.png);
   -webkit-mask-size: 7100% 100%;

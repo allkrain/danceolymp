@@ -558,8 +558,6 @@ select, input, textarea {
   .page-section__maincontainer > .container {
     position: relative;
     pointer-events: none; }
-  .page-section__maincontainer footer {
-    pointer-events: all; }
 
 .socials {
   font-size: 0; }
@@ -587,6 +585,22 @@ select, input, textarea {
 .lead {
   position: relative;
   pointer-events: all; }
+  .lead__slider {
+    height: 768px; }
+    .lead__slider .slider__item {
+      pointer-events: all;
+      background-color: #272727; }
+    .lead__slider .lead__img {
+      position: absolute; }
+    .lead__slider img {
+      opacity: 0.32; }
+    .lead__slider .lead__container {
+      margin-top: 0;
+      height: 100%; }
+    .lead__slider .lead__btn {
+      position: absolute;
+      right: 0;
+      bottom: 20px; }
   .lead__img {
     margin: 0 auto;
     padding: 0;
@@ -670,7 +684,8 @@ select, input, textarea {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 50px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    z-index: 31; }
   .lead__footer {
     position: absolute;
     left: 0;
@@ -678,7 +693,11 @@ select, input, textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end; }
+    align-items: flex-end;
+    z-index: 31;
+    pointer-events: none; }
+    .lead__footer * {
+      pointer-events: all; }
   .lead__socials {
     margin-bottom: 20px; }
   .lead__btn-mouse {
@@ -711,6 +730,8 @@ select, input, textarea {
       transition: all 0.25s ease-in-out; }
     .lead__btn-mouse:hover > svg {
       fill: #ffdda5; }
+  .lead_wedding .lead__btn-mouse {
+    bottom: 90px; }
   .lead_wedding .lead__title, .lead_private .lead__title {
     margin-top: -60px;
     margin-bottom: 0; }
@@ -853,7 +874,7 @@ select, input, textarea {
     top: 50%;
     font-size: 17px;
     font-weight: 400;
-    width: 28px;
+    width: 26px;
     height: 30px;
     line-height: 30px;
     text-align: center;
@@ -3725,7 +3746,7 @@ select, input, textarea {
 .about .mask-slider {
   background: url(../img/nature-sprite-2.png) no-repeat -9999px -9999px; }
 
-.about .mask-slider .project:nth-child(even).hide {
+.mask-slider .project:nth-child(even).hide {
   -webkit-mask: url(../img/nature-sprite.png);
   mask: url(../img/nature-sprite.png);
   -webkit-mask-size: 2300% 100%;
@@ -3733,7 +3754,7 @@ select, input, textarea {
   -webkit-animation: mask-play 1.4s steps(22) forwards;
   animation: mask-play 1.4s steps(22) forwards; }
 
-.about .mask-slider .project:nth-child(odd).hide {
+.mask-slider .project:nth-child(odd).hide {
   -webkit-mask: url(../img/nature-sprite-2.png);
   mask: url(../img/nature-sprite-2.png);
   -webkit-mask-size: 7100% 100%;
@@ -4452,6 +4473,8 @@ select, input, textarea {
   .dance-styles__describe {
     padding: 0 100px; }
   .lead__img {
+    height: 700px; }
+  .lead__slider {
     height: 700px; }
   .lead__controls {
     padding: 0; }
