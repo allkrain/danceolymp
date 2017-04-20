@@ -64,8 +64,9 @@
         </div>
         <div class="dance__video video">
           <div class="video__promo">
-          	<img src="img/video_promo1.jpg" alt="@@">
-          	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+          	<img src="img/video_promo1.jpg" alt="@@" class="video__poster">
+          	<img src="img/play.svg" alt="@@" class="video__playicon">
+          	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>

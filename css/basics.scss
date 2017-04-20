@@ -71,9 +71,9 @@ border: none;
 *:focus {outline: none;}
 
 // Цвет выделения текста
-::selection {background: blue;color:white;}
-::-moz-selection {background: blue;color:white;}
-::-webkit-selection {background: blue;color:white;}
+::selection {background: #b0966c;color:white;}
+::-moz-selection {background: #b0966c;color:white;}
+::-webkit-selection {background: #b0966c;color:white;}
 
 // Цвет плейсхолдера //
 ::-webkit-input-placeholder {color:#777}
@@ -86,7 +86,7 @@ border: none;
 
 // Настройки для автозаполнения Chrome
 input:-webkit-autofill {
-    -webkit-text-fill-color: black !important; // Поменять цвет на аналогичный цвету input'а
+    -webkit-text-fill-color: white !important; // Поменять цвет на аналогичный цвету input'а
 }
 
 input:-webkit-autofill,

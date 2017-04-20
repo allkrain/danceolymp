@@ -86,26 +86,30 @@
       <div class="tango-trainers__container container">
         <h2 class="page-section__title tango-trainers__title">Преподаватели</h2>
         <ul class="trainers__list tango-trainers__list">
-          <li class="trainers__item">
-            <figure>
-              <div class="trainers__img">
-                <img src="img/trainers/Sadovskiy@1x.jpg" alt="" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x">
-              </div>
-              <figcaption class="trainers__title">
+          <li class="trainers__item tilter tilter--1">
+            <figure class="tilter__figure">
+              <img src="img/trainers/Sadovskiy@1x.jpg" alt="@@" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x" class="trainers__img tilter__image">
+              <div class="tilter__deco tilter__deco--shine"><div></div></div>
+              <figcaption class="trainers__title tilter__caption">
                 <p class="trainers__surname">Садовский</p>
-                <p class="trainers__name">Владимир Алексеевич</p>
+        		<p class="trainers__name">Владимир Алексеевич</p>
               </figcaption>
+              <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+		        <path d="M15,15h252v391h-252V20.5z"/>
+		      </svg>
             </figure>
           </li>
-          <li class="trainers__item">
-            <figure>
-              <div class="trainers__img">
-                <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x">
-              </div>
-              <figcaption class="trainers__title">
+          <li class="trainers__item tilter tilter--1">
+            <figure class="tilter__figure">
+              <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x" class="trainers__img tilter__image">
+              <div class="tilter__deco tilter__deco--shine"><div></div></div>
+              <figcaption class="trainers__title tilter__caption">
                 <p class="trainers__surname">Громов</p>
-                <p class="trainers__name">Никита Сергеевич</p>
+        		<p class="trainers__name">Никита Сергеевич</p>
               </figcaption>
+              <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+		        <path d="M15,15h252v391h-252V20.5z"/>
+		      </svg>
             </figure>
           </li>
         </ul>
