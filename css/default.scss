@@ -2399,6 +2399,10 @@
     box-sizing: border-box;
     padding: 0 195px 0 173px;
   }
+  
+  &__slide {
+     padding: 0 195px 0 173px;
+  }
 	
   &__gallery {
 	overflow: hidden;
@@ -4937,6 +4941,94 @@
 	box-shadow: 0 30px 20px rgba(0,0,0,0.5);
 }
 
+/*------------------------------*/
+/*--- MultiLayout Slide Show ---*/
+/*------------------------------*/
+.slideshow {
+	position: relative;
+	margin: 0 auto;
+}
+
+.slideshow:focus {
+	outline: none;
+}
+
+.js .slideshow::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 70px;
+	height: 70px;
+	margin: -35px 0 0 -35px;
+	pointer-events: none;
+	border: 10px solid rgba(255, 255, 255, 0.1);
+	border-top-color: #ffeb3b;
+	border-radius: 50%;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	-webkit-animation: rotateLoader 0.8s linear infinite forwards;
+	animation: rotateLoader 0.8s linear infinite forwards;
+}
+
+@-webkit-keyframes rotateLoader {
+	to {
+		-webkit-transform: rotate3d(360deg);
+		transform: rotate3d(360deg);
+	}
+}
+
+@keyframes rotateLoader {
+	to {
+		-webkit-transform: rotate3d(0, 0, 1, 360deg);
+		transform: rotate3d(0, 0, 1, 360deg);
+	}
+}
+
+.js .slideshow--loaded::after {
+	opacity: 0;
+}
+
+.js .slideshow {
+	height: 470px;
+	pointer-events: none;
+}
+
+.ss-slide {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.js .ss-slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	margin: 0;
+	pointer-events: none;
+	opacity: 0;
+}
+
+.js .slide--current {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.slide-imgwrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.slide__img-inner {
+	-webkit-transform: rotateZ(0deg);
+	transform: rotateZ(0deg);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	will-change: tranform, opacity;
+}
 
 
 // Всплывающие окна и другие элементы сайта //

@@ -46,4 +46,7 @@
 <!-- Tilt Hover -->
 <script src="js/tilthover.js"></script>
 
+<!-- MultiLayout Slide Show -->
+<script src="js/slideshow.js"></script>
+
 <script src="js/scripts.min.js"></script>
