@@ -50,8 +50,6 @@
 	.service__title_big {font-size: 100px;}
 	.service_group .service__title_big {font-size: 100px;}
 	.service_tango .service__title_big {font-size: 100px; margin-left: -17px; margin-top: -55px; letter-spacing: 28px;}
-	.dance-styles__describe {padding-left: 140px;}
-	.dance-styles__content {padding-right: 60px;}
 	.review__content {padding: 0 50px;}
 	.review__content p {width: 60%;}
 	.page-navigation__container {padding: 0;}
@@ -70,6 +68,9 @@
 	.review__media::after {right: 143px;}
 	.page-title h1 {padding: 0;}
 	.breadcrumbs li:first-child a {padding-left: 0;}
+    .dance-styles__slider {padding: 0 130px;}
+    .dance-styles__slider-main-container {height: 520px;}
+    .review {padding-top: 70px;}
 	/*--- Shedule ---*/
 	.shedule__wrapper {overflow-x: scroll;}
 	.shedule__body {width: 1000px;}
@@ -163,7 +164,7 @@
 	.service_group .service__title_big {font-size: 90px;}
 	.service_tango .service__title_big {font-size: 90px; margin-left: -49px; margin-top: -43px; letter-spacing: 20px;}
 	.dance-styles__img {width: 310px; height: 430px;}
-	.dance-styles__describe {padding-left: 130px; width: 58%;}
+	.dance-styles__describe {width: 58%;}
 	.dance-styles__describe h3 {font-size: 22px;}
 	.btn_youtube {padding-left: 60px; letter-spacing: 3px;}
 	.order-form__container {padding: 35px 42px 0;}
@@ -216,8 +217,9 @@
 	.service_tango .service__title_big {font-size: 110px; margin-left: -24px; margin-top: -57px;}
 	.service_tango .service__top-img {transform: translateX(184px);}
 	.dance-styles__img {display: none;}
-	.dance-styles__describe {width: 100%; padding: 0 130px;}
-	.review__content {padding: 0 70px; height: 450px; margin-top: -450px;}
+	.dance-styles__describe {width: 100%;}
+    .dance-styles__slider-main-container {height: 420px;}
+	.review__content {padding: 0 30px; height: 450px; margin-top: -450px;}
 	.review__img {height: 450px;}
 	.review__media::after {display: none;}
 	.review__video {top: 40px; left: 81%;}
@@ -247,8 +249,10 @@
 	.review__minigallery li {width: 180px; height: 110px;}
 	.review__slider .review__video {left: 81%;}
 	.review__slider-overflow .wrapper-outer {width: 208px;}
-  /*--- Publication ---*/
-  .post__img {margin-right: 30px;}
+    .review__slider > .slider-overflow {height: 450px;}
+    .review__content p {width: 70%;}
+    /*--- Publication ---*/
+    .post__img {margin-right: 30px;}
 	/*--- Services ---*/
 	.service_corporative .service__title_small {margin-left: 0;}
 	.service_corporative .service__title_big {margin-left: -15px;}
@@ -291,7 +295,7 @@
 	.dance-styles__controls .controls__prev {left: 0;}
 	.dance-styles__controls .controls__next {right: 0;}
 	.review__content p {width: 70%;}
-	.dance-styles__describe {padding: 0 100px;}
+    .dance-styles__slider {padding: 0 80px;}
 	.lead__img {height: 700px;}
 	.lead__slider {height: 700px;}
 	.lead__controls {padding: 0;}
@@ -391,7 +395,8 @@
 	.service_tango .service__title_big {margin: 0; font-size: 70px;}
 	.controls__prev, .controls__next {width: 40px;}
 	.controls__prev::before, .controls__next::before {width: 40px;}
-	.dance-styles__describe {padding: 0 40px;}
+    .dance-styles__slider {padding: 0 50px;}
+    .dance-styles__slider-main-container {height: 550px;}
 	.dance-styles__describe h3 {font-size: 18px;}
 	.review__header, .review__footer {width: 100%;}
 	.review__img {width: 100%;}
@@ -509,6 +514,8 @@
 	.lead__title {padding-bottom: 0;}
 	.dance-styles__describe {padding: 0; padding-top: 20px;}
 	.dance-styles__controls {top: 0; width: 60%; transform: translate(-50%, 0);}
+    .dance-styles__slider-main-container {height: 450px;}
+    .dance-styles__slider {padding: 0;}
 	.main-menu li a {font-size: 13px;}
 	.service__content p {font-size: 15px;}
 	.page-intro p {font-size: 15px;}

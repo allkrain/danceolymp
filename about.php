@@ -88,7 +88,7 @@
         	  <div class="about__gallery-img slider__item project"><img src="img/about/about_lead.jpg" alt=""></div>
         	</div>
         	<div class="about__gallery-controls controls container">
-        	  <span class="controls__prev mask-slider-arrow previous">Назад</span>
+        	  <span class="controls__prev mask-slider-arrow prev">Назад</span>
         	  <span class="controls__next mask-slider-arrow next">Вперед</span>
         	</div>
         </div>
@@ -212,87 +212,78 @@
         <header class="review__header">
           <h2>Отзывы о нас</h2>
         </header>
-        <div class="review__slider">
-          <div class="review__video">
-            <a href="" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
-          </div>
+        <div class="review__slider mask-slider2">
           <div class="slider-overflow">
-          	<div class="wrapper">
-          		<div class="review__slider-item slider__item slide" data-link="https://www.youtube.com/watch?v=KvxNbi8tsrs">
-          		  <div class="review__media">
-          		    <div class="review__img">
-          		      <img src="img/about/review_img.jpg" alt="">
-          		    </div>
-          		  </div>
-          		  <div class="review__content">
-          		    <p class="gotham animated fast">          
-          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
-          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
-          		      действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
-          		      отбивать ритм и танцоры едва могут устоять на месте!
-          		    </p>
-          		  </div>
+            <div class="review__slider-item slider__item project">
+              <div class="review__media">
+                <div class="review__video">
+                  <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+                </div>
+                <div class="review__img">
+          		  <img src="img/about/review_img.jpg" alt="">
           		</div>
-          		<div class="review__slider-item slider__item slide" data-link="https://www.youtube.com/watch?v=KvxNbi8tsrs">
-          		  <div class="review__media">
-          		    <div class="review__img">
-          		      <img src="img/about/review_img.jpg" alt="">
-          		    </div>
-          		  </div>
-          		  <div class="review__content">
-          		    <p class="gotham animated fast">          
-          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
-          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
-          		      действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
-          		      отбивать ритм и танцоры едва могут устоять на месте!
-          		    </p>
-          		  </div>
+              </div> 
+              <div class="review__content">
+                <p class="gotham animated fast">          
+          		Самба – при названии этого танца сразу возникают картинки бразильского фестиваля с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают отбивать ритм и танцоры едва могут устоять на месте!</p>
+              </div>
+            </div>
+            <div class="review__slider-item slider__item project">
+              <div class="review__media">
+                <div class="review__video">
+                  <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+                </div>
+                <div class="review__img">
+          		  <img src="img/about/about_lead.jpg" alt="">
           		</div>
-          		<div class="review__slider-item slider__item slide" data-link="https://www.youtube.com/watch?v=KvxNbi8tsrs">
-          		  <div class="review__media">
-          		    <div class="review__img">
-          		      <img src="img/about/review_img.jpg" alt="">
-          		    </div>
-          		  </div>
-          		  <div class="review__content">
-          		    <p class="gotham animated fast">          
-          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
-          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
-          		      действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
-          		      отбивать ритм и танцоры едва могут устоять на месте!
-          		    </p>
-          		  </div>
+              </div> 
+              <div class="review__content">
+                <p class="gotham animated fast">          
+          		Танцевальная студия «Данс Олимп» организована профессиональными танцорами и любителями, которые пришли в танцы в зрелом возрасте. Мы стремимся воплотить в нашей танцевальной студии все лучшее из собственного опыта, накопленного за годы преподавания и обучения танцам.</p>
+              </div>
+            </div>
+            <div class="review__slider-item slider__item project">
+              <div class="review__media">
+                <div class="review__video">
+                  <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+                </div>
+                <div class="review__img">
+          		  <img src="img/about/review_img.jpg" alt="">
           		</div>
-          		<div class="review__slider-item slider__item slide" data-link="https://www.youtube.com/watch?v=KvxNbi8tsrs">
-          		  <div class="review__media">
-          		    <div class="review__img">
-          		      <img src="img/about/review_img.jpg" alt="">
-          		    </div>
-          		  </div>
-          		  <div class="review__content">
-          		    <p class="gotham animated fast">          
-          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
-          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба,
-          		      действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают
-          		      отбивать ритм и танцоры едва могут устоять на месте!
-          		    </p>
-          		  </div>
+              </div> 
+              <div class="review__content">
+                <p class="gotham animated fast">          
+          		Самба – при названии этого танца сразу возникают картинки бразильского фестиваля с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают отбивать ритм и танцоры едва могут устоять на месте!</p>
+              </div>
+            </div>
+            <div class="review__slider-item slider__item project">
+              <div class="review__media">
+                <div class="review__video">
+                  <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+                </div>
+                <div class="review__img">
+          		  <img src="img/about/about_lead.jpg" alt="">
           		</div>
-          	</div>
+              </div> 
+              <div class="review__content">
+                <p class="gotham animated fast">          
+          		Танцевальная студия «Данс Олимп» организована профессиональными танцорами и любителями, которые пришли в танцы в зрелом возрасте. Мы стремимся воплотить в нашей танцевальной студии все лучшее из собственного опыта, накопленного за годы преподавания и обучения танцам.</p>
+              </div>
+            </div>
           </div>
           <div class="review__slider-controls slider__controls">
-            <span class="btn btn_empty btn_round btn_left btn_move-left slider-arrow prev"></span>
+            <span class="btn btn_empty btn_round btn_left btn_move-left slider-arrow mask-slider-arrow prev"></span>
             <div class="review__slider-overflow slider-overflow">
             	<div class="wrapper-outer">
             		<ul class="review__minigallery wrapper slider-gallery">
-            		  <li class="slide active"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            		  <li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            		  <li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
-            		  <li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
+            		  <li class="slide active"><img src="img/about/review_img.jpg" alt=""></li>
+            		  <li class="slide"><img src="img/about/about_lead.jpg" alt=""></li>
+            		  <li class="slide"><img src="img/about/review_img.jpg" alt=""></li>
+            		  <li class="slide"><img src="img/about/about_lead.jpg" alt=""></li>
             		</ul>
             	</div>
             </div>
-            <span class="btn btn_empty btn_round btn_right btn_move-right slider-arrow next"></span>
+            <span class="btn btn_empty btn_round btn_right btn_move-right slider-arrow mask-slider-arrow next"></span>
           </div>
         </div>
       </div>
