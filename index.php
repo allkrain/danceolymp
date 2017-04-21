@@ -134,7 +134,7 @@
       <div class="container">
         <h2>Танцевальные стили</h2>
         <div class="dance-styles__slider mask-slider2">
-         <div class="dance-styles__slider-main-container">
+         <div class="dance-styles__slider-main-container content-maskwrapper">
           	<div class="dance-styles__slide project">
           		<div class="slider__count">
           	      <span class="slider__number">01</span>
