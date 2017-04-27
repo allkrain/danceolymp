@@ -16,16 +16,14 @@
 	/*--- About ---*/
 	.about__features {padding: 4px 160px;}
 	.about__mission {padding: 0 160px;}
-	.about__slider {padding: 0 140px;}
-	.about__gallery-list {margin-left: 0; width: 100%;}
+	.about__wrapper {margin: 0 140px;}
 	.about__gallery-controls .controls__prev {left: 3px;}
 	.about__gallery-controls .controls__next {right: 3px;}
 	.about__video {margin-left: 0;}
 	.trainers__slide {padding: 0 140px;}
     .trainers__controls .controls__next {right: 35px;}
 	.review__slider-controls {padding: 0 160px;}
-	.about__gallery {margin-left: 0;}
-	.review__slider .review__video {left: 88%;}
+	.review__slider .review__video {left: 83%;}
   /*--- Publication ---*/
   .event__btns {width: 916px; padding: 0;}
   .post__title {width: 80%;}
@@ -69,7 +67,6 @@
 	.page-title h1 {padding: 0;}
 	.breadcrumbs li:first-child a {padding-left: 0;}
     .dance-styles__slider {padding: 0 130px;}
-    .dance-styles__slider-main-container {height: 520px;}
     .review {padding-top: 70px;}
 	/*--- Shedule ---*/
 	.shedule__wrapper {overflow-x: scroll;}
@@ -107,8 +104,9 @@
 	.about__features, .about__mission {padding: 0 60px;}
 	.trainers__slide li:nth-child(n+3) {display: none;}
 	.review__slider-controls {padding: 0 30px;}
-	.about__slider {padding: 0 110px;}
+	.about__wrapper {margin: 0 110px;}
 	.review__slider-overflow {width: 87%;}
+    .review__slider .review__video {left: 79%;}
   /*--- Publication ---*/
   .event__container {padding: 0;}
   .event__btns {width: 100%; padding: 0;}
@@ -186,6 +184,7 @@
 	.trainers__slide {padding: 0 120px;}
 	.review__minigallery li {width: 230px; height: 140px;}
 	.review__slider-overflow .wrapper-outer {width: 254px;}
+    .review__slider .review__video {left: 83%;}
   /*--- Publication ---*/
 	.post__header h2 {font-size: 26px; letter-spacing: 5px;}
   .post__follow {flex-direction: column; justify-content: flex-start; align-items: center;}
@@ -218,7 +217,6 @@
 	.service_tango .service__top-img {transform: translateX(184px);}
 	.dance-styles__img {display: none;}
 	.dance-styles__describe {width: 100%;}
-    .dance-styles__slider-main-container {height: 420px;}
 	.review__content {padding: 0 30px; height: 450px; margin-top: -450px;}
 	.review__img {height: 450px;}
 	.review__media::after {display: none;}
@@ -247,7 +245,7 @@
 	.trainers__controls .controls__next {right: -15px;}
 	.trainers__slide {padding: 0 65px;}
 	.review__minigallery li {width: 180px; height: 110px;}
-	.review__slider .review__video {left: 81%;}
+	.review__slider .review__video {left: 79%;}
 	.review__slider-overflow .wrapper-outer {width: 208px;}
     .review__slider > .slider-overflow {height: 450px;}
     .review__content p {width: 70%;}
@@ -351,12 +349,12 @@
 	.text-list__list_about .text-list__item:nth-child(even) {padding-left: 0;}
 	.text-list__list_about .text-list__item:nth-child(3) {margin-top: 0;}
 	.text-list__list_about .text-list__item:nth-child(5) {margin-top: 0;}
-	.about__gallery-img {width: 410px; height: 270px;}
+    .about__slider {height: 270px;}
 	.trainers__slide li:nth-child(n+2) {display: none;}
 	.trainers__slide .trainers__list {text-align: center;}
 	.trainers__slide .trainers__item {margin: 0;}
 	.review__slider-overflow {width: 80%;}
-	.review__slider .review__video {left: 76%;}
+	.review__slider .review__video {left: 74%;}
   /*--- Publication ---*/
   .event__container {padding: 0;}
   .post__header {margin-bottom: 20px;}
@@ -396,7 +394,6 @@
 	.controls__prev, .controls__next {width: 40px;}
 	.controls__prev::before, .controls__next::before {width: 40px;}
     .dance-styles__slider {padding: 0 50px;}
-    .dance-styles__slider-main-container {height: 550px;}
 	.dance-styles__describe h3 {font-size: 18px;}
 	.review__header, .review__footer {width: 100%;}
 	.review__img {width: 100%;}
@@ -410,6 +407,7 @@
 	.service_group {margin-bottom: 50px;}
 	.review {padding-top: 70px;}
 	.review__video {left: 70%;}
+    .order-form__success-message {width: 90%;}
 	/*--- Shedule ---*/
 	.shedule__cell_time p {line-height: 5.7em;}
 	.page-navigation__container_shedule {padding: 22px 38px 0;}
@@ -443,12 +441,12 @@
 	.page-intro__btns {padding-right: 0;}
 	.about__container h2 {font-size: 28px; margin-left: 0;}
 	.about__slider {height: 210px;}
+    .about__wrapper {margin: 0 60px;}
 	.review_about {margin-left: 0;}
 	.review__slider, .review__slider-item {width: 100%;}
 	.review__media {width: 100%;}
-	.about__slider {padding: 0 60px;}
 	.review__slider-overflow {width: 65%;}
-	.review__slider .review__video {left: 67%;}
+	.review__slider .review__video {left: 63%;}
   /*--- Publication ---*/
   .event__btn {line-height: 2em;}
   .event__btn:last-of-type {text-align: right;}
@@ -514,7 +512,6 @@
 	.lead__title {padding-bottom: 0;}
 	.dance-styles__describe {padding: 0; padding-top: 20px;}
 	.dance-styles__controls {top: 0; width: 60%; transform: translate(-50%, 0);}
-    .dance-styles__slider-main-container {height: 450px;}
     .dance-styles__slider {padding: 0;}
 	.main-menu li a {font-size: 13px;}
 	.service__content p {font-size: 15px;}
@@ -522,6 +519,8 @@
 	.breadcrumbs li a {padding-left: 6px; padding-right: 12px;}
 	.breadcrumbs li:last-child a {padding-right: 0;}
 	.review__video {left: 55%;}
+    .order-form__error-message p {line-height: 3em;}
+    .order-form__success-message h5 {line-height: 3em;}
 	/*--- Shedule ---*/
 	.page-navigation__container_shedule {padding: 22px 20px 0;}
 	.shedule__month {font-size: 25px;}
@@ -567,13 +566,14 @@
 	.trainers__controls .controls__next {right: 0;}
 	.trainers__slide {padding: 0;}
 	.review__slider-controls {padding: 0;}
-	.review__slider .review__video {left: 52%;}
+	.review__slider .review__video {left: 48%;}
 	.review__slider-overflow .wrapper-outer {width: 200px;}
-  /*--- Publication ---*/
-  .event__btn {letter-spacing: 1px;}
-  .event__btn:first-of-type {padding-left: 35px;}
-  .event__btn:last-of-type {padding-right: 35px;}  
-  .post__title h2 {font-size: 22px; letter-spacing: 2px;}
+    .review__slider-overflow {width: 72%;}
+    /*--- Publication ---*/
+    .event__btn {letter-spacing: 1px;}
+    .event__btn:first-of-type {padding-left: 35px;}
+    .event__btn:last-of-type {padding-right: 35px;}  
+    .post__title h2 {font-size: 22px; letter-spacing: 2px;}
 	.post__content p {font-size: 15px;}
 	.event__btns .event__btn {letter-spacing: 1px;}
 	/*--- Services ---*/

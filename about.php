@@ -9,15 +9,26 @@
   <?php include "blocks/css.php"; ?>
 </head>
 
-<body> 
-
+<body>
+ 
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="filters">
+    <defs>
+      <filter id="blur">
+	    <feGaussianBlur in="SourceGraphic" stdDeviation="0,0" />
+      </filter>
+    </defs>
+  </svg>
+  
   <?php include "blocks/page_header.php"; ?>
 
   <main class="page">
-    <section class="page-section lead">
+    <section class="page-section lead lead_about">
       <div class="lead__img">
         <img src="img/about/about_lead.jpg" alt="">
       </div>
+      <a href="#" class="lead__btn-mouse nav">
+      	<svg xmlns="http://www.w3.org/2000/svg" width="23" height="35" viewBox="0 0 23 35"><defs><style>.cls-1{fill-rule:evenodd}</style></defs><path class="cls-1" d="M11.5 0A11.6 11.6 0 0 0 0 11.661V23.34a11.5 11.5 0 1 0 23 0V11.661A11.6 11.6 0 0 0 11.5 0zm10.22 23.34a10.221 10.221 0 1 1-20.44 0V11.661a10.221 10.221 0 1 1 20.44 0V23.34zM11.5 3.888a.646.646 0 0 0-.64.649v5.869a.64.64 0 1 0 1.28 0V4.537a.646.646 0 0 0-.64-.649z"/></svg>
+       </a>
     </section>
     
     <div class="page-navigation">
@@ -80,22 +91,32 @@
             помочь Вам раскрыть свой потенциал, наш приоритет &mdash; индивидуальный подход к каждому. Ждем Вас в студии и желаем успешного путешествия в волшебный мир танца!
           </p>
         </div>
-        <div class="about__slider mask-slider">
-        	<div class="about__gallery">
-        	  <div class="about__gallery-img slider__item project"><img src="img/about/about_slide1.jpg" alt=""></div>
-        	  <div class="about__gallery-img slider__item project"><img src="img/about/about_lead.jpg" alt=""></div>
-        	  <div class="about__gallery-img slider__item project"><img src="img/about/about_slide1.jpg" alt=""></div>
-        	  <div class="about__gallery-img slider__item project"><img src="img/about/about_lead.jpg" alt=""></div>
-        	</div>
-        	<div class="about__gallery-controls controls container">
-        	  <span class="controls__prev mask-slider-arrow prev">Назад</span>
-        	  <span class="controls__next mask-slider-arrow next">Вперед</span>
-        	</div>
+        <div class="about__slider">
+          <div class="about__wrapper gallery">
+            <ul class="about__gallery gallery-slides">
+              <li class="about__gallery-img gallery-slide">
+                <img src="img/about/about_slide1.jpg" alt="img01">
+              </li>
+              <li class="about__gallery-img gallery-slide">
+                <img src="img/about/about_lead.jpg" alt="img02">
+              </li>
+              <li class="about__gallery-img gallery-slide">
+                <img src="img/about/about_slide1.jpg" alt="img01">
+              </li>
+              <li class="about__gallery-img gallery-slide">
+                <img src="img/about/about_lead.jpg" alt="img02">
+              </li>
+            </ul>
+          </div>
+          <div class="about__gallery-controls gallery-controls controls container">
+            <span class="controls__prev prev">Назад</span>
+            <span class="controls__next next">Вперед</span>
+          </div>
         </div>
         <div class="about__video video">
           <div class="video__promo">
           	<img src="img/video_promo1.jpg" alt="@@" class="video__poster">
-          	<img src="img/play.svg" alt="@@" class="video__playicon">
+          	<img src="img/play2.svg" alt="@@" class="video__playicon">
           	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
@@ -212,70 +233,72 @@
         <header class="review__header">
           <h2>Отзывы о нас</h2>
         </header>
-        <div class="review__slider mask-slider2">
-          <div class="slider-overflow">
-            <div class="review__slider-item slider__item project">
-              <div class="review__media">
-                <div class="review__video">
-                  <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+        <div class="review__slider">
+          <div class="review__slider-inner gallery">
+            <div class="review__wrapper gallery-slides">
+              <div class="review__slider-item slider__item gallery-slide">
+                <div class="review__media">
+                  <div class="review__video">
+                    <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+                  </div>
+                  <div class="review__img">
+                  <img src="img/about/review_img.jpg" alt="">
                 </div>
-                <div class="review__img">
-          		  <img src="img/about/review_img.jpg" alt="">
-          		</div>
-              </div> 
-              <div class="review__content">
-                <p class="gotham animated fast">          
-          		Самба – при названии этого танца сразу возникают картинки бразильского фестиваля с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают отбивать ритм и танцоры едва могут устоять на месте!</p>
+                </div> 
+                <div class="review__content">
+                  <p class="gotham animated fast">          
+                Самба – при названии этого танца сразу возникают картинки бразильского фестиваля с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают отбивать ритм и танцоры едва могут устоять на месте!</p>
+                </div>
               </div>
-            </div>
-            <div class="review__slider-item slider__item project">
-              <div class="review__media">
-                <div class="review__video">
-                  <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+              <div class="review__slider-item slider__item gallery-slide">
+                <div class="review__media">
+                  <div class="review__video">
+                    <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+                  </div>
+                  <div class="review__img">
+                  <img src="img/about/about_lead.jpg" alt="">
                 </div>
-                <div class="review__img">
-          		  <img src="img/about/about_lead.jpg" alt="">
-          		</div>
-              </div> 
-              <div class="review__content">
-                <p class="gotham animated fast">          
-          		Танцевальная студия «Данс Олимп» организована профессиональными танцорами и любителями, которые пришли в танцы в зрелом возрасте. Мы стремимся воплотить в нашей танцевальной студии все лучшее из собственного опыта, накопленного за годы преподавания и обучения танцам.</p>
+                </div> 
+                <div class="review__content">
+                  <p class="gotham animated fast">          
+                Танцевальная студия «Данс Олимп» организована профессиональными танцорами и любителями, которые пришли в танцы в зрелом возрасте. Мы стремимся воплотить в нашей танцевальной студии все лучшее из собственного опыта, накопленного за годы преподавания и обучения танцам.</p>
+                </div>
               </div>
-            </div>
-            <div class="review__slider-item slider__item project">
-              <div class="review__media">
-                <div class="review__video">
-                  <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+              <div class="review__slider-item slider__item gallery-slide">
+                <div class="review__media">
+                  <div class="review__video">
+                    <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+                  </div>
+                  <div class="review__img">
+                  <img src="img/about/review_img.jpg" alt="">
                 </div>
-                <div class="review__img">
-          		  <img src="img/about/review_img.jpg" alt="">
-          		</div>
-              </div> 
-              <div class="review__content">
-                <p class="gotham animated fast">          
-          		Самба – при названии этого танца сразу возникают картинки бразильского фестиваля с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают отбивать ритм и танцоры едва могут устоять на месте!</p>
+                </div> 
+                <div class="review__content">
+                  <p class="gotham animated fast">          
+                Самба – при названии этого танца сразу возникают картинки бразильского фестиваля с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем. Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы ноги сами начинают отбивать ритм и танцоры едва могут устоять на месте!</p>
+                </div>
               </div>
-            </div>
-            <div class="review__slider-item slider__item project">
-              <div class="review__media">
-                <div class="review__video">
-                  <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+              <div class="review__slider-item slider__item gallery-slide">
+                <div class="review__media">
+                  <div class="review__video">
+                    <a href="https://www.youtube.com/watch?v=KvxNbi8tsrs" class="review__video-btn btn btn_youtube" data-fancybox data-anchor>Смотреть</a>
+                  </div>
+                  <div class="review__img">
+                  <img src="img/about/about_lead.jpg" alt="">
                 </div>
-                <div class="review__img">
-          		  <img src="img/about/about_lead.jpg" alt="">
-          		</div>
-              </div> 
-              <div class="review__content">
-                <p class="gotham animated fast">          
-          		Танцевальная студия «Данс Олимп» организована профессиональными танцорами и любителями, которые пришли в танцы в зрелом возрасте. Мы стремимся воплотить в нашей танцевальной студии все лучшее из собственного опыта, накопленного за годы преподавания и обучения танцам.</p>
+                </div> 
+                <div class="review__content">
+                  <p class="gotham animated fast">          
+                Танцевальная студия «Данс Олимп» организована профессиональными танцорами и любителями, которые пришли в танцы в зрелом возрасте. Мы стремимся воплотить в нашей танцевальной студии все лучшее из собственного опыта, накопленного за годы преподавания и обучения танцам.</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="review__slider-controls slider__controls">
-            <span class="btn btn_empty btn_round btn_left btn_move-left slider-arrow mask-slider-arrow prev"></span>
+          <div class="review__slider-controls slider__controls gallery-controls">
+            <span class="btn btn_empty btn_round btn_left btn_move-left slider-arrow prev"></span>
             <div class="review__slider-overflow slider-overflow">
             	<div class="wrapper-outer">
-            		<ul class="review__minigallery wrapper slider-gallery">
+            		<ul class="review__minigallery wrapper minigallery">
             		  <li class="slide active"><img src="img/about/review_img.jpg" alt=""></li>
             		  <li class="slide"><img src="img/about/about_lead.jpg" alt=""></li>
             		  <li class="slide"><img src="img/about/review_img.jpg" alt=""></li>
@@ -283,7 +306,7 @@
             		</ul>
             	</div>
             </div>
-            <span class="btn btn_empty btn_round btn_right btn_move-right slider-arrow mask-slider-arrow next"></span>
+            <span class="btn btn_empty btn_round btn_right btn_move-right slider-arrow next"></span>
           </div>
         </div>
       </div>

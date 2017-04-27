@@ -9,7 +9,15 @@
   <?php include "blocks/css.php"; ?>
 </head>
 
-<body> 
+<body>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="filters">
+    <defs>
+      <filter id="blur">
+	    <feGaussianBlur in="SourceGraphic" stdDeviation="0,0" />
+      </filter>
+    </defs>
+  </svg>
 
   <?php include "blocks/page_header.php"; ?>
 
@@ -162,21 +170,21 @@
               </ul>
             </div>        
           </div>
-          <div id="tab3" class="news__tab-pane news__slider slider">
+          <div id="tab3" class="news__tab-pane news__slider">
             <h2>Фотографии</h2>
-            <div class="slider-overflow">
-            	<div class="wrapper">
-            		<div class="news__gallery-img slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
-            		<div class="news__gallery-img slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
-            		<div class="news__gallery-img slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
-            		<div class="news__gallery-img slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
-            	</div>
+            <div class="news__slider-inner slider-overflow gallery">
+              <div class="news__wrapper gallery-slides">
+                <div class="news__gallery-img gallery-slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
+            	<div class="news__gallery-img gallery-slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
+            	<div class="news__gallery-img gallery-slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
+            	<div class="news__gallery-img gallery-slide"><img src="img/about/review_gallery_min1.jpg" alt=""></div>
+              </div>
             </div>
-            <div class="news__gallery-controls slider__controls">
+            <div class="news__gallery-controls slider__controls gallery-controls">
             	<span class="btn btn_empty btn_round btn_left btn_move-left slider-arrow prev"></span>
             	<div class="news__slider-overflow slider-overflow">
             		<div class="wrapper-outer">
-            			<ul class="news__minigallery wrapper slider-gallery">
+            			<ul class="news__minigallery wrapper slider-gallery minigallery">
             		  		<li class="slide active"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
             		  		<li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>
             		  		<li class="slide"><img src="img/about/review_gallery_min1.jpg" alt=""></li>

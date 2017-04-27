@@ -12,6 +12,14 @@
   &_nolead {
     padding-top: 102px;
   }
+  
+  &_contacts {
+    & + .page-footer {
+      padding-top: 38px;
+      z-index: 2;
+      position: relative;
+    }
+  }
 }
 
 .page-header {
@@ -410,30 +418,50 @@
 
 .lead {
   position: relative;
-	pointer-events: all;
+  pointer-events: all;
 	
-	&__slider {
-		height: 768px;
-		.slider__item {
-			pointer-events: all;
-			background-color: #272727;
-		}
-		.lead__img {
-			position: absolute;
-		}
-		img {
-			opacity: 0.32;
-		}
-		.lead__container {
-			margin-top: 0;
-			height: 100%;
-		}
-		.lead__btn {
-			position: absolute;
-			right: 0;
-			bottom: 20px;
-		}
+  &__slider {
+    height: 768px;
+	.slider__item {
+	  pointer-events: all;
+	  background-color: #272727;
+      height: 100%;
+      overflow: hidden;
 	}
+	.lead__img {
+	  position: absolute;
+	}
+	img {
+	  opacity: 0.32;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      min-width: 100% ;
+      min-height: 100%;
+      width: 0;
+      object-fit: cover;
+	}
+	.lead__container {
+	  margin-top: 0;
+	  height: 100%;
+	}
+	.lead__btn {
+	  position: absolute;
+	  right: 0;
+	  bottom: 20px;
+	}
+  }
+  
+  &__slider-inner {
+    height: 100%;
+  }
+  
+  &__wrapper {
+    height: 100%;
+  }
   
   &__img {    
     margin: 0 auto;
@@ -477,7 +505,8 @@
     justify-content: center;
     align-items: center;
     padding: 80px 150px;
-    box-sizing: border-box;    
+    box-sizing: border-box;
+    white-space: normal;
     
     h2 {
       position: relative;
@@ -592,7 +621,8 @@
     }
   }
 	
-	&_wedding {
+	&_wedding,
+	&_about {
 		.lead__btn-mouse {
 			bottom: 90px;
 		}
@@ -1576,6 +1606,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    white-space: normal;
   }
   
   &__describe {
@@ -1630,7 +1661,7 @@
     padding: 0 180px;
       
       &-main-container {
-          width:100%; height:100%; overflow: hidden; height: 472px; position: relative;
+          width:100%; height:100%; overflow: hidden; position: relative;
       }
     
     &::before, 
@@ -1655,10 +1686,6 @@
       left: 100%;
       transform: translate(-85px, -50%);
     }
-  }
-  
-  &__slide {
-    background-color: #272727;
   }
   
   &__controls {
@@ -1720,8 +1747,11 @@
     }
   }
   
+  &__slider-inner {
+    overflow: hidden;
+  }
+  
   &__slider-item {
-    background-color: #272727;
     padding-top: 30px;
   }
   
@@ -1823,6 +1853,7 @@
       padding: 0 10px;
       width: 33%;
       z-index: 10;
+      white-space: normal;
     }
   }
   
@@ -1848,7 +1879,8 @@
     margin-top: 36px;
     box-sizing: border-box;
     width: 100%;
-    padding: 0 188px 0 180px; 
+    padding: 0 188px 0 180px;
+    transform: translate3d(0,0,0);
   }
 	
 	&__slider-overflow {
@@ -1878,8 +1910,6 @@
       margin: 0 14px;
 	  cursor: pointer;
 	  transition: all 0.25s ease-in-out;
-      pointer-events: none;
-      
       
       &:hover, &.active {
         box-shadow: inset 0 0 0 4px $base_color_3;
@@ -2212,23 +2242,29 @@
   }
   
   &__slider {
-	width: 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 70px;
 	height: 520px;
 	position: relative;
-	margin-bottom: 70px;
-	padding: 0 182px;
 	box-sizing: border-box;
+  }
+  
+  &__wrapper {
+    margin: 0 195px 0 175px;
+    height: 100%;
+    overflow: hidden;
   }
 	
   &__gallery {
     position: relative;
-    overflow: hidden;
 	height: 100%;
   }
   
   &__gallery-img {
     position: relative;
     overflow: hidden;
+    height: 100%;
     
     img {
       position: absolute;
@@ -2750,6 +2786,7 @@
       letter-spacing: (12px*50)/1000;
       color: $base_color_2;
 	  transition: all 0.25s ease-in-out;
+      white-space: nowrap;
       
       &.error {
         color: $error_color;
@@ -4510,9 +4547,10 @@
 }
 
 .map {
-  margin-bottom: 8px;
+  margin-bottom: -25px;
   width: 100vw;
-  height: 690px;
+  height: 715px;
+  z-index: 1;
 }
 
 .event {
@@ -4757,97 +4795,59 @@
 	position: absolute;
 }
 
-/*-------------------------*/
-/*--- CSSMaskTransition ---*/
-/*-------------------------*/
-.mask-slider {
-}
-
-.mask-slider .project,
-.mask-slider2 .project {
+/*--------------------------*/
+/*--- Motion Effect Blur ---*/
+/*--------------------------*/
+.filters {
   position: absolute;
-  width: 100%;
-  height: 100%;
   overflow: hidden;
-}
-
-.mask-slider .project img,
-.mask-slider2 .project img {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 100%;
-  min-height: 100%;
   width: 0;
-  object-fit: cover;
+  height: 0;
+  pointer-events: none;
 }
 
-.mask-slider .project:nth-child(1),
-.mask-slider2 .project:nth-child(1) {
-  z-index: 30;
+.gallery {}
+
+.gallery-slides {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    cursor: -webkit-grab;
+    -webkit-transform: rotateY(0);
+    white-space: nowrap;
+    font-size: 0;
 }
 
-@-webkit-keyframes mask-play {
-  from {
-    -webkit-mask-position: 0% 0;
-            mask-position: 0% 0;
-  }
-  to {
-    -webkit-mask-position: 100% 0;
-            mask-position: 100% 0;
-  }
+.gallery-slide {
+    width: 100%;
+    margin-right: 120px;
+    display: inline-block;
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
 }
 
-@keyframes mask-play {
-  from {
-    -webkit-mask-position: 0% 0;
-            mask-position: 0% 0;
-  }
-  to {
-    -webkit-mask-position: 100% 0;
-            mask-position: 100% 0;
-  }
+.gallery-pagination {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
 }
 
-.about {
-  background: url(../img/nature-sprite.png) no-repeat -9999px -9999px;
+.gallery-pagination-dot {
+    background: #333;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: none;
+    margin: 0 7px;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
 }
 
-.about .mask-slider {
-  background: url(../img/nature-sprite-2.png) no-repeat -9999px -9999px;
+.gallery-pagination-dot-selected {
+    background: #7D87AE;
 }
 
-.mask-slider .project:nth-child(even).hide,
-.mask-slider2 .project:nth-child(even).hide {
-  -webkit-mask: url(../img/nature-sprite.png);
-          mask: url(../img/nature-sprite.png);
-  -webkit-mask-size: 2300% 100%;
-          mask-size: 2300% 100%;
-  -webkit-animation: mask-play 1.4s steps(22) forwards;
-          animation: mask-play 1.4s steps(22) forwards;
-}
-
-.mask-slider .project:nth-child(odd).hide,
-.mask-slider2 .project:nth-child(odd).hide {
-  -webkit-mask: url(../img/nature-sprite-2.png);
-          mask: url(../img/nature-sprite-2.png);
-  -webkit-mask-size: 7100% 100%;
-          mask-size: 7100% 100%;
-  -webkit-animation: mask-play 1.4s steps(70) forwards;
-          animation: mask-play 1.4s steps(70) forwards;
-}
-
-.no-cssmask .mask-slider .project.hide,
-.no-cssmask .mask-slider2 .project.hide {
-  opacity: 0;
-  -webkit-transition: opacity 1.4s ease;
-          transition: opacity 1.4s ease;
-  -webkit-mask: none !important;
-          mask: none !important;
-}
 
 /*-----------------*/
 /*--- TiltHover ---*/

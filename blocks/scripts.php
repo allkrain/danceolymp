@@ -33,6 +33,7 @@
 <script src="js/anime.min.js"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/zepto.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
 
 <!-- Segment -->
 <script src="js/segment.min.js"></script>
@@ -40,8 +41,8 @@
 <!-- LineMaker -->
 <script src="js/linemaker.js"></script>
 
-<!-- CSS Mask Transitions -->
-<script src="js/masktransitions.js"></script>
+<!-- Motion Blur Effect -->
+<script src="js/gallery.js"></script>
 
 <!-- Tilt Hover -->
 <script src="js/tilthover.js"></script>

@@ -58,7 +58,7 @@
         <div class="event__video video">
           <div class="video__promo">
           	<img src="img/video_promo1.jpg" alt="@@" class="video__poster">
-          	<img src="img/play.svg" alt="@@" class="video__playicon">
+          	<img src="img/play2.svg" alt="@@" class="video__playicon">
           	<iframe class="video__frame" src="https://www.youtube.com/embed/KvxNbi8tsrs" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>

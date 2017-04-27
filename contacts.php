@@ -13,7 +13,7 @@
 
   <?php include "blocks/page_header.php"; ?>
 
-  <main class="page page_nolead">
+  <main class="page page_nolead page_contacts">
     <div class="page-navigation">
       <div class="page-navigation__container page-navigation__container_contacts container">
         <ul class="breadcrumbs">

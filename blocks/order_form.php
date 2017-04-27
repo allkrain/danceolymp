@@ -4,7 +4,7 @@
       <label for="name">Имя</label><input type="text" name="name" id="name" required>
     </div>
     <div class="order-form__input order-form__phone">
-      <label for="phone">Телефон</label><input type="tel" name="phone" id="phone" required>
+      <label for="phone">Телефон</label><input type="tel" name="tel" id="phone" required>
     </div>
     <div class="order-form__input order-form__email">
       <label for="email">Эл. почта</label><input type="email" name="email" id="email" required>

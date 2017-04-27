@@ -9,42 +9,48 @@
   <?php include "blocks/css.php"; ?>
 </head>
 
-<body> 
+<body>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="filters">
+    <defs>
+      <filter id="blur">
+	    <feGaussianBlur in="SourceGraphic" stdDeviation="0,0" />
+      </filter>
+    </defs>
+  </svg>
 
   <?php include "blocks/page_header.php"; ?>
 
   <main class="page-content">
     <div class="page-section__maincontainer">
-        <section class="page-section lead__slider mask-slider">
-       	  <div class="slider__item project" data-link="tango.php">
-            <img src="img/australian_tango@1x.jpg" alt="" width="100%" srcset="img/australian_tango@1,5x.jpg 1.5x, img/australian_tango@2x.jpg 2x, img/australian_tango@3x.jpg 3x">
-            <div class="lead__container container">
-              <header class="lead__title">
-                <h2>
-                  <a href="tango.php">Аргентинское танго</a>
-                </h2>
-                <p>Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса, куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.
-                </p>
-              </header>
-              <a href="tango.php" class="lead__btn btn btn_round btn_plus" data-anchor>Подробнее</a>
-            </div>
-          </div>
-          <div class="slider__item project" data-link="wedding_dance.php">
-            <img src="img/about/about_slide1.jpg" alt="@@">
-            <div class="lead__container container">
-              <header class="lead__title">
-                <h2>
-                  <a href="tango.php">Свадебный танец</a>
-                </h2>
-                <p>Свадебный танец  появилcя в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса, куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.
-                </p>
-              </header>
-              <a href="wedding_dance.php" class="lead__btn btn btn_round btn_plus" data-anchor>Подробнее</a>
-            </div>
-          </div>
-          <div class="lead__controls controls container">
-            <span class="controls__prev mask-slider-arrow prev">Назад</span>
-            <span class="controls__next mask-slider-arrow next">Вперед</span>
+        <section class="page-section lead__slider">
+       	  <div class="lead__slider-inner gallery">
+       	    <div class="lead__wrapper gallery-slides">
+       	      <div class="slider__item gallery-slide">
+       	        <img src="img/australian_tango@1x.jpg" alt="" width="100%" srcset="img/australian_tango@1,5x.jpg 1.5x, img/australian_tango@2x.jpg 2x, img/australian_tango@3x.jpg 3x">
+       	        <div class="lead__container container">
+       	          <header class="lead__title">
+       	            <h2><a href="tango.php">Аргентинское танго</a></h2>
+       	            <p>Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса, куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.</p>
+       	          </header>
+       	          <a href="tango.php" class="lead__btn btn btn_round btn_plus" data-anchor>Подробнее</a>
+       	        </div>
+       	      </div>
+       	      <div class="slider__item gallery-slide">
+       	        <img src="img/about/about_slide1.jpg" alt="@@">
+       	        <div class="lead__container container">
+       	          <header class="lead__title">
+       	            <h2><a href="tango.php">Свадебный танец</a></h2>
+       	            <p>Свадебный танец  появилcя в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса, куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.</p>
+       	          </header>
+       	          <a href="wedding_dance.php" class="lead__btn btn btn_round btn_plus" data-anchor>Подробнее</a>
+       	        </div>
+       	      </div>
+       	    </div>
+       	  </div>
+          <div class="lead__controls gallery-controls controls container">
+            <span class="controls__prev prev">Назад</span>
+            <span class="controls__next next">Вперед</span>
           </div>
         </section>
         <div class="container">
@@ -133,46 +139,44 @@
     <section class="page-section dance-styles">
       <div class="container">
         <h2>Танцевальные стили</h2>
-        <div class="dance-styles__slider mask-slider2">
-         <div class="dance-styles__slider-main-container content-maskwrapper">
-          	<div class="dance-styles__slide project">
-          		<div class="slider__count">
-          	      <span class="slider__number">01</span>
-          	      <span class="slider__total">02</span>
-                </div>
-                <div class="dance-styles__content slider__item">
-          		  <article class="dance-styles__describe">
-          		    <h3 class="animated fast"><a href="dance_styles.php">Бальные танцы, латиноамериканская программа</a></h3>
-          		    <p class="gotham animated fast delay">
-          		      Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
-          		      с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем.
-          		      Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы
-          		      ноги сами начинают отбивать ритм и танцоры
-          		      едва могут устоять на месте!
-          		    </p>
-          		  </article>
-          		  <div class="dance-styles__img"><img src="img/dance_style_1.jpg" alt="@@" class="animated fast"></div>
-          		</div>
-          	</div>
-          	<div class="dance-styles__slide project">
-          		<div class="slider__count">
-          	      <span class="slider__number">02</span>
-          	      <span class="slider__total">02</span>
-                </div>
-                <div class="dance-styles__content slider__item">
-          		  <article class="dance-styles__describe">
-          		    <h3 class="animated fast"><a href="dance_styles.php">Клубная латина</a></h3>
-          		    <p class="gotham animated fast delay">
-          		      К этой группе мы относим сальсу, меренге, бачату, свинг. Это танцы, которые можно танцевать как в паре, так и по одному, технически не сложные, красивые, с настроением. Эти танцы прекрасно подходят для любой клубной вечеринки, мастер-класса, тим-билдинга, да и просто когда хочется подвигаться. Практически под любую популярную музыку можно станцевать сальсу, свинг, меренге или бачату.
-          		    </p>
-          		  </article>
-          		  <div class="dance-styles__img"><img src="img/dance_styles/club.png" alt="@@" class="animated fast"></div>
-          		</div>
+        <div class="dance-styles__slider">
+          <div class="dance-styles__slider-main-container gallery">
+             <div class="slider__count">
+          	   <span class="slider__number">01</span>
+          	   <span class="slider__total">02</span>
+          	 </div>
+            <div class="dance-styles__wrapper gallery-slides">
+              <div class="dance-styles__slide gallery-slide">
+          	    <div class="dance-styles__content slider__item">
+          	      <article class="dance-styles__describe">
+          	        <h3 class="animated fast"><a href="dance_styles.php">Бальные танцы, латиноамериканская программа</a></h3>
+          	        <p class="gotham animated fast delay">
+          	          Самба – при названии этого танца сразу возникают картинки бразильского фестиваля
+          	          с причудливо одетыми танцорами, бешенными ритмами и безудержным весельем.
+          	          Самба, действительно, веселый и очень ритмичный танец, при звуках музыки самбы
+          	          ноги сами начинают отбивать ритм и танцоры
+          	          едва могут устоять на месте!
+          	        </p>
+          	      </article>
+          	      <div class="dance-styles__img"><img src="img/dance_style_1.jpg" alt="@@" class="animated fast"></div>
+          	    </div>
+          	  </div>
+          	  <div class="dance-styles__slide gallery-slide">
+          	    <div class="dance-styles__content slider__item">
+          	      <article class="dance-styles__describe">
+          	        <h3 class="animated fast"><a href="dance_styles.php">Клубная латина</a></h3>
+          	        <p class="gotham animated fast delay">
+          	          К этой группе мы относим сальсу, меренге, бачату, свинг. Это танцы, которые можно танцевать как в паре, так и по одному, технически не сложные, красивые, с настроением. Эти танцы прекрасно подходят для любой клубной вечеринки, мастер-класса, тим-билдинга, да и просто когда хочется подвигаться. Практически под любую популярную музыку можно станцевать сальсу, свинг, меренге или бачату.
+          	        </p>
+          	      </article>
+          	      <div class="dance-styles__img"><img src="img/dance_styles/club.png" alt="@@" class="animated fast"></div>
+          	    </div>
+          	  </div>
           	</div>
         </div>
-        <div class="dance-styles__controls controls">
-            <span class="controls__prev mask-slider-arrow prev">Назад</span>
-            <span class="controls__next mask-slider-arrow next">Вперед</span>
+        <div class="dance-styles__controls gallery-controls controls">
+            <span class="controls__prev prev">Назад</span>
+            <span class="controls__next next">Вперед</span>
           </div>
         </div>
       </div>
