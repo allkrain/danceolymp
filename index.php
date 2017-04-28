@@ -33,7 +33,7 @@
        	            <h2><a href="tango.php">Аргентинское танго</a></h2>
        	            <p>Аргентинское танго  появилось в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса, куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.</p>
        	          </header>
-       	          <a href="tango.php" class="lead__btn btn btn_round btn_plus" data-anchor>Подробнее</a>
+       	          <a href="tango.php" class="lead__btn btn btn_round btn_plus" data-anchor><span></span>Подробнее</a>
        	        </div>
        	      </div>
        	      <div class="slider__item gallery-slide">
@@ -43,7 +43,7 @@
        	            <h2><a href="tango.php">Свадебный танец</a></h2>
        	            <p>Свадебный танец  появилcя в конце XIX века в бедных эмигрантских кварталах Буэнос-Айреса, куда съезжались эмигранты в поисках счастья, здесь встретились культурные традиции стран всего мира.</p>
        	          </header>
-       	          <a href="wedding_dance.php" class="lead__btn btn btn_round btn_plus" data-anchor>Подробнее</a>
+       	          <a href="wedding_dance.php" class="lead__btn btn btn_round btn_plus" data-anchor><span></span>Подробнее</a>
        	        </div>
        	      </div>
        	    </div>
@@ -88,7 +88,7 @@
             <p> Опытный тренер подберет программу, соответствующую вашему уровню подготовки, прислушается к вашим пожеланиям и обеспечит
             гибкий график занятий.
             </p>
-            <a href="private_lesson.php" class="service__btn btn btn_round btn_plus">Подробнее</a>
+            <a href="private_lesson.php" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
           </div>
         </section>
         <section class="services__section service service_group">
@@ -110,7 +110,7 @@
             <p>
               Обучение в группах проводится сольно и в парах, с учетом состава группы.
             </p>
-            <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+            <a href="#" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
           </div>
         </section>
         <section class="services__section service service_tango">
@@ -130,7 +130,7 @@
               Пронзительная музыка, напряженная энергетика, взаимодействие между мужчиной и женщиной в паре делают этот танец особенно эмоциональным и любимым.
               Специально для поклонников этого танца мы создали группу Танго-mix, занимаясь в которой можно научиться танцевать различные виды танго. 
             </p>
-            <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+            <a href="#" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
           </div>
         </section>
       </div>

@@ -15,10 +15,10 @@
     гибкий график занятий.
     </p>
     <div class="service__btns">
-      <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+      <a href="#" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
     </div>
   </div>
   <ul class="service__btns-list">
-    <li><a href="" class="btn btn_round btn_plus"></a></li>
+    <li><a href="" class="btn btn_round btn_plus"><span></span></a></li>
   </ul>
 </section>

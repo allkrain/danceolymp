@@ -85,7 +85,7 @@
               Обучение в группах проводится сольно и в парах, с учетом состава группы.
             </p>
             <div class="service__btns">
-              <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+              <a href="#" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
             </div>
           </div>
           <ul class="page-btns service__btns-list">
@@ -122,7 +122,7 @@
               и в удобное для них время!
             </p>
             <div class="service__btns">
-              <a href="wedding_dance.php" class="service__btn btn btn_round btn_plus">Подробнее</a>
+              <a href="wedding_dance.php" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
             </div>
           </div>
         </section>
@@ -145,7 +145,7 @@
               Танцы — прекрасный вид корпоративного досуга и лучший способкомандно-образующего тренинга. Студия предлагает руководителям компаний и кадровых служб 
             </p>
             <div class="service__btns">
-              <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+              <a href="#" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
             </div>
           </div>
         </section>
@@ -170,7 +170,7 @@
               (подробнее о танцах на корпоративах).
             </p>
             <div class="service__btns">
-              <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+              <a href="#" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
             </div>
           </div>
         </section>
@@ -195,7 +195,7 @@
               (подробнее о танцах на корпоративах).
             </p>
             <div class="service__btns">
-              <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+              <a href="#" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
             </div>
           </div>
         </section>
@@ -220,7 +220,7 @@
               (подробнее о танцах на корпоративах).
             </p>
             <div class="service__btns">
-              <a href="#" class="service__btn btn btn_round btn_plus">Подробнее</a>
+              <a href="#" class="service__btn btn btn_round btn_plus"><span></span>Подробнее</a>
             </div>
           </div>
        </section>
