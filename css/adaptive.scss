@@ -131,6 +131,9 @@
 	.service_competition .service__title_small {margin-left: 30px;}
 	.support__phone {padding: 0 200px;}
 	.support__email, .support__answer {padding: 0;}
+  .short-navigation {
+    width: 100%;
+  }
 	/*--- Dance styles ---*/
 	.styles__container {padding: 0;}
 	.dance-category p {padding-right: 0;}
@@ -280,11 +283,11 @@
 @media (max-width:790px) {
 	/*--- Main ---*/
 	.container {width: 580px;}
-	.page-header__container {padding-top: 40px; justify-content: space-between; align-items: center; position: relative;}
+	.page-header__container {padding-top: 30px; padding-bottom: 30px; justify-content: space-between; align-items: center; position: relative;}
 	.page-header__logo {padding: 0; position: absolute; left: 0; right: 0; margin: auto; width: 76px;}
 	.page-header__contacts {padding: 0;}
 	.page-header__navigation {position: absolute; left: 0; top: 0; padding: 0; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; width: 100%; height: 100%; padding: 40px; box-sizing: border-box; background-color: #272727;}
-	.page-header {box-sizing: border-box; z-index: 101;}
+	.page-header {box-sizing: border-box; z-index: 103;}
 	.page-header.active {height: 100%; background-color: #272727;}
 	.page-header.active .page-header__navigation {opacity: 1; pointer-events: all;}
 	.main-menu {flex-direction: column; justify-content: center; align-items: center; align-content: center; background-color: #272727;}
@@ -469,6 +472,10 @@
 	.service_competition .service__title_small {font-size: 30px; letter-spacing: 7px; margin-left: 20px;}
 	.support__phone {padding: 0;}
 	.page-request__title {width: 90%;}
+  .short-navigation {padding: 10px 0;}
+  .short-navigation__item, .short-navigation__link {
+    font-size: 9px;
+  }
 	/*--- Dance styles ---*/
 	.page-intro_styles .page-intro__container {padding: 0;}
 	.styles__container {padding: 0;}
@@ -589,6 +596,15 @@
 	.service_competition .service__title_big {font-size: 28px; letter-spacing: 6px; margin-left: 10px;}
 	.service_competition .service__title_small {font-size: 22px; letter-spacing: 5px; margin-left: 10px;}
 	.page-request__title p {margin-right: 0; line-height: 2em; padding: 10px 0;}
+  .short-navigation__item:not(:last-of-type) {
+    padding-right: 10px;
+  }
+  .short-navigation__item::after {
+    right: 5px;
+  }
+  .short-navigation__list {
+    padding: 0 5px;
+  }
 	/*--- Dance styles ---*/
 	.page-menu {padding: 0;}
 	.dance-category_euro p:nth-of-type(3) {padding-right: 0;}

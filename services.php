@@ -23,6 +23,46 @@
       </div>
     </div>
     
+    <div class="short-navigation">
+      <ul class="short-navigation__list">
+        <li class="short-navigation__item">
+          <a href="#private-lesson" class="short-navigation__link">
+            Индивидуальный урок
+          </a>
+        </li>
+        <li class="short-navigation__item">
+          <a href="#group-lesson" class="short-navigation__link">
+            Группа
+          </a>
+        </li>
+        <li class="short-navigation__item">
+          <a href="#wedding-dance" class="short-navigation__link">
+            свадебный танец
+          </a>
+        </li>
+        <li class="short-navigation__item">
+          <a href="#corporative-programm" class="short-navigation__link">
+            корпоративные программы
+          </a>
+        </li>
+        <li class="short-navigation__item">
+          <a href="#party" class="short-navigation__link">
+            танцевальный вечер
+          </a>
+        </li>
+        <li class="short-navigation__item">
+          <a href="#gift-certificate" class="short-navigation__link">
+            подарочный сертификат
+          </a>
+        </li>
+        <li class="short-navigation__item">
+          <a href="#competition-prepare" class="short-navigation__link">
+            Подготовка к соревнованиям
+          </a>
+        </li>
+      </ul>
+    </div>
+    
     <div class="page-section page-intro page-intro_services">
       <div class="page-section__container container">
         <p>
@@ -37,7 +77,7 @@
       <div class="container">
         <h2>У с л у г и</h2>
         
-        <section class="service service_personal service_private">
+        <section class="service service_personal service_private" id="private-lesson">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
@@ -64,7 +104,7 @@
           </div>
         </section>
     
-        <section class="service service_group service_band">
+        <section class="service service_group service_band" id="group-lesson">
           <figure class="service__img">
            <div class="service__bottom-img">
               <img src="img/services/bg_img_2.png" alt="">
@@ -102,7 +142,7 @@
           </ul>
         </section>
     
-        <section class="service service_wedding">
+        <section class="service service_wedding" id="wedding-dance">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
@@ -127,7 +167,7 @@
           </div>
         </section>
     
-        <section class="service service_corporative">
+        <section class="service service_corporative" id="corporative-programm">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
@@ -150,7 +190,7 @@
           </div>
         </section>
     
-        <section class="service service_party">
+        <section class="service service_party" id="party">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
@@ -175,7 +215,7 @@
           </div>
         </section>
     
-        <section class="service service_gift">
+        <section class="service service_gift" id="gift-certificate">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">
@@ -200,7 +240,7 @@
           </div>
         </section>
     
-        <section class="service service_competition">
+        <section class="service service_competition" id="competition-prepare">
           <figure class="service__img">
             <div class="service__bottom-img">
               <img src="img/services/bg_img.png" alt="">

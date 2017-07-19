@@ -50,4 +50,10 @@
 <!-- MultiLayout Slide Show -->
 <script src="js/slideshow.js"></script>
 
+<!-- Скролящая навигация по странице -->
+<script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+
+<!-- Sticky block -->
+<script src="js/jquery.sticky.js"></script>
+
 <script src="js/scripts.min.js"></script>

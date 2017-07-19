@@ -20,6 +20,7 @@ $bg_color_8: #202020; //ячейки в таблице дни недели
 $bg_color_9: #353535; //ячейки faq при навадении
 $bg_color_10: #373737; //фон статус бара в видео
 $bg_color_11: #262524; //резервный фон для карты
+$bg_color_12: #2f2f2f; //фон для sticky менюшки на странице услуг
 
 @mixin border-radius($topleft, $topright: $topleft, $bottomright: $topleft, $bottomleft: $topleft) {
     -moz-border-radius-topleft:     $topleft;
