@@ -431,18 +431,19 @@
 	.lead__img {
 	  position: absolute;
 	}
+  
 	img {
 	  opacity: 0.32;
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      min-width: 100% ;
-      min-height: 100%;
-      width: 0;
-      object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 100% ;
+    min-height: 100%;
+    width: 0;
+    object-fit: cover;
 	}
 	.lead__container {
 	  margin-top: 0;
@@ -463,14 +464,15 @@
     height: 100%;
   }
   
-  &__img {    
+  &__img {
     margin: 0 auto;
     padding: 0;
     position: relative;
     width: 100%;
     height: 768px;
     overflow: hidden;
-    background-color: $bg_color_4;    
+    background-color: $bg_color_4;
+    z-index: -2;
     
     img {
       position: absolute;
@@ -618,6 +620,37 @@
     
     &:hover>svg {
       fill: $base_color_4;
+    }
+  }
+  
+  &__video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 768px;
+    background-color: transparent;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  &__video-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    @media (min-aspect-ratio: 16/9) {
+      height: 300%;
+      top: -100%;
+    }
+    @media (max-aspect-ratio: 16/9) {
+      width: 300%;
+      left: -100%;
     }
   }
 	
@@ -5099,7 +5132,7 @@
     flex-wrap: wrap;
     padding: 0 20px;
     width: 100%;
-    max-width: 912px;
+    max-width: 1002px;
     box-sizing: border-box;
   }
   
@@ -5109,6 +5142,7 @@
     font-size: 12px;
     font-weight: 500;
     line-height: 2em;
+    letter-spacing: .13em;
     color: $base_color_2;
     transition: all .25s ease-in-out;
     
@@ -5131,6 +5165,7 @@
     font-size: 12px;
     font-weight: 500;
     line-height: 2em;
+    letter-spacing: .13em;
     text-transform: uppercase;
     text-decoration: none;
     transition: all .25s ease-in-out;
@@ -5147,6 +5182,13 @@
     &.active-last {
       color: $base_color_1;
     }
+  }
+}
+
+.spoiler {
+  
+  &__content {
+    display: none;
   }
 }
 

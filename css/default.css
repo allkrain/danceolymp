@@ -629,7 +629,8 @@ select, input, textarea {
     width: 100%;
     height: 768px;
     overflow: hidden;
-    background-color: #212121; }
+    background-color: #212121;
+    z-index: -2; }
     .lead__img img {
       position: absolute;
       top: 0;
@@ -752,6 +753,32 @@ select, input, textarea {
       transition: all 0.25s ease-in-out; }
     .lead__btn-mouse:hover > svg {
       fill: #ffdda5; }
+  .lead__video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 768px;
+    background-color: transparent;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1; }
+  .lead__video-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    @media (min-aspect-ratio: 16 / 9) {
+      .lead__video-content {
+        height: 300%;
+        top: -100%; } }
+    @media (max-aspect-ratio: 16 / 9) {
+      .lead__video-content {
+        width: 300%;
+        left: -100%; } }
   .lead_wedding .lead__btn-mouse, .lead_about .lead__btn-mouse {
     bottom: 90px; }
   .lead_wedding .lead__title, .lead_private .lead__title {
@@ -3997,7 +4024,7 @@ select, input, textarea {
     flex-wrap: wrap;
     padding: 0 20px;
     width: 100%;
-    max-width: 912px;
+    max-width: 1002px;
     box-sizing: border-box; }
   .short-navigation__item {
     position: relative;
@@ -4005,6 +4032,7 @@ select, input, textarea {
     font-size: 12px;
     font-weight: 500;
     line-height: 2em;
+    letter-spacing: .13em;
     color: #b0966c;
     transition: all .25s ease-in-out; }
     .short-navigation__item:not(:last-of-type) {
@@ -4021,6 +4049,7 @@ select, input, textarea {
     font-size: 12px;
     font-weight: 500;
     line-height: 2em;
+    letter-spacing: .13em;
     text-transform: uppercase;
     text-decoration: none;
     transition: all .25s ease-in-out;
@@ -4031,6 +4060,9 @@ select, input, textarea {
       color: #b0966c; }
     .short-navigation__link.active-last {
       color: #fff; }
+
+.spoiler__content {
+  display: none; }
 
 @media (max-width: 1360px) {
   /*--- Main ---*/
@@ -4645,6 +4677,8 @@ select, input, textarea {
   .dance-styles__slider {
     padding: 0 80px; }
   .lead__img {
+    height: 700px; }
+  .lead__video-wrapper {
     height: 700px; }
   .lead__slider {
     height: 700px; }
@@ -5280,6 +5314,8 @@ select, input, textarea {
     margin-right: 0;
     line-height: 2em;
     padding: 10px 0; }
+  .short-navigation__item, .short-navigation__link {
+    letter-spacing: .01em; }
   .short-navigation__item:not(:last-of-type) {
     padding-right: 10px; }
   .short-navigation__item::after {
