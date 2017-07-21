@@ -1,7 +1,8 @@
 function initialize() {
 	
-    var myLatlng = new google.maps.LatLng(59.957006, 30.341755);
+  var myLatlng = new google.maps.LatLng(59.957006, 30.341755);
 	var image = 'img/mapicon.png';
+  var panorama = document.getElementById('googlemap').getAttribute('data-panorama-image');
 	
     //Стили карты
     var styles = 
@@ -27,7 +28,8 @@ function initialize() {
 		map,
 		{
 			marker_id: 'event1',
-			image: image,
+			image: panorama,
+      pin: image,
 			location: 'Ул. Летниковская, 6А, стр. 1'
 		}
 	);

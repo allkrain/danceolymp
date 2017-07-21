@@ -66,7 +66,7 @@
       </div>
     </section>
     
-    <div class="map" id="googlemap"></div>
+    <div class="map" id="googlemap" data-panorama-image="img/mappanorama.jpg"></div>
   </main>
   
   <?php include "blocks/page_footer.php"; ?>

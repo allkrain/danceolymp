@@ -21,7 +21,7 @@ CustomMarker.prototype.draw = function() {
 		div.style.position = 'absolute';
 		div.style.width = '1px';
 		div.style.height = '1px';
-        div.innerHTML = '<div class="mapmarker__content"><div class="mapmarker__image"><img src="'+self.args.image+'"><p class="mapmarker__location">'+self.args.location+'</p></div></div>';
+        div.innerHTML = '<div class="mapmarker__content"><div class="mapmarker__image"><img class="mapmarker__panorama" src="'+self.args.image+'"><img class="mapmarker__pin" src="'+self.args.pin+'"></div><p class="mapmarker__location">'+self.args.location+'</p></div></div>';
 			
 		
 		if (typeof(self.args.marker_id) !== 'undefined') {
