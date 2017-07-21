@@ -57,6 +57,6 @@
 <script src="js/jquery.sticky.js"></script>
 
 <!-- Details polyfill -->
-<script src="js/details-element-polyfill.js"></script>
+<script src="js/svg4everybody.min.js"></script>
 
 <script src="js/scripts.min.js"></script>

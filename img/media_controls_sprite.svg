@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="play" viewBox="0 0 10 14">
+    <path d="M1242.82,868.639l-9.17-6.563a0.4,0.4,0,0,0-.43-0.025,0.451,0.451,0,0,0-.22.387v13.125a0.451,0.451,0,0,0,.22.386,0.408,0.408,0,0,0,.2.051,0.4,0.4,0,0,0,.23-0.076l9.17-6.563A0.452,0.452,0,0,0,1242.82,868.639Zm-7.99,5.1v-9.468l6.01,4.734Z" transform="translate(-1233 -862)"/>
+  </symbol>
+  <symbol id="pause" viewBox="0 0 9 11">
+    <path d="M1284,863h2v11h-2V863Z" transform="translate(-1284 -863)"/>
+    <path id="Shape_1_copy" d="M1291,863h2v11h-2V863Z" transform="translate(-1284 -863)"/>
+  </symbol>
+</svg>
