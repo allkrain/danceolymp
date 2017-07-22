@@ -5274,7 +5274,12 @@
 .audio {
   
   &__btn {
-    line-height: 4em;
+    box-sizing: border-box;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    min-height: 44px;
+    line-height: 1.5em;
+    text-align: left;
   }
   
   &__icon {

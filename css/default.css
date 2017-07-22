@@ -229,6 +229,11 @@ p.huge {
   width: 307px;
   text-align: center;
   cursor: pointer; }
+  @media (max-width: 640px) {
+    .mapmarker__content {
+      left: -95px;
+      top: -131px;
+      width: 214px; } }
 
 .mapmarker__image {
   box-sizing: border-box;
@@ -238,6 +243,11 @@ p.huge {
   background-color: #fff;
   position: relative;
   margin-bottom: 18px; }
+  @media (max-width: 640px) {
+    .mapmarker__image {
+      width: 214px;
+      height: 120px;
+      border-radius: 4px; } }
 
 .mapmarker__panorama {
   position: absolute;
@@ -248,6 +258,10 @@ p.huge {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 2; }
+  @media (max-width: 640px) {
+    .mapmarker__panorama {
+      width: 210px;
+      height: 116px; } }
 
 .mapmarker__pin {
   position: absolute;
@@ -4549,7 +4563,12 @@ select, input, textarea {
     margin-bottom: 14px; }
 
 .audio__btn {
-  line-height: 4em; }
+  box-sizing: border-box;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  min-height: 44px;
+  line-height: 1.5em;
+  text-align: left; }
 
 .audio__icon {
   position: absolute;
