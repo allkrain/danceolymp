@@ -129,106 +129,201 @@
       <header class="trainers__header container">
         <h2>Наши преподаватели</h2>
       </header>
-      <div class="slideshow container" tabindex="0">
-	  	<div class="trainers__slide ss-slide slide--layout-7" data-layout="layout7">
-		  <ul class="trainers__list slider__list slide-imgwrap">
-      	    <li class="trainers__item slider__item tilter tilter--1 slide__img">
-      	      <figure class="tilter__figure slide__img-inner">
-      	        <img src="img/trainers/Sadovskiy@1x.jpg" alt="@@" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x" class="trainers__img tilter__image">
-      	        <div class="tilter__deco tilter__deco--shine"><div></div></div>
-      	        <figcaption class="trainers__title tilter__caption">
-      	          <p class="trainers__surname">Садовский</p>
-      	          <p class="trainers__name">Владимир Алексеевич</p>
-      	        </figcaption>
-      	        <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
-					<path d="M15,15h252v391h-252V20.5z"/>
-			      </svg>
-      	      </figure>
-      	    </li>
-      	    <li class="trainers__item slider__item tilter tilter--1 slide__img">
-      	      <figure class="tilter__figure slide__img-inner">
-      	        <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x" class="trainers__img tilter__image">
-      	        <div class="tilter__deco tilter__deco--shine"><div></div></div>
-      	        <figcaption class="trainers__title tilter__caption">
-      	          <p class="trainers__surname">Громов</p>
-      	          <p class="trainers__name">Никита Сергеевич</p>
-      	        </figcaption>
-      	        <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
-					<path d="M15,15h252v391h-252V20.5z"/>
-			      </svg>
-      	      </figure>
-      	    </li>
-      	    <li class="trainers__item slider__item tilter tilter--1 slide__img">
-      	      <figure class="tilter__figure slide__img-inner">
-      	        <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x" class="trainers__img tilter__image">
-      	        <div class="tilter__deco tilter__deco--shine"><div></div></div>
-      	        <figcaption class="trainers__title tilter__caption">
-      	          <p class="trainers__surname">Садовская</p>
-      	          <p class="trainers__name">Екатерина Дмитриевна</p>
-      	        </figcaption>
-      	        <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
-					<path d="M15,15h252v391h-252V20.5z"/>
-			      </svg>
-      	      </figure>
-      	    </li>
-      	  </ul>
-			<div class="slide__title">
-			  <h3 class="slide__title-main"></h3>
-			  <p class="slide__title-sub"></p>
-			</div>
-      	</div><!-- /slide -->
-      	<div class="trainers__slide ss-slide slide--layout-7" data-layout="layout7">
-			<ul class="trainers__list slider__list slide-imgwrap">
-      	    <li class="trainers__item slider__item tilter tilter--1 slide__img">
-      	      <figure class="tilter__figure slide__img-inner">
-      	        <img src="img/trainers/Sadovskiy@1x.jpg" alt="@@" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x" class="trainers__img tilter__image">
-      	        <div class="tilter__deco tilter__deco--shine"><div></div></div>
-      	        <figcaption class="trainers__title tilter__caption">
-      	          <p class="trainers__surname">Садовский</p>
-      	          <p class="trainers__name">Владимир Алексеевич</p>
-      	        </figcaption>
-      	        <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
-					<path d="M15,15h252v391h-252V20.5z"/>
-			      </svg>
-      	      </figure>
-      	    </li>
-      	    <li class="trainers__item slider__item tilter tilter--1 slide__img">
-      	      <figure class="tilter__figure slide__img-inner">
-      	        <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x" class="trainers__img tilter__image">
-      	        <div class="tilter__deco tilter__deco--shine"><div></div></div>
-      	        <figcaption class="trainers__title tilter__caption">
-      	          <p class="trainers__surname">Громов</p>
-      	          <p class="trainers__name">Никита Сергеевич</p>
-      	        </figcaption>
-      	        <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
-					<path d="M15,15h252v391h-252V20.5z"/>
-			      </svg>
-      	      </figure>
-      	    </li>
-      	    <li class="trainers__item slider__item tilter tilter--1 slide__img">
-      	      <figure class="tilter__figure slide__img-inner">
-      	        <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x" class="trainers__img tilter__image">
-      	        <div class="tilter__deco tilter__deco--shine"><div></div></div>
-      	        <figcaption class="trainers__title tilter__caption">
-      	          <p class="trainers__surname">Садовская</p>
-      	          <p class="trainers__name">Екатерина Дмитриевна</p>
-      	        </figcaption>
-      	        <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
-					<path d="M15,15h252v391h-252V20.5z"/>
-			      </svg>
-      	      </figure>
-      	    </li>
-      	  </ul>
-			<div class="slide__title">
-			  <h3 class="slide__title-main"></h3>
-			  <p class="slide__title-sub"></p>
-			</div>
-      	</div><!-- /slide -->
-      	<div class="trainers__controls controls container slideshow__nav slideshow__nav--arrows">
-          <span class="controls__prev slider-arrow prev" id="prev-slide" aria-label="Previous slide">Назад</span>
-      	  <span class="controls__next slider-arrow next" id="next-slide" aria-label="Next slide">Вперед</span>
+      <div class="trainers-slideshow container">
+        <div class="slideshow" tabindex="0">
+          <div class="trainers__slide ss-slide slide--layout-7" data-layout="layout7">
+            <ul class="trainers__list slider__list slide-imgwrap">
+              <li class="trainers__item slider__item tilter tilter--1 slide__img" data-target="trainer1">
+                <figure class="tilter__figure slide__img-inner">
+                  <img src="img/trainers/Sadovskiy@1x.jpg" alt="@@" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x" class="trainers__img tilter__image">
+                  <div class="tilter__deco tilter__deco--shine">
+                    <div></div>
+                  </div>
+                  <figcaption class="trainers__title tilter__caption">
+                    <p class="trainers__surname">Садовский</p>
+                    <p class="trainers__name">Владимир Алексеевич</p>
+                  </figcaption>
+                  <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                          <path d="M15,15h252v391h-252V20.5z"/>
+                       </svg>
+                </figure>
+              </li>
+              <li class="trainers__item slider__item tilter tilter--1 slide__img" data-target="trainer2">
+                <figure class="tilter__figure slide__img-inner">
+                  <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x" class="trainers__img tilter__image">
+                  <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                  <figcaption class="trainers__title tilter__caption">
+                    <p class="trainers__surname">Громов</p>
+                    <p class="trainers__name">Никита Сергеевич</p>
+                  </figcaption>
+                  <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                          <path d="M15,15h252v391h-252V20.5z"/>
+                        </svg>
+                </figure>
+              </li>
+              <li class="trainers__item slider__item tilter tilter--1 slide__img" data-target="trainer3">
+                <figure class="tilter__figure slide__img-inner">
+                  <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x" class="trainers__img tilter__image">
+                  <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                  <figcaption class="trainers__title tilter__caption">
+                    <p class="trainers__surname">Садовская</p>
+                    <p class="trainers__name">Екатерина Дмитриевна</p>
+                  </figcaption>
+                  <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                          <path d="M15,15h252v391h-252V20.5z"/>
+                        </svg>
+                </figure>
+              </li>
+            </ul>
+            <div class="slide__title">
+              <h3 class="slide__title-main"></h3>
+              <p class="slide__title-sub"></p>
+            </div>
+          </div><!-- /slide -->
+          <div class="trainers__slide ss-slide slide--layout-7" data-layout="layout7">
+            <ul class="trainers__list slider__list slide-imgwrap">
+              <li class="trainers__item slider__item tilter tilter--1 slide__img" data-target="trainer1">
+                <figure class="tilter__figure slide__img-inner">
+                  <img src="img/trainers/Sadovskiy@1x.jpg" alt="@@" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x" class="trainers__img tilter__image">
+                  <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                  <figcaption class="trainers__title tilter__caption">
+                    <p class="trainers__surname">Садовский</p>
+                    <p class="trainers__name">Владимир Алексеевич</p>
+                  </figcaption>
+                  <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                          <path d="M15,15h252v391h-252V20.5z"/>
+                        </svg>
+                </figure>
+              </li>
+              <li class="trainers__item slider__item tilter tilter--1 slide__img" data-target="trainer2">
+                <figure class="tilter__figure slide__img-inner">
+                  <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x" class="trainers__img tilter__image">
+                  <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                  <figcaption class="trainers__title tilter__caption">
+                    <p class="trainers__surname">Громов</p>
+                    <p class="trainers__name">Никита Сергеевич</p>
+                  </figcaption>
+                  <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                         <path d="M15,15h252v391h-252V20.5z"/>
+                        </svg>
+                </figure>
+              </li>
+              <li class="trainers__item slider__item tilter tilter--1 slide__img" data-target="trainer3">
+                <figure class="tilter__figure slide__img-inner">
+                  <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x" class="trainers__img tilter__image">
+                  <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                  <figcaption class="trainers__title tilter__caption">
+                    <p class="trainers__surname">Садовская</p>
+                    <p class="trainers__name">Екатерина Дмитриевна</p>
+                  </figcaption>
+                  <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                          <path d="M15,15h252v391h-252V20.5z"/>
+                        </svg>
+                </figure>
+              </li>
+            </ul>
+            <div class="slide__title">
+              <h3 class="slide__title-main"></h3>
+              <p class="slide__title-sub"></p>
+            </div>
+          </div><!-- /slide -->
+          <div class="trainers__controls controls container slideshow__nav slideshow__nav--arrows">
+            <span class="controls__prev slider-arrow prev" id="prev-slide" aria-label="Previous slide">Назад</span>
+            <span class="controls__next slider-arrow next" id="next-slide" aria-label="Next slide">Вперед</span>
+          </div>
+        </div><!-- /slideshow -->
+        <div class="trainers-fullinfo" tabindex="0">
+          <ul class="popup-slideshow trainers__list">
+            <li class="trainers__item tilter tilter--1 ss-slide slide--layout-7" data-layout="layout7" data-target-slide="trainer1">
+              <div class="slide-imgwrap">
+                <div class="slide__img">
+                  <figure class="tilter__figure slide__img-inner">
+                    <img src="img/trainers/Sadovskiy@1x.jpg" alt="@@" srcset="img/trainers/Sadovskiy@1,5x.jpg 1.5x, img/trainers/Sadovskiy@2x.jpg 2x, img/trainers/Sadovskiy@3x.jpg 3x" class="trainers__img tilter__image">
+                    <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <figcaption class="trainers__title tilter__caption">
+                      <p class="trainers__surname">Садовский</p>
+                      <p class="trainers__name">Владимир Алексеевич</p>
+                    </figcaption>
+                    <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                            <path d="M15,15h252v391h-252V20.5z"/>
+                          </svg>
+                  </figure>
+                </div>
+              </div>
+              <div class="slide__title">
+                <h3 class="slide__title-main"></h3>
+                <p class="slide__title-sub"></p>
+              </div>
+            </li>
+            <li class="trainers__item tilter tilter--1 ss-slide slide--layout-7" data-layout="layout7" data-target-slide="trainer2">
+              <div class="slide-imgwrap">
+                <div class="slide__img">
+                  <figure class="tilter__figure slide__img-inner">
+                    <img src="img/trainers/Gromov@1x.jpg" alt="" srcset="img/trainers/Gromov@1,5x.jpg 1.5x, img/trainers/Gromov@2x.jpg 2x, img/trainers/Gromov@3x.jpg 3x" class="trainers__img tilter__image">
+                    <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <figcaption class="trainers__title tilter__caption">
+                      <p class="trainers__surname">Громов</p>
+                      <p class="trainers__name">Никита Сергеевич</p>
+                    </figcaption>
+                    <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                            <path d="M15,15h252v391h-252V20.5z"/>
+                          </svg>
+                  </figure>
+                </div>
+              </div>
+              <div class="slide__title">
+                <h3 class="slide__title-main"></h3>
+                <p class="slide__title-sub"></p>
+              </div>
+            </li>
+            <li class="trainers__item tilter tilter--1 ss-slide slide--layout-7" data-layout="layout7" data-target-slide="trainer3">
+              <div class="slide-imgwrap">
+                <div class="slide__img">
+                  <figure class="tilter__figure slide__img-inner">
+                    <img src="img/trainers/Sadovskaya@1x.jpg" alt="" srcset="img/trainers/Sadovskaya@1,5x.jpg 1.5x, img/trainers/Sadovskaya@2x.jpg 2x, img/trainers/Sadovskaya@3x.jpg 3x" class="trainers__img tilter__image">
+                    <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <figcaption class="trainers__title tilter__caption">
+                      <p class="trainers__surname">Садовская</p>
+                      <p class="trainers__name">Екатерина Дмитриевна</p>
+                    </figcaption>
+                    <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 280 420">
+                            <path d="M15,15h252v391h-252V20.5z"/>
+                          </svg>
+                  </figure>
+                </div>
+              </div>
+              <div class="slide__title">
+                <h3 class="slide__title-main"></h3>
+                <p class="slide__title-sub"></p>
+              </div>
+            </li>
+          </ul>
+          <div class="trainers__controls controls container slideshow__nav slideshow__nav--arrows">
+            <span class="controls__prev slider-arrow prev" id="popup-prev-slide" aria-label="Previous slide">Назад</span>
+            <span class="controls__next slider-arrow next" id="popup-next-slide" aria-label="Next slide">Вперед</span>
+          </div>
+          <div class="trainers-fullinfo__btn btn btn_round btn_close">
+            <span class="btn__icon"></span>
+          </div>
         </div>
-      </div><!-- /slideshow -->
+      </div>
+      <div class="trainers-describe container">
+        <div class="trainers-describe__item" data-target-text="trainer1">
+          <p>
+            Все тренеры, преподающие в студии, являются профессиональными танцорами высокого уровня (класс А, S и M) по 10 обязательным танцам спортивно-бальной программы (европейская и латино-американская программы). Все обладают значительным опытом преподавания, в том числе парам «Про-Ам» (профессионал-любитель).
+          </p>
+        </div>
+        <div class="trainers-describe__item" data-target-text="trainer2">
+          <p>
+            Художественный руководитель студии — Громов Никита Срегеевич. Все тренеры, преподающие в студии, являются профессиональными танцорами высокого уровня (класс А, S и M) по 10 обязательным танцам спортивно-бальной программы (европейская и латино-американская программы). Все обладают значительным опытом преподавания, в том числе парам «Про-Ам» (профессионал-любитель). Большинство тренеров владеют английским языком, некоторые имеют опыт работы и преподавания за рубежом.
+          </p>
+        </div>
+        <div class="trainers-describe__item" data-target-text="trainer3">
+          <p>
+            Все тренеры, преподающие в студии, являются профессиональными танцорами высокого уровня 
+          </p>
+        </div>
+      </div>
     </section>
     
     <section class="page-section review review_about slider">
