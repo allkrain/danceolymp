@@ -4548,8 +4548,7 @@ select, input, textarea {
 
 .trainers-describe {
   box-sizing: border-box;
-  padding: 0 172px;
-  margin-top: -8px; }
+  padding: 0 172px; }
   @media (max-width: 1270px) {
     .trainers-describe {
       padding: 0 60px; } }
