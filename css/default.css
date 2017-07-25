@@ -4564,6 +4564,8 @@ select, input, textarea {
     width: 100%;
     opacity: 0;
     overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
     transition: all .25s ease-in-out; }
     .trainers-describe__item.active {
       display: block;
