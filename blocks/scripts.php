@@ -22,6 +22,7 @@
 
 <!-- Карусель и модальные окна !-->
 <script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/fancybox/jquery.fancybox.min.js"></script>
 
 <!-- Textillate -->

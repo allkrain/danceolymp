@@ -2571,6 +2571,7 @@
 
 .trainers {
   &__container {
+    position: relative;
     box-sizing: border-box;
     padding: 0 170px 0 172px;
   }
@@ -2594,11 +2595,32 @@
   }
   
   &__list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-sizing: border-box;
     font-size: 0;
+    
+    &_no-right-margin {
+      
+      .trainers__item {
+        width: 100%;
+        max-width: none;
+        margin-right: 0;
+      }
+    }
   }
   
   &__item {
-	  display: inline-block;
+	  //display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
 	  vertical-align: top;
     width: 280px;
     margin-right: 38px;
@@ -2615,14 +2637,24 @@
     figure {
 	    display: block;
       margin: 0;
+      width: 280px;
       height: 420px;
+    }
+    
+    &_clickable {
+      cursor: pointer;
     }
   }
   
   &__biography {
-    padding-top: 18px;
+    box-sizing: border-box;
+    padding-left: 38px;
+    width: calc(100% - 280px);
+    
+    //padding-top: 18px;
     
     p {
+      width: 100%;
       font-family: $font_1;
       font-size: 13px;
       line-height: (26/13)*1em;
@@ -5207,6 +5239,117 @@
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	will-change: tranform, opacity;
+}
+
+.trainers-carousel {
+  position: absolute;
+  background-color: $bg_color_1;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .25s ease-in-out;
+  width: 100%;
+  z-index: -1;
+  
+  &.opened {
+    position: relative;
+    pointer-events: all;
+    opacity: 1;
+    z-index: 20;
+  }
+  
+  &__wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 21;
+  }
+  
+  &__controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    z-index: 22;
+  }
+  
+  &__navigation {
+    position: absolute;
+    width: 100%;
+    max-width: 620px;
+    top: 50%;
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+  }
+  
+  &__prev, &__next {
+    position: absolute;
+  }
+  
+  &__prev {
+    left: 0;
+  }
+  
+  &__next {
+    right: 0;
+  }
+  
+  &__btn {
+    position: absolute;
+    top: -48px;
+    right: calc(50% - 180px);
+    z-index: 99;
+    height: 48px;
+    
+    @media (max-width: 480px) {
+      right: calc(50% - 140px);
+    }
+  }
+  
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 943px;
+    
+    .trainers__item {
+      margin: 0 auto 42px;
+    }
+  }
+  
+  &__biography {
+    box-sizing: border-box;
+    /*padding: 0 172px;
+
+    @media (max-width: 1270px) {
+      padding: 0 60px;
+    }
+
+    @media (max-width: 790px) {
+      padding: 0 40px;
+    }
+
+    @media (max-width: 489px) {
+      padding: 0;
+    }*/
+  
+    p {
+      font-family: $font_2;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 2em;
+      letter-spacing: normal;
+      font-style: italic;
+      text-transform: none;
+      text-decoration: none;
+      color: $base_color_1;
+      width: 100%;
+    }
+  }
+}
+
+.position-absolute {
+  position: absolute;
+  pointer-events: none;
 }
 
 .trainers-fullinfo {
