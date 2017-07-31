@@ -4540,20 +4540,26 @@ select, input, textarea {
   will-change: tranform, opacity; }
 
 .trainers-carousel {
-  position: absolute;
+  position: relative;
   background-color: #272727;
   opacity: 0;
   pointer-events: none;
   transition: all .25s ease-in-out;
   width: 100%;
+  height: 0;
+  box-sizing: border-box;
   z-index: -1; }
   .trainers-carousel.opened {
     position: relative;
     pointer-events: all;
     opacity: 1;
+    height: auto;
     z-index: 20; }
+    .trainers-carousel.opened .trainers-carousel__wrapper {
+      position: relative; }
   .trainers-carousel__wrapper {
-    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
     position: relative;
     width: 100%;
     z-index: 21; }
@@ -4569,7 +4575,7 @@ select, input, textarea {
     width: 100%;
     max-width: 620px;
     top: 50%;
-    left: calc(50% + 5px);
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
   .trainers-carousel__prev, .trainers-carousel__next {
@@ -4590,6 +4596,7 @@ select, input, textarea {
   .trainers-carousel__item {
     display: inline-block;
     vertical-align: top;
+    width: 100%;
     max-width: 943px; }
     .trainers-carousel__item .trainers__item {
       margin: 0 auto 42px; }
@@ -5085,6 +5092,11 @@ select, input, textarea {
     margin-right: 20px; }
   .trainers__item:last-child {
     margin-right: 20px; }
+  .trainers__list_no-right-margin .trainers__item {
+    margin-left: 0;
+    margin-right: 0; }
+  .trainers-carousel__item .trainers__item {
+    margin: 0 auto 42px; }
   /*--- About ---*/
   .page-intro__content {
     padding: 0 60px; }
@@ -5368,6 +5380,8 @@ select, input, textarea {
     margin-left: 0; }
   .trainers__item:nth-child(even) {
     margin-right: 0; }
+  .trainers-carousel__item .trainers__item {
+    margin: 0 auto 42px  !important; }
   .trainers-contacts__btns {
     -webkit-flex-wrap: wrap;
             flex-wrap: wrap; }
@@ -5592,9 +5606,24 @@ select, input, textarea {
     margin-right: 10px; }
   .trainers__item:nth-child(even) {
     margin-left: 10px; }
+  .trainers__item {
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: flex-start;
+            align-items: flex-start; }
+  .trainers__list_no-right-margin .trainers__item {
+    margin-left: 0;
+    margin-right: 0; }
+  .trainers__list_no-right-margin .trainers__item figure {
+    margin: 0 auto; }
+  .trainers-carousel__item .trainers__item {
+    margin: 0 auto 42px; }
   .trainers__biography p {
-    text-align: center;
-    padding: 0 10px; }
+    text-align: center; }
+  .trainers__biography {
+    padding-left: 0;
+    padding: 40px 10px 0;
+    width: 100%; }
   /*--- Private lesson ---*/
   .lead_private .lead__img {
     height: 500px; }
@@ -5797,6 +5826,8 @@ select, input, textarea {
   .trainers__item {
     margin-left: 0 !important;
     margin-right: 0 !important; }
+  .trainers-carousel__item .trainers__item {
+    margin: 0 auto 42px  !important; }
   .trainers-contacts__btns {
     -webkit-justify-content: center;
             justify-content: center; }

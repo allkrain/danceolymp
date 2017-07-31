@@ -98,6 +98,8 @@
 	.trainers__item {margin: 0 20px 50px;}
 	.trainers__item:nth-child(3n+3) {margin-right: 20px;}
 	.trainers__item:last-child {margin-right: 20px;}
+  .trainers__list_no-right-margin .trainers__item { margin-left: 0; margin-right: 0;}
+  .trainers-carousel__item .trainers__item{ margin: 0 auto 42px;}
 	/*--- About ---*/
 	.page-intro__content {padding: 0 60px;}
 	.page-intro__btns {padding-right: 105px;}
@@ -240,6 +242,7 @@
 	.trainers__list {justify-content: flex-start;}
 	.trainers__item:nth-child(odd) {margin-left: 0;}
 	.trainers__item:nth-child(even) {margin-right: 0;}
+  .trainers-carousel__item .trainers__item{ margin: 0 auto 42px  !important;}
 	.trainers-contacts__btns {flex-wrap: wrap;}
 	.trainers-contacts__btn {margin-right: 15px;}
 	/*--- About ---*/
@@ -339,7 +342,12 @@
 	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0;}
 	.trainers__item:nth-child(odd) {margin-right: 10px;}
 	.trainers__item:nth-child(even) {margin-left: 10px;}
-	.trainers__biography p {text-align: center; padding: 0 10px;}
+  .trainers__item {flex-direction: column; align-items: flex-start;}
+  .trainers__list_no-right-margin .trainers__item { margin-left: 0; margin-right: 0;}
+  .trainers__list_no-right-margin .trainers__item figure {margin: 0 auto;}
+  .trainers-carousel__item .trainers__item{ margin: 0 auto 42px;}
+	.trainers__biography p {text-align: center; }
+  .trainers__biography {padding-left: 0; padding: 40px 10px 0; width: 100%;}
 	/*--- Private lesson ---*/
 	.lead_private .lead__img {height: 500px;}
 	.lead_private .lead__container {height: 500px; margin-top: -500px;}
@@ -435,6 +443,7 @@
 	/*--- Trainers ---*/
 	.trainers__list {justify-content: center}
 	.trainers__item {margin-left: 0 !important; margin-right: 0 !important;}
+  .trainers-carousel__item .trainers__item{ margin: 0 auto 42px  !important;}
 	.trainers-contacts__btns {justify-content: center;}
 	.trainers-contacts__btn {margin: 0 25px;}
 	.trainers-contacts__btn_services {padding-left: 0;}

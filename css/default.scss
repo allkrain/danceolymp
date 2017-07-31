@@ -5242,23 +5242,31 @@
 }
 
 .trainers-carousel {
-  position: absolute;
+  position: relative;
   background-color: $bg_color_1;
   opacity: 0;
   pointer-events: none;
   transition: all .25s ease-in-out;
   width: 100%;
+  height: 0;
+  box-sizing: border-box;
   z-index: -1;
   
   &.opened {
     position: relative;
     pointer-events: all;
     opacity: 1;
+    height: auto;
     z-index: 20;
+    
+    .trainers-carousel__wrapper {
+      position: relative;
+    }
   }
   
   &__wrapper {
-    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
     position: relative;
     width: 100%;
     z-index: 21;
@@ -5278,7 +5286,7 @@
     width: 100%;
     max-width: 620px;
     top: 50%;
-    left: calc(50% + 5px);
+    left: 50%;
     transform: translate(-50%, -50%);
   }
   
@@ -5309,6 +5317,7 @@
   &__item {
     display: inline-block;
     vertical-align: top;
+    width: 100%;
     max-width: 943px;
     
     .trainers__item {
