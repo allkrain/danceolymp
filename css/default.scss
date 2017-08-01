@@ -5388,6 +5388,10 @@
     max-width: 620px;
     left: calc(50% + 5px);
     transform: translate(-50%, -50%);
+    
+    @media (max-width: 1600px) {
+      left: 50%;
+    }
   }
 }
 

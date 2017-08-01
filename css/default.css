@@ -4655,6 +4655,9 @@ select, input, textarea {
     left: calc(50% + 5px);
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
+    @media (max-width: 1600px) {
+      .trainers-fullinfo .trainers__controls {
+        left: 50%; } }
 
 .trainers-slideshow {
   position: relative; }
