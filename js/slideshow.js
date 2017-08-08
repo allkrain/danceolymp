@@ -449,30 +449,37 @@
 			// Animate next title in.
 			self._animateTitle(nextTitle, 'in');
 		};
+    
+    var animateOut = function() {
 
-		// Animate the currentSlide´s items out..
-		var outItems = [].slice.call(currentSlide.querySelectorAll('.slide-imgwrap .slide__img-inner')),
-			outconfig = this.options.layoutConfig[currentLayout] !== undefined ? this.options.layoutConfig[currentLayout].out : this.options.layoutConfig['layout1'].out,
-			animeOutProps = {
-				targets: outItems,
-				duration: outconfig.duration,
-				easing : outconfig.easing,
-				delay: function(el, index) {
-					return direction === 'next' ? index * outconfig.itemsDelay : (outItems.length - 1 - index) * outconfig.itemsDelay;
-				},
-				complete: function() {
-					currentSlide.classList.remove('slide--current');
-				}
-			};
+      // Animate the currentSlide´s items out..
+      var outItems = [].slice.call(currentSlide.querySelectorAll('.slide-imgwrap .slide__img-inner')),
+        outconfig = self.options.layoutConfig[currentLayout] !== undefined ? self.options.layoutConfig[currentLayout].out : self.options.layoutConfig['layout1'].out,
+        animeOutProps = {
+          targets: outItems,
+          duration: outconfig.duration,
+          easing : outconfig.easing,
+          delay: function(el, index) {
+            return direction === 'next' ? index * outconfig.itemsDelay : (outItems.length - 1 - index) * outconfig.itemsDelay;
+          }/*,
+          complete: function() {
+            currentSlide.classList.remove('slide--current');
+          }*/
+        };
 
-		// Configure the animation out properties.
-		this._setAnimationProperties(animeOutProps, outconfig, direction);
-		// Animate current slide out.
-		anime(animeOutProps);
-		// Animate current title out.
-		this._animateTitle(currentTitle, 'out');
-		// Animate the next items in..
-		clearTimeout(this.navtime);
+      // Configure the animation out properties.
+      self._setAnimationProperties(animeOutProps, outconfig, direction);
+      // Animate current slide out.
+      anime(animeOutProps);
+      setTimeout( function () {
+        currentSlide.classList.remove('slide--current');
+      }, 1000);
+      // Animate current title out.
+      self._animateTitle(currentTitle, 'out');
+      // Animate the next items in..
+      clearTimeout(self.navtime);
+    }
+    animateOut();
 		this.navtime = setTimeout(animateIn, this.options.layoutConfig[nextLayout] !== undefined && this.options.layoutConfig[nextLayout].in.delay !== undefined ? this.options.layoutConfig[nextLayout].in.delay : 150 );
 	};
 
