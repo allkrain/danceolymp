@@ -104,7 +104,7 @@
                 <p>Латина-mix</p>
                 <p class="shedule__order">
                   <span class="shedule__vacancies">Осталось 2 места</span>
-                  <span class="shedule__order-btn">Запишитесь</span>
+                  <span class="shedule__order-btn" data-form-id="order-form">Запишитесь</span>
                 </p>
               </a>
             </div>
@@ -265,9 +265,9 @@
                 <p>Танго-Мix</p>
                 <p class="shedule__order">
                   <span class="shedule__vacancies">Осталось 2 места</span>
-                  <span class="shedule__order-btn">Запишитесь</span>
+                  <span class="shedule__order-btn" data-form-id="order-form">Запишитесь</span>
                 </p> 
-              </a>               
+              </a>
             </div>
             <div class="shedule__cell"></div>
             <div class="shedule__cell"></div>
@@ -286,6 +286,14 @@
           </div>
         </div>
         </div>
+      </div>
+    </section>
+    <section class="page-section support">
+      <div class="page-request" id="order-form">
+        <div class="page-request__title n-border n-border_cross">
+          <p>Запишитесь на пробное занятие</p>
+        </div>
+        <?php include "blocks/order_form.php"; ?>
       </div>
     </section>
   </main>
