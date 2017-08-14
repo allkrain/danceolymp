@@ -2615,6 +2615,8 @@ select, input, textarea {
     padding: 35px 42px 0 70px;
     box-sizing: border-box;
     transition: all 0.25s ease-in-out; }
+    .support_shedule .order-form__container {
+      padding: 35px 78px 0 68px; }
   .order-form__input {
     display: -webkit-flex;
     display: flex;
@@ -5562,6 +5564,8 @@ select, input, textarea {
   .order-form__input label {
     width: 80px;
     text-align: left; }
+  .support_shedule .order-form__container {
+    padding: 0; }
   .video-bg {
     height: 700px; }
   .lead__title {

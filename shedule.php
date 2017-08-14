@@ -288,7 +288,7 @@
         </div>
       </div>
     </section>
-    <section class="page-section support">
+    <section class="page-section support support_shedule">
       <div class="page-request" id="order-form">
         <div class="page-request__title n-border n-border_cross">
           <p>Запишитесь на пробное занятие</p>

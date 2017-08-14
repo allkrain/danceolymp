@@ -2935,6 +2935,10 @@
     padding: 35px 42px 0 70px;
     box-sizing: border-box;
 	  transition: all 0.25s ease-in-out;
+    
+    .support_shedule & {
+      padding: 35px 78px 0 68px;
+    }
   }
   
   &__input {
