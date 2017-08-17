@@ -97,9 +97,9 @@
             гибкий график занятий.
             </p>
             <div class="page-btns page-btns_vertical service__btns">
-              <a href="private_lesson.php" class="service__btn btn btn_round btn_plus btn_shift">Подробнее</a>
-              <a href="dance-styles.php" class="service__btn btn btn_round btn_plus btn_shift">Стили</a>
-              <a href="trainers.php" class="service__btn btn btn_round btn_plus btn_shift">Преподаватели</a>
+              <a href="private_lesson.php" class="service__btn btn btn_round btn_plus btn_shift"><span></span>Подробнее</a>
+              <a href="dance-styles.php" class="service__btn btn btn_round btn_plus btn_shift"><span></span>Стили</a>
+              <a href="trainers.php" class="service__btn btn btn_round btn_plus btn_shift"><span></span>Преподаватели</a>
             </div>
           </div>
         </section>
@@ -129,16 +129,16 @@
             </div>
           </div>
           <ul class="page-btns service__btns-list">
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Бальные танцы</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Танго-mix</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Группа 3</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Группа 4</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Группа 5</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Группа 6</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Группа 7</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Группа 8</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Группа 9</a></li>
-            <li><a href="" class="btn btn_round btn_plus btn_shift">Группа 10</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Бальные танцы</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Танго-mix</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Группа 3</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Группа 4</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Группа 5</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Группа 6</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Группа 7</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Группа 8</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Группа 9</a></li>
+            <li><a href="" class="btn btn_round btn_plus btn_shift"><span></span>Группа 10</a></li>
           </ul>
         </section>
     
